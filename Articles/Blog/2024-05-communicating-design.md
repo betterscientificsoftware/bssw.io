@@ -27,7 +27,7 @@ That site will be updated periodically with suggested workflows and examples of 
 And the site is open for contribution, so please [send along](https://github.com/rafmudaf/communicating-design/pulls)
 outstanding diagrams that you've created or found.
 
-### UML, class diagrams, and sequence diagrams
+## UML, class diagrams, and sequence diagrams
 
 The [Unified Modeling Language (UML)](https://en.wikipedia.org/wiki/Unified_Modeling_Language) was created in 1995 and adopted in 1997 by the Object Management Group, a standards consortium.
 In essence, UML is a set of graphical notations described by metamodels that enable describing and designing software systems.
@@ -56,7 +56,7 @@ A rectangle on a participant's line indicates whether a portion is "on" or "off"
 
 <img src='../../images/Blog_2024_sequence_metamodel.png' class='page lightbox'/>[Figure 2: The UML sequence diagram metamodel.]
 
-### Perspective
+## Perspective
 
 The UML metamodels provide the visual syntax to describe a software system with varying levels of fidelity.
 While it can be tempting to include as much detail as possible, too much information can mask the intended message.
@@ -77,7 +77,7 @@ While each is valuable, maintaining separation allows for focusing a diagram on 
 
 <img src='../../images/Blog_2024_perspectives.png' class='page lightbox'/>[Figure 3: A comparison of conceptual, specific, and implementation perspectives in diagrams from the FLORIS framework.]
 
-### Documentation-driven development
+## Documentation-driven development
 
 Analogous to test-driven development, [documentation-driven development](https://www.writethedocs.org/videos/portland/2019/lessons-learned-in-a-year-of-docs-driven-development-jessica-parsons/)
 is the practice of stating what the code should do prior to writing it,
@@ -95,7 +95,7 @@ A more approachable process is to require an extended pull request description t
 In any case, including automated diagramming tools in the software infrastructure can reduce the burden
 and empower developers to adopt this practice.
 
-### Summary
+## Summary
 
 Through the BSSw Fellowship, I've had the opportunity to gather and formalize ideas on documentation and communication on software design.
 I presented at the NLIT S3C conference in April 2024 ([slides](https://rafmudaf.github.io/communicating-design/_downloads/67486fd27e6ced8dd8672408a18de874/nlit_s3c.pdf))
@@ -109,16 +109,16 @@ I hope to build on this work in search of a pattern language that will unlock a 
 
 Please get in touch at rafael.mudafort@nrel.gov, [GitHub](https://github.com/rafmudaf), or [LinkedIn](https://www.linkedin.com/in/rafmudaf/).
 
-### Resources mentioned
+## Resources mentioned
 
 - Online dashboard: [Communicating Design](https://rafmudaf.github.io/communicating-design/intro.html)
 - Slides: [2024 NLIT S3C](https://rafmudaf.github.io/communicating-design/_downloads/67486fd27e6ced8dd8672408a18de874/nlit_s3c.pdf)
 
-### Acknowledgement
+## Acknowledgement
 
 This work was supported by the Better Scientific Software Fellowship Program, funded by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy (DOE) Office of Science and the National Nuclear Security Administration; and by the National Science Foundation (NSF) under Grant No. 2154495.
 
-### Author bio
+## Author bio
 
 Rafael Mudafort is a senior researcher at the National Renewable Energy Lab’s National Wind Technology Center,
 focusing on computational modeling of wind turbine and wind farm dynamics and controls.

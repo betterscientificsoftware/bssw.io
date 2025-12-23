@@ -28,18 +28,18 @@ In addition, Brewer has also stayed engaged with people she met as a result of t
 
 Another aspect of Brewer’s BSSw Fellowship experience was her ability to be a mentor herself. As part of her fellowship, she hired students to work with her on her project. After the fellowship ended, she was able to secure more funds to continue working together on collaborating on designing a curriculum for a course on better research software engineering practices in Jupyter Notebooks. Subsequently, one of her students did a research software engineering internship at Princeton. “I am just so proud of my students,” Brewer says. “I know I want to mentor now and that is something I would not have gotten to explore without the fellowship.”
 
-### More info
+## More info
 Learn more about [Nicole Brewer's work as a BSSw Fellow](https://bssw.io/fellows/nicole-brewer).
 
 See the [blog post](https://bssw.io/blog_posts/applications-open-for-the-2025-bssw-fellowship-program) by Elsa Gonsiorowski, coordinator of the BSSw Fellowship Program.
 
 Application deadline: Monday, September 30, 2024; this is a firm deadline that will not be extended.
 
-### Q&A webinar
+## Q&A webinar
 
 Those interested in applying are encouraged to participate in an informational fellowship webinar and Q&A session scheduled for Tuesday, September 10, 2024, 2:00-3:00 PM EDT.  Webinar details will be sent to the BSSw mailing list.
 
-### Author bios
+## Author bios
 [Heather Bourbeau](https://www.linkedin.com/in/heatherbourbeau/) is a research analyst, communications strategist, and storyteller. 
 [Sustainable Horizons Institute](https://shinstitute.org) is a partner in leading the BSSw Fellowship Program. 
 

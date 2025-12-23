@@ -29,7 +29,7 @@ provide reviewers access to the raw material and aim at increasing replicability
 The side benefit is that the community can leverage the novel technology by accessing the sources and re-engineering the algorithms in already existing 
 software libraries or simulation codes.
 
-### Community software ecosystems
+## Community software ecosystems
 One might ask, "What about community software projects? Don't they provide high-quality production software?" 
 The answer is yes, and no.
 A number of established open source software packages do exist that are 
@@ -71,7 +71,7 @@ In a time and field where a high-quality labor pool is a scarce
 resource, this situation is extremely inefficient.
 <br>
 
-### Redefining the concept of publications for computer-based science 
+## Redefining the concept of publications for computer-based science 
 Acknowledging the merits of  traditional metrics such as the H-index and the fact that it 
 is not realistic to quickly change the academic system to base the promotion to 
 tenure on software quality, 
@@ -143,7 +143,7 @@ submission will most likely pass at least some pre-review process by software
 developers, and the authors of the papers will be forced to produce a higher-quality contribution.
 <br>
 
-### Pioneering the academic community
+## Pioneering the academic community
 Arguably, this workflow is not suitable
 for all types of conference contributions: one example would be a purely
 theoretical exposition of a new algorithm or method that does not yet have a
@@ -167,7 +167,7 @@ H. Anzt and G. Flegar: [<i>Are We Doing the Right Thing? - A Critical Analysis o
 M. Anzt et al.: [<i>Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility</i>](https://github.com/hartwiganzt/HartwigAnzt.github.io/blob/master/papers/2019_TowardsNewPeerReveiwConcept.pdf), Proceedings in Applied Mathematics and Mechanics, 90th GAMM Annual Meeting, 2019.
 -->
 
-### Author bio
+## Author bio
 [Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz Young Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a research consultant position in the [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA. Hartwig has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next-generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://ginkgo-project.github.io/), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/). 
 
 <br>
@@ -177,7 +177,7 @@ M. Anzt et al.: [<i>Towards a New Peer Review Concept for Scientific Computing e
 [2]: #ref2 "Towards a New Peer Review Concept for Scientific Computing ensuring Technical Quality, Software Sustainability, and Result Reproducibility"
 ---> 
 
-### References
+## References
 
 <div class="references-wrapper">
 <div class="references">

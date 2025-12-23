@@ -17,11 +17,11 @@ Julia yielded a 1000x performance improvement for [Celeste](https://arxiv.org/ab
 
 But what about bugs in Julia programs? As with any other programming language, unmitigated bugs in Julia programs can hinder scientific exploration by generating erroneous results and unexpected failures. Hence, we pursued a research study where we systematically investigated a set of bugs collected from the open-source domain.
 
-### Our approach
+## Our approach
 
 We studied 742 bugs via qualitative analysis. Using our qualitative analysis, we derived bug categories and bug symptoms for Julia programs. We also surveyed 52 practitioners who have contributed to open-source Julia programs for further insights. The datasets used in our paper are publicly available [online](https://figshare.com/s/35d775572bb840ebd392).  
 
-### Major findings
+## Major findings
 
 <img src='../../images/julia-bugs-taxonomy.png' class='page' />[Categories of bugs identified in the study.]
 
@@ -34,14 +34,14 @@ World age defects are named for an analysis that Julia does to facilitate dynami
 Common symptoms of bugs in Julia programs are program and build failures, incorrect calculations, and reduction in program execution speed.
 Survey respondents find bugs related to data types to be the most common and most severe for Julia programs.
 
-### What does it mean for practitioners working in the scientific software space?
+## What does it mean for practitioners working in the scientific software space?
 
 Based on this study, we offer several suggestions and recommendations for toolsmiths and researchers using Julia.
 First, we see ample opportunities for the development of tools to automatically detect and repair bugs in some of the categories we have identified, such as security and world age defects.
 Second, developers should be encouraged to gain a better understanding of the unique characteristics of the Julia language and ecosystem and to follow Julia-related best practices in writing their code.
 And finally, developers should facilitate the seamless integration of quality assurance throughout the Julia software ecosystem.
 
-### Author bio
+## Author bio
 
 Akond Rahman is an assistant professor at Auburn University. His research interest is in software engineering focused on development and operations (DevOps) and secure software development. His motivation stems from the foundational challenge of integrating quality assurance into the development process without sacrificing developer productivity and software sustainability. His research is sponsored by the U.S. National Science Foundation (NSF) and the U.S. National Security Agency (NSA). He received his PhD from North Carolina State University. He won the Microsoft Open Source Challenge Award in 2016, the ACM SIGSOFT Doctoral Symposium Award at ICSE in 2018, and the ACM SIGSOFT Distinguished Paper Award at ICSE in 2019. He actively collaborates with practitioners from industry, such as GitHub and WindRiver. To learn more about his work visit <https://akondrahman.github.io/>.
 

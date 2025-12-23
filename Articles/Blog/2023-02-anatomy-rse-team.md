@@ -25,7 +25,7 @@ institutional level. I would like to address the strategies and
 operational model that my particular central RSE team at UKAEA (UK Atomic Energy
 Authority) uses to improve the development of research software.
 
-### Central team model
+## Central team model
 
 First, some context for my team is necessary. Fusion science is a broad domain
 in terms of both scientific disciplines and spatial and temporal time scales,
@@ -93,7 +93,7 @@ course "[Intermediate Research Software Development in Python](https://bielsnohr
 as the main thrust of my Software Sustainability Institute fellowship, and it has now become part of our
 regular course offerings.
 
-### Personal experience
+## Personal experience
 
 Observing the macroscopic characteristics of a central RSE team, as done above, is
 important to build awareness of how the types of teams are structured and
@@ -125,7 +125,7 @@ in the "core-funded" activities mentioned above. For instance I am now the lead
 for RSE training at UKAEA, a role that gives me the opportunity to steer and project
 manage.
 
-### Conclusion
+## Conclusion
 
 I hope that this brief summary of my group's activities will be helpful
 to other central RSE groups in their effort to promote software sustainability.
@@ -133,7 +133,7 @@ And I hope that by sharing my personal experiences I can provide some
 information to those who might be considering whether to join a central RSE
 team.
 
-### Acknowledgment
+## Acknowledgment
 
 This post builds on a [personal blog
 post](https://bielsnohr.github.io/2022/10/14/pasc22-minisymposium-summary.html#from-the-trenches-of-a-central-rse-team) that summarised [a talk](https://pasc22.pasc-conference.org/program/schedule/index.html%3Fpost_type=page&p=10&id=msa233&sess=sess125.html) I gave at the [PASC22](https://pasc22.pasc-conference.org/) conference.
@@ -143,7 +143,7 @@ post](https://bielsnohr.github.io/2022/10/14/pasc22-minisymposium-summary.html#f
 [3-sfer-ezikiw]: https://leanpub.com/codingdojohandbook "The definitive source is a book by Emily Bache"
 [4-sfer-ezikiw]: https://www.software.ac.uk/blog/2021-07-12-coding-clubs-research-software-communities-questions-consider-part-one "A broader overview of what a coding club can be"
 
-### Author bio
+## Author bio
 
 Matthew Bluteau is a research software engineer (RSE) at the UK Atomic Energy Authority (UKAEA), a world-leading laboratory in fusion energy research. There he supports the development of research software primarily used for simulation and modeling of fusion plasmas and tokamaks. He is a Software Sustainability Institute (SSI) Fellow 2021, and his fellowship work has  focused primarily on delivering new training courses at the intermediate level of software development skills. His background is in physics; he obtained a Ph.D. in atomic and plasma physics from the University of Strathclyde, with external work at the Culham Centre for Fusion Energy.
 
@@ -159,7 +159,7 @@ Topics: strategies for more effective teams, Research Software Engineers
 [3]: #sfer-ezikiw-3 "The definitive source is a book by Emily Bache"
 [4]: #sfer-ezikiw-4 "A broader overview of what a coding club can be"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[This is a run-down on the many definitions of software sustainability from the people who have 'Software Sustainability' in their name](https://software.ac.uk/resources/approaches-software-sustainability)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[I gave a quick lightning talk about Coding Dojos](https://doi.org/10.6084/m9.figshare.14330822.v2)

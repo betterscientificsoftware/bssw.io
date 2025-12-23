@@ -19,7 +19,7 @@ unknowingly introduce new errors, or reintroduce old errors; and
 In this document, we introduce some terminology of testing and discuss the benefits of testing
 and general approaches to testing.
 
-### Types and granularities of testing
+## Types and granularities of testing
 Software engineering recognizes two main types of testing (see [Definition and Categorization of Tests for CSE Software](../Blog/DefinitionsCategorizationsOfTests.md) for full details):
 * **Verification testing:** Tests that verify that the code is doing what it is intended to do.
 * **No-change (often, perhaps mistakenly, called regression) testing:** Checks that the
@@ -37,7 +37,7 @@ the full system level.
 For example, a system-level test of a CFD code would involve providing complete input
 files, running the full simulation, and then checking the output and final solutions.
 
-### Managing and reporting on testing
+## Managing and reporting on testing
 The simplest test system compiles the code and runs one
 or more executables, saving the output into a text file for the developer or user to examine. Once
 a package becomes too complex, this approach to testing is no longer satisfactory. **Automatic

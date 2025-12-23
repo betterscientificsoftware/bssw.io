@@ -15,7 +15,7 @@ The 2022 BSSw Fellows have used their skills to create tutorials, webinars, and 
 
 Here's more about what they have been up to and their perspectives on the BSSw Fellowship Program.
 
-### Optimizing I/O of scientific applications can be critical to simulation performance but is usually an afterthought in application development.
+## Optimizing I/O of scientific applications can be critical to simulation performance but is usually an afterthought in application development.
 
 BSSw Fellow Ritu Arora has created videos, articles/blogs, and examples/exercises to demonstrate how to optimize I/O in scientific applications, including applications from the area of AI/machine learning. The project included a 3-part tutorial. Specifically, topics covered include:
 
@@ -46,7 +46,7 @@ BSSw Fellow Ritu Arora has created videos, articles/blogs, and examples/exercise
 
 - - -
 
-### I/O sleuthing to track down errors in performance or correctness - at scale!
+## I/O sleuthing to track down errors in performance or correctness - at scale!
 
 We often see computational science codes focusing on I/O only when something has gone wrong: A job took longer than expected, data was incorrect, or obscure failure messages come back from the storage system. Diagnosing and debugging I/O problems share many similarities to debugging any parallel application, but do have their own peculiarities and tools. In a one-day course, BSSw Fellow Rob Latham covers the kinds of I/O problems one is likely to encounter in HPC, how to investigate those problems, and how to fix them.
 
@@ -88,7 +88,7 @@ something that could live on once the fellowship is over.
 
 - - -
 
-### Increasing the value of open scientific software through helping researchers engage with existing open source tooling and communities rather than reinventing on their own
+## Increasing the value of open scientific software through helping researchers engage with existing open source tooling and communities rather than reinventing on their own
 
 BSSw Fellow Julia Stewart Lowndes empowers researchers with technical, team, and leadership skills for data-intensive open science through Openscapes, which she founded and co-directs. Openscapes helps researchers do "better science for future us" -- data-intensive science that is reproducible and transparent; enabled by open-source software; and underscored by sustainability, inclusion, and kindness. Julia's work focuses on the Openscapes Champions Program, a remote cohort series that is not a typical training workshop -- it is an interactive co-learning experience where learners bring their own research projects and are able to make tangible progress together with their teams and with a cohort of peers. During the BSSw Fellowship, Julia has improved the publicly accessible open educational resources, namely the Openscapes Champions Lesson Series that are available for Champions program participants as well as self-paced learning for everyone.
 
@@ -115,7 +115,7 @@ BSSw Fellow Julia Stewart Lowndes empowers researchers with technical, team, and
 
 - - -
 
-### Simplifying scientific Python package installation and environment management
+## Simplifying scientific Python package installation and environment management
 
 BSSw Fellow Amiya Maji works to simplify scientific Python package installation by streamlining environment management, dependency tracking, and runtime customizations through easy-to-use tools. With the growing popularity of Python, installation and management of Python packages on HPC clusters is emerging as a critical problem for researchers and is complicated by the need to provide consistency across traditional batch workloads and interactive notebooks. Amiya has collaborated with various HPC centers to document and present their best practices for managing Python applications and implement these practices in the development of the conda-env-mod tool to simplify these processes. Conda-env-mod helps users manage their Python environments more efficiently and load runtime configurations through the familiar abstraction of environment modules. HPC centers can further customize the module file templates to incorporate additional software dependencies and provide descriptive help messages. This work will significantly improve scientific productivity, reduce user errors, and enable sharing of Python package installations among users.
 
@@ -162,7 +162,7 @@ Take advantage of the great networking opportunities provided by the BSSw Fellow
 
 - - -
 
-### Mitigating the risk of software vulnerabilities with best practices and tools for secure scientific software development
+## Mitigating the risk of software vulnerabilities with best practices and tools for secure scientific software development
 
 The sharp increase in computational power of computing ecosystems is likely to continue as we move toward exascale and beyond. In turn, we are seeing new convergent computing platforms along with a paradigm shift in scientific software applications leveraging these platforms. Unfortunately, this also leads to an unexpected growth in security risks pertaining to cybercriminals, as well as malicious insiders in the computing ecosystems. To address these issues, it is of paramount importance to integrate security within the scientific software development lifecycle. The need for best practices for secure software development has been highlighted in the President's Executive Order on Improving the Nation's Cybersecurity issued in May 2021.
 
@@ -191,7 +191,7 @@ I want to say that the BSSw Fellowship Program coordinators are very helpful in 
 
 - - -
 
-### Enabling complex scientific computations and efficient use of HPC resources with scientific workflows
+## Enabling complex scientific computations and efficient use of HPC resources with scientific workflows
 
 BSSw Fellow Karan Vahi brings the use of workflows to the wider scientific community by developing easy-to-understand training materials that examine the workflow lifecycle and challenges associated with various steps such as creation, execution, monitoring, and debugging. Workflows are needed to capture the complex interdependencies between processing steps in data analysis and simulation pipelines as well as the mechanisms to execute those steps reliably and efficiently. Karan's training walks users through how to model existing simulation pipelines into workflows, how to package application code in containers, and how to execute the workflow on HPC resources and distributed computing infrastructure such as Open Science Grid. The training materials also build on existing interactive Jupyter notebooks that guide users on how to develop workflows using [Pegasus](http://pegasus.isi.edu). The training materials are self-guided and well-suited for in-classroom and virtual teaching.
 
@@ -222,11 +222,11 @@ Choose your milestones carefully and don't wait until the last moment to complet
 
 - - -
 
-### Learn more about the BSSw Fellowship Program
+## Learn more about the BSSw Fellowship Program
 
 BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship), including ongoing work of the 2023 BSSw Fellows. We will begin accepting applications for 2024 BSSw Fellowships during mid-August 2023. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
 
-### Author bio
+## Author bio
 
 Elsa Gonsiorowski is deputy coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp) team, and HPC I/O support specialist at [Livermore Computing, LLNL](https://hpc.llnl.gov/about-us).
 

@@ -25,7 +25,7 @@ He credits the support of the BSSw Fellowship with having helped him hone his pr
 
 Latham notes that being part of the BSSw network and getting to know the BSSw Fellows and Honorable Mentions and their work are great ways to learn what is new in research software engineering. “I appreciate being able to understand the way that other people are thinking about the problems we're facing and how to solve them,” says Latham. “The BSSw Fellowship program has been so great that the only thing I would want would be more of it so we can see more of what is happening in the field.”
 
-### More info
+## More info
 
 Learn more about [Rob Latham’s work as a BSSw Fellow](https://bssw.io/items?author=rob-latham).
 
@@ -35,7 +35,7 @@ If you have questions about the Fellowship or the application process, please se
 
 Application deadline: Friday, October 31, 2025; this is a firm deadline that will not be extended.
 
-### Author bios
+## Author bios
 
 [Heather Bourbeau](https://www.linkedin.com/in/heatherbourbeau/) is a research analyst, communications strategist, and storyteller.
 [Sustainable Horizons Institute](https://shinstitute.org) is a partner in leading the BSSw Fellowship Program.

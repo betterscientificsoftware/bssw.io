@@ -45,13 +45,13 @@ The name of the workshop may sound a little odd, but it has a serious purpose. W
 
 **Carlos:** In the organizing committee, we’ve discussed how to make these channels more active between workshops; a plan for this goal is currently a work in progress. We are open to suggestions. Anyone who would like to discuss deeper engagement (e.g., participation in the WoSSS23 steering group) is encouraged to contact WoSSS core team members [Shoaib Sufi and Carlos Martinez-Ortiz](mailto:shoaib.sufi@software.ac.uk,c.martinez@esciencecenter.nl)  of the UK Software Sustainability Institute and Netherlands eScience Center, respectively.
 
-### Additional Resources
+## Additional Resources
 - 2015 Research Software Sustainability [workshop report](https://www.knowledge-exchange.info/event/software-sustainability)
 - WoSSS workshop series [website](https://wosss.org), including reports
 - WoSSS [Slack request](https://bit.ly/wosss-slack)
 - WoSSS [Twitter account](https://twitter.com/WoSSS_team)
 
-### Author Bios
+## Author Bios
 
 Shoaib Sufi is Community Lead at the UK Software Sustainability Institute ([SSI](https://www.software.ac.uk/)). He has oversight of the [Fellowship programme](https://www.software.ac.uk/programmes-and-events/fellowship-programme) and the [Collaborations Workshop](https://www.software.ac.uk/programmes-and-events/collaborations-workshops)  (CW) series. He leads the SSI’s engagement with the WoSSS initiative, investigates community software needs, and leads the SSI’s communities of practice engagement pilot.
 Previously, he worked as a software engineer, both in academia and in industry, with a focus on information systems. Shoaib holds a BSc in computer science and PGCert in higher education from the University of Manchester and is an accredited project manager holding a PMP certification from the PMI. 

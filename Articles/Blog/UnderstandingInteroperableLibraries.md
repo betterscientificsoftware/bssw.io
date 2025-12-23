@@ -16,7 +16,7 @@ This article discusses software library interoperability, or the ability of two 
 While the following discussion uses the terminology of software library interoperability, the concepts also apply to application-specific domain components.
 
 
-### Software Libraries
+## Software Libraries
 A software library is a high-quality, encapsulated, documented, tested, and multiuse software collection that offers functionality commonly needed by application developers. 
 Key advantages of software libraries include leveraging the expertise of library developers and reducing the effort required in application coding. 
 For instance, numerical software libraries provide easy access to sophisticated mathematical algorithms and high-performance data structures developed by experts. 
@@ -26,7 +26,7 @@ Libraries can provide control inversion through abstract interfaces, callbacks, 
 They can also facilitate the construction of related specific objects that offer customizable behavior to enhance performance or flexibility. 
 Additionally, libraries may incorporate domain-specific software components designed for use by multiple applications.
 
-### Software Library Interoperability
+## Software Library Interoperability
 Software library interoperability refers to the ability of two or more libraries to be used together in an application code, without special effort on the part of the user. 
 For simplicity, we discuss interoperability between two libraries; extension to interoperability among three or more libraries is conceptually straightforward. 
 Depending on application needs, various levels of interoperability can be considered:
@@ -49,7 +49,7 @@ In this case, the libraries themselves are typically used without internal modif
 **Interoperability level 3** builds on level 2 by supporting the use of one library to provide functionality on behalf of another library. 
 This level of interoperability provides significant value to application developers because they can access capabilities of additional libraries through the familiar interfaces of the first library.
 
-### The Extreme-Scale Scientific Software Development Kit (xSDK)
+## The Extreme-Scale Scientific Software Development Kit (xSDK)
 
 <!-- <p align="left">
 <img align="right" src="https://i.ibb.co/C9h43tR/Screen-Shot-2020-07-10-at-10-34-30-AM.png">
@@ -57,7 +57,7 @@ This level of interoperability provides significant value to application develop
 
 A key aspect of work in the [IDEAS-Classic project](https://ideas-productivity.org/activities/ideas-classic/) is development of the [Extreme-scale Scientific Software Development Kit (xSDK)](http://xsdk.info/) - a collection of related and complementary software elements that provide the building blocks, tools, models, processes, and related artifacts for rapid and efficient development of high-quality applications.
 
-##### xSDK community policies:
+### xSDK community policies:
 The xSDK addresses interoperability among the high-performance numerical libraries [hypre](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods), [PETSc](https://www.mcs.anl.gov/petsc/), [SuperLU](crd.lbl.gov/%7Exiaoye/SuperLU/), and [Trilinos](https://trilinos.github.io/). 
 The xSDK ensures level 1 interoperability for each xSDK library via a full-featured build script and testing environment and a collection of community policies. The following draft xSDK community policies address challenges in interoperability level 1.
 
@@ -71,13 +71,13 @@ Similarly, a package can become an xSDK member package if (1) it is an xSDK-comp
 The xSDK collection of software packages commits to adhere to these community policies in order to ensure compatibility with other packages that meet the same standards. 
 The aim is to simplify the combined use of multiple independently developed software packages and to provide a foundation for addressing broader issues in interoperability and performance portability.
 
-##### Deeper Levels
+### Deeper Levels
 Deeper levels of xSDK interoperability involve exchanging, controlling, and interpreting data, as well as calling routines between libraries (interoperability levels 2 and 3 described above). 
 Initial xSDK capabilities of hypre, PETSc, SuperLU, and Trilinos support interoperability among scalable linear solvers, so that applications can readily experiment with algorithms across multiple packages, in combination.
 Forthcoming companion documents will explain approaches used for interfaces and adapters between packages as well as work on interoperability layers for other functionalities. 
 A longer-term goal is collaboration among members of the HPC community to improve software interoperability as needed by extreme-scale computational science.
 
-### Note: 
+## Note: 
 This document was prepared by the authors with contributions from all xSDK developers. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific Computing Research and Biological and Environmental Research programs.
 
 <!---

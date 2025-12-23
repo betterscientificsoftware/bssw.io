@@ -14,7 +14,7 @@ I plan to work with astronomers, physicists, and geoscientists:
 
 I've written [a blog about this that includes my fellowship application](https://danielskatzblog.wordpress.com/2018/02/08/better-scientific-software-fellowship/).
 
-### More information: 
+## More information: 
 - [BSSw Fellowship Program](https://bssw.io/pages/bssw-fellowship-program)
 
 <!---

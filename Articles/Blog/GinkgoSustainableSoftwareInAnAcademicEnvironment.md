@@ -9,7 +9,7 @@
 
 Academic software development needs to balance academic aspects such as confidentiality and intellectual property with ready-to-use production code. In the Ginkgo software project we address this challenge by employing sustainable software design with a healthy software development cycle.
 
-### A Software Journey
+## A Software Journey
 It all starts with a Ph.D. project or a master's project. We write our first piece of scientific software, not in a sophisticated software design with appropriate documentation or correctness tests, but with the single goal of having the code running and delivering the results or insights we need to graduate. 
 <br>
 
@@ -55,7 +55,7 @@ In the [Ginkgo](https://ginkgo-project.github.io/) software effort we turn the d
 <img src='../../images/Blog_0119_GinkgoLogo.png' class='logo' />
 
 
-### Sustainable Software Design in Ginkgo
+## Sustainable Software Design in Ginkgo
 
 Ginkgo is designed as an open source C++ linear algebra library following the [SOLID](https://en.wikipedia.org/wiki/SOLID) software design principles: Single responsibility; Open/closed; Liskov substitution; Interface segregation; and the Dependency principle. 
 <br>
@@ -70,7 +70,7 @@ The unit tests are realized by using the [Google Test](https://github.com/abseil
 Another central design feature of Ginkgo is the concept of expressing not only basic linear algebra operations such as matrix-vector products but also complex algorithms such as iterative solvers and
 preconditioners as linear operators that all share key functionalities like apply, clone, and copy. This greatly enhances user friendliness, reduces the coding effort, and efficiently avoids code duplication. In order to simplify its use, library features are not only thoroughly documented by using [Doxygen](https://en.wikipedia.org/wiki/Doxygen) but also typically are accompanied by small usage examples or tutorials.
 
-### Academic Aspects in the Ginkgo Software Development
+## Academic Aspects in the Ginkgo Software Development
 
 To enable a healthy software development process, Ginkgo is a community effort licensed under the [modified BSD license](https://en.wikipedia.org/wiki/BSD_licenses). A central Git repository requires two reviews on every merge to the master branch. This branch is automatically mirrored into a private repository where branches are used for the development of novel algorithms and the deployment of unpublished performance optimizations. In this way, Ginkgo keeps in mind academic software development, where the option of keeping new ideas and algorithms confidential is important in avoiding knowledge theft and in adhering to the principles of academic publication. Synchronization with the public master branch enables quick integration of successful development into production code.
  
@@ -82,7 +82,7 @@ To enable a healthy software development process, Ginkgo is a community effort l
 </p>
 <br>
 
-### Continuous Integration and Continuous Benchmarking
+## Continuous Integration and Continuous Benchmarking
 
 Public and private feature developments are automated with the help of a [continuous integration (CI)](https://en.wikipedia.org/wiki/Continuous_integration) framework that checks the [CMake](https://cmake.org/) compilation process for a large number of hardware architectures and compiler/library environments [(Cross-Platform Portability)](https://en.wikipedia.org/wiki/Software_portability). The CI system also ensures successful completion of the unit tests. If all tests pass successfully and two reviewers approve the merge request, a new feature is integrated into Ginkgo's master branch and benchmarked on an HPC system; see Figure 1. 
 <br>
@@ -90,7 +90,7 @@ Public and private feature developments are automated with the help of a [contin
 While this approach also allows external contributors to have their features executed on an HPC cluster (which they may not even have access to), the reviewers approving the merge take full responsibility for the integrity of the code. 
 
 
-### Ginkgo Performance Explorer
+## Ginkgo Performance Explorer
 
 The performance results for the new feature are then retrieved from the HPC system
 and archived in a repository storing performance data of Ginkgo routines. The [Ginkgo Performance Explorer (GPE)](https://ginkgo-project.github.io/gpe/) is a web application that can retrieve the performance data from the repository and visualize it in user-defined fashion, with the help of the integrated JSONata scripting language; see Figure 2. This not only enables monitoring performance changes over time but also allows external contributors to receive feedback about the feature they contributed. Moreover, it can potentially optimize the implementation. 
@@ -106,7 +106,7 @@ and archived in a repository storing performance data of Ginkgo routines. The [G
 We are convinced that this software development cycle, along with the sophisticated library design, forms the basis for a successful academic community effort and allows Ginkgo to transition from a "small community" project to a high-profile software ecosystem.
 
 
-### Author Bio
+## Author Bio
 [Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz Young Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a Senior Research Scientist position in Jack Dongarra's [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA. Hartwig Anzt has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next-generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://ginkgo-project.github.io/), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/). 
 
 <!---

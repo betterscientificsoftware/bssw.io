@@ -12,7 +12,7 @@ Since 2015, members of the scientific software community have been organizing se
 
 We’ve settled on a format for the BoF that includes 3-minute lightning talks, chosen by the organizing committee to highlight activities and ideas that seem important and timely, followed by a discussion with the audience, which is always vigorous, wide-ranging, and interesting (and pretty tiring for the people running around with the microphones).  Below, we summarize the talks and the breakout discussions from the session and sample what’s on the minds of our community as of November 2023.
 
-### Lightning talks
+## Lightning talks
 
 We had seven lightning talks this year, covering a wide range of topics with speakers from Denmark, Norway, Switzerland, the UK, and the US.
 
@@ -24,7 +24,7 @@ We had seven lightning talks this year, covering a wide range of topics with spe
 * [Years as a trustee of SocRSE UK: A retrospective](https://betterscientificsoftware.github.io/swe-cse-bof/assets/2023-11-sc23-bof/06-quinn-ukrse.pdf) by Jamie Quinn (University College of London, UCL).  Jamie Quinn was one of the trustees of the Society for Research Software Engineering (SocRSE) in the UK for two years, and he discussed his personal observations and takeaways from helping to build that community. Jamie felt that SocRSE UK did an excellent job in many areas, including formal programs (e.g., mentoring), conference organization, providing space and funding for new activities or groups, and hosting and nurturing an online Slack community. However, some of the mechanics have proven hard to scale as the organization has grown. He noted that every page on a website, every process, or document created by the organization needs to be maintained and kept up to date, and noted that it might be worth considering whether you *really* need it before creating it.  He also noted that tools need to be selected with care, including considerations of lock-in. Jamie talked about the value of being open from the start in creating groups (i.e., not limiting membership to the nominal leadership), being willing to delegate and trust volunteers, and sometimes paying people to get things done.
 * [HPC Carpentry Community Building in Education](https://betterscientificsoftware.github.io/swe-cse-bof/assets/2023-11-sc23-bof/07-reid-hpccarpentry.pdf) by Andrew Reid (NIST).  Andrew presented the history and plans for the HPC Carpentry training effort.  HPC Carpentry began with some work by ComputeCanada and Peter Steinbach’s “HPC in a Day” tutorial, and since 2017, it has grown and evolved thanks to the contributions of numerous and varied people through multiple leadership changes.  The goal of the HPC Carpentry effort is to use the teaching approach of The Carpentries to build a bridge for new HPC users.  The team has one lesson in the Carpentries Incubator program (HPC Intro, which teaches queuing system basics), as well as an HPC Parallel Novice lesson (using Python), and two other lessons under development (HPC Workflow and HPC Chapel).  They previously developed an HPC Shell lesson but have deprecated that in favor of the “standard” Software Carpentries Shell lesson.  They plan to develop several two-day workshop tracks utilizing the lessons above as well as a planned HPC Development lesson.
 
-### Discussion
+## Discussion
 
 We began the general discussion by considering the sustainability of communities focused on scientific software best practices and, in particular, how we can trigger that transformation from a small group of dedicated volunteers to a broadly based community-driven effort.  Awareness was considered to be one of the keys – sharing on social media or otherwise publicizing the work can help to improve awareness and recruit new contributors to the cause.  Similarly, those who are already contributing to the work can be powerful in helping to promote the work. Trusting people and recognizing their contributions by promoting them quickly into leadership roles is helpful for those who do get engaged.  There are generational considerations as well.  The initial leadership of the effort often sees it as a “passion project” – something they think is important, and they pursue it for that reason.  The next generation of leaders tends to get involved because they see it as something that is valued and rewarded.  The third generation of leaders gets involved because it “needs to be done” more than because it is valued and rewarded. At that point, it may be useful to consider how to pay people to do the work – it needs to become part of their job.  It is also useful to note that many in our community are introverts and may not be comfortable with visible roles where they need to engage extensively with others.  But in most cases, many useful forms of contribution don’t require much engagement – updating websites, running a job board, taking notes, etc.
 
@@ -32,11 +32,11 @@ We discussed some of the topics around which we might want to build larger commu
 
 Finally, someone asked whether there was a singular resource that would serve as a good introduction for new entrants to scientific computing.  The consensus was that there wasn’t at present, but what would be useful was a “resource of resources” to help community members navigate to useful resources. Suggestions included using BSSw.io as well as encouraging national RSE organizations to help create and curate such collections (some, like US-RSE, already do some of this, but it takes effort).  Similarly, for training materials, Carpentries.org provides a hierarchy of formal recognition of training content, and a new project, [HPC ED](https://www.cac.cornell.edu/about/pubs/HPC%20ED%20CyberTraining.pdf), aims to (automatically) gather and share metadata on available HPC training so that users can find, organize, and leverage HPC training content regardless of origin.  It is important to ensure that any such resources are available in places that newcomers to the community can easily find and access.
 
-### Summary
+## Summary
 
 Surprisingly, the discussions at this year’s BoF stayed centered on building communities (often they are much wider-ranging).  There appear to be numerous smaller-scale or more localized efforts at building communities and developing resources that seemingly might be parlayed into something larger, or at least shared more widely.  There are many open questions about where to share, how to incentivize/reward/pay people for contributing, and how to ensure that newcomers can find the communities and resources being built.  Perhaps we can focus on these topics at next year’s BoF.
 
-### Resources mentioned
+## Resources mentioned
 
 Links to the BoF website, and other resources mentioned in the presentations and discussions.
 
@@ -67,7 +67,7 @@ Links to the BoF website, and other resources mentioned in the presentations and
     * [Hifis-net’s list](https://github.com/hifis-net/awesome-rse)
     * [dstdev’s HPC list](https://github.com/dstdev/awesome-hpc) (frequently updated)
 
-### Author bios
+## Author bios
 
 David E. Bernholdt is a Distinguished R&D Staff Member at Oak Ridge National Laboratory.  His research interests are broadly in the development of scientific software for high-performance computers, including developer productivity, and software quality and sustainability.
 

@@ -16,7 +16,7 @@ in a hybrid format of onsite plus virtual content. The workshop's structure
 was designed to maximize audience participation, and consisted of six
 sessions, summarized below.
 
-### Conversation: Exascale computing and RSEs
+## Conversation: Exascale computing and RSEs
 
 Lois Curfman McInnes of Argonne National Lab opened the workshop with a
 short talk and extended discussion on the subject "Does exascale computing
@@ -36,7 +36,7 @@ productivity through better scientific software. She concluded her talk with
 a shout-out to her ECP RSE colleagues at Argonne and elsewhere, describing
 them as "the linchpin of all things exascale - and beyond"!
 
-### Short talks
+## Short talks
 
 Marion Weinzierl gave the first short talk on "Training HPC RSEs: What We
 Learned From Our Performance." This was based on training workshops
@@ -75,7 +75,7 @@ relationships, and training in soft skills. The talk called for us to start
 mentorships now, to build explicit institutional support for them, and to
 conduct research to create better mentorship policies.
 
-### Breakout sessions
+## Breakout sessions
 
 An hour-long breakout session was organized to draw on the rich variety of
 experience that the attendees brought to the workshop. Several questions
@@ -119,7 +119,7 @@ it was noted that there must be further progress on stabilizing RSEs within
 the academia, and that this work would be advanced if parallel efforts to
 recognize software as a vital research output are successful.
 
-### Panel discussion: What role(s) do RSEs play in the HPC community? What kind of support do they need?
+## Panel discussion: What role(s) do RSEs play in the HPC community? What kind of support do they need?
 
 Five panelists from diverse backgrounds - academia, national lab, industry -
 and HPC experience discussed the unique challenges and roles RSEs have in
@@ -140,7 +140,7 @@ effective RSE is often dependent on each institution and it is still
 necessary to follow the traditional academic "benchmarks" with contributing
 to publications etc. to get recognized for contributions.
 
-### Conversation: RSEs and HPC in China
+## Conversation: RSEs and HPC in China
 
 The conversation with James Lin, Vice Director of the HPC center of the
 Shanghai Jiao Tong University, gave insights into the HPC ecosystem and that
@@ -160,7 +160,7 @@ resources. He encourages his team to closely interact with researchers and
 to publish papers collaboratively to keep the option for a career path in
 the current academic landscape.
 
-### Panel: RSE Communities Worldwide
+## Panel: RSE Communities Worldwide
 
 Our final session was a panel on building RSE communities worldwide, with
 six panelists from four continents. All of their countries have RSEs and RSE
@@ -178,7 +178,7 @@ beyond the loss of a small core group. And several examples were given
 showing that RSEs could effectively leverage existing community efforts
 among practitioners and students.
 
-### Summary
+## Summary
 
 Overall, the workshop discussions were very active. Many good questions
 were asked, and many of the participants afterward expressed their
@@ -188,7 +188,7 @@ those who participated in it. And, we'll be starting to plan soon for
 another RSE-HPC workshop at [SC22](https://sc22.supercomputing.org/) this
 fall; we hope that many of you will be able to join us!
 
-### Author bios
+## Author bios
 
 Charles Ferenbaugh is the Computer Science Lead for the Eulerian Applications Project at Los Alamos National Laboratory. He received a Ph.D. in Mathematics from Princeton University in 1992. He spent several years working at Raytheon developing high-performance signal processing software, before coming on staff at LANL in 2001. At LANL he has been a software developer contributing to large multiphysics code projects running on supercomputer clusters. He has also been a part of LANL research efforts in advanced architectures and programming models. He was a founding steering committee member of the US Research Software Engineer Association.
 

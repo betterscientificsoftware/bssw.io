@@ -12,7 +12,7 @@ The SciCodes consortium was formed to help discipline- and institutionally-based
 
 Scientific disciplines that rely on computational methods often have a resource, a code registry or repository, that serves as a library for the discipline and collects the software itself and/or metadata about the software. [SciCodes](https://scicodes.net/), formed in 2021, is a consortium of academic discipline and institutional software registries and repositories. Among its goals are sharing work methods and creating a virtual registry standard to enable searching across multiple software registries.
 
-### Software in science
+## Software in science
 
 If you work in geodynamics, astronomy, or with biostatistics, or with any scientific research software, you are likely familiar with either the [Astrophysics Source Code Library](https://ascl.net/) (ASCL), [Computational Infrastructure for Geodynamics](https://geodynamics.org/) (CIG), [bio.tools](https://bio.tools/), or [Zenodo](https://zenodo.org/). Software registries and repositories such as these, [CaltechDATA](https://data.caltech.edu/), [CoMSES](https://www.comses.net/), [DOECODE](https://www.osti.gov/doecode/), and others improve research by making these codes discoverable, thus providing transparency and reproducibility, and by promoting reuse of software, thus potentially making research more efficient. These services are also active in promoting formal software citation in research articles.
 
@@ -24,7 +24,7 @@ One of the first efforts of the group is to render our own holdings – the meta
 
 The SciCodes consortium also works to improve software citation and findability, strengthen our individual resources by adopting and adapting the best practices we identified, and share advances and information through presentations at our monthly meetings. Because the consortium’s members are spread out over many time zones, the group holds two meetings, seven hours apart, on the same day each month. Meetings include discussions on best practices and [presentations](https://scicodes.net/presentations/) from group members. The consortium is currently led by Hervé Ménager and Tom Morrell, who were elected in late 2021 to overlapping terms to run the group.
 
-### Get involved
+## Get involved
 
 Would you like to learn more about our activities? View our [outreach materials](https://scicodes.net/outreach-materials/), including our video above that describes SciCodes and how it may [help one particular field](https://ascl.net/wordpress/2021/10/25/ascl-poster-on-scicodes-consortium-at-adass-xxxi/) which is a good quick introduction to the consortium. We also record the presentations that are given in our meetings; these are [available online](https://scicodes.net/presentations/) and cover topics such as the [Zenodo/InvenioRDM Codemeta Integration](https://ascl.net/assets/scicodes/videos/ZenodoCaltechDATACodemeta_TomMorrell_20210617.mp4), [Research software review as part of the publication process](https://ascl.net/assets/scicodes/videos/CodeReview_AnaTrisovic_20211021.mp4), and how to [Archive and promote open source code with HAL and Software Heritage](https://drive.google.com/file/d/1OnYoGLw1Wq6emDe8GGNoTuaqpSxa7a6S/view?usp=sharing).
 
@@ -34,7 +34,7 @@ If your discipline or institution has a software repository or registry that is 
 
 [1-sfer-ezikiw]: https://doi.org/10.1016/j.ascom.2013.09.002 "{Shamir L., Holincheck A., Wallin J., 2013, A&C, 2, 67. doi:10.1016/j.ascom.2013.09.002}"
 
-### Author bios
+## Author bios
 
 Hervé Ménager is a Research Engineer at the Institut Pasteur, where he initially joined the Software and Databases group. He is currently co-head of the [Bioinformatics and Biostatistics Hub](https://research.pasteur.fr/en/team/bioinformatics-and-biostatistics-hub/) of the Institut Pasteur.
 He is also involved in multiple software and infrastructure projects and organizations, such as [ELIXIR Europe](https://elixir-europe.org), the [EDAM ontology](http://edamontology.org), the [SciCodes Consortium](https://scicodes.net), the [Galaxy framework](https://usegalaxy.org), and the [Common Workflow Language](https://commonwl.org) standard.
@@ -51,6 +51,6 @@ Topics: software publishing and citation
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Shamir L., Holincheck A., Wallin J., 2013, A&C, 2, 67. doi:10.1016/j.ascom.2013.09.002](https://doi.org/10.1016/j.ascom.2013.09.002)

@@ -8,7 +8,7 @@
 
 #### Publication date: October 14, 2022
 
-### Introduction
+## Introduction
 
 The Exascale Computing Project (ECP) core mission is to develop a capable exascale computing ecosystem that
 accelerates scientific discovery and supports addressing critical challenges
@@ -44,7 +44,7 @@ they appeared throughout the discussion.
 The panelists talked about ways that these aspects are manifest in practice.
 From the discussion, several common themes emerged:
 
-### Individual Team Autonomy
+## Individual Team Autonomy
 
 What makes a team a team? A team is characterized by its trust, common purpose,
 shared consciousness, and general autonomy. This is true of each team within a
@@ -89,7 +89,7 @@ structure. As Ulrike observed:
 If every team is doing work to advance their own goals, however, how do they
 fit into the larger ecosystem? This is where the next theme comes into play.
 
-### Leading Like a Gardener
+## Leading Like a Gardener
 
 Each panelist noted the need for a leadership group to keep the shared goals
 and holistic vision on each individual team's radar. Jim Willenbring had this
@@ -122,7 +122,7 @@ Jim Willenbring on behalf of [Trilinos](https://trilinos.org) had this to say:
 
 Here Jim touched on the final theme.
 
-### Communication Is Key
+## Communication Is Key
 
 Communication is where all the themes of this panel come together. Without
 effective and intentional communication, whether remotely or in person, there
@@ -185,7 +185,7 @@ As this comment indicates, even in a world of increasing remote work, some
 communication issues are best resolved by meeting and getting to know one
 another in person.
 
-### Final Thoughts
+## Final Thoughts
 
 We are seeing a shift in the way teams form and interact.<sup>[2]</sup> In the concluding
 discussion in which panelists, moderators, and the audience explored what
@@ -220,7 +220,7 @@ communication to keep everyone aligned, especially when teams are distributed.
 To watch and/or listen to the panel and others in the series visit
 <https://www.exascaleproject.org/remote-panel-archive/>.
 
-### Biographies
+## Biographies
 
 Reed Milewicz is a Computer Scientist and Software Engineering Researcher
 in the Department of Software Engineering and Research at Sandia National
@@ -315,7 +315,8 @@ Topics: strategies for more effective teams
 [2]: #sfer-ezikiw-2 
 [3]: #sfer-ezikiw-3 
 <!-- (sfer-ezikiw begin) -->
-### References
+
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[McChrystal, G. S., Collins, T., Silverman, D., & Fussell, C. (2015). Team of teams: New rules of engagement for a complex world. Penguin. isbn:9781591847489](https://isbndb.com/book/9781591847489)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Cannon, B. (2022, June 1). Work shift: A Sandia researcher looks at how COVID-19 has reshaped the computational science community and remote work – in lasting ways. ASCR Discovery. Retrieved August 31, 2022.](https://ascr-discovery.org/2022/06/work-shift/)

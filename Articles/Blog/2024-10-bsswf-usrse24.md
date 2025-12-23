@@ -17,12 +17,12 @@ Several current and previous Fellows and Honorable Mentions were active in other
 Altogether, the conference was a big success for the BSSw Fellowship community, and we look forward to participating again next year!  
 
 
-### Further information
+## Further information
 
 * Check out the US-RSE website: [https://us-rse.org](https://us-rse.org)   
 
 
-### Author bio
+## Author bio
 
 Erik Palmer is the BSSw Fellowship Deputy Coordinator and a Software Integration Engineer at Lawrence Berkeley National Laboratory.
 

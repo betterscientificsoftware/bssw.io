@@ -15,7 +15,7 @@ The SIAM Computational Science and Engineering conference series has always been
 
 Consider joining us in organizing software-focused sessions for future SIAM and other conferences.  The 2022 SIAM Conference on Parallel Processing for Scientific Computing (PP22)—the next conference in CSE's sister series, which alternates years with CSE—will soon be announced.  CSE23 has already been announced for February 2023.  Look for the call for participation in SIAM conferences to appear about 9-10 months in advance of each event. 
 
-### Software Productivity and Sustainability for CSE
+## Software Productivity and Sustainability for CSE
 
 Collected presentations DOI: [10.6084/m9.figshare.c.5321423](https://doi.org/10.6084/m9.figshare.c.5321423) | SIAM program pages: [MS30](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70085)
 
@@ -25,7 +25,7 @@ This session focused on work that addresses growing technical and social challen
 Lois Curfman McInnes, Argonne National Laboratory<br/>
 Stuart Yates, Swiss National Supercomputing Center<br/>
 
-### Better Scientific Software Fellowship
+## Better Scientific Software Fellowship
 
 Collected presentations DOI: [10.6084/m9.figshare.c.5321426](https://doi.org/10.6084/m9.figshare.c.5321426) | SIAM program pages: [MS68](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70202)
 
@@ -42,7 +42,7 @@ The Better Scientific Software (BSSw) Fellowship program fosters and promotes pr
 *Organizers*<br/>
 Hai Ah Nam, Los Alamos National Laboratory<br/>
 
-### Building Sustainable Software Communities and Sustainable Software
+## Building Sustainable Software Communities and Sustainable Software
 
 Collected presentations DOI: [10.6084/m9.figshare.c.5321435](https://doi.org/10.6084/m9.figshare.c.5321435) | SIAM program pages: [MS94](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70102), [MS125](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70103)
 
@@ -52,7 +52,7 @@ Sustainability of software is a major challenge for our community.  This session
 David E. Bernholdt, Oak Ridge National Laboratory<br/>
 Rene Gassmoeller, University of Florida<br/>
 
-### Exascale Computing Project Performance Portability Analysis
+## Exascale Computing Project Performance Portability Analysis
 
 Collected presentations DOI: [10.6084/m9.figshare.c.5321441](https://doi.org/10.6084/m9.figshare.c.5321441) | SIAM program pages: [MS162](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=69992), [MS192](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=69993)
 
@@ -65,7 +65,7 @@ Exascale Computing Project (ECP) Performance Portability Analysis was a two part
 *Organizer*<br/>
 Anshu Dubey, Argonne National Laboratory<br/>
 
-### Data-Driven Analysis of Scientific Software Quality, Availability, and Development Productivity
+## Data-Driven Analysis of Scientific Software Quality, Availability, and Development Productivity
 
 Collected presentations DOI: [10.6084/m9.figshare.c.5321444](https://doi.org/10.6084/m9.figshare.c.5321444) | SIAM program pages: [MS187](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70248)
 
@@ -79,7 +79,7 @@ The minisymposium on Data-Driven Analysis of Scientific Software Quality, Availa
 Boyana Norris, University of Oregon<br/>
 Kanika Sood, California State University, Fullerton<br/>
 
-### Enhancing Sustainability and Productivity of Research Software
+## Enhancing Sustainability and Productivity of Research Software
 
 Collected presentations DOI: [10.6084/m9.figshare.c.5325824](https://doi.org/10.6084/m9.figshare.c.5325824) | SIAM program pages: [MS251](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70274), [MS278](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70275)
 
@@ -93,7 +93,7 @@ The  “Enhancing Sustainability and Productivity for Research Software” two-p
 Rinku Gupta, Argonne National Laboratory<br/>
 Sandra Gesing, University of Notre Dame<br/>
 
-### Wash Your Hands, Wear a Mask, Keep the Bugs Out
+## Wash Your Hands, Wear a Mask, Keep the Bugs Out
 
 Collected presentations DOI: [10.6084/m9.figshare.c.5325827](https://doi.org/10.6084/m9.figshare.c.5325827) | SIAM program pages: [MS298](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70066)
 
@@ -108,7 +108,7 @@ Vadim Dyadechko, ExxonMobil Upstream Research Company<br/>
 Roscoe A. Bartlett, Sandia National Laboratories<br/>
 Todd Gamblin, Lawrence Livermore National Laboratory<br/>
 
-### Minisymposterium: Software Productivity and Sustainability for CSE
+## Minisymposterium: Software Productivity and Sustainability for CSE
 
 Collected presentations DOI: [10.6084/m9.figshare.c.5321432](https://doi.org/10.6084/m9.figshare.c.5321432) | SIAM program pages: [PP7](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=70380)
 
@@ -120,7 +120,7 @@ Sandra Gesing, University of Notre Dame<br/>
 Rinku Gupta, Argonne National Laboratory<br/>
 Shoaib Sufi, University of Manchester<br/>
 
-### Complementary articles (based on material in these sessions) on the SIAM site
+## Complementary articles (based on material in these sessions) on the SIAM site
 
 - [Encouraging Effective Retrospective Strategies for Team Projects](https://sinews.siam.org/Details-Page/encouraging-effective-retrospective-strategies-for-team-projects), Lina Sorg, 
 - [Creating Findable, Accessible, Interoperable, and Reusable Cyberinfrastructure](https://sinews.siam.org/Details-Page/creating-findable-accessible-interoperable-and-reusable-cyberinfrastructure), Jillian Kunze

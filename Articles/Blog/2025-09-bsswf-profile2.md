@@ -24,7 +24,7 @@ And researchers are grateful. Million has been approached at conferences and by 
 
 Now Million is paying it forward again by being one of the inaugural BSSw Fellowship mentors. “I don't have a Ph.D. I started my own company doing something people told me was impossible. I had to learn a lot, and there were people who helped me,” says Million. “If I can prevent other people from having to do it the hard way, then I will. And I can offer a different perspective than faculty would provide.”
 
-### More info
+## More info
 
 Learn more about [Chase Million’s work as a BSSw Fellow](https://bssw.io/fellows/chase-million).
 
@@ -34,7 +34,7 @@ Fellowship Q\&A webinar: Tuesday, September 16, 2025 1:00-2:00 pm EDT. [Subscrib
 
 Application deadline: Friday, October 31, 2025; this is a firm deadline that will not be extended.
 
-### Author bios
+## Author bios
 
 [Heather Bourbeau](https://www.linkedin.com/in/heatherbourbeau/) is a research analyst, communications strategist, and storyteller.
 [Sustainable Horizons Institute](https://shinstitute.org) is a partner in leading the BSSw Fellowship Program.

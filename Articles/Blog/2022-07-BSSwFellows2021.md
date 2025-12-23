@@ -14,7 +14,7 @@ The 2021 BSSw Fellows have used their skills to create tutorials, webinars, and 
 
 Here's more about what they have been up to and their perspectives on the BSSw Fellowship Program.
 
-### Increasing accessibility of data (e.g., satellite data) and cloud technologies to a broad scientific community through easy-to-follow Python tutorials
+## Increasing accessibility of data (e.g., satellite data) and cloud technologies to a broad scientific community through easy-to-follow Python tutorials
 
 BSSw Fellow Marisol García-Reyes developed an online tutorial that teaches how to easily access data increasingly available in the cloud (e.g., earth sciences satellite data) and analyze and visualize the data using cloud computing resources. With comprehensive examples, the tutorial provides foundations in Python programming and reproducible research using Jupyter Notebooks, Git, software citations, and cloud computing. The tutorial aims to lower the barrier to entry and broaden the community of scientists and students who have access to and can use satellite data and cloud computing resources. The tutorial is designed for those whose expertise is not satellite imagery or those who lack the necessary programming proficiency to use these data.  Learn more at:
 
@@ -42,7 +42,7 @@ _Advice for new (prospective) BSSw Fellows:_ For new fellows, my advice is keep 
 
 - - -
 
-### Increasing developer productivity and innovation through diversity and the normalization of inclusion
+## Increasing developer productivity and innovation through diversity and the normalization of inclusion
 
 According to a DOE Advanced Scientific Advisory Committee Workforce Subcommittee Letter in 2014, DOE labs are facing workforce challenges and need to develop more effective techniques to attract and sustain a full spectrum of talent. The letter also calls for new approaches to recruiting and retaining computing sciences staff, especially those from underrepresented backgrounds such as women and minorities. To address the challenge to develop, retain, and diversify the workforce, BSSw Fellow Mary Ann Leung developed and curated lessons learned and exemplar programs and activities, which the scientific software development community can adopt, adapt, and put into practice. She facilitated community discussion to scope the needs and collect best practices, and she disseminated the lessons learned in both written and presentation formats. These activities are increasing awareness and knowledge of key issues and approaches to diversity and inclusion. Learn more at:
 
@@ -75,7 +75,7 @@ _Advice for new (prospective) BSSw Fellows:_ I encourage new fellows to take adv
 
 - - -
 
-### Translating best practices in traditional software project management to research software development
+## Translating best practices in traditional software project management to research software development
 
 Both software development and scientific research are notorious for taking more time than naively expected. Research scientists typically have little training in project management, and many project management practices were developed in business or engineering contexts and include assumptions that do not work well in research. One result is that software development is often under-supported in research proposal work plans, and the quality of the output suffers. BSSw Fellow Chase Million is providing tools and techniques for generating realistic and useful software project estimates that account for the unique circumstances of scientific research. Learn more at:
 
@@ -102,7 +102,7 @@ _Advice for new (prospective) BSSw Fellows:_ If you're thinking of applying for 
 It is a very exciting time for us! As research software engineers, we already have the capability to accelerate scientific discovery. But by virtue of our good luck to be alive right now, we also have the opportunity to create the conditions--with training, cultures, institutions, opportunities, advocacy, etc.--to increase the rate at which excellent research software is generated. We can accelerate the accelerant. There's so much impactful work to be done and probably something that you can uniquely contribute, and I think that you should.
 
 - - -
-### Enabling collaborative work on scientific software through accessible, user-focused version control tutorials
+## Enabling collaborative work on scientific software through accessible, user-focused version control tutorials
 
 Version control is an essential tool for collaborative work on software, but domain scientists often lack the knowledge they need to contribute to these efforts. In a project sometimes only a handful of developers have the skills needed to work collaboratively on software, thus limiting the sustainability of software efforts that are increasingly crucial to their communities. Existing version control training materials typically focus either on the underlying theory or a comprehensive overview of version control. Such material can be inaccessible to new developers if they cannot identify what information is applicable to their specific problem. BSSw Fellow Amy Roberts developed accessible, user-focused tutorials on version control that give scientists the information they need to contribute to shared software. The version control tutorials center around common user stories and directly address how a scientist should interact with version control to work collaboratively in common science scenarios. Art that illustrates broader ideas will be tested along with the tutorials to help new users translate everyday concepts into the equivalent version control terminology. Learn more at:
 
@@ -132,11 +132,11 @@ _Advice for new (prospective) BSSw Fellows:_
 
 - - -
 
-### Learn more about the BSSw Fellowship Program
+## Learn more about the BSSw Fellowship Program
 
 BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship), including ongoing work of the 2022 BSSw Fellows. We will begin accepting applications for 2023 BSSw Fellowships during mid-August 2022. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
 
-### Author bio
+## Author bio
 
 Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp) team, and a researcher in the [Advanced Technologies Group at NERSC/LBNL](https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/hai-ah-nam/).  Her scientific career spans four DOE national laboratories (LLNL, ORNL, LANL, LBNL), where she has contributed to work in low-energy nuclear physics, computational physics, high performance computing, and research scientific software development.  Hai Ah’s current research interests include emerging technologies for the HPC ecosystem, with a focus on AI/ML capabilities.
 

@@ -14,7 +14,7 @@ This article is cross-posted from [de-RSE.org](https://de-rse.org/blog/2024/10/0
 
 Only a little over a decade ago, the term Research Software Engineer (RSE) didn’t exist. Now we find ourselves in a position where the term is increasingly widely accepted and research institutions are hiring RSEs to provide the vitally important skills that they need to support and undertake modern research.
 
-### What defines an RSE?
+## What defines an RSE?
 
 So what, or who, exactly is an RSE? Ask three people for a definition of RSE, and aside from the common words “software” and “research”, you’re likely to get three different answers! This is because the space in which RSEs work, and the work that they might do, is not always straightforward to define, and so are their foundational competencies.
 
@@ -22,7 +22,7 @@ RSEs inhabit a previously “hidden space” - the wide gap between the work of 
 
 Generic definitions of an RSE can be helpful - a common such definition generally highlights that “an RSE is someone who applies specialist software development skills to support and undertake research tasks”. Nonetheless, while not incorrect, this definition masks a vast amount of complexity that warrants a greater discussion.
 
-### The foundational competencies of an RSE
+## The foundational competencies of an RSE
 
 Given this complicated and rapidly developing space, the authors of [arXiv:2311.11457](https://arxiv.org/abs/2311.11457) (now for open peer-review at [F1000Research](https://doi.org/10.12688/f1000research.157778.1)), the teachingRSE collaboration, set out to better understand and to identify the foundational competencies of a Research Software Engineer.
 
@@ -36,11 +36,11 @@ After defining the foundational competencies, the authors consider career levels
 
 Finally, focusing on the fact that RSEs can have a range of very different roles, the authors look at RSE specialisations, highlighting a number of different roles that RSEs might hold that involve the application of specialist knowledge in related areas. This includes domain-specific RSEs, who have, and use, specialist research domain knowledge, in addition to technical skills. The authors also describe a number of other technical specialisations including data, infrastructure, High Performance Computing and Machine Learning-focused RSEs.
 
-### Find out more, join the discussion
+## Find out more, join the discussion
 
 The [pre-print](https://arxiv.org/abs/2311.11457) has been adopted as the second official position paper of [de-RSE](https://de-rse.org/en/positions.html). As part of the goal to further develop the discussion on this work, to take the findings to a wider audience, and develop further research in this area, the authors are also exploring journal publication options for the final version of the paper. If you’d like to join the teachingRSE collaboration and participate in the discussions and future work, get in touch with find our contact details in our [github repository](https://github.com/the-teachingRSE-project/competencies).
 
-### Author bios
+## Author bios
 
 The teachingRSE project has been working on the associated full and more complete publication in [F1000Research](https://doi.org/10.12688/f1000research.157778.1) since 2023. The project was initiated by Heidi Seibold who came up with the original idea for the deRSE23 workshop in Paderborn. Heidi was joined by Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke to organise the initial deRSE23 workshop. Over the course of further workshops like the un-deRSE23 workshop in Jena, and the deRSE24 in Würzburg, the content of the paper was further refined and we are grateful to all participants! In addition to the workshops the ideas were further developed during weekly meetings led by Florian Goth, together with the authors of the [F1000Research](https://doi.org/10.12688/f1000research.157778.1) paper, Renato Alves, Matthias Braun, Leyla Jael Castro, Gerasimos Chourdakis, Simon Christ, Jeremy Cohen, Stephan Druskat, Fredo Erxleben, Jean-Noël Grad, Magnus Hagdorn, Toby Hodges, Guido Juckeland, Dominic Kempf, Anna-Lena Lamprecht, Jan Linxweiler, Frank Löffler, Michele Martone, Moritz Schwarzmeier, Heidi Seibold, Jan Philipp Thiele, Harald von Waldow, and Samantha Wittke. The group gained more recognition, and the teachingRSE project is now an official working group of the de-RSE society and the special interest group on research software of the German Informatics Society (GI).
 

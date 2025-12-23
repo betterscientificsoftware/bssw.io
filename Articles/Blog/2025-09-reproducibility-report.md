@@ -47,7 +47,7 @@ Secondly, the challenge is how to create that digital library of experiments we 
 
 And lastly, some of the insights gained from the workshop are immediately actionable for my group. For example, we now have pilot projects in using AI to create experimental environments. If we can have some clever AI take on the complexities of environment configuration, that would make a huge difference to how well and how easily we can reproduce experiments; that would really put practical reproducibility within reach. It would make a huge difference also to how experiments are constructed in the first place, the general methodology. Considering where we are now, even a prototype that works a fraction of the time but is easy to try would be of help, and I think many would be willing to try. We are looking at many other recommendations from the workshop: many motivate new tools that could significantly improve experimentation. 
 
-### Further information
+## Further information
 
 Kate's earlier blog article laying out some of the motivations for the workshop: [Practical Reproducibility: Building a More Robust Research Ecosystem](/blog_posts/practical-reproducibility-building-a-more-robust-research-ecosystem).
 
@@ -57,7 +57,7 @@ The [workshop report](https://repeto.cs.uchicago.edu/resources/report2024/).
 
 [Artifact checklists](https://reproduciblehpc.org/assets/check-lists/).
 
-### Author and interviewer bios
+## Author and interviewer bios
 
 [Kate Keahey](https://cs.uchicago.edu/people/kate-keahey) is one of the pioneers of infrastructure cloud computing. She created the [Nimbus project](http://www.nimbusproject.org/), recognized as the first open source Infrastructure-as-a-Service implementation, and continues to work on research aligning cloud computing concepts with the needs of scientific datacenters and applications. To facilitate such research for the community at large, Kate leads the [Chameleon project](http://www.chameleoncloud.org/), providing a deeply reconfigurable, large-scale, and open experimental platform for computer science research. To foster the recognition of contributions to science made by software projects, Kate co-founded and serves as co-Editor-in-Chief of the [SoftwareX journal](http://www.journals.elsevier.com/softwarex/), a new format designed to publish software contributions. Kate is a Scientist at Argonne National Laboratory and a Senior Scientist at The University of Chicago Consortium for Advanced Science and Engineering (UChicago CASE).
 

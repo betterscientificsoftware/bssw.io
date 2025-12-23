@@ -11,8 +11,8 @@ Tools such as OpenMP and CUDA are helping scientific applications achieve perfor
 As applications begin to enable performance portability through the use of
 tools such a OpenMP and Compute Unified Device Architecture (CUDA), they may encounter issues related to compatibility of tools used by different libraries they depend on. This short document describes known incompatibilities between performance portability tools, as well as cases of successful interoperation between such tools.
 
-### Threading Tools
-#### Thread Pool Incompatibilities
+## Threading Tools
+### Thread Pool Incompatibilities
 
 OpenMP is a standard which describes an interface to a thread pool.
 Different compilers such as GNU and Intel have different implementations of thread pools.
@@ -26,7 +26,7 @@ for the hardware thread resources.
 This contention may be somewhat manageable if, while one thread pool executes,
 the threads from all other thread pools are idle, but this is still a precarious situation.
 
-#### Same-Compiler OpenMP is Compatible
+### Same-Compiler OpenMP is Compatible
 
 What is compatible is for different software packages to all be compiled with the same
 compiler and all use OpenMP directives.
@@ -39,12 +39,12 @@ the nesting should be properly handled without overloading hardware resources.
 Finally, each package is free to use a subset of the available threads depending on what
 is optimal for that package.
 
-### GPU Tools
+## GPU Tools
 
 Normal OpenMP threading is compatible with CUDA, and there are known examples of codes that use both at the same time. However, OpenMP added a target offload capability which can make use of GPUs, and some implementations of OpenMP target offload are incompatible with CUDA, because they each set up conflicting CUDA contexts. OpenACC, on the other hand, should be compatible with CUDA, in part because they are both
 developed by NVIDIA.
 
-### Higher-Level Tools
+## Higher-Level Tools
 
 There are higher-level tools available including OCCA, Kokkos, and RAJA.
 These tools make use of more fundamental tools like OpenMP and CUDA, and so their

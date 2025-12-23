@@ -8,7 +8,7 @@
 This article provides a look at the software engineering practices behind MPICH, the widely-used MPI implementation that received the 2024 ACM Software System Award, the first software package from the scientific computing community to do so.
 <!-- end deck -->
 
-### Introduction
+## Introduction
 
 In high-performance computing, MPI is known as the de facto standard
 programming model for parallel applications. In the era before MPI, HPC
@@ -32,7 +32,7 @@ TCP/IP, and Java. In this article, we look at some of the key
 aspects of MPICH's success as a software project and how the MPICH
 developers have sustained the project for more than 30 years.
 
-### Origins and evolution
+## Origins and evolution
 
 The MPICH project began during the development of the MPI-1 Standard and
 closely tracked its evolution before initial publication. MPICH was
@@ -65,7 +65,7 @@ keeping them in a separate fork or closed source. The resulting ecosystem
 empowers users to build and use the latest MPICH not only on laptops and
 workstations but also on many of the top HPC systems in the world.
 
-### Sustainability practices
+## Sustainability practices
 
 MPICH is a large software project consisting of hundreds of thousands of
 lines of code written over 30+ years. The core development team at
@@ -74,7 +74,7 @@ participate in the project as their sole effort. Code maintainability,
 therefore, is of critical importance. What does that mean for MPICH, and
 how do we achieve it?
 
-#### Revision control
+### Revision control
 
 [Revision control](https://bssw.io/items/what-is-revision-control) is essential for developing a large
 software project like MPICH. Often, with multiple developers working on
@@ -105,7 +105,7 @@ of the main repository, it lives in a [separate repo](https://github.com/pmodels
 historical purposes. Perhaps if/when Git is overtaken in popularity by
 another revision control system, the history can once again be combined.
 
-#### Issue tracking
+### Issue tracking
 
 Hand in hand with revision control is [issue
 tracking](https://bssw.io/items/what-is-issue-tracking). MPICH has relied on issue tracking software
@@ -142,7 +142,7 @@ extended period. Today, users can find the latest MPICH
 development and releases all in one place using the same workflows
 common to many open source projects.
 
-#### Pull requests
+### Pull requests
 
 For changes to the MPICH source code, we use a pull request workflow
 typical of many of today's projects. Before we can approve a pull
@@ -177,7 +177,7 @@ our documentation are *[coding standards](https://github.com/pmodels/mpich/blob/
 state in clear terms how MPICH code should be written to help both the
 author and the reviewer know what is acceptable.
 
-#### Design for extension
+### Design for extension
 
 Emphasizing maintainability allows MPICH the flexibility needed to be a
 vehicle for extension. For example, MPICH partners may wish to extend
@@ -199,13 +199,13 @@ and can easily be plugged into a machine-dependent module. Developers
 need only implement the pieces of software that matter most for their
 users.
 
-### Community engagement
+## Community engagement
 
 Maintaining code is a challenge unto itself, but so is knowing what code
 to write in the first place. For MPICH, community participation is
 crucial to ensuring that the software we produce is in demand.
 
-#### Mailing lists
+### Mailing lists
 
 Even before the advent of revision control systems and issue trackers,
 email was widely used by open source developers to conveniently share
@@ -225,7 +225,7 @@ users and developers now go directly to GitHub. Nevertheless, for those
 who either do not have GitHub accounts or prefer to work over email,
 the lists remain a useful option.
 
-#### MPI Forum
+### MPI Forum
 
 MPICH developers have participated in the MPI standardization process
 since the beginning. The [MPI Forum](https://www.mpi-forum.org) continues meeting to this
@@ -241,7 +241,7 @@ work, and help publicize activities of the forum with the broader MPI
 user community. Our deep involvement in the forum continues the work
 started during the origins of the project.
 
-#### MPICH community
+### MPICH community
 
 The MPICH distribution model has historically been vendor-driven. The
 core MPICH team puts out new releases, and our downstream partners typically
@@ -271,7 +271,7 @@ interactions help us be aware of any external issues and plan
 developments to address key issues or features in demand by the
 community.
 
-#### MPICH in production
+### MPICH in production
 
 Funding for MPICH development primarily comes from the Department of
 Energy's Advanced Scientific Computing Research (ASCR) program. MPICH
@@ -305,7 +305,7 @@ Aurora. These tests monitor MPICH changes for regression in both
 correctness and performance, leading to more stable and consistent
 performance of the machine for users.
 
-### Conclusion
+## Conclusion
 
 There are no secrets to MPICH's success that led to its selection as the
 2024 ACM Software System Award winner. As discussed, the principles of
@@ -328,7 +328,7 @@ de facto standard programming model for scientific software. We are
 grateful to everyone who has contributed to the software over the years
 and look forward to its continued success in the years to come.
 
-### Author bio
+## Author bio
 
 Ken Raffenetti is a research software engineer in the Mathematics and
 Computer Science Division at Argonne National Laboratory. He received
