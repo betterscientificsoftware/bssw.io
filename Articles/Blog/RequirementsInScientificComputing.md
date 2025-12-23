@@ -14,7 +14,7 @@ Special emphasis is given to the requirements process because it is well known t
 Nevertheless, numerous studies have found that scientific software developers, as a rule, do not produce requirements documents (Segal 2005, Segal 2009, Sanders and Kelly 2008, Li et al. 2011, Heaton and Carver 2015). There are several reasons for this situation, perhaps the greatest one being that researchers simply don't know how. Many scientific software projects are exploratory in character, and the requirements are discovered in the course of development. Trying to produce complete, well-articulated requirements upfront would be an exercise in futility. However, with some considerations and adaptations, readers will find that requirements engineering techniques can yield tremendous benefits.
 
 
-### Understanding Requirements for Scientific Software
+## Understanding Requirements for Scientific Software
 
 In the broadest terms, a requirement is a condition or capability that a software product ought to have. However, by this definition, virtually anything could be considered a requirement. Moreover, because requirements are often subject to change and not all can be known in advance, the name itself can seem misleading. Rather, as a starting point, requirements should be understood as *a device for communication between stakeholders*. Codifying requirements presents an opportunity for everyone involved to express their needs, wants, and expectations for the software. For the customer, that establishes a traceable, verifiable contract against which the software product can be compared, and for the developer, it informs the design specification and the implementation. 
 
@@ -26,7 +26,7 @@ Ralph Young, author of *The Requirements Engineering Handbook*, enumerates crite
 
 In other words, a requirements document is neither a wish list nor a design document, but rather an instrument that explicitly connects the needs of stakeholders to the software product that satisfies them.
 
-### Classifying and Characterizing Requirements
+## Classifying and Characterizing Requirements
 
 The goal of scientific software is to enable researchers to pose and answer scientific questions. This can give the impression that the requirements will be self-evident: the software needs to solve, process, simulate, interpolate, or analyze the object of study. However, high-level, abstract statements of purpose do not fulfill the criteria we have laid out, and they do not readily translate to solutions. Rather, we must decompose the goals of the software into smaller, more concrete units. There are numerous ways of categorizing the resulting requirements, but we will begin by dividing them into two broad categories:
 
@@ -38,11 +38,11 @@ For functional requirements, the words "specific" and "fundamental" should carry
 Meanwhile, explicitly documenting non-functional requirements is important because maximizing quality in every sense is impossible. This is both because a perfect product is too expensive and time-consuming to build, and more importantly because there can be many competing or mutually exclusive measures of quality. Portability conflicts with reliability, maintainability supports reliability but rarely efficiency, and adding functionality strains usability.
 
 
-### Writing Requirements for a Scientific Software
+## Writing Requirements for a Scientific Software
 
 Gathering requirements and charting them down is a typical process in any kind of software development. In this section, we walk-through some examples of different kinds of requirements and understand how to write them. 
 
-#### Technological Requirements on Data Types 
+### Technological Requirements on Data Types 
 
 Some functional requirements can be technological requirements; that is, there are particular constraints on the technologies that are employed in the solution. This is a common situation in the scientific computing world, which operates on the ever-changing cutting edge of hardware and software. For example, a team developing a tool to simulate ice sheet dynamics needs to translate geometry data provided by glaciologists to construct a mesh. That data is most often stored in a NetCDF format, and the team might write a requirement like the following:
 
@@ -52,7 +52,7 @@ The requirement is specific and fundamental. However, we can identify several am
 
 > **Description**: The product shall support data input both in NetCDF-3.6.0+ and NetCDF-4.0+ formats.
 
-#### Ease of Installation
+### Ease of Installation
 
 One barrier to usability of scientific software applications is the need to build and configure the complex software stacks that support them. To reach a wider audience and remain relevant, a team may want to make their software as easy to install as possible. This leads to a nonfunctional requirement:
 
@@ -74,7 +74,7 @@ Having to establish the scope on nonfunctional requirements is a key benefit of 
 
 Thus, its important for requirements to be clearly defined, be un-ambiguous and as specific as possible, so as to ensure that correct expectations about the software are conveyed to all stakeholders and that the resulting product is well-defined, complete and functions as expected.
 
-### Executing the Requirements Engineering Process
+## Executing the Requirements Engineering Process
 In this section, we elaborate on the requirements process - which encompasses the discovery and documentation of requirements. No single methodology exists for requirements engineering. The process can be sequential or iterative. It may target internal or external users. The requirements documentation needs for, say, a web service framework are radically different from those for avionics software. In any case, a full treatment of requirements engineering praxis goes beyond the scope of this article. Instead, we outline the four common steps involved. 
 
 - **Requirements Elicitation**: Gathering data on the needs and wants of stakeholders.
@@ -93,10 +93,10 @@ How should the requirements process be carried out in the context of a scientifi
 
 Because of these factors, one should ensure that the requirements process is being thought of not as a singular event but as an ongoing activity that spans the lifecycle of the scientific product.
 
-### Author bio
+## Author bio
 Reed Milewicz is a Computer Scientist and Software Engineering Researcher in the Department of Software Engineering and Research at Sandia National Laboratories. His research focuses on developing better practices, processes, and tools to improve software development in the scientific domain. He leads software science research efforts within his department and is a member of the Interoperable Design of Extreme-Scale Application Software (IDEAS) project, where he is part of the Productivity and Sustainability Improvement Planning (PSIP) team.
 
-### Citations
+## Citations
 - John S Reel. Critical success factors in software projects. *IEEE Software*, 16(3):18–23, 1999.
 - Jairus Hihn and Hamid Habib-Agahi. Cost estimation of software intensive projects: A survey of current practices. In *Proceedings of the 13th international conference on Software engineering*, pages 276–287. IEEE Computer Society Press, 1991.
 - Hamid Habib-Agahi, Shantanu Malhotra, and James Quirk. Estimating software productivity and cost for NASA projects. *Journal of Parametrics*, 11(1):59–71, 1991.

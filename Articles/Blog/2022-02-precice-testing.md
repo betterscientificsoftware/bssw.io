@@ -13,7 +13,7 @@ Well ... Testing starts to become challenging when one needs multiple software c
 
 This article explores the some of the challenges we've faced in testing the preCICE coupling library and technical solutions we've used, which we believe would also be useful for testing other parallel C++ libraries with similar requirements.
 
-### Maintaining research software
+## Maintaining research software
 
 The [preCICE](https://precice.org/) project aims to provide an ecosystem of tools to assemble partitioned multiphysics simulations.
 The core of this ecosystem is the open-source coupling library itself, which
@@ -38,7 +38,7 @@ The solution sounded simple: migrate to a sustainable testing framework, make te
 What started five years ago is an ongoing journey and nothing we had ever imagined.
 In this article, we want to tell you where we are today, how we got there, and what we have learned on the way.
 
-### The challenge
+## The challenge
 
 Testing the preCICE library has always been a challenge, mainly due to a combination of intrinsic complexities stemming from the nature of coupled simulations.
 Individually, these special features do not sound daunting or unusual.
@@ -54,7 +54,7 @@ Finally, the preCICE project has been around for some years;
 its code-base predates the C++11 Standard Template Library (STL), and portions followed outdated paradigms.
 Efficiently modernizing such code requires a good test suite and confidence in the correctness of the code, which needed to be established first.
 
-### Choosing a sustainable test system
+## Choosing a sustainable test system
 
 Originally, preCICE used the testing functionality of the [Peano framework](https://gitlab.lrz.de/hpcsoftware/Peano/), which was part of a larger in-house utility library called tarch (technical architecture).
 A copy of tarch was directly included in the source of preCICE. When the only developer of preCICE who also developed tarch left the team, the testing framework became an abandoned part of preCICE.
@@ -76,7 +76,7 @@ Unit tests that do not utilize a communicator ignore MPI altogether.
 Higher-level (i.e., integration) tests may split and resize `MPI_COMM_WORLD` as needed and are responsible to cleanup afterwards.
 As is often the case, simple solutions like this work, but sooner or later, they are challenged by unforeseen consequences. 
 
-### Managing global resources
+## Managing global resources
 
 preCICE internally used a singleton style to manage global resources such as MPI or the logging system.
 If a single test changes this global state and omits its cleanup, then this global state leaks into successive tests. 
@@ -91,7 +91,7 @@ Some parallel tests would hang or fail due to receiving incorrect data from stal
 Debugging tests turned into a chore and often required experts in multiple components to find potential overarching issues.
 While extensive testing improved the overall confidence in the correctness of code, it became a burden whenever things went wrong without obvious reasons.
 
-### Unifying unit tests
+## Unifying unit tests
 
 We realized that we needed a uniform system that would allow us to define the _scenario_ of a test.
 As an example scenario, let us consider a test using an MPI communicator with two ranks.
@@ -173,7 +173,7 @@ BOOST_TEST(ParallelPETScFeature) {
 At this point, we can write expressive unit tests using our new framework, which selects, initializes, and synchronizes all ranks required for the tests.
 Furthermore, this system executes cleanup reliably at the end of the test.
 
-### Unifying integration tests
+## Unifying integration tests
 
 Integration tests check features from the user perspective, relying primarily on the API of preCICE.
 The main difference from unit tests is the partitioned nature of integration tests.
@@ -248,7 +248,7 @@ BOOST_TEST(FSIWithParallelFluid) {
 }
 ```
 
-### Impact on usability and debuggability
+## Impact on usability and debuggability
 
 This testing system has had a wide-ranging impact on the core library, which can be grouped into two key areas.
 
@@ -264,7 +264,7 @@ Synchronization points at the beginning of the tests keep all ranks in a constra
 The consistent setup now guarantees a well-defined global state, which does not leak between tests anymore.
 The remaining issue is leftover entries in receive and send buffers, which are now possible only if a test silently fails.
 
-### Outlook
+## Outlook
 
 While testing the preCICE library has converged to a uniform system, an approach for testing the whole preCICE ecosystem effectively is still unclear.
 The additional software layers and dependencies make this a far more complex matter.
@@ -284,12 +284,12 @@ But, the question still remains: What are efficient ways to test the complete ec
 These are all open questions that we would like to defer to a future article.
 Thankfully, the increasing stability of the core library frees up development time that can be used to tackle these issues and write about the journey of solving them.
 
-### Additional information
+## Additional information
 
 If you are interested in more details, please check out section 5 of the new [preCICE reference paper](https://arxiv.org/abs/2109.14470).
 You may also be interested in the [preCICE Workshop 2022 (Feb 21-25)](https://precice.org/precice-workshop-2022.html) for a hands-on experience with preCICE. 
 
-### Author bios
+## Author bios
 
 Frédéric Simonis is a researcher at the Technical University of Munich and core developer of preCICE. Following his interests, he has progressed from computer graphics and main-memory database systems to HPC, where he joined the preCICE project. His primary research goal is the extension of preCICE to adaptive meshes to support adaptive solvers as well as run-time re-meshing. He currently takes the leading role in maintenance, code modernization and release management of the preCICE library.
 

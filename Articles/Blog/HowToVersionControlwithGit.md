@@ -8,24 +8,24 @@
 This article provides an overview of the usage of Git for a CSE project (but is also applicable to other types of projects). Topics covered include basic git setup, tips on learning git, basic tips for using git, and git workflow building blocks.
 <!-- deck text end -->
 
-### Overview
+## Overview
 The distributed version control system Git can be used to establish effective development and integration processes. Achieving this objective requires a basic understanding of Git usage and development workflows.
 
-### Target Audience
+## Target Audience
 CSE software project leaders and developers who would like to adopt an appropriate and efficient version control workflow using Git for their software-intensive projects.
 
-### Purpose
+## Purpose
 Describe the basic setup and usage of Git, and outline the different basic building blocks for constructing effective workflows for single software source Git repositories.
 
-### Prerequisites
+## Prerequisites
 First read the document [What Is Version Control](./WhatIsVersionControl.md).
 
-### Basic Git Setup
+## Basic Git Setup
 Before using Git on a new machine, perform the following minimal setup:
 * [Set up minimal Git settings for your account, including “user.name,” “user.email,” “color.ui,” “push.default,” and “rerere.enabled”](/items/critical-beginner-git-usage-tips) [1].
 * Install scripts locally for the Git shell prompt ([git-prompt.sh](https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh)) and Git tab completion  ([git-completion.bash](https://raw.github.com/git/git/master/contrib/completion/git-completion.bash)), and add them to your shell (see documentation in the scripts).
 
-### Learn to Use Git
+## Learn to Use Git
 
 Understanding Git from an algorithms and data-structure perspective, rather
 than just learning commands, can increase software quality and developer productivity.
@@ -34,7 +34,7 @@ than just learning commands, can increase software quality and developer product
 * Search Google for specific issues. StackOverflow often has an exact solution.
 
 
-### Basic Tips for Using Git
+## Basic Tips for Using Git
 
 The following basic guidelines and tips apply to all Git workflows [1].
 * Format commit messages using an approximate 50-char summary line, followed by a blank newline, then (optionally) longer explanatory text in paragraphs up to 72 chars wide [5].
@@ -46,7 +46,7 @@ The following basic guidelines and tips apply to all Git workflows [1].
 * Never force push to a remote shared branch using “git push -f’” unless you and everyone else sharing the branch know what this means. Know how to protect branches in your git hosting system of choice.
 * Create local “checkpoint” commits and then cleanup commits with “git rebase -i @{u}” before pushing to a remote shared branch (be careful not to rebase public commits).
 
-### Git Workflow Building Blocks
+## Git Workflow Building Blocks
 
 When choosing or constructing a Git-based workflow, start with
 the simplest workflow that meets the project's needs and is appropriate to the level of current Git
@@ -80,7 +80,7 @@ source code itself (i.e., “git.git” [4]) and the Linux kernel. However, beca
 workflow is complex and labor-intensive, its use is justified only for projects where all the
 developers are Git savvy and the project’s challenges justify its usage.
 
-### Citations
+## Citations
 
 1. [Critical Beginner Git Usage Tips](https://bssw.io/items/critical-beginner-git-usage-tips), Roscoe Bartlett.
 2. [Git Tutorial and Reference Collection](https://bssw.io/items/a-tutorial-and-reference-collection-for-git), Roscoe Bartlett. 

@@ -4,7 +4,7 @@
 
 #### Publication date: July 29, 2019
 
-### Introduction
+## Introduction
 
 The importance of writing and maintaining strong automated tests for software is well established in the modern software engineering community (and, in fact, tests will be written before the code when using test-driven development, TDD).
 But does it always pay off to write automated tests for some piece of code?
@@ -26,7 +26,7 @@ However, there were also times where my overzealous drive to religiously test ev
 And having followed this road from 2007 until now (having written and maintained thousands of automated tests over that time period), I have come to realize that while in the majority of cases writing automated tests is necessary or overwhelmingly beneficial, alternatively there are cases when it is actually better (all things considered) not to write automated tests for some pieces of software
 (or to hold off in writing automated tests for the moment).
 
-### Criteria for when writing automated tests may not pay off
+## Criteria for when writing automated tests may not pay off
 
 In deciding whether to write automated tests for a piece of software, one should consider the following questions/criteria:
 
@@ -48,7 +48,7 @@ For example, let's apply the criteria to the case of some bash scripts used loca
 
 For locally run scripts of this type, it is often not worth the investment to write automated tests.
 
-### An example of where automated tests should have been added
+## An example of where automated tests should have been added
 
 A critical point worth remembering is that if some scripts are being used to automate an important process such as deploying the software to users, where not performing the task correctly would cause nontrivial harm, then one should write some automated tests to protect the critical functionality of the scripts.
 Or, if other people are running the scripts and it will not be obvious to them that a failure has occurred or they will not know how to fix it quickly, then one should likely write some automated tests for such scripts.
@@ -61,19 +61,19 @@ The lesson is that many *scripts* may actually need to be considered *software* 
 Just because some piece of software is written in bash or Python does not mean it can be dismissed as "scripts" and avoid any automated testing.
 And just because it is harder to write automated tests in some languages like bash than in others like Java, that is not an excuse for not writing automated tests.  One can write automated tests in any Turing-complete language.
 
-### Notes
+## Notes
 
 If the first four criteria above are satisfied but it is not too hard to write automated tests, then often one should write them anyway because it will make the code easier extend and to maintain.
 Adjectives like "minor," "obvious," "easy," and "hard" are all subjective and do not have precise definitions.
 For example, while one person might consider these five criteria as "minor," "obvious," "easy," "easy," and "hard," another person might consider them "significant," "nonobvious," "not easy," "painful," and "tractable."
 In particular, if one does not know the sensing, separation, and fake collaborators strategies for unit testing described in *Working Effectively with Legacy Code*, then one might think that adding automated tests for a piece of software is "hard" while another more knowledgeable or experienced developer might consider adding tests for that piece of software to be quite tractable.
 
-### Summary
+## Summary
 
 While writing a high-quality automated test suite for a piece of software  often pays off (i.e., reducing initial development costs and improving long-term maintenance), in some situations it does not.
 If the five criteria listed here are satisfied, then it is often better not to write automated tests and instead do manual testing when any changes are made to the code.
 
-### Disclaimer
+## Disclaimer
 
 Please do not use this blog article as an excuse for not writing automated tests for some piece of software by trying to convince yourself that the damage done by defects will be "minor," any failures will be "obvious," or the defects will be "easy" for anyone to fix.
 You might think that; but your users, stakeholders, and other developers (who will need to maintain this software) may not feel the same way.
@@ -81,7 +81,7 @@ So please use discretion when applying these criteria to some piece of software 
 
 <br>
 
-### Author bio
+## Author bio
 
 [Roscoe A. Bartlett](https://bartlettroscoe.github.io) is a computational scientist and engineer in the [Center for Computing Research](https://www.sandia.gov/ccr/) at [Sandia National Laboratories](https://sandia.gov).
 Roscoe is a long-time contributor to the [Trilinos project](https://trilinos.org) and is currently working on various subprojects in the [Exascale Computing Project](https://www.exascaleproject.org/) including [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/).
@@ -111,7 +111,7 @@ Pinned: no
 [2]: #sfer-ezikiw-2 "Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software"
 [3]: #sfer-ezikiw-3 "Roscoe A. Bartlett Software Engineering Reading List"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Feathers, Micheal C. Working Effectively with Legacy Code.  Prentice Hall, 2004, ISBN: 0131177052](https://bssw.io/items/working-effectively-with-legacy-code/)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Overview of the TriBITS lifecycle model: A Lean/Agile software lifecycle model for research-based computational science and engineering software](https://doi.org/10.1109/eScience.2012.6404448)

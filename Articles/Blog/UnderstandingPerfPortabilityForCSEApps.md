@@ -70,13 +70,13 @@ data parallelism and memory access patterns. Nvidia is taking a similar approach
 languages (DSLs) that map code to the different backend languages such as CUDA and OpenMP, for example
 PyOP2. These DSLs create a portable code across multicore architectures, but they are limited to one specific problem domain.
 
-### FAQ:
+## FAQ:
 **Q:** I use my code only on a local cluster, so why should I worry about performance portability?
 **A:** In the past, nodes of the cluster were relatively uniform, and the parallel programming model
 was distributed programming. Now, heterogeneity is coming even at the node level, so
 performance portability is everyone’s problem.
 
-### Note: 
+## Note: 
 
 This document was prepared by the author with key contributions from Todd Gamblin, Michael A. Heroux, Irina Demeshko, and Barry Smith. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific Computing Research and Biological and Environmental Research programs.
 

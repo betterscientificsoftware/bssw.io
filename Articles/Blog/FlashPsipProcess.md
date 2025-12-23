@@ -20,7 +20,7 @@ of necessary modifications and the path to implementing these are more
 challenging with this latest shift because the codes are much larger and more
 heterogeneous themselves.
 
-### FLASH refactoring overview
+## FLASH refactoring overview
 [FLASH](https://iopscience.iop.org/article/10.1086/317361) is a large and complex multiphysics and multiscale code that has been in
 public release since 2000.  FLASH has undergone two major revisions in the past
 to build an extensible and flexible infrastructural framework with the goal of
@@ -43,10 +43,10 @@ operations, which the old adaptive mesh refinement (AMR) library, Paramesh,
 simply does not.  The fine details of this refactoring effort have already been
 described elsewhere by O'Neal, Dubey, and Weide (2018).<sup>[1]</sup>
 
-### PSIP and FLASH
+## PSIP and FLASH
 While working on this effort, we were introduced to the [Productivity and Sustainability Improvement Planning (PSIP)](https://bssw.io/psip) process, which is developed and promoted by the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/) project.   PSIP is itself a work in progress that is becoming a useful methodology for improving productivity and software sustainability.  We now recognize that the fundamental philosophy of our process aligns well with that of PSIP – take stock of where the project is and make changes in small, well-planned, and manageable steps.  Because of this similarity, we are able to map retroactively our process for improving two development processes onto PSIP and discuss how we may have used PSIP to improve our productivity and the quality of our work.
 
-### Refactoring and testing
+## Refactoring and testing
 
 The first improvement addressed the need to grow our test suite and to improve techniques for documenting how the test suite evolves in response to changes in the software.  This work has been retroactively represented by a PSIP [progress tracking card](https://bssw.io/psip) (PTC) for verification coverage and test-suite management, shown in Figure 1.  This work was linked to the effort to refactor the mesh management component of FLASH to work with AMReX, so that we could address perceived barriers to correctly and productively achieving this goal.  The need for this process improvement is best understood through explaining our plan of attack for the refactoring.
 
@@ -63,7 +63,7 @@ In addition to these changes to the test suite, we identified the need to improv
 
 Since this refactoring was large and complicated, we appreciated the incremental nature of making improvements, which is in accord with the PSIP methodology.  For instance, as we were working on items 1 and 2, we could use the experience of writing more tests and adding these to the test suite to try out potential protocols for documenting the history of changes to baselines.  However, we did not feel pressured to work on item 5 until the refactoring effort was nearly finished and we had learned enough from these experiments.  While this approach meant that we might not record the full history of the test suite, the process allowed us to manage carefully the amount of work we were undertaking, as well as the complexity of the work, at any point in time.
 
-### Git workflow
+## Git workflow
 
 Because we decided to transition the management of our code to git, the second improvement related to designing and evolving a test-driven git workflow so that we could improve the collaboration that occurs when team members integrate work developed in parallel through a revision control system.  Rather than adopt a full-featured and possibly excessive workflow, we started simple and added capabilities as needed.  This incremental process has been retroactively represented by the PSIP progress tracking card (PTC) for git workflow shown in Figure 2.
 
@@ -88,7 +88,7 @@ For more resources on PSIP, please refer to the following articles on the BSSw.i
 - [Adopting Continuous Integration for Long-Timescale Materials Simulation](https://bssw.io/blog_posts/adopting-continuous-integration-for-long-timescale-materials-simulation)
 
 
-### Author bios
+## Author bios
 Anshu Dubey is a computer scientist in Argonne National Laboratory’s Mathematics and Computer Science Division. She is the primary software architect for the FLASH code. She is interested in all aspects of scientific software development and has largely been responsible for the establishing FLASH's software process.
 
 Jared O’Neal is a scientific software programmer/developer in Argonne National
@@ -117,6 +117,6 @@ Pinned: no
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "Experience report: Refactoring the mesh interface in FLASH, a multiphysics software"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Experience report: Refactoring the mesh interface in FLASH, a multiphysics software](#ref1)

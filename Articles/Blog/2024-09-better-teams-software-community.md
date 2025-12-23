@@ -26,14 +26,14 @@ Her ultimate goals for the toolkits are to improve the way people work together 
 
 For researchers and scientists considering applying for the BSSw Fellowship, Dr. Newton offers this: “Don’t be scared to put your big idea out there. There are people in this BSSw community who want to go there with you and can support you.” She adds, “Engage before you even apply, submit a contribution request, check out the monthly digest, and reach out to folks. They really care about making sure that the computing community has a positive and sustainable future.”
 
-### More info
+## More info
 Learn more about [Olivia Newton's work as a BSSw Fellow](https://bssw.io/fellows/olivia-newton).
 
 The BSSw Fellowship Program gives recognition and funding to leaders and advocates of high-quality scientific software. See the [blog post](https://bssw.io/blog_posts/applications-open-for-the-2025-bssw-fellowship-program) by Elsa Gonsiorowski, coordinator of the BSSw Fellowship Program.
 
 Application deadline: Monday, September 30, 2024; this is a firm deadline that will not be extended.
 
-### Author bios
+## Author bios
 [Heather Bourbeau](https://www.linkedin.com/in/heatherbourbeau/) is a research analyst, communications strategist, and storyteller. 
 [Sustainable Horizons Institute](https://shinstitute.org) is a partner in leading the BSSw Fellowship Program. 
 
