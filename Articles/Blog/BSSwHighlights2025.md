@@ -18,7 +18,12 @@ We are excited to carry this energy into the year ahead. Happy New Year to the e
 * [Design Systems To Help Amplify Development of Usable Scientific Software Interfaces](https://bssw.io/blog_posts/design-systems-to-help-amplify-development-of-usable-scientific-software-interfaces), D. Paine. (plan, devel)
 * [Evaluation of Research Software: The CDUR Procedure](https://bssw.io/items/evaluation-of-research-software-the-cdur-procedure), P. Grubel. (yes)
 * [Sustaining MPICH: 30+ Years of High-Performance Computing Software](https://bssw.io/blog_posts/sustaining-mpich-30-years-of-high-performance-computing-software), K. Raffenetti. (yes)
-* [User Experience Engineering in the Lifecycle of Scientific Software](https://bssw.io/blog_posts/user-experience-engineering-in-the-lifecycle-of-scientific-software),  C. O'Donnell and D. Paine. (yes)
+* [User Experience Engineering in the Lifecycle of Scientific Software](https://bssw.io/blog_posts/user-experience-engineering-in-the-lifecycle-of-scientific-software), C. O'Donnell and D. Paine. (yes)
+* [User Experience Design (UXD) in the Lifecycle of Scientific Software](https://bssw.io/blog_posts/user-experience-design-uxd-in-the-lifecycle-of-scientific-software), S. Poon, R. Deshmukh and D. Paine. (yes)
+* [What's in a Browser?](https://bssw.io/items/what-s-in-a-browser), M. C. Miller. (yes)
+* [Sunsetting Open Source Projects: Dos and Don’ts](https://bssw.io/items/sunsetting-open-source-projects-dos-and-don-ts), K. Beattie. (yes)
+* [Growing Resilient Scientific Software Ecosystems: Introducing the Software Gardening Almanack](https://bssw.io/blog_posts/growing-resilient-scientific-software-ecosystems-introducing-the-software-gardening-almanack),  D. Bunten, W. Davidson, and D. P. Way. (yes)
+* [Technical Credit](https://bssw.io/items/technical-credit), R. A. Bartlett. (plan , collab)
   
 ## Better Development:
 * [AI Tools Enable New Modes of Scientific Software Engagement](https://bssw.io/items/ai-tools-enable-new-modes-of-scientific-software-engagement), M. A. Heroux. (yes)
@@ -42,9 +47,17 @@ We are excited to carry this energy into the year ahead. Happy New Year to the e
 * [Bridging the Language Gap Between RSEs and SERs](https://bssw.io/items/bridging-the-language-gap-between-rses-and-sers), R. Gupta. (yes)
 * [Reducing Code Review Anxiety in Open Sourcing](https://bssw.io/blog_posts/reducing-code-review-anxiety-in-open-sourcing), H. Bourbeau and Sustainable Horizons Institute. (yes)
 * [Applications Open for the 2026 BSSw Fellowship Program](https://bssw.io/blog_posts/applications-open-for-the-2026-bssw-fellowship-program), E. Gonsiorowski. (yes)
-* 
+* [Ten Simple Rules for RSE–SE Researcher Collaboration](https://bssw.io/items/ten-simple-rules-for-rse-se-researcher-collaboration), R. Gupta. (yes)
+* [2024 BSSw Fellows: Projects and Perspectives](https://bssw.io/blog_posts/2024-bssw-fellows-projects-and-perspectives),  E. Gonsiorowski, D. Bunten, D. Jarecka et al. (yes)
+* [Conscious Reviewing: A Commitment to Our Community](https://bssw.io/blog_posts/conscious-reviewing-a-commitment-to-our-community),  M. Taufer and A. Dubey. (yes)
+* [Team Learning for Better Scientific Software](https://bssw.io/blog_posts/team-learning-for-better-scientific-software), O. B. Newton. (yes)
+* [Research Software Engineers in HPC (RSE-HPC-2024): A Summary of the SC24 Workshop](https://bssw.io/blog_posts/research-software-engineers-in-hpc-rse-hpc-2024-a-summary-of-the-sc24-workshop), C. Ferenbaugh, S. Gesing and S. Hettrick. (yes)
+* [Why We Need Research on Research Software Engineering](https://bssw.io/items/why-we-need-research-on-research-software-engineering), R. Gupta. (yes)
 
 ## Better Performance:
+* [Reproducibility in the Age of Approximate Computing](https://bssw.io/blog_posts/reproducibility-in-the-age-of-approximate-computing), H. Menon. (rel, plan, perf)
+* [MPI Performance Guidelines](https://bssw.io/blog_posts/mpi-performance-guidelines), K. Raffenetti.
+* [Applying the FAIR Principles to Computational Workflows](https://bssw.io/items/applying-the-fair-principles-to-computational-workflows), P. Grubel. (rel, plan, perf)
 
 ## Better Skills:
 * [Best Practices for HPC Software Developers Webinar Series)(https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series), O. Marques and D. E. Bernholdt. (yes)
