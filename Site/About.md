@@ -42,14 +42,6 @@ Patricia Grubel<br/>
 Los Alamos National Laboratory<br/>
 https://github.com/pagrubel
 
-Mark C. Miller<br/>
-Lawrence Livermore National Laboratory<br/>
-https://github.com/markcmiller86
-
-Deborah Stevens<br/>
-Argonne National Laboratory<br/>
-https://github.com/haikudeb
-
 
 ## Partners
 
@@ -60,11 +52,14 @@ https://github.com/haikudeb
 
 
 ## Editorial Team Alumni
-
+**Mark C. Miller**, Lawrence Livermore National Laboratory<br/>
+**Kasia Salim**, Argonne National Laboratory<br/>
 **Jean Shuler**, Lawrence Livermore National Laboratory<br/>
+**Deborah Stevens**, Argonne National Laboratory<br/>
 **Greg Watson**, Oak Ridge National Laboratory<br/>
 **Paul Wolfenbarger**, Sandia National Laboratories<br/>
-**Kasia Salim**, Argonne National Laboratory<br/>
+
+
 
 <!---
 Coming later: You can also <join our mailing list>, <read our blog>, and <send us mail>.
