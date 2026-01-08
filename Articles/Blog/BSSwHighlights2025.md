@@ -75,7 +75,7 @@ We are excited to carry this energy into the year ahead. Happy New Year to the e
   
 ## Building a better scientific software community through your contributions
 
-BSSw remains an open space for sharing ideas, experiences, and practical wisdom around scientific software. If you have something to share, whether an article, a blog post, a useful resource, or an event -- we welcome your contributions to the BSSw site and encourage you to join the conversation and [contribute](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software)
+BSSw remains an open space for sharing ideas, experiences, and practical wisdom around scientific software. If you have something to share, whether an article, a blog post, a useful resource, or an event -- we welcome your contributions to the BSSw site and encourage you to join the conversation and [contribute](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).
 
 Thank you to everyone who makes this community thrive. As we move into another year, we’re excited to keep learning together, supporting one another, and shaping the future of scientific software..one contribution at a time.
 
