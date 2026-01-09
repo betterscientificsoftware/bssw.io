@@ -1,7 +1,7 @@
 # Better Scientific Software: 2025 Highlights
 
 **Hero Image:**
-- <img src="../../images/Blog_bssw_2025YIR_010225.png" />[2024 Highlights]
+- <img src="../../images/Blog_bssw_2025YIR_010225.png" />[2025 Highlights]
 
 #### Contributed by [Rinku Gupta](https://github.com/rinkug "Rinku Gupta GitHub Profile")
 
