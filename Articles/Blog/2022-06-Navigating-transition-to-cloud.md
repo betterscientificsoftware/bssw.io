@@ -14,7 +14,7 @@ But who has access to these data, really?
 
 Open science, although not a new concept, has gained great popularity in recent years. In my opinion, open science needs to go beyond making publications, data, or code available --- also making them accessible, particularly to those scientists who will bring new ideas, perspectives, and skills to the table. Problems and questions that concern us all, like global climate change and its impacts, can be truly approached only with the creativity and innovation that diverse, interdisciplinary, and international teams can develop together. Those diverse scientists, however, are busy honing their unique skills and perspectives and may not be able to devote a lot of time to keeping up with the fast-growing and fast-changing innovations in the world of large data and cloud computing.
 
-## Challenges of accessing satellite data
+### Challenges of accessing satellite data
 
 Using satellite and satellite-based (reanalysis) datasets for climate and climate impact studies involves, in a nutshell, analyzing decades-long time series. Given the amount of data that exists and the formats in which data are stored (mostly one file with a global field per time step, be that day or month), extracting time series to perform climate-related analysis requires a level of computing expertise and computing resources that currently, for the most part, only climate and data scientists possess.
 
@@ -26,7 +26,7 @@ The tutorial can be found in Github (<https://github.com/marisolgr/python_sat_tu
 
 I hope you take a look at the tutorial and judge for yourself. Here, I want to share my own learning experience while making and teaching it.
 
-## Lessons learned in developing the tutorial
+### Lessons learned in developing the tutorial
 
 First of all, let me state for the record that I am not a Python expert, although I am an experienced programmer. I learned Python a couple of years ago while also learning about cloud computing, and that made developing this tutorial one of the most challenging and fun computing experiences I have ever had.
 
@@ -40,11 +40,11 @@ The final lesson learned came once I managed to run my first data acquisition sc
 
 Things are by not by any means bad. We’re making progress. During the year I worked on this project, many things changed for good. In the end, what initially seemed like a moving target ended up in a better place than I thought it would. Although data formats and storage issues are still difficult to navigate, during this year data access has improved in two ways: there are more data freely available, and there are more standardized ways to access it. In addition, cloud computing platforms like mybinder are stable enough to be consistently and reliably used. So, the pieces are falling into place. I do think we are getting close to the day when time series of satellite data and cloud computing tools are within reach of any researcher interested in using climate data in their research, regardless of their level of expertise with large data sets or computing resources. Hopefully, really close. Our planet needs their science.
 
-## Related resources
+### Related resources
 * Webinar: [Acquisition and Analysis of Times Series of Satellite Data in the Cloud – Lessons from the Field](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar063)
 * Tutorial: [Timeseries of Satellite Data using Python](https://github.com/marisolgr/python_sat_tutorials)
 
-## Author bios
+### Author bios
 
 [Marisol García-Reyes](https://github.com/marisolgr) is a principal scientist at the [Farallon Institute](http://www.faralloninstitute.org/), a nonprofit scientific organization. [Her research](http://www.faralloninstitute.org/marisol) focuses on the relationships between ocean conditions and marine ecosystems, and how they are impacted by climate. Marisol is committed to increasing equity and diversity in science and education by improving access to computational technology and increasing and broadening participation.
 

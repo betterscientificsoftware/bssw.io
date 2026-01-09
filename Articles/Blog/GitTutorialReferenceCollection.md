@@ -6,12 +6,12 @@ Navigate the complexities of Git effortlessly with targeted tutorials and refere
 <!-- deck text end -->
 
 
-## Introduction
+### Introduction
 This page provides links to some useful tutorial and reference information about the git version control system. This overview takes the view that the best way to learn to use git effectively is to learn it as a data-structure and a set of algorithms to manipulate that data-structure.
 
 This is important because the git command-line interface is widely considered to be overly complex and confusing or [just plain cruddy](https://www.atlassian.com/blog/archives/git-vs-mercurial-why-git). For example, the same git command like [‘checkout’](http://marklodato.github.io/visual-git-guide/index-en.html#checkout) can do wildly different things depending on the other arguments that are passed into the command, or the state of the git repository. But git is still currently the dominant version control system.
 
-## Links to Git Tutorial and Reference Material
+### Links to Git Tutorial and Reference Material
 
 For a full featured introduction and reference for git, a good source is the free online book:
   * [Pro Git: 2nd Edition](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
@@ -62,12 +62,12 @@ Here are some useful pages with various information about git:
    
 When in doubt, just do a Google search for what you want to know and you will likely find a great explanation for how to do it on StackOverflow (or some other site).
 
-## Git for SVN Users
+### Git for SVN Users
 If you are an existing SVN user and want to see corresponding git commands (i.e. the simple single-repo single-branch workflow), see these cheat sheets:
 
   * [Git for Subversion Users - A Cheat Sheet](https://www.git-tower.com/blog/git-for-subversion-users-cheat-sheet)
 
-## Conclusion
+### Conclusion
 Hopefully, readers can leverage the provided resources and links in this article to guide their Git journey, utilizing essential tools and insights for a successful exploration of version control and effective Git usage.
 
 <!---

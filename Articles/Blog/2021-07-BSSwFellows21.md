@@ -15,7 +15,7 @@ Despite the challenges created by the COVID-19 pandemic that created obstacles t
 
 The 2020 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of the scientific software lifecycle. As shown above, they spoke about this work during the 2021 'Virtual' Annual Meeting of the [Exascale Computing Project (ECP)](https://www.exascaleproject.org/). Here's more about what they have been up to.
 
-## Advancing practices for effective software testing, an essential activity to build error-free and trustworthy software.
+### Advancing practices for effective software testing, an essential activity to build error-free and trustworthy software.
 
 BSSw Fellow Nasir Eisty developed a hands-on tutorial entitled *Automatic Testing in Scientific Software*. The tutorial contains information on challenges, barriers, potential solutions, and unsolved problems faced while testing scientific software, along with hands-on exercises. The tutorial brings valuable practices to the scientific software community to help developers produce correct and reliable software.  Learn more at:
 
@@ -41,7 +41,7 @@ _Perspectives on the BSSw Fellowship Program:_ The BSSw Fellowship Program focus
 
 _Advice for new (prospective) BSSw Fellows:_ Try to understand the goals and the bigger picture of the BSSw Fellowship Program. Do not wait to interact with the community if you see an opportunity to collaborate and contribute. When you apply, make sure to emphasize the positive impacts you would bring through the activity you are proposing.
 
-## Teaching approaches for agile scientific software development, with emphasis on outreach to underrepresented groups.
+### Teaching approaches for agile scientific software development, with emphasis on outreach to underrepresented groups.
 
 BSSw Fellow Damian Rouson developed and taught agile scientific software development tutorials in settings that reach underrepresented groups. The only prerequisites were familiarity with a Linux shell and a text editor. A related, novel aspect of the tutorials is the integration of a professional development activity using agile practices. Learn more at:
 
@@ -65,7 +65,7 @@ _Perspectives on the BSSw Fellowship Program:_ The BSSw Fellowship Program has p
 
 _Advice for new (prospective) BSSw Fellows:_ I encourage you to see the fellowship as an exciting opportunity to move in a new direction.  Try something that stretches your wings and brings you into new territory that might be difficult to explore under other funding.  Also, look for ways to collaborate with people who are new to your network and engage audiences that might traditionally have less access to the cutting-edge work you’re proposing.
 
-## Improving the correctness of numerical software and the effective use of mixed floating-point precision for better performance.
+### Improving the correctness of numerical software and the effective use of mixed floating-point precision for better performance.
 
 BSSw Fellow Cindy Rubio-González has organized events and developed educational materials on the correctness of numerical software and improving performance through effective use of mixed floating-point precision. Her materials include the use and evaluation of program-analysis techniques to improve the reliability and performance of numerical software. Learn more at:
 
@@ -88,11 +88,11 @@ _Perspectives on the BSSw Fellowship Program:_ One of my goals is to develop pro
 
 _Advice for new (prospective) BSSw Fellows:_ One of the strengths of the BSSw Fellowship Program is providing the opportunity to strengthen your professional network. Unfortunately, because of the pandemic, there were not as many opportunities to meet in person and make visits this past year. However, I strongly recommend future BSSw Fellows to make as many connections and connect in person, if possible!
 
-## Learn more about the BSSw Fellowship Program
+### Learn more about the BSSw Fellowship Program
 
 BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship). We will begin accepting applications for 2022 BSSw Fellowships during mid-August 2021. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
 
-## Author bio
+### Author bio
 
 Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp) team, and a researcher in the [Advanced Technologies Group at NERSC/LBNL](https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/hai-ah-nam/).  Her scientific career spans four DOE national laboratories (LLNL, ORNL, LANL, LBNL), where she has contributed to work in low-energy nuclear physics, computational physics, high performance computing, and research scientific software development.  Hai Ah’s research interests include emerging technologies for the HPC ecosystem, with a focus on AI/ML capabilities.  She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpc.org/) since 2015.
 

@@ -49,7 +49,7 @@ Given that we’ve been able to make this work for a large group once, we might 
 
 Similarly, I think the biggest bottleneck in Spack is core developer and package maintainer time.  We’ve been able to gradually expand the number of people who own some aspect of the project — giving more people commit access and encouraging more groups to work on their own features and contribute them back.  Having lots of people who feel empowered to work on the project and speak about it helps tremendously, and it means that often, people don’t have to go to the core developers to get help.  They can just ask online and *someone* will answer.  I don’t think we could continue to grow without that.
 
-## Author bios
+### Author bios
 
 Todd Gamblin is a Computer Scientist in the Advanced Technology Office in Livermore Computing at Lawrence Livermore National Laboratory. His research focuses on scalable tools for measuring, analyzing, and visualizing parallel performance data. In addition to his research, Todd leads LLNL's DevRAMP (Reproducibility, Analysis, Monitoring, and Performance) team. He is the creator of Spack, a popular HPC package management tool, and he leads the Software Packaging Technologies area in the U.S. Exascale Computing Project. Todd has been at LLNL since 2008. He received the Early Career Research Award from the U.S. Department of Energy in 2014. He received Ph.D. and M.S. degrees in Computer Science from the University of North Carolina at Chapel Hill in 2009 and 2005, and his B.A. in Computer Science and Japanese from Williams College in 2002.
 

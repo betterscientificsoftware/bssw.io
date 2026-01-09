@@ -21,7 +21,7 @@ Additional information about the user story approach can be found at:
 - [Overview and Examples](https://www.mountaingoatsoftware.com/agile/user-stories) from Mountain Goat Software
 - [YouTube video](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=1&cad=rja&uact=8&ved=0ahUKEwjs6faQ0O3VAhWKqFQKHZp7DpQQtwIIKDAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZ8YLL_Wi66A&usg=AFQjCNEBUa2zSbgqd35dO1vZ0bkTX5Zv6w") on _Getting Started with Agile : Epics, Features, and User Stories_
 
-## Examples of user stories
+### Examples of user stories
 
 The [IDEAS project](https://ideas-productivity.org/) has been pursuing the user story approach to streamline the project’s activities and also to understand how user stories can support scientific software development efforts. Based on our experiences, the stories are classified as follows:
 

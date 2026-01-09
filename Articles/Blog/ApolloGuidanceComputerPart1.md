@@ -29,7 +29,7 @@ development, jargon may have changed, but the HPC community will recognize
 many common themes such as flops/watt power constraints, checkpoint and restart
 strategies, and the need for performance portability.
 
-## The AGC architecture: A giant leap in FLOPS<sup>a</sup> per W, Kg, m<sup>3</sup> 
+### The AGC architecture: A giant leap in FLOPS<sup>a</sup> per W, Kg, m<sup>3</sup> 
 
 Apollo needed a computer orders of magnitude better than those typical of the
 era:<sup>[36]</sup> lower power, lighter weight, smaller size, greater reliability,
@@ -70,7 +70,7 @@ IBM AC922<br>(Summit<sup>[20],[21],[24]</sup>) | 1E<sup>12</sup> | 14E<sup>16</s
 
 <sup>a</sup>Flop = single-precision multiply + add
 
-## Rope core: A new type of nonvolatile memory
+### Rope core: A new type of nonvolatile memory
 
 The AGC utilized two types of *core* memory<sup>[14]</sup>: erasable memory
 (2K words) using coincident current cores and fixed (read-only) memory (36K words)
@@ -93,7 +93,7 @@ derived from this early memory technology.
 
 <img src='../../images/Blog_0429_RaytheonWorker_575_528.jpg' class='page lightbox' />[A worker weaves copper wires through an array of cores for the AGC (Photo courtesy of Raytheon Company)]
 
-## The Executive: An operating system with checkpoint/restart services
+### The Executive: An operating system with checkpoint/restart services
 The AGC used a priority-driven, collaborative, multitasking operating system
 called the *Executive*.<sup>[5]</sup> Priority-based job scheduling was
 revolutionary for its time. The Executive could detect a variety of hardware
@@ -105,7 +105,7 @@ complicated testing. In 1968, an internal NASA report<sup>[19]</sup> raised
 significant doubts about its value. In Part 3 of this series, we’ll describe why
 it would later be proven invaluable during the Apollo 11 landing.
 
-## The Interpreter: A domain-specific language
+### The Interpreter: A domain-specific language
 The Executive and other system functions were all implemented in AGC native
 assembly code<sup>[31]</sup>. However, solving complex, 3D spatial navigation
 problems with this simple instruction set was tedious, error prone, and memory
@@ -119,7 +119,7 @@ it was still a form of assembly language. But, it operated at a much higher
 level of abstraction—easing development, improving overall reliability and,
 most importantly, reducing memory usage.
 
-## Multiple spacecraft configurations: A performance portability challenge
+### Multiple spacecraft configurations: A performance portability challenge
 Apollo wasn't just a single spacecraft. It was two: the Command and Service
 Module (CSM) and the Lunar Module (LM). Each had its own AGC and was further
 divided into two stages. Depending on the phase of a mission<sup>[1]</sup>,
@@ -136,7 +136,7 @@ developers met this challenge.
 
 <br>
 
-## MTBF of 40,000 hours: Extreme computing reliability
+### MTBF of 40,000 hours: Extreme computing reliability
 The AGC may not have been extreme in scale, but it was extreme in reliability.
 Of the 42 Block II systems delivered and an aggregate of 11,000 hours of
 vibration exposure and thermal cycling plus 32,500 hours of normal operation,
@@ -158,7 +158,7 @@ Part 1 | [Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversa
 
 <br>
 
-## Author bio
+### Author bio
 
 Mark C. Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
@@ -261,7 +261,7 @@ Pinned: no
 [35]: #sfer-ezikiw-35 "The need for an on-board computer"
 [36]: #sfer-ezikiw-36 "Computer History Timeline"
 <!-- (sfer-ezikiw begin) -->
-## References
+### References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/bssw.io/raw/main/images/397_apollo_flightdiagram.jpg)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Overview of Apollo 11 Mission](https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html)

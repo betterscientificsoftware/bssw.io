@@ -30,7 +30,7 @@ The movement has been fueled by the overwhelming need for RSEs to support increa
 
 - M. A. Heroux, "Research Software Science: Expanding the impact of research software engineering," doi: [10.1109/MCSE.2023.3260475](https://doi.org/10.1109/MCSE.2023.3260475) presents the idea of research software science, in which traditional scientific research methodologies are used to explore and establish broadly applicable knowledge about research software.
 
-## Author bios
+### Author bios
 
 Jeffrey C. Carver is a professor in the Department of Computer Science, University of Alabama. His research interests include empirical software engineering, software engineering for research software, and human factors in software engineering. Carver received his Ph.D. degree in computer science from the University of Maryland. He is a Senior Member of IEEE and the Association for Computing Machinery (ACM).
 

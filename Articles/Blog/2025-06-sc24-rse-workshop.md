@@ -10,7 +10,7 @@
 
 At the SC24 conference in November 2024, for the fifth year in a row, research software engineers hosted the Research Software Engineers in HPC workshop (RSE-HPC-2024). There were 65 participants onsite in Atlanta, and many more joined virtually. Our goal was to bring together research software engineers (RSEs) and their allies from many countries and backgrounds to hear about successes and challenges that RSEs have experienced, and to discuss ways to increase awareness and support for RSEs.  The program of invited and contributed talks, panels, and breakout discussions was designed to raise interest and encourage active participation.
 
-## Invited talks
+### Invited talks
 
 Tim Mattson, recently retired from Intel after a long career in HPC, gave the first invited talk, entitled “The Future: What to Do About It—Processors, People, and Programming.” Tim talked about the evolving landscape of computing hardware and software development, emphasizing the dominance of market forces and the critical role of emerging technologies. His talk included discussion of the following topics: the current dominance of hyperscalers, shifts in microprocessor design, challenges for programmers, the cloud’s impact on HPC, programming language trends, and Large Language Models (LLMs) in HPC. Tim ended with a call to action: the HPC community must take ownership of developing sustainable, open-source software infrastructure to support its unique needs, as vendors prioritize more lucrative AI and cloud markets, and he pointed out that collaboration is essential to sustain innovation and build foundational tools for the future.
 
@@ -28,7 +28,7 @@ Sheikh stated that RSEs are crucial for operationalizing research tools and ensu
 
 Sheikh then closed by highlighting some other NSF funding opportunities, including the Campus Cyberinfrastructure (CC) Program, which supports regional and institutional infrastructure development, CyberTraining, which focuses on training researchers, students, and professionals in cyberinfrastructure, and CSSI (Cyberinfrastructure for Sustained Scientific Innovation), which funds software and tool development for community needs.
 
-## Contributed talks
+### Contributed talks
 
 The workshop featured a rich set of contributed talks and a panel that reflected the evolving and interdisciplinary role of research software engineers in HPC and AI.
 The contributed talks were:
@@ -43,7 +43,7 @@ The contributed talks were:
 
 A panel titled “The Future of Computing” brought together Kevin Gott from NERSC, Dali Wang from Oak Ridge National Laboratory, Shuxia Zhang from Engelhart Commodities Trading Partners, and Siegfried Höfinger from TU Wien. The panel explored the shifting landscape of research computing and the increasingly vital role that RSEs play in supporting diverse users, developing AI-integrated workflows, and enabling energy-efficient systems. Panelists discussed the need for effective onboarding strategies and stressed the value of clear documentation, standardized workflows, and cross-disciplinary training. They also highlighted the challenge of balancing scientific domain expertise with deep knowledge of computing architectures, a skillset that is becoming essential for RSEs working at the intersection of HPC and AI. As energy costs rise and workloads become more complex, the ability of RSEs to optimize code, understand infrastructure, and bridge academic and operational needs is more critical than ever. The conversation closed with a call for better institutional recognition of RSE roles, centralized support systems, and funding mechanisms to grow and sustain the RSE profession across both national labs and international institutions.
 
-## Discussion session
+### Discussion session
 
 In the last session of the workshop, participants were invited to explore one or more of four themes: the role of emerging technologies like AI in shaping HPC and how RSEs can lead their integration; the evolving structure of HPC teams and the inclusion of new roles such as data stewards and software maintainers; career development pathways and recognition for RSEs; and strategies for influencing funding bodies to better support non-traditional, yet essential, roles within the HPC ecosystems.
 
@@ -55,11 +55,11 @@ A discussion on the future structure of HPC teams envisioned more integrated, mu
 
 RSEs can play a pivotal role in building bridges between domains: raising awareness of emerging roles, fostering collaboration with library and compliance teams, and advocating for a more diverse and representative workforce. The shifting gravity of HPC teams—from traditional academics toward professional research technology staff—was seen as both a challenge and an opportunity to reshape how research is done.
 
-## Conclusion
+### Conclusion
 
 We were happy to see the enthusiastic participation in the workshop, and the continued interactions and growth of the community in the full week of SC24.  And given all that, we are excited to announce that planning is underway for [RSE-HPC-2025 on November 16th in St. Louis](https://us-rse.org/rse-hpc-2025/).  More details will be available soon, and we hope that many of you will be able to join us!
 
-## Author bios
+### Author bios
 
 Charles Ferenbaugh is the Computer Science Lead for the Eulerian Applications Project at Los Alamos National Laboratory. He received a Ph.D. in Mathematics from Princeton University in 1992. He spent several years working at Raytheon developing high-performance signal processing software, before coming on staff at LANL in 2001. At LANL he has been a software developer contributing to large multiphysics code projects running on supercomputer clusters. He has also been a part of LANL research efforts in advanced architectures and programming models. He was a founding steering committee member of the US Research Software Engineer Association.
 

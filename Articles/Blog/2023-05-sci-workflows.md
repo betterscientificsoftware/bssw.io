@@ -8,13 +8,13 @@
 
 #### Publication date: June 26, 2023
 
-## Introduction
+### Introduction
 
 Scientific applications are ever-growing in complexity: Interdisciplinary workflows in particular combine numerous methods and software components from different communities. Both software engineering concerns (e.g., embedding simulation software in CI/CD or performance analysis tools) and algorithmic concerns (e.g., performing optimization or uncertainty quantification on complex numerical models) drive these workflows. 
 
 Each community has — for good reasons — typically preferred particular languages and tools, which are often incompatible. Further, many scientific software frameworks were designed as monoliths with no expectation of being embedded in higher-level applications. Thus, in order to facilitate complex scientific applications, we need to map abstract theoretical interfaces into equally universal software interfaces, enabling greater flexibility, reusability, and separation of concerns.
 
-## Case study: Simulating tsunamis
+### Case study: Simulating tsunamis
 
 We wanted to perform Bayesian inference with uncertainty quantification (UQ) on a tsunami model, determining the tsunami source from buoy data. [ExaHyPE](https://doi.org/10.1016/j.cpc.2020.107251) served as the numerical model, while [MUQ](https://mituq.bitbucket.io/source/_site/index.html) provided the UQ method.
 
@@ -32,7 +32,7 @@ In case of ExaHyPE, this meant focusing on a one-shot workflow where the user sp
 
 Taken together, these properties meant that it took us months to implement a scalable application linking MUQ and ExaHyPE. We had to dig deep into the parallelization of ExaHyPE for it to accept MPI sub-communicators from MUQ, modify its main routines to call it as a library, and rewrite parts of its custom build system. Along the way, we encountered a myriad of unexpected issues.
 
-## Microservices in scientific software
+### Microservices in scientific software
 
 Linking MUQ and ExaHyPE was a painful experience, contrary to the theoretically simple link of the algorithms.
 
@@ -54,7 +54,7 @@ Right away, UM-Bridge offers a number of benefits:
 
 * Simple thread-parallel UQ codes are now enough to offload parallel model runs to a cluster, as distributing work across many model instances on the cluster is now up to UM-Bridge (specifically the Kubernetes setup we provide).
 
-## Rapid UQ application development: tsunamis revisited
+### Rapid UQ application development: tsunamis revisited
 
 We set out to revisit the tsunami problem using UM-Bridge. As before, we went with the ExaHyPE tsunami model. This time, we chose multilevel delayed acceptance (MLDA) as our UQ method. To spice things up, we wanted to build a Gaussian Process (GP) surrogate as the coarsest level in MLDA, replacing our less accurate hand-crafted coarse approximation. We used Google Cloud Platform (GCP) to provide the computational horsepower.
 
@@ -67,13 +67,13 @@ We had a clear separation of roles: Anne is the ExaHyPE expert, our collaborator
 
 The new setup is arguably more complex than our previous attempt; still, we could complete this application in a matter of days instead of months!
 
-## Lessons learned and final thoughts
+### Lessons learned and final thoughts
 
 We believe UM-Bridge could be similarly beneficial when linking numerical models to optimization, machine learning, etc. The microservice-inspired approach certainly has limits, for example, when the numerical model is so fast to evaluate that network latency becomes dominant. In the many cases where UM-Bridge works, however, it has fundamentally changed how we develop UQ applications and collaborate with domain experts.
 
 More broadly, scientific software is increasingly being used as a part of larger workflows but is not always being designed with that in mind. We believe that we have to move away from building large monolithic applications and, where possible, instead build smaller and more flexible components with language-independent interfaces.
 
-## Where to start
+### Where to start
 
 You can read more on UM-Bridge here:
 
@@ -83,7 +83,7 @@ You can read more on UM-Bridge here:
 
 We are actively expanding the UM-Bridge community, so send us an email if you are interested or need support!
 
-## Author bios
+### Author bios
 
 [Anne Reinarz](https://annereinarz.github.io) is an assistant professor of Computer Science at Durham University in the Scientific Computing Group. She is incoming Director of the Durham MSc in Scientific Computing and Data Analysis. She is enthusiastic about open-source, sustainable software. She was scientific coordinator of the ExaHyPE project and is one of the main contributors to the UM-Bridge project.
 

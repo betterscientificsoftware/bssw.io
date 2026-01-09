@@ -13,7 +13,7 @@ conference. To mark this occasion, the co-organizers, Ignacio Laguna (LLNL) and
 Cindy Rubio-González (UC Davis), are proud to share this article, reflecting on
 its inception and providing their perspective looking forward.
 
-## Workshop History
+### Workshop History
 
 The Correctness workshop started as an attempt to bring together researchers and
 developers to discuss ideas on the problem of correctness in HPC and scientific
@@ -38,7 +38,7 @@ researchers and practitioners annually. Since its inception in 2017, the
 workshop has provided a forum for discussions on software correctness in the HPC
 and scientific computing community.
 
-## Topics and Attendance
+### Topics and Attendance
 
 The workshop is attended annually by dozens of participants from several
 countries. Thirty four papers have been presented and published as part of the
@@ -60,7 +60,7 @@ correctness: Stephen Siegel (University of Delaware), Ganesh Gopalakrishnan
 (University of Utah), Jim Demmel (UC Berkeley), Alex Aiken (Stanford
 University), Allison Baker (NCAR), and David Bailey (LBNL and UC Davis).
 
-## Community Impact
+### Community Impact
 
 Before the Correctness workshop, the community did not have a specific venue to
 discuss important topics about the correctness of scientific software. Some
@@ -81,7 +81,7 @@ the workshop. The workshop has opened the opportunity for training junior
 researchers by participating in the program committee and for connecting
 students with internship and job opportunities.
 
-## Looking Forward
+### Looking Forward
 
 With programming models and HPC systems becoming more complex and heterogeneous,
 correctness will continue to be a challenge in scientific software—the workshop
@@ -97,12 +97,12 @@ larger community to be solved. The co-organizers also would like to encourage
 the scientific software community to contribute to the workshop by submitting
 papers or suggesting speakers or panel topics.
 
-## Additional Resources
+### Additional Resources
 
 * Workshop web sites: [2017](https://correctness-workshop.github.io/2017/), [2018](https://correctness-workshop.github.io/2018/), [2019](https://correctness-workshop.github.io/2019/), [2020](https://correctness-workshop.github.io/2020/), [2021](https://correctness-workshop.github.io/2021/)
 * Workshop proceedings: [2017](https://doi.org/10.1145/3145344), [2018](https://doi.org/10.1109/Correctness46496.2018), [2019](https://doi.org/10.1109/Correctness49594.2019), [2020](https://doi.org/10.1109/Correctness51934.2020), [2021](https://doi.org/10.1109/Correctness54621.2021)
 
-## Author bios
+### Author bios
 
 Ignacio Laguna is a Computer Scientist at the Center for Applied Scientific Computing (CASC) at the Lawrence Livermore National Laboratory (LLNL), California. His main area of research is programming models and systems for high-performance computing. He is particularly interested in software correctness, program analysis, compilers, fault tolerance, and debugging. He received his PhD degree in Computer Engineering from Purdue University in 2012 and is the co-founder of the International Workshop on Software Correctness for HPC Applications (Correctness), which has been held at SC for several years.
 

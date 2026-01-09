@@ -8,7 +8,7 @@
 
 #### Publication date: June 15, 2022
 
-## Introduction
+### Introduction
 
 Software development involves the step-by-step process of inventing, specifying,
 coding, recording, testing and fixing bugs.  But, just because you’ve built software 
@@ -51,7 +51,7 @@ formal process for software request that goes through a review process?*
 - *What software needs to be installed by HPC centers vs which software 
 needs to be managed by users or groups?* 
 
-## Software deployment in an HPC environment
+### Software deployment in an HPC environment
 
 In an HPC environment, this complexity requires a community to tackle the issues.  The [Extreme-scale Scientific Software Stack (E4S)](https://e4s.readthedocs.io/en/latest/introduction.html)
 is a community effort supported by the [Exascale Computing Project (ECP)](http://exascaleproject.org)
@@ -88,7 +88,7 @@ requirements. A full [technical report](https://www.osti.gov/biblio/1868332-soft
 explains this work in detail. 
 
 
-## E4S software deployment recipe at NERSC
+### E4S software deployment recipe at NERSC
 
 As illustrated below, the high-level steps used to deploy E4S at NERSC are as follows:
 - Acquire a Spack configuration from the E4S project (https://github.com/E4S-Project/e4s)
@@ -107,7 +107,7 @@ E4S documentation page https://e4s.readthedocs.io/en/latest/facility_e4s.html
 <img src='../../images/Blog_2205_SoftwareDeploymentProcess.png' class='page lightbox'/>[NERSC software deployment process from inception to deployment.]
 
 
-## Deployment tools
+### Deployment tools
 
 We can also leverage containers to provide a software stack to end users.  For 
 instance, E4S comes with several pre-built containers that can be ready to use 
@@ -135,7 +135,7 @@ A team for HPC support should take into account user requirements and any monito
 data such as module tracking or software library tracking, for example [XALT](https://xalt.readthedocs.io/en/latest/), 
 to see usage trends to determine which packages to install in their software stack. 
 
-## Software deployment as an integral part of HPC centers
+### Software deployment as an integral part of HPC centers
 
 Software stack deployment requires intimate knowledge of the HPC system as well as 
 in-depth knowledge of the target software packages to ensure that each package is built 
@@ -154,7 +154,7 @@ We welcome the community to share their deployment strategies and best
 practices for software stack deployment. Let’s share game plans and learn from one another. 
 
 
-## Author bios
+### Author bios
 
 [Shahzeb Siddiqui](https://github.com/shahzebsiddiqui) is a HPC 
 Consultant/Software Integration Specialist at 

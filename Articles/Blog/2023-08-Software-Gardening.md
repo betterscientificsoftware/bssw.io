@@ -10,7 +10,7 @@ Software development is often described as a craft, such as carpentry.  This art
 
 Research software education organizations such as [The Carpentries](https://carpentries.org) compare software development to carpentry practices,<sup>[1]</sup> which has had broad, positive impacts on scientific research software. However, software carpentry's focus on static output is fundamentally limited. Namely, carpentry does not address techniques and strategies for dynamically evolving or unpredictable aspects of the software craft, such as [software rot prevention](https://en.wikipedia.org/wiki/Software_rot), community-driven apprenticeship, and emergent design strategies. The concept of "software development as gardening" complements the carpentries to illuminate these realities of software development.<sup>[2]</sup> The conceptual framework of software gardening emphasizes the value of continuously adaptable stewardship throughout the lifespan of a project, addressing risks of long-term software carpentry and community fragility. Therefore, coupling the day-to-day software carpentry mindset with a long-term focus on software gardening further advances the quality and sustainability of scientific software. In this article, we build on existing knowledge of scientific software carpentry and outline effective software gardening practices for encouraging long-term, sustainable scientific software code and communities (<a href="#table-1">Table 1</a>).
 
-## Ecosystems of code and software gardeners
+### Ecosystems of code and software gardeners
 
 Code is fragile by default; as the software ecosystem around code changes, there are increased chances for errors or unintended functionality. Software gardening<sup>[3],[4],[5]</sup> is the practice of creating and stewarding flexible software, where stewardship helps to overcome the difficulty of code becoming brittle or incomplete as time passes. The analogy of a software "garden bed" may be mentally constructed to facilitate software gardening practices. To elaborate, software carpentry focuses on the "bricks" of code and how they are composed together properly. Implicit in successful carpentry, these bricks must reside on top of a healthy software garden bed, which requires a different understanding and strategy to maintain. With the empathy of a gardener, healthy ecosystems of code avoid premature ends, and they cultivate carpentry materials as they decay over time (<a href="#fig-1">Figure 1</a>).
 
@@ -26,7 +26,7 @@ Healthy ecosystems in the natural world enable organisms to thrive through conti
 2. [Code: Software gardening senescence (practices regarding the effects of time on Software)](#code-software-gardening-senescence)
 3. [Season: Software archeology, nowness, and proactivity (practices regarding software past, present, and future)](#season-software-archeology-nowness-and-proactivity)
 
-## People: Software gardener lattices
+### People: Software gardener lattices
 
 <img id="fig-3" src='../../images/Blog_2307_829px-Trellis_MET_DT255077-cropped.jpg' class='page lightbox' />[Figure 3. Software Gardeners are the lattices in which a software garden expands upwards.]
 
@@ -43,7 +43,7 @@ Software gardeners work closely with one another through cognitive apprenticeshi
 - **Ascendant fortitude: Courage, vulnerability, and resilience.**
 Solving software challenges requires courage! Facing existing or new issues also requires vulnerability to share imperfect yet practical approaches. The software gardening lattice must support this through failure acceptance, which is critical to discovery, innovation, and personal growth.<sup>[13]</sup> A software gardner will develop resilience through these expectations and daily practices.
 
-## Code: Software gardening senescence
+### Code: Software gardening senescence
 
 <img id="fig-4" src='../../images/Blog_2307_The_Gardener_MET_DT1499.jpeg' class='page lightbox' />[Figure 4. Software gardeners develop systems to address code senescence.]
 
@@ -58,7 +58,7 @@ Software, especially open-source software, is written by chance, often by "volun
 - **Multi-generational adaptation: Surviving through fluidity.**
 Given enough time, code within the garden will adapt to change, showing elements of evolution. While this process can occur naturally, it can also be facilitated with evolutionary architecture concepts.<sup>[16]</sup> Software gardeners develop their code with flexibility, using effective layers of abstraction where possible, testing their software "fitness" for purpose, and refactoring when necessary. Refactoring can sometimes be painful, through letting go of unfit code that has metaphorically "died" or become disconnected from the garden. Despite this challenge, "less is more"; removing code that has not adapted to the garden will reduce strain on the healthier components.
 
-## Season: Software archeology, nowness, and proactivity
+### Season: Software archeology, nowness, and proactivity
 
 <img id="fig-5" src='../../images/Blog_2307_Caricatures_of_paintings_by_Daubigny_and_others_in_Le_Salon_Pour_Rire_MET_DP824536-cropped.jpeg' class='page lightbox' />[Figure 5. Time is an important factor in the software garden.]
 
@@ -75,7 +75,7 @@ Residing in software gardens is messy; software gardeners observe more things th
 - **Garden proactivity: Anticipating and preparatory growth.**
 Moving through software gardens with a sense of kairos, software gardeners can understand the "seasons" of our projects. Extending this metaphor, software gardeners assume fluctuations in seasonal climate, adjacent software gardens, and other dynamics which may be challenging to address if unprepared. The software gardener often anticipates challenges and provides sustainable solutions by expecting surprise. Techniques in this space involve the common aphorism of "hoping for the best while planning for the worst". Hoping for the best should involve strategic thought processes such as backcasting, where one sets a milestone in the distant future and works their way backward, outlining specific steps leading there. Planning for "the worst" can be done using a SWOT (strengths, weaknesses, opportunities, threats) analysis, taking special note of "weaknesses" and "strengths" in terms of how realistic or likely they may be.<sup>[17]</sup>
 
-## A software gardening toolshed
+### A software gardening toolshed
 
 <img id="fig-6" src='../../images/Blog_2307_640px-Schuurtje_aan_het_water,_RP-T-1890-A-2252.jpeg' class='page lightbox' />[Figure 6. There are many tools available to assist the software gardener with their work.]
 
@@ -281,19 +281,19 @@ Garden proactivity: Anticipating and preparatory growth |	Hope for the best and 
   </tr>
 </table>
 
-## Sundown
+### Sundown
 
 Part of software gardening is also knowing when to rest at the end of the day. Software gardening is itself a dynamic practice that requires attention paid to personal health in the same ways each of the highlighted areas requires effort toward software projects. We ask readers to consider cultivating their own software gardens and how this dynamic craft may  evolve over time. Happy gardening!
 
 
-## Figure credits
+### Figure credits
 
 - [Figure 3](#fig-3): Cropped version of Fragonard, J.-H., Trellis. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Trellis_MET_DT255077.jpg).
 - [Figure 4](#fig-4): Chardin, J.-B.-S., The Gardener. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Gardener_MET_DT1499.jpg).
 - [Figure 5](#fig-5): Cropped version of Daumier, H., Caricatures of paintings by Daubigny and others in Le Salon Pour Rire. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Caricatures_of_paintings_by_Daubigny_and_others_in_Le_Salon_Pour_Rire_MET_DP824536.jpg).
 - [Figure 6](#fig-6): Witsen, W., Schuurtje aan het water, RP-T-1890-A-2252. [Retrieved from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schuurtje_aan_het_water,_RP-T-1890-A-2252.jpg).
 
-## Author bios
+### Author bios
 
 Dave Bunten is a Software Developer with the [Department of Biomedical Informatics at the University of Colorado Anschutz](https://medschool.cuanschutz.edu/dbmi). He has over a decade of experience in the field of software development through various roles in his career. His keen interest in software design, collaboration, and innovation has driven him to explore various areas of the field. He is particularly passionate about research data engineering, in-memory data flow, and scientific software.
 
@@ -357,7 +357,7 @@ Topics: software process improvement, software engineering, software sustainabil
 [16]: #sfer-ezikiw-16 "Building evolutionary architectures"
 [17]: #sfer-ezikiw-17 "Technology Strategy Patterns"
 <!-- (sfer-ezikiw begin) -->
-## References
+### References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, et al. (2017). Good enough practices in scientific computing. PLOS Computational Biology 13(6): e1005510. doi:10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Hunt, A., & Thomas, D. The Pragmatic Programmer: From Journeyman to Master. Addison-Wesley.](https://learning.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/)

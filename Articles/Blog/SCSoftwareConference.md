@@ -8,7 +8,7 @@ Recent conferences in the Supercomputing series have included a growing number
 of events related to software development. Celebrate by participating in these
 events. And let’s make sure there are even more next year!
 
-## My Early Experiences at Supercomputing
+### My Early Experiences at Supercomputing
 
 I attended my first Supercomputing in 1993 as a postdoc in computational
 chemistry. It was a celebration of high-end hardware, which was particularly
@@ -31,7 +31,7 @@ an international workshop series we’d started for this community. But apart fr
 typical Supercomputing to discuss the practice and experience of the development
 computational science and engineering software for high-end computers.
 
-## Supercomputing Today
+### Supercomputing Today
 
 Since 2000, I’ve attended every Supercomputing conference but one. And over
 time, I’ve seen significant growth in the role that *software* plays in the
@@ -74,7 +74,7 @@ of a software conference than it is already - to *create* a future where we can 
 software development experiences on par with the scientific results and the big
 iron on which they were obtained.
 
-## Bringing More *Software* into More Conferences
+### Bringing More *Software* into More Conferences
 
 But remember, too, that Supercomputing is not the only venue that provides
 significant opportunities for the community to shape the meeting, beyond the
@@ -96,7 +96,7 @@ Maybe in time, by working together, we can ensure that discussions about *softwa
 
 See you in Dallas!
 
-## Author Bio
+### Author Bio
 
 David Bernholdt is a Distinguished R&D Staff Member and Group Leader at Oak Ridge National Laboratory (ORNL). He has leadership roles in multiple projects in the DOE Exascale Computing Project (ECP) and the Scientific Discovery through Advanced Computing (SciDAC) program. He also leads the Programming Environment and Tools area of the Oak Ridge Leadership Computing Facility (OLCF). His research interests center on making it easier and more productive to create and use computational science and engineering software on the largest high-performance computer systems.
 

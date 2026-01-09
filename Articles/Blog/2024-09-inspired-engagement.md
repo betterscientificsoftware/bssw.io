@@ -26,12 +26,12 @@ Beattie continues to attend BSSw discussions on a variety of topics and gatherin
 
 “My personal goal is to see scientific software and those who develop and support it, be seen throughout the research community, as first class citizens in the scientific mission,” says Beattie. “The BSSw Fellowship Honorable Mention gave me inspiration and motivation to try and affect changes that will better support research software engineers and scientific software.”secure more funds to continue working together on collaborating on designing a curriculum for a course on better research software engineering practices in Jupyter Notebooks. Subsequently, one of her students did a research software engineering internship at Princeton. “I am just so proud of my students,” Brewer says. “I know I want to mentor now and that is something I would not have gotten to explore without the fellowship.”
 
-## More info
+### More info
 The BSSw Fellowship Program gives recognition and funding to leaders and advocates of high-quality scientific software. See the [blog post](https://bssw.io/blog_posts/applications-open-for-the-2025-bssw-fellowship-program) by Elsa Gonsiorowski, coordinator of the BSSw Fellowship Program.
 
 Application deadline: Monday, September 30, 2024; this is a firm deadline that will not be extended.
 
-## Author bios
+### Author bios
 [Heather Bourbeau](https://www.linkedin.com/in/heatherbourbeau/) is a research analyst, communications strategist, and storyteller. 
 [Sustainable Horizons Institute](https://shinstitute.org) is a partner in leading the BSSw Fellowship Program. 
 

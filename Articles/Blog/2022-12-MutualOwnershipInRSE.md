@@ -14,7 +14,7 @@ however, only succeed insofar as their members feel heard, included, and valued.
 
 *Originally published on the [US-RSE Blog](https://us-rse.org/2022-11-21-vws-rse-cop-summary/), this article has been reposted with the permission of the authors.*
 
-## Introduction
+### Introduction
 
 As part of the [2022 US-RSE Virtual Workshop](https://us-rse.org/virtual-workshop-2022/),
 Jonathan Bisila, Reed Milewicz, and Miranda Mundt of Sandia National Laboratories
@@ -27,7 +27,7 @@ This blog post summarizes those discussions. The authors
 hope that the results can assist other RSEs in the
 creation of their own local CoP.
 
-## Starting a community of practice
+### Starting a community of practice
 
 A CoP is a group of people who share some concern or passion for what they do
 and want to learn to do it better as they interact regularly. CoPs generally
@@ -60,7 +60,7 @@ finding collaborators.
 
 > Tip: It is okay for your goals to evolve as your community matures. Start with identifying common problems and promoting dialogue around those problems.
 
-## Community infrastructure
+### Community infrastructure
 
 Not everyone may have heard of the "Aesthetic-Usability Effect," but we have
 all experienced it. This effect refers to "users’ tendency to perceive
@@ -82,7 +82,7 @@ interest, how to name pages, where to put them, etc.
 
 > Tip: Have material or a website for potential members to visit or view in time for your first meeting. It doesn’t have to be perfect, but it will provide a sense of immediate value and confidence.
 
-## Promoting inclusion and participation
+### Promoting inclusion and participation
 
 Many new communities will start off strong and then suffer from a loss of
 interest over time. Keeping a community continually engaged is a constant
@@ -106,7 +106,7 @@ one another will broaden your inclusivity.
 
 > Tip: Create various ways for community members to provide feedback. Make an email list, a webpage, a survey, etc., that is easy to find and use. The easier it is for people to provide feedback, the more likely it is that they will.
 
-## Conclusion
+### Conclusion
 
 Creating a thriving, active community of practice is a challenge. As part of the 2022
 US-RSE Virtual Workshop, participants discussed the difficulties and posed
@@ -114,7 +114,7 @@ helpful tips to make a community of practice more successful. They hope that
 the results of this discussion can assist other RSEs in the creation of their
 own local CoP.
 
-## Acknowledgements
+### Acknowledgements
 
 Sandia National Laboratories is a multimission laboratory managed and operated
 by National Technology and Engineering Solutions of Sandia, LLC, a wholly owned
@@ -139,7 +139,7 @@ Topics: strategies for more effective teams, software engineering, research soft
 [1]: #sfer-ezikiw-1 "The aesthetic-usability effect."
 [2]: #sfer-ezikiw-2 "https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview"
 <!-- (sfer-ezikiw begin) -->
-## References
+### References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[The aesthetic-usability effect.<br>Moran, Kate. Nielsen Norman Group: https://www.nngroup.com/articles/aesthetic-usability-effect (2017).](https://www.nngroup.com/articles/aesthetic-usability-effect)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview](https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview)

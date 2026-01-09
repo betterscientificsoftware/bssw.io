@@ -25,7 +25,7 @@ hardware<sup>[1]</sup> and software.<sup>[2]</sup> Here, in part 3, we focus on 
 by recounting the *users' stories* in applying the AGC to achieve Apollo mission objectives.
 These users' stories are not to be confused with [*User Stories*](https://bssw.io/items/an-introduction-to-user-stories-and-how-to-write-them), a formal agile development technique for specifying requirements.
 
-## There are no user's stories without verbs and nouns
+### There are no user's stories without verbs and nouns
 It is impossible to write about how Apollo astronauts flew to the moon without using `verb`s and
 `noun`s. Unlike Kubrik's Apollo era film, *2001: A Space Odyssey*, where the crew held conversations
 with their HAL 9000 computer<sup>[20]</sup>, Apollo crews interacted directly with the AGC through EL displays
@@ -51,7 +51,7 @@ had to *think very hard* to avoid making such a mistake. This is a surprising vu
 to have existed given the amount of human-computer interface design effort that went into the whole
 GN&C system.
 
-## What an elementary school girl knew about the AGC that Apollo 8 didn't 
+### What an elementary school girl knew about the AGC that Apollo 8 didn't 
 While practicing guidance alignments with the space sextant on the return leg of Apollo 8,
 the crew accidentally keyed in a command to start a pre-flight program, `P01`, instead of star
 identifier `01` from the AGC's star catalog. This corrupted key guidance parameters in erasable
@@ -69,7 +69,7 @@ proposed a program change to prevent such mistakes. However, NASA believed the a
 so well trained they would never make such a mistake. The program change was rejected. After the
 accidental entry on Apollo 8, the change was approved and implemented.
 
-## Flashing the AGC with EMPs 
+### Flashing the AGC with EMPs 
 EMPs are Erasable Memory Programs;<sup>[4]</sup> that is, programs stored in erasable rather
 than fixed AGC memory. While frequently used for special-purpose ground testing of the AGC, EMPs
 were considered too risky for crewed missions because of the last minute changes they entailed.
@@ -84,7 +84,7 @@ simulators earlier but was not part of Apollo 9's rope core flight program. Once
 astronauts entered a few dozen DSKY keystrokes to upload the EMP, and it worked exactly how they
 wanted it to work.
 
-## Overcooking the barbecue
+### Overcooking the barbecue
 *Passive Thermal Control (PTC)* or *Barbecue Mode*, is likely the most temperamental maneuver in
 the Apollo program. The goal is to spin the spacecraft rotating on its long axis at one to three
 revolutions per hour to even out solar heating. The challenge is to get the spacecraft *barbecuing*
@@ -113,7 +113,7 @@ manual hand controllers at minimum impulse. Over a period of 10-20 minutes, they
 accelerated the roll with a series of short bursts of the RCS jets. This approach worked perfectly and
 the astronauts got their much needed sleep.
 
-## Cycle stealing gone awry; restart to the rescue
+### Cycle stealing gone awry; restart to the rescue
 GN&C sensors such as the IMU and radar used the technique of *cycling stealing*<sup>[10]</sup> to update their state in AGC
 erasable memory. In cycle stealing, normal program execution is briefly paused. The program counter
 temporarily stops incrementing while data from external hardware is routed over the bus to the
@@ -143,7 +143,7 @@ pictured above, which he consulted during the Apollo 11 landing to give the "go"
 controllers to continue the landing, a process that took 30 long seconds in which time the LEM dropped
 over a mile in altitude and traveled 10 miles downrange.
 
-## "Try SCE to aux"
+### "Try SCE to aux"
 Less than 30 seconds into the launch of Apollo 12, with the Saturn booster accelerating them 
 toward space with 7 million pounds of thrust, much to the surprise of the crew, the AGC
 went on the fritz. The DSKY went blank and then the whole cabin lit up with caution and
@@ -165,7 +165,7 @@ enhanced to incorporate tracking telemetry from multiple ground stations simulta
 
 ![Left: John Aarons at Mission Control. Right: Alan Bean of Apollo 12 at Surveyor III with LM Intrepid in the background](../../images/Blog_0719_agc_apollo_12_and_aarons.png)
 
-## What-if thinking
+### What-if thinking
 Early on, MIT engineers adopted a *what-if* approach to software development, trying to account
 for every possible contingency. For Apollo 9, MIT software developers needed to create a major
 mode program that allowed the crew to test the lunar module descent engine while remaining docked
@@ -183,7 +183,7 @@ a guidance technique using the Sun and both end-points of the Earth's terminator
 At least one member of the crew, Jim Lovell, had practiced this technique on a prior mission
 on Apollo 8.
 
-## A quarter million mile tech support call
+### A quarter million mile tech support call
 During Apollo 14, the *Abort* button in the LEM was found to be faulty. It was occasionally
 closing a circuit, indicating to the AGC that the *Abort* button had been pushed, which of course
 would be disastrous if occurring during a landing attempt. MIT needed to quickly devise a
@@ -203,7 +203,7 @@ If Apollo 14 had *really needed* to abort, the crew would have had to enter the 
 Of the 42.5 kg of moon rocks Apollo 14 brought back, the biggest, known as *Big Bertha*<sup>[24]</sup> at 9 kg,
 was just this year determined to have originated from Earth.
 
-## Computing and spaceflight
+### Computing and spaceflight
 Computing was an absolutely essential tool for the Apollo program.
 Each Apollo lunar landing mission included four on-board guidance computers. There was on AGC in each of the the CSM and LM.
 The Launch Vehicle Digital Computer (LVDC) provided guidance for the Saturn rocket's
@@ -237,7 +237,7 @@ Apollo program simultaneously drove innovations in computing and benefited from 
 
 <br>
 
-## Author bio
+### Author bio
 
 Mark C. Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
@@ -327,7 +327,7 @@ Pinned: no
 [26]: #sfer-ezikiw-26 "Surveyor III"
 [27]: #sfer-ezikiw-27 "Russian Argon-11C Guidance Computer"
 <!-- (sfer-ezikiw begin) -->
-## References
+### References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[AGC Blog Part 1](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-when-100-flops-watt-was-a-giant-leap)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[AGC Blog Part 2](https://bssw.io/blog_posts/celebrating-apollo-s-50th-anniversary-the-oldest-code-on-github)

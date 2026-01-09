@@ -9,24 +9,24 @@ Software requires regular extensive testing to ensure correctly functioning code
 This article provides a straightforward process to add testing to an existing software project that has no testing (or insufficient testing).
 <!-- deck text end -->
 
-## Overview
+### Overview
 Adding tests of sufficient coverage and quality improves confidence in software and makes it easier to change and extend.
 Tests should be added to existing uncovered code before the code is changed.
 Tests should be added to new code before (or while) it is being written.
 These tests then become the foundation of a regression test suite that helps effectively drive future development while maintaining behavior and improves long-term sustainability.
 
-## Target Audience
+### Target Audience
 Computational Science and Engineering (CSE) software project leaders and developers who are facing significant refactoring efforts because of hardware architecture changes or increased demands for multi-physics and multi-scale coupling, and who want to increase the quality and speed of development and reduce development and maintenance costs.
 
-## Purpose
+### Purpose
 Show how to add quality testing to a project in order to support efficient modification of existing code or addition of new code.
 Show how to add tests to support (1) **adding a new feature**, (2) **fixing a bug**, (3) **improving the design and implementation**, or (4) **optimizing resource usage**<sup>[1]</sup>
 
-## Prerequisites
+### Prerequisites
 
 First read the document *[What Are Software Testing Practices?](./UnderstandingSoftwareTestingPractices.md)* and browse through *[Definition and Categorization of Tests for CSE Software](./DefinitionsCategorizationsOfTests.md)*.
 
-## Steps
+### Steps
 
 1. Set up **automated builds of the code** with high warning levels and eliminate all warnings.
 2. **Select test harness frameworks**
@@ -56,7 +56,7 @@ First read the document *[What Are Software Testing Practices?](./UnderstandingS
 8. Work to **fix all failing nightly regression tests** on a reasonable schedule.
 
 
-## FAQs:
+### FAQs:
 
 **Q: Why do you need both a system-level and a unit test harness?**<br>
 **A**: A unit test harness aggregates hundreds of unit and integration tests into single executables.
@@ -97,7 +97,7 @@ Track: how to
 [2]: #sfer-ezikiw-2 "Test Driven Development"
 [3]: #sfer-ezikiw-3 "Code Complete: Second Edition}"
 <!-- (sfer-ezikiw begin) -->
-## References
+### References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Working Effectively with Legacy Code<br>Michael Feathers. Prentice Hall, 2005](https://bssw.io/items/working-effectively-with-legacy-code)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Test Driven Development<br>Kent Beck, Addison-Wesley Professional, 2003, ISBN: 0321146530](https://www.oreilly.com/library/view/test-driven-development/0321146530/)

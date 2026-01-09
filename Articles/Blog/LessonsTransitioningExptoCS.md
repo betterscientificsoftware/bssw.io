@@ -16,12 +16,12 @@ After graduating in 2017, I joined the [Exascale Computing Project’s](https://
  
 To aid in understanding my experience better, I would like to start by explaining my point of view regarding scientific software and CSE research.
  
-## CSE for me
+### CSE for me
 It is clear that working with scientific software requires developing and incorporating software best practices such as documenting and testing software, using version control and commenting code.  Within the CSE community I often hear these tasks referred to as software engineering.  While I sense that this work is seen as necessary, I also sense that some in the community consider such work to be outside of or less important than the scientific work of interest.  However, for me these practices are not software engineering, but rather an important and necessary part of working with a scientific instrument.  In this sense they are more precisely classified as a subset of low-level, foundational ***scientific*** *best practices* ***adapted*** *from software engineering*.  I believe that researchers working on the high-level science need to be in control of and take ownership of the low-level science, as only they know what is needed at a low level to ensure that the high-level science is executed rigorously.
 
 *I view scientific software as a scientific instrument*.  It is not merely that scientific software is analogous to the scientific instruments built from hardware, but rather that the two types of instruments are at the same level.  It was, therefore, my expectation that many of the tools, processes, and techniques for using hardware instruments for scientific studies would exist in adapted form for working with software instruments correctly.  While some of the aforementioned best practices do satisfy these expectations, other scientific best practices are either not found typically in CSE or are insufficient for the scale of the work at hand.  One prime example is the lack of CSE tools and processes analogous to laboratory notebooks for the comprehensive recording of work done on and with scientific instruments.
  
-## Laboratory notebooks
+### Laboratory notebooks
 Because lab notes are a fundamental and necessary component of rigorous and reproducible scientific work, I have spent the last five years inventing a means to take, organize, and manage lab notes for CSE studies.  I have discussed my thoughts regarding this topic and current techniques in
 * A [webinar](https://ideas-productivity.org/events/hpcbp-070-labnotebooks) in the [Best Practices for HPC Software Developers](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/) series (recording, slides, and Q&A available) and
 * A [BSSw tutorial module](https://www.youtube.com/watch?v=OpzofH8U0Bs), first presented at the 2022 Argonne Training Program on Extreme-Scale Computing ([ATPESC](https://extremecomputingtraining.anl.gov/)).
@@ -36,7 +36,7 @@ In a lab setting, I (and apparently [others](https://doi.org/10.1038/d41586-018-
 
 This organizational complexity requires that much effort be expended to carefully design a system of documentation as opposed to simply choosing a single documentation solution.  Rather than design this system in isolation, I prefer to codesign this as one component within the larger concept of a virtual computational laboratory environment.
  
-## Virtual computational laboratory environments
+### Virtual computational laboratory environments
 Based on my experiences in experimental labs and at the observatory, before I use a scientific instrument to gather data, ideally, I would like to
 * Have all my tools at hand, clean, and ready for use;
 * Know how to use my tools well and correctly;
@@ -58,7 +58,7 @@ Other examples of tools that could be classified as execution environments are
 
 While I presently find that my generic scheme for constructing virtual computational lab environments works reasonably well for the different types of studies that I execute, it would be interesting to assess if any of the aforementioned tools is flexible and powerful enough to work for all CSE studies.
 
-## Conclusion
+### Conclusion
 In an experimental physics lab, tools and lab notebooks are physical items located directly next to scientific instruments – it is an environment that is relatively easy to setup, maintain, and use.  In addition, collaborators typically share the same space rather than a different office, city, state, or country.  This leads to a highly collaborative environment in which sharing, growth, and coevolution is easy and natural.  For instance, it is not uncommon for coworkers to interrupt each other’s work for brainstorming or sharing new knowledge, tips, or tricks.  Also, the need for documentation beyond lab notes is decreased because work is done together or because communication is frequent and easy.
 
 CSE work
@@ -69,7 +69,7 @@ CSE work
 
 Consequently, CSE research has difficulties that did not exist in the experimental labs in which I worked.  As a result, I spend far more time than I was accustomed to developing and using tools and processes to manage these difficulties.  While a small team of developers and researchers who interact frequently may be able to confront these challenges in an informal way, I contend that CSE studies will benefit in terms of improved rigor, reproducibility, and effectiveness if they include explicit design, implementation, and maintenance of an execution environment with an integrated lab notes documentation system.
 
-## Author bio
+### Author bio
 Jared O’Neal is a principal scientific software developer in Argonne National Laboratory’s Mathematics and Computer Science Division. He currently works on computational science applications with an eye on improving processes to ensure productivity while maintaining scientific rigor. Jared has a background in physics and mathematics and had the pleasure of working as an engineer at the Paranal Observatory in the [Atacama Desert](https://www.atacamaphoto.com/atacama-desert/).
 
 <!---

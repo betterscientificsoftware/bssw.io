@@ -12,7 +12,7 @@
 Using Agile principles in the development of scientific software is widely accepted as a best practice.  But in some situations, a deeper initial dive into requirements and design can be beneficial.
 <!-- deck text end -->
 
-##  Agile principles in science vs enterprise software
+###  Agile principles in science vs enterprise software
 Over the past few years, it has almost become an orthodoxy among 
 better-informed scientific software developers to follow 
 [Agile](https://agilemanifesto.org/) principles in their software processes. Several
@@ -37,7 +37,7 @@ was doing the exact opposite of what it was doing for
 enterprise software. That is, Agile methodology was slowing down the next "delivery"
 of scientific software to incorporate some process where none had existed before.
 
-## Is Agile always the right answer?
+### Is Agile always the right answer?
 Over the course of two major version revisions of [FLASH](https://arxiv.org/pdf/0903.4875.pdf), a large and long-lived scientific software project,  I have come to the conclusion that while the incorporation of more formal processes as part of Agile has generally been helpful, the evangelization of
 Agile in the community may have gone too far for some classes of
 scientific software, in particular multiphysics multidomain
@@ -72,13 +72,13 @@ to several science domains (it was built for astrophysics, and it is
 now used by at least six other domains), saving huge infrastructure
 development efforts in those domains.  
 
-## Software processes should fit the needs
+### Software processes should fit the needs
 As with everything else in the world, process should fit needs. Where modifications impact a lot of code, making the cost of modifications high, but where the rate of change is very low, more thorough planning is called for. On the other hand, where changes are frequent, relatively inexpensive, and local (e.g., some numerical algorithms), Agile is the perfect choice.
 
-## Acknowledgement
+### Acknowledgement
 This blog post was first presented as a whitepaper at the [2020 Collegeville Workshop](https://collegeville.github.io/CW20/) (CW20).
 
-## Author bio
+### Author bio
 Anshu Dubey is a computational scientist in the Mathematics and Computer
 Science Division at Argonne National Laboratory and a Senior Scientist
 in the Department of Computer Science at the University of

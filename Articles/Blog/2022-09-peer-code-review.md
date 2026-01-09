@@ -24,7 +24,7 @@ Please refer to the full paper for the complete discussion.
 
 <img src='../../images/Blog_2209_peer_review.png' class='page'/>[Image by katemangostar on Freepik.com]
 
-## Key findings
+### Key findings
 
 Overall, research software developers typically follow an informal review process. Most respondents indicated they initiate code reviews with their peers through pull-request on GitHub, BitBucket, or GitLab. Such code reviews help research software developers identify problems in the code and produce higher-quality software.
 
@@ -34,7 +34,7 @@ To make the code review process more effective, research software development te
 Providing incentives and training could potentially increase participation in the review process.
 In addition, research software developers should invest more time in code review and improve the process by providing quick feedback. 
 
-## Recommendations
+### Recommendations
 
 Improving the code review process can help eliminate many problems that are not addressed by testing. Here, briefly, is a set of recommendations that research software teams can incorporate into their projects to produce high-quality research software.  Once again, for the full context and discussion, please see the paper.
 
@@ -49,15 +49,15 @@ Improving the code review process can help eliminate many problems that are not 
 - Provide necessary support from the administrative level that encourages people to participate in the code review process.
 - Make the overall code review process faster.
 
-## Further reading
+### Further reading
 
 This article is based on a paper by Eisty, N.U., Carver, J.C. Developers perception of peer code review in research software development. Emp Software Eng 27, 13 (2022). [https://doi.org/10.1007/s10664-021-10053-x](https://doi.org/10.1007/s10664-021-10053-x)
 
-## Acknowledgments
+### Acknowledgments
 
 I thank my sponsors for the NCSA summer internship, Drs. Gabrielle Allen, Roland Hass, and Daniel S. Katz. I  also thank Dr. Jeffrey Carver, my co-author of the paper, and the study participants.
 
-## Author bio
+### Author bio
 
 Nasir Eisty is an assistant professor in the Computer Science Department of Boise State University, Boise, ID. He received his Ph.D. degree in computer science from the University of Alabama in May 2020. His research interests lie in the area of empirical software engineering, software quality, and research software engineering. He was a [recipient of the Better Scientific Software Fellowship](https://bssw.io/fellows/nasir-eisty) in 2020 and an Honorable Mention in 2019.
 

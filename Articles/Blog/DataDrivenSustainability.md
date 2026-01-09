@@ -10,7 +10,7 @@ It's heavily based on a [a white paper for the 2019 Collegeville Workshop on Sus
 which in turn is based on a [previous blog post](https://danielskatzblog.wordpress.com/2018/09/26/fundamentals-of-software-sustainability/),
 and it is crossposted on the [BSSw](https://bssw.io/blog_posts) and [URSSI](http://urssi.us/blog/) blogs, as well as [my own blog](https://danielskatzblog.wordpress.com). 
 
-## Defining sustainability
+### Defining sustainability
 
 While it’s difficult to define or measure software sustainability as a future property of software, we can define it in hindsight as “the software has continued to exist, been supported, and been used over some period of time.” When this is the case, we can say that sufficient work was done to make this happen, which we can simplistically view as:
 
@@ -20,7 +20,7 @@ Thinking about the future then, we can use the same “equation” but without c
 
 Thus, to increase the likelihood that any particular software package will be sustained, the developers of that project need to increase the resources they have, or decrease the needed work.
 
-## Improving sustainability
+### Improving sustainability
 
 Resources are money and effort, and a software project can use money to purchase effort. There are a number of general sources of money, including public and private funding agencies, and institutional support, and Nadia Eghbal maintains a [list of options](https://github.com/nayafia/lemonade-stand). We, as a community, can also [try to influence public and private funding agencies to increase and sustain their funding of software projects](http://www.researchsoft.org/).
 
@@ -32,7 +32,7 @@ Some of the motivation factors are related to the ecosystem, and we as a communi
 
 To decrease work, we can consider best practices – ways to improve the processes by which the work is performed. These processes can be studied by researchers interested in the intersection between software engineering and research software and [communities](https://doi.org/10.1109/MCSE.2018.2883051), including those in the [SE4Science](https://se4science.org/) and [CSCW](http://cscw.acm.org/2019/) communities. Once we understand good and best practices, we can use them to provide guidance and training, which can be provided and disseminated through training-focuses communities such as [the Carpentries](https://www.carpentries.org/), institutional groups such as at the [German Aerospace Center (DLR)](https://rse.dlr.de/), disciplinary groups such as [ELIXIR](https://elixir-europe.org/platforms/tools), and more general research software communities such as [SSI](https://www.software.ac.uk/), [URSSI](http://urssi.us/), [BSSw](https://bssw.io/).
 
-## Making project decisions to improve sustainability
+### Making project decisions to improve sustainability
 
 Once we’ve done all these general things, a project can also start to remove sentiment from project decisions. If an essential goal is to make the project’s software sustainable, the project needs to consider this in all of its decisions.
 
@@ -46,7 +46,7 @@ In addition, we might think about target audiences not just based on the size of
 
 And of course, how to measure any of these things is part of the difficulty. We first need to decide how to measure the health of a project today, perhaps by the [CHAOSS metrics](https://chaoss.community/), or perhaps by [other means](https://projects.iq.harvard.edu/osshealthindex), and then we need to understand how these measures might change in the future.
 
-## Potential future research
+### Potential future research
 
 Determining how to address these issues is a community challenge. Some ideas include:
 
@@ -56,11 +56,11 @@ Determining how to address these issues is a community challenge. Some ideas inc
 * Gather data from successful and unsuccessful projects and tie anecdotes about these projects to their outcomes
 * Survey the leaders of successful projects to understand what choices they would make in a particular situation
  
-## Acknowledgement
+### Acknowledgement
 
 Thanks to Katy Huff for helpful feedback on a draft of the white paper upon which this blog post is based.
 
-## Author bio
+### Author bio
 
 Daniel S. Katz is Assistant Director for [Scientific Software and Applications](http://ssa.ncsa.illinois.edu) at the [National Center for Supercomputing Applications (NCSA)](http://www.ncsa.illinois.edu), Research Associate Professor in Computer Science (CS), Research Associate Professor in Electrical and Computer Engineering (ECE), and Research Associate Professor in the School of Information Sciences (iSchool) at the University of Illinois Urbana-Champaign, and Guest Faculty at Argonne National Laboratory. Dan's interest is in the development and use of advanced cyberinfrastructure to solve challenging problems at multiple scales. His technical research interests are in applications, algorithms, fault tolerance, and programming in parallel and distributed computing, including HPC, Grid, Cloud, etc. He is also interested in policy issues, including citation and credit mechanisms and practices associated with software and data, organization and community practices for collaboration, and career paths for computing researchers.
 

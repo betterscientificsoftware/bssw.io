@@ -192,7 +192,7 @@ for large and/or automated refactoring.
 [24]: #sfer-ezikiw-24 "Google's Billion Lines of Code Repository"
 [25]: #sfer-ezikiw-25 "Hacker News commentary on Google's Billion Lines of Code Repository"
 <!-- (sfer-ezikiw begin) -->
-## References
+### References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Modern Code Review: A Case Study at Google](https://sback.it/publications/icse2018seip.pdf)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Characteristics of Useful Code Reviews: An Empirical Study at Microsoft](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf)

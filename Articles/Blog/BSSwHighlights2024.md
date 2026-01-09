@@ -15,7 +15,7 @@ While the journey to better software can sometimes feel like exploring a complex
 As we move into 2025, we’re excited to keep up the momentum, face new challenges, and maybe even write some flawless code (hey, we can dream!).
 Here’s to another year of collaboration, growth, and making software better together. Happy New Year to the entire BSSw community—let’s make 2025 even more awesome!
 
-## Better Planning:
+### Better Planning:
 * [Effective Metrics for Measuring and Enhancing Sustainability in Scientific Software](https://bssw.io/blog_posts/effective-metrics-for-measuring-and-enhancing-sustainability-in-scientific-software), A. Malviya-Thakur and G. Watson.
 * [Framing User Experience (UX) Across the Scientific Software Lifecycle](https://bssw.io/blog_posts/framing-user-experience-ux-across-the-scientific-software-lifecycle), D. Paine.
 * [Technical Properties of Sustainable Software](https://bssw.io/blog_posts/technical-properties-of-sustainable-software), R. A. Bartlett.
@@ -26,7 +26,7 @@ Here’s to another year of collaboration, growth, and making software better to
 * [Generating Software Bill of Materials (SBOMs) in Scientific Software](https://bssw.io/blog_posts/generating-software-bill-of-materials-sboms-in-scientific-software), W. Hart.
 * [Resources for Open Source Program Offices](https://bssw.io/items/resources-for-open-source-program-offices), P. Grubel.
   
-## Better Development:
+### Better Development:
 * [Diátaxis: A Systematic Approach to Technical Documentation Authoring](https://bssw.io/items/diataxis-a-systematic-approach-to-technical-documentation-authoring), K. Beattie.
 * [C++ Core Guidelines](https://bssw.io/items/c-core-guidelines), R. A. Bartlett.
 * [Manual Work is a Bug](https://bssw.io/items/manual-work-is-a-bug), R. A. Bartlett.
@@ -35,7 +35,7 @@ Here’s to another year of collaboration, growth, and making software better to
 * [Security Misconfigurations in Kubernetes Configuration Files](https://bssw.io/blog_posts/security-misconfigurations-in-kubernetes-configuration-files), A. Rahman.
 * [Jupyter4Science: Better Practices for Using Jupyter Notebooks for Science](https://bssw.io/items/jupyter4science-better-practices-for-using-jupyter-notebooks-for-science), N. Brewer.
 
-## Better Reliability:
+### Better Reliability:
 * [Technical Debt in Practice: How to Find It and Fix It](https://bssw.io/items/technical-debt-in-practice-how-to-find-it-and-fix-it), R. A. Bartlett.
 * [Discontinuing a Research Software Project](https://bssw.io/blog_posts/discontinuing-a-research-software-project), M. C. Miller.
 * [Practical Reproducibility: Building a More Robust Research Ecosystem](https://bssw.io/blog_posts/practical-reproducibility-building-a-more-robust-research-ecosystem), K. Keahey and M. Richardson.
@@ -44,7 +44,7 @@ Here’s to another year of collaboration, growth, and making software better to
 * [Come for Syntax, Stay for Speed, and Understand Bugs in Julia Programs](https://bssw.io/blog_posts/come-for-syntax-stay-for-speed-and-understand-bugs-in-julia-programs), A. Rahman.
 * [Code-Review.org: An Online Tutorial to Improve Your Code Review Skills](https://bssw.io/blog_posts/code-review-org-an-online-tutorial-to-improve-your-code-review-skills), H. Kershaw.
 
-## Better Collaboration:
+### Better Collaboration:
 * [Creating a Career Path for Research Software Engineers](https://bssw.io/items/creating-a-career-path-for-research-software-engineers), R. Gupta.
 * [Getting Started with the RSE Movement within Your Organization: A Guide for Individuals](https://bssw.io/items/getting-started-with-the-rse-movement-within-your-organization-a-guide-for-individuals), K. Beattie.
 * [Thank You from the BSSw.io Editorial Team!](https://bssw.io/blog_posts/thank-you-from-the-bssw-io-editorial-team), The BSSw.io Editorial Team.
@@ -55,18 +55,18 @@ Here’s to another year of collaboration, growth, and making software better to
 * [A Collection of Guidance and Templates for Open-source Software (OSS) Projects](https://bssw.io/items/a-collection-of-guidance-and-templates-for-open-source-software-oss-projects), P. Grubel.
 * [Research Software Engineers in HPC (RSE-HPC-2023): A Summary of the SC23 Workshop](https://bssw.io/blog_posts/research-software-engineers-in-hpc-rse-hpc-2023-a-summary-of-the-sc23-workshop), C. Ferenbaugh, S. Gesing, S. Hettrick, and D. S. Katz
 
-## Better Performance:
+### Better Performance:
 * [Balancing Productivity, Portability and Performance in CFD](https://bssw.io/items/balancing-productivity-portability-and-performance-in-cfd), M. C. Miller. 
 * [The Turing Way: Reproducible and Ethical Science](https://bssw.io/items/the-turing-way-reproducible-and-ethical-science), J. Brown and M. C. Miller.
 
-## Better Skills:
+### Better Skills:
 * [Identifying the Foundational Competencies of a Research Software Engineer](https://bssw.io/blog_posts/identifying-the-foundational-competencies-of-a-research-software-engineer), J. Cohen, F Löffler, et al.
 * [Numerical Recipes Books](https://bssw.io/items/numerical-recipes-books), M. C. Miller.
 * [Formal Course Resources for Learning about HPC](https://bssw.io/items/formal-course-resources-for-learning-about-hpc), M. C. Miller.
 * [Best Practices for HPC Software Developers Webinar Series](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series), O. Marques and D. E. Bernholdt.
 * [What Science Says Is the Best Font](https://bssw.io/items/what-science-says-is-the-best-font), M. C. Miller.
   
-## Building a better scientific software community through your contributions
+### Building a better scientific software community through your contributions
 
 The BSSw site remains an open platform for sharing information and experiences related to scientific software issues. If you possess expertise or experiences that can benefit other scientific software teams, we encourage you to [contribute to the BSSw site](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software). Whether through original articles, blog posts, curated links that highlight web-based content, or [event announcements](https://bssw.io/events), your contributions play a crucial role in fostering a collaborative and supportive environment.
 
@@ -75,7 +75,7 @@ With another year ahead, we’re excited to continue learning, collaborating, an
 We can’t wait to see what we’ll accomplish together—your insights and contributions are what make it all happen!
 
 
-## Author bio
+### Author bio
 Rinku Gupta is the Editor-in-Chief of the Better Scientific Software site. She has been a part of the high-performance scientific community for two decades and is a researcher in the field of high-performance fault tolerance, resiliency, middleware libraries and programming models. She is passionate about her work in the area of developer productivity and software sustainability; her current focus lies in partnering with the computational science community on these topics to design better scientific software.
 
 <!---

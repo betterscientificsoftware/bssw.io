@@ -19,7 +19,7 @@ Additionally, we too rarely show our colleagues that we appreciate what they do 
  To strengthen team bonds, hold a team-building, thankfulness-inducing retrospective (with appreciations!).
 
 
-## Exercise: Retrospective*
+### Exercise: Retrospective*
 
 While retrospectives are usually associated with Agile teams, they can work well in any team.  For teams not using Agile workflows, I suggest holding a retrospective after an important project achievement (a code or feature release, a fielded experiment, etc.). The following discussion uses the Agile term “sprint” -- one timeboxed iteration of a continuous development cycle.  More generally, readers can substitute “project achievement” for this term in the discussion.
 
@@ -31,7 +31,7 @@ One of the simplest and quickest retrospectives proceeds as follows**:
 4. Hold appreciations (see section on Appreciations).
     
 
-## Exercise: Appreciations***
+### Exercise: Appreciations***
 
 Procedure:
 1. Have the team sit in a circle. 
@@ -45,13 +45,13 @@ Ground rules:
 
 The use of "appreciate" as an action verb emphasizes the interactive nature of the exchange.   Appreciations should be an integral part of our interactions with our colleagues.  Hopefully this exercise helps you include them in your routine.
 
-## Acknowledgments
+### Acknowledgments
     
 *Thanks to Mark Gray for the analogy of the retrospective as a safety valve.
 
 **, *** I was first introduced to these ideas by Esther Derby, Johanna Rothman, and Jerry Weinberg in their leadership workshop “Problem Solving Leadership.”
 
-## Author bio
+### Author bio
 
 Angela Herring is a staff scientist at Los Alamos National Laboratory.   She specializes in leading multi-disciplinary, Agile research teams. Currently, she leads two research software teams.  One team develops the remap software, Portage (www.github.com/laristra/portage) as well as an interface reconstruction library, Tangram (www.github.com/laristra/tangram).  The other team, Lynx, focuses on applications of code to code linking.    Angela received a M.S. in Mechanical and Aeronautical Engineering from U.C. Davis in 2005 and a B.S. in Aerospace Engineering from Mississippi State University in 2003.
 

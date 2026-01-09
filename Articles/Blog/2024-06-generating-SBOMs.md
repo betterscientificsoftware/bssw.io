@@ -45,7 +45,7 @@ Here is a synopsis of the key points from these blogs:
 * Alternatively, C++ and Fortran developers can automate the generation of SBOMs within their build systems.
   * For example, the [cmake-sbom project](https://github.com/DEMCON/cmake-sbom) automates SBOM generation with build information the developer provides.
 
-## Further information
+### Further information
 
 * [SBOMs for Scientific Software: Python](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-python.html)
 * [SBOMs for Scientific Software: C++](https://wehart.blogspot.com/2024/03/sboms-for-scientific-software-c.html)
@@ -53,11 +53,11 @@ Here is a synopsis of the key points from these blogs:
 * [United States Executive Order on Improving the Nation's Cybersecurity](https://www.federalregister.gov/d/2021-10460)
 * [NIST Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf)
 
-## Acknowledgment
+### Acknowledgment
 
 This work was supported by the Better Scientific Software Fellowship Program, funded by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy (DOE) Office of Science and the National Nuclear Security Administration.
 
-## Author bio
+### Author bio
 
 William Hart is a 2022 [BSSw Fellow](https://bssw.io/pages/meet-our-fellows) and researcher in the Center for Computing Research at Sandia National Laboratories. He managed the Data Science and Optimization Applications portfolio for the US DOE Exascale Computing Project (ECP). He is an expert in computational operations research, and he has developed solutions for cybersecurity, critical infrastructure protection, engineering design, sensor data analysis, drug design, nuclear nonproliferation and remote sensing applications. Additionally, he has made seminal contributions to a variety of impactful open-source software libraries, including Pyomo (R&D100, INFORMS Computing Prize), Canary (R&D100), IDAES (R&D100), Dakota, and PEBBL.
 
