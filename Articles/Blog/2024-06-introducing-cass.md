@@ -8,13 +8,13 @@
 The Consortium for the Advancement of Scientific Software (CASS) is a new organization dedicated to stewarding and advancing the scientific software ecosystem.
 <!-- end deck -->
 
-## Brief history 
+### Brief history 
 
 Reusable scientific software products, which encapsulate domain-specific expertise that is leverageable across multiple applications, provide critical capabilities that enable scientific discovery and sustained collaboration.  However, the thoughtful stewardship of scientific software has long been a challenge throughout much of the research software community. By and large, funders prefer to support _research_ that results in new scientific discovery of one form or another.  The software that enables this discovery is rarely treated as a first-class research product, with the consequence that long-term sustainment and stewardship of the software often are challenging.
 
 As the U.S. Department of Energy (DOE) [Exascale Computing Project](https://www.exascaleproject.org/) (ECP) was winding down (with technical work concluding in December 2023), the DOE Office of Advanced Scientific Computing Research (ASCR) took the initial steps toward more intentional stewardship of its sizable portfolio of software developed and enhanced through ECP and other ASCR research programs by funding in the spring of 2023 six small “seedling” projects to conceptualize what directly funded stewardship efforts might look like.  About six months later, ASCR invited proposals to realize an initial stewardship program under the banner of Next-Generation Scientific Software Technologies (NGSST).
 
-## What is CASS?
+### What is CASS?
 
 The approach of ASCR’s NGSST initiative has been to create a number of “software stewardship organizations” (SSOs) as funded projects, each of which is responsible for stewarding a specific portion of the target scientific software ecosystem, or for providing stewardship services across the ecosystem, either by working to curate and deliver a cohesive software stack, or supporting other needs of the software teams, for example, training, workforce development and retention, and assistance in working with software foundations to facilitate long-term stewardship.  The FASTMath and RAPIDS Institutes in the [Scientific Discovery through Advanced Computing](https://scidac.gov/) (SciDAC) program also received expanded scope and funding from NGSST for software stewardship activities.
 
@@ -41,25 +41,25 @@ In the spirit of full disclosure, two “seedling” projects (COLABS and SWAS) 
 
 <img src='../../images/2024-06-announcing-cass-slide.png' class='page lightbox'/>
 
-## The DOE/ASCR scientific software ecosystem
+### The DOE/ASCR scientific software ecosystem
 
 The initial members of CASS focus on (i.e., are funded to help steward) what might be called the “ASCR scientific software ecosystem.” Many of the software products in this ecosystem have been developed or enhanced as part of the Software Technologies (ST) component of the Exascale Computing Project, while others have historically been supported by other ASCR programs.  The software products include many well-known math libraries, data and visualization packages, programming environments, performance and correctness tools, and workflow building blocks.  Also included are the [Spack](https://spack.io/) package manager and the [E4S software distribution](https://e4s-project.github.io/) that includes many of the software packages in the ecosystem (as well as others).  
 
 These high-impact software products (as well as additional software products that are not currently part of SSO portfolios) provide important foundational capabilities that support a wide range of scientific applications, including twenty-six application projects within ECP and hundreds more in the broader community. The ECP Software Technology Capability Assessment Report ([https://doi.org/10.2172/1888898](https://doi.org/10.2172/1888898)) provides information about many software products, and some exemplars will be discussed in forthcoming special issues of IEEE Computing in Science and Engineering (_Transforming Science through Software: Improving while delivering 100X, The Scientific Impact of ECP_) and the International Journal of High Performance Computing Applications (special issue on _ECP Reusable Libraries and Tools_).
 
-## Planning for growth
+### Planning for growth
 
 Although CASS started with a specific set of member SSOs, which in turn partially support the stewardship of a specific set of software products, our mindset is one of growth.  Many leaders and members of the founding CASS SSOs have backgrounds in complementary projects, including the [IDEAS Productivity projects](https://ideas-productivity.org/), which have been working toward broad cultural change to raise awareness of the importance and value of software (including libraries, tools, applications, and more) as a first-class research product and increasing recognition and support for the people who produce and maintain it. And as we are “designing” the CASS consortium, including formal governance structures, we are incorporating mechanisms that will allow the consortium to expand with new members, covering a broader portion of the scientific software ecosystem. 
 
 We envision additional funders (such as other parts of the Department of Energy, other government agencies, foundations, and so forth) might launch projects that function similarly to our SSOs and might want to participate in the CASS community.  We are also establishing an “affiliate” membership category for groups that are aligned with CASS’s mission and goals, but are not specifically doing the kinds of stewardship activities that our “SSO-like” core members do.
 
-## Current status and future plans
+### Current status and future plans
 
 The CASS consortium is in what might be called the “soft launch” stage at the moment.  While the member software stewardship organizations have been operating for a few months, at the consortium level we’re still working on finalizing the details of formal consortium governance at the same time we’re starting public activities, such as this blog article, the [CASS Community BoF Days](https://cass.community/bofs.html) (also happening this week), and spinning up some internal crosscutting technical working groups.  We are open to discussing other ways that the consortium might be able to further its interests, potential collaborations, or even new memberships. We are particularly interested in exploring what affiliate membership in CASS might mean to other organizations, projects, or even individuals.
 
 Looking forward, the members of the CASS consortium have a lot on our plate.  We plan to develop an extensive portfolio of trainings and tutorials to support the community, help build the workforce of scientific software developers and users, help projects navigate the many software foundations that are available and decide what (if any) might be best for any given project to pursue, and many other activities to advance scientific software stewardship.  Of course at the same time, our member SSOs are working with software projects in the ecosystem to help them improve their sustainability, quality, capabilities, and level of interoperability and integration with the rest of the ecosystem, and we’ll be working to help others adopt and use the software our members produce.
 
-## How you can get involved
+### How you can get involved
 
 First, please consider attending this week’s [CASS Community BoF Days](https://bssw.io/events/cass-community-bof-days-2024) (11-13 June, 2024).  The sessions include several that are directly related to CASS or the activities of SSOs: 
 
@@ -84,7 +84,7 @@ In the longer term, please **[subscribe to our announcement list](http://eepurl.
 
 We look forward to hearing from you and working with you to advance the scientific software ecosystem!
 
-## Author bios
+### Author bios
 
 **David E. Bernholdt** is a Distinguished R&D Staff Member at Oak Ridge National Laboratory. His research interests are broadly in the development of scientific software for high-performance computers, including developer productivity, and software quality and sustainability. David is a member of the COLABS and PESO projects in CASS.
 

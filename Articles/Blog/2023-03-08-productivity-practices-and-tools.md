@@ -18,7 +18,7 @@ The goal of these tools is not to enable getting more done (they probably will),
 While it may be satisfying to write another unit test, release a new feature, or resolve a stubborn bug, there is always more we *could* be doing.
 Mastering the practices and tools described here will help make more time available for what we believe we *should* be doing the most.
 
-## Productivity journaling
+### Productivity journaling
 
 Journaling for productivity is different from what most people think of as keeping a diary.
 Journaling captures tasks, observations, ideas, and lessons to be periodically reviewed, distilled and migrated.
@@ -32,7 +32,7 @@ Effective  journaling also demands that one periodically slow down, pause, and r
 Such pauses enable one to make more deliberate decisions (e.g., acting instead of reacting) about future work as well as to recognize patterns of activity worth changing.
 While there are many approaches to journaling, two useful sets of strategies come from [Bullet Journaling by Ryder Carroll](https://bulletjournal.com/) and [Building A Second Brain by Tiago Forte](https://www.buildingasecondbrain.com/).
 
-### Key journaling strategies
+#### Key journaling strategies
 
 What to journal and how to journal are deeply personal. Here are a few high-level strategies to consider:
 
@@ -56,12 +56,12 @@ At longer intervals (e.g., seasonally), it is a good practice to ask yourself de
 How well have I lived up to my aspirations so far?
 At these more substantial reflection points, it's often a good practice to bring the old journal to a close and start a *new* journal by copying key information (or migrating) forward to encourage reflecting on what is worth moving forward.
 
-### Tools to consider
+#### Tools to consider
 
 A video series from [Tiago Forte](https://www.youtube.com/playlist?list=PLVNXAaej57W7fbYoc_XJ0bA0T3k_Ye-Q2) describe which journaling tools work best for different people.
 In addition, consider [Drafts](https://getdrafts.com/), [GoodNotes](https://www.goodnotes.com/), [Notion](https://www.notion.so/), [Obsidian](https://obsidian.md/), and [Evernote](https://evernote.com/).
 
-## Task management
+### Task management
 
 While journaling aims to help *you* be a generally more productive person, task management enables productivity of a particular plan of action.
 If tasks are not managed, they can wind up being left undone or, maybe worse, done without respect for priorities.
@@ -73,7 +73,7 @@ In turn, this circumstance can hurt longer-term goals.
 
 For many, the tactile acts of checking tasks off as done or moving tasks across a project board (e.g., Kanban) have great appeal because they provide a sense of progress.
 
-### What goes into task management?
+#### What goes into task management?
 
 When defining tasks, make them SMART -- specific, measurable, attainable, relevant, and timely.
 
@@ -88,12 +88,12 @@ This information can help determine how a task fits into larger goals, as well a
 Another useful tool for managing tasks is the [*Eisenhower Matrix*](https://en.wikipedia.org/wiki/First_Things_First_(book)), which divides tasks along two axes: "urgent and not urgent" and "important and not important".
 The approach suggests that you **DO** those tasks that are both urgent and important, **PLAN** those tasks that are not urgent but still important, **DELEGATE** those tasks that are urgent but not important and **ELIMINATE** those tasks that are neither urgent nor important.
 
-### Tools to consider
+#### Tools to consider
 
 A white board can be a useful way to manage tasks, especially when its being shared across a co-located team.
 Beyond that, consider [Apple Reminders](https://support.apple.com/en-us/HT205890), [Google Keep](https://keep.google.com/), [Trello](https://trello.com/), [Jira](https://www.atlassian.com/software/jira), [TaskWarrior](https://taskwarrior.org/), [Omnifocus](https://www.omnigroup.com/omnifocus), [Things](https://culturedcode.com/things/), [Due](https://www.dueapp.com/), and [GitHub Projects](https://github.blog/2022-07-21-tips-tricks-for-using-github-projects-for-personal-productivity/).
 
-## Time tracking
+### Time tracking
 
 The last key part of this trio of practices is time tracking.
 That is, keeping track of what you _actually_ spend your time doing. 
@@ -106,7 +106,7 @@ After spending 15 minutes on this new task C, you take a bathroom break.
 On your way back, a user pulls you into an office asking for help and you spend 25 minutes with them (new task D).
 Your 4-hour morning on task A has now become 3 hours and 20 minutes.
 
-### Planned tasks
+#### Planned tasks
 
 ```
 Task          Time Tallies            Total 
@@ -117,7 +117,7 @@ Task B        ||||  ||||  ||||  ||||   4.0
 -------------------------------------------
 Total                                  7.25
 ```
-### Interruption tasks
+#### Interruption tasks
 
 ```
 Task          Time Tallies            Total 
@@ -138,7 +138,7 @@ Why did that happened?
 What could be automated/delegated?
 You may be surprised where you actually spend your time.
 
-### Tools to consider
+#### Tools to consider
 
 There are automatic and manual time tracking tools. 
 Manual time tracking can be straightforward, as the example above shows. 
@@ -147,7 +147,7 @@ Some time tracking tools provide informative ways to visualize how time is spent
 
 Consider [ActivityWatch](https://activitywatch.net/) (an automatic time tracker) and [TimeWarrior](https://timewarrior.net/) (a manual time tracker).
 
-## Closing thoughts
+### Closing thoughts
 
 Specific tools are not as important as the actual practices themselves. 
 Good pencil and paper approaches can be adopted for every practice mentioned here. 
@@ -157,7 +157,7 @@ Tools should provide value-added functionality and not hinder your workflow.
 Additionally, almost all tools operate in the cloud, allowing users to access information from anywhere and with any device.
 
 
-## Author bio
+### Author bio
 
 Robert Underwood is a Postdoctoral Appointee at Argonne National Laboratory in the Mathematics and Computer Science Division under Franck Cappello.
 His research interests are at the [intersection of HPC, lossy compression, and data management](http://robertu94.github.io/about).

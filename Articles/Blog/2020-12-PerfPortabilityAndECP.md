@@ -11,7 +11,7 @@
 A focus on performance portability engendered by heterogeneity in high-performance computing (HPC) platforms has brought the issue of software design to the forefront of computational science with HPC. This article discusses challenges in performance portability and how careful attention to software design is essential to achieving portable performance, especially with an eye to emerging exascale platforms.
 
 
-## The many faces of performance portability
+### The many faces of performance portability
 *Performance portability* is a topic that elicits various responses depending on the 
 setting. Domain scientists want performance portability in their codes and would really
 like if it could become magically possible without taxing 
@@ -27,7 +27,7 @@ software for science need to understand the trade-offs and help
 science projects make informed choices that are best for their
 research programs.
 
-## Performance portability panels
+### Performance portability panels
 The DOE *Exascale Computing Project [(ECP](https://exascaleproject.org))* has become
 an active testbed for all things connected to performance
 portability. ECP is unique in providing adequate resources to various
@@ -67,7 +67,7 @@ abstraction layers, pragma-based tools, or autotuning tools. Better
 solutions can be found where applications and tools are not completely
 oblivious of the needs of one another.  
 
-## Performance portability and software design
+### Performance portability and software design
 What this means is that real investment in application architecture
 design has become critical for scientific software of modest to high
 complexity running on even modestly high-performance
@@ -91,7 +91,7 @@ elaborates on some design principles that
 are definitely necessary, though not sufficient.
 
 
-## Author bio
+### Author bio
 Anshu Dubey is a computer scientist in the Mathematics and Computer
 Science Division of Argonne National Laboratory and a senior scientist
 in the Department of Computer Science at the University of

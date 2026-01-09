@@ -24,9 +24,9 @@ in molecular sciences software development. The fundamental purpose of the
 MolSSI is to serve and enhance the software development efforts of the broad
 field of computational molecular science.
 
-## Challenges
+### Challenges
 
-### Software, hardware, and educational challenges
+#### Software, hardware, and educational challenges
 
 Software in the molecular sciences ranges from small utility programs used to
 manipulate inputs and outputs, to analysis programs, to libraries that provide a
@@ -70,7 +70,7 @@ science departments, most of the computer science training for computational
 molecular scientists is still ad hoc, although the wealth of online materials
 and courses makes obtaining this knowledge much easier than it used to be.
 
-### Socioeconomic challenges
+#### Socioeconomic challenges
 
 Sustainability is as much a socioeconomic problem as a technical one; thus,
 there is a supply and a demand side to software sustainability. On the supply
@@ -113,7 +113,7 @@ molecular sciences. While these careers can be satisfying, such moves mean that 
 of the best computational engineers are enticed out of the very field that
 needs them.
 
-## Opportunities/possible solutions
+### Opportunities/possible solutions
 
 Meeting these challenges can be daunting; however, significant progress has been
 made. The molecular sciences community itself has come to recognize that
@@ -128,7 +128,7 @@ community to implement significant changes in our software ecosystem that might
 otherwise not be possible. Here we outline some of those possible solutions that
 we have been involved in as part of the MolSSI project.
 
-### Education and outreach
+#### Education and outreach
 
 As one of the most significant parts of our agenda, the MolSSI has engaged in a
 large education and outreach effort. The MolSSI offers summer schools,
@@ -163,7 +163,7 @@ community. We note that most of these workshops are led by members of
 the community and not by the MolSSI itself; we are a key partner in the
 workshops, but the organizers determine the primary topics of discussion.
 
-### Software and data API standards
+#### Software and data API standards
 
 The MolSSI has also taken a leadership role in the development of code and data
 API standards. These common APIs will facilitate a level playing field for all
@@ -179,7 +179,7 @@ Interface](https://github.com/MolSSI)). Ultimately,
 these types of standardizations enable fair competition, with the users picking
 the most successful products for their needs.
 
-### Best practices and new metrics
+#### Best practices and new metrics
 
 Of course, this primarily MolSSI-developed infrastructure software faces its own
 sustainability challenges. However, the MolSSI strives to practice what it
@@ -195,14 +195,14 @@ raising the level of a software release to the same level as a publication, and
 using data within tools such as GitHub to show productivity, as well as encouraging the
 continued formation of positions related to scientific software development.
 
-## Acknowledgments
+### Acknowledgments
 
 This blog post is based on a white paper at the [2019 Collegeville Workshop on
 Sustainable Scientific Software
 (CW3S19)](https://collegeville.github.io/CW3S19/) and is cross-posted on the
 [BSSw](https://bssw.io) and [URSSI](http://urssi.us) sites.
 
-## Author bios
+### Author bios
 
 Distinguished Professor [Theresa Windus](mailto:twindus@iasate.edu) is the
 Liberal Arts and Sciences Dean's Professor at Iowa State University and a

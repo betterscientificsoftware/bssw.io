@@ -8,14 +8,14 @@
 Julia provides a mathematical front end to LLVM to provide easy and performant CPU and GPU access and lightweight interoperability with existing C, Fortran, R, and Python codes, coupled with a rich unified ecosystem for packaging, data science, and interactive computing. Hence, Julia fills a gap at the intersection of high performance and high productivity for scientific software.
 <!-- end of deck text -->
 
-## Introduction
+### Introduction
 
 Current requirements for scientific software have expanded beyond number crunching, with reproducibility, AI workflows, data analysis and visualization, continuous integration and continuous deployment (CI/CD) pipelines, packaging, and interactive computing taking central roles in the scientific discovery process.
 The current status quo is to use a compiled language (Fortran, C, C++) for performance-critical code, while a higher-level language (e.g., Python) is preferred for portions of the code that are not performance sensitive, with the promise of higher productivity. 
 Nevertheless, we typically interact with third-party components within the ecosystem, such as build systems, packaging, and programming models to access heterogeneous hardware, e.g., graphical processing units (GPUs).
 In this model, we must deal with a many-body ecosystem, with code bases usually composed of a `base language` + `X`, in which `X` may comprise a long list of components, e.g., Python, C, C++, Fortran, CMake, Make, Catch, doctest, pytest, pybind11, conda, pip, Jupyter, apt, yum, etc., with no guarantees of interoperability among them. Thus, overall, economics and productivity suffer in a way that may scale with the number and variety of components required, as well as with project size and performance portability requirements.
 
-## Why Julia?
+### Why Julia?
 
 **Why do we keep creating new languages and ecosystems?** 
 
@@ -85,22 +85,22 @@ For people focused on high-performance computing (HPC), it is worth noting that 
 
 It's also worth mentioning that unifying and coordinated initiatives coming out of the ECP, such as [Spack](https://spack.io/) and [E4S](https://e4s-project.github.io/), are an invaluable source of HPC packages that can be leveraged within the Julia ecosystem. 
 
-## Where to start
+### Where to start
 
 For a more technical introduction to the Julia ecosystem, you might want to start with a blog article that I recently updated: [*First Project Using the Julia Language*](https://williamfgc.github.io/programming/scientific-computing/2023/03/03/first-project-julia-language.html).  The article includes links to numerous other resources that can provide further help getting started. I recommend to anyone trying the language for the first time to use [Visual Studio Code](https://code.visualstudio.com/), which offers excellent Julia support through its extensions marketplace, and the upcoming [Julia v1.9 version](https://julialang.org/downloads/#upcoming_release) for a better experience.
 I also encourage seeking out colleagues who may be using Julia and building a local community, including sharing experiences, tips, and examples.
 Ultimately, scientific software, in Julia or other languages, benefits from communities.
 As a bonus, I've found that using GitHub Copilot with the simple Julia APIs can be a welcome boost to the productivity of writing and porting code to Julia. Its autocompletion-like capabilities save on typing (but not thinking).
 
-## Final thoughts
+### Final thoughts
 
 Julia is part of the natural evolution of programming languages. Powered by LLVM and a carefully thought-out ecosystem, Julia's design decisions and value proposition target the high-performance plus high-productivity space. Mastering a new programming language can be a steep initial investment, and eventual adoption is a result of both technical and non-technical factors. I believe it is important to expose the scientific computing community to the value proposition of newer alternatives like Julia, and that is the goal of this article. The actual value is ultimately determined by each user and project, and their particular scientific software needs. 
 
-## Acknowledgment
+### Acknowledgment
 
 I want to thank the many people in the community for enabling our efforts, in particular the IDEAS and PROTEAS-TUNE sub-projects within ECP, the [Sustainable Research Pathways](https://shinstitute.org/sustainable-research-pathways-2022) program, and the Bluestone project.
 
-## Author bio
+### Author bio
 
 [William F. Godoy](https://orcid.org/0000-0002-2590-5178) is a Senior Computer Scientist in the Computer Science and Mathematics Division at Oak Ridge National Laboratory (ORNL). His interests are in the areas of HPC, scientific software, programming models, data, and parallel I/O.
 At ORNL, he has contributed to scientific software projects funded by the Exascale Computing Project and ORNL's neutron science facilities. Godoy received a PhD in Mechanical Engineering from the University at Buffalo, The State University of New York. He is a 2022 [BSSw Fellowship](https://bssw.io/fellowship) honorable mention, a member of the [United States Research Software Engineer Association](https://us-rse.org/) and ACM, and an IEEE senior member serving in several technical venues.

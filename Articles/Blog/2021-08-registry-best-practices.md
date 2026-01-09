@@ -21,14 +21,14 @@ create a list of best practices for such registries and repositories, the
 process we followed, what the best practices include, and what the next steps
 for this community are.
 
-## Why are scientific software registries and repositories important?
+### Why are scientific software registries and repositories important?
 
 Scientific software registries and repositories support identifying and finding
 software, provide information for software citation, foster long-term
 preservation and reuse of computational methods, and ultimately, improve
 research reproducibility and replicability.
 
-## Why did we write these guidelines?
+### Why did we write these guidelines?
 
 Managers of scientific software registries and repositories have been working
 independently to run their services and provide useful information and tools to
@@ -53,7 +53,7 @@ The goals that we considered for writing the guidelines were:
         the best practices should do or provide, not on what a suggested policy
         or element should specifically say.
 
-## What are the best practices?
+### What are the best practices?
 
 Our guidelines, listed below, provide an overview of the key points to take into
 consideration when creating a software registry. They are:
@@ -87,7 +87,7 @@ consideration when creating a software registry. They are:
 each guideline and a longer list of implementations that we found when we were
 doing our work on these practices.
 
-## What process did we follow to produce the guidelines?
+### What process did we follow to produce the guidelines?
 
 Representatives from numerous software registries and repositories were involved
 in the FORCE11 Software Citation Implementation Working Group (SCIWG). Alice
@@ -109,7 +109,7 @@ consensus around the Best Practices.  The workshop included registries who were
 not part of the Task Force, resulting in a broader set of contributions to the
 final list.
 
-## What are the next steps for the group?
+### What are the next steps for the group?
 
 Our goal is to continue our efforts by implementing these practices more
 uniformly in our own registries and repositories and reducing the burdens of
@@ -126,7 +126,7 @@ presentations](https://scicodes.net/presentations/) that are recorded and
 available for viewing on the [SciCodes website](https://scicodes.net/), so
 please check them out!
 
-## Acknowledgments
+### Acknowledgments
 
 This article is cross-posted on 
 the *[SciCodes website](https://scicodes.net/best-practices-for-software-registries-and-repositories/)*, 
@@ -140,7 +140,7 @@ and the *[FORCE11
 website](https://force11.org/post/best-practices-for-software-registries-and-repositories/)*.
 
 
-## Author bios
+### Author bios
 
 Alejandra Gonzalez-Beltran leads the Data and Software Engineering Group (DSEG) in the Scientific Computing Department at the Science and Technology Facilities Council, part of UK Research and Innovation. Alejandra’s work revolves around developing models, methods, and software tools for data science and innovative scholarly communication with the aim of enabling Findable, Accessible, Interoperable and Reusable (FAIR) data, research reproducibility and aggregation of research results. DSEG mainly focuses on the design, development and support of high-quality FAIR software to support FAIR data management of the large-scale facilities at the Rutherford Appleton Laboratory, which include lasers, particle accelerators, neutron and muon sources.
 

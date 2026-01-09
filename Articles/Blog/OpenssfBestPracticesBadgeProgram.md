@@ -39,7 +39,7 @@ These different aspects of the OpenSSF Best Practices Program and Badge App are 
 
 <a name="details"/>
 
-## OpenSSF Best Practices and Badge App Details
+### OpenSSF Best Practices and Badge App Details
 
 Before getting into the some of the surprising benefits of the OpenSSF Best Practices and Badge App site, it is worth going into some detail about the best practices themselves and the "Badge App" website.
 
@@ -233,7 +233,7 @@ Without a resource like the OpenSSF Best Practices, it is very difficult for man
 
 <a name="continuous_improvement"/>
 
-## OpenSSF Best Practices as a roadmap for continuous improvement
+### OpenSSF Best Practices as a roadmap for continuous improvement
 
 As described above, the Badge App site provides the current status as a percentage completion to the next badge level for a given project.
 This percentage completion and the number of satisfied practices in each area provides a simple metric and a motivator for improvement for the project.
@@ -272,7 +272,7 @@ I personally found the reminder helpful and it made it easy to check up on where
 
 <a name="standard_project_index"/>
 
-## OpenSSF Best Practices Badge App as a standard index into a project
+### OpenSSF Best Practices Badge App as a standard index into a project
 
 One surprising benefit of the OpenSSF Best Practices Badge App site is that provides a standard index into each project for how it addresses different types of processes and where to find specific types of information.
 For example, if one wants to know how issues are reported for a listed project, one can go to the entries ***report_process*** <sup>[15]</sup> and ***report_tracker*** <sup>[16]</sup> and find URLs to the description of how issues are reported and the issue tracking site itself.
@@ -282,7 +282,7 @@ One can quickly find out how to securely report possible vulnerabilities<sup>[19
 
 <a name="forking_badge_app_website"/>
 
-## Forking and Customizing the OpenSSF Best Practices and Badge App Website
+### Forking and Customizing the OpenSSF Best Practices and Badge App Website
 
 While the OpenSSF Best Practices are very comprehensive and are apparently well supported by the broader open source software development community, many projects are not fully open source and therefore some of the practices do not apply.
 For example, the MUST item \[floss_license\]<sup>[20]</sup> requires the software be released as Free-Libre /Open Source Software (FLOSS).
@@ -302,7 +302,7 @@ For example, a U.S. DOE program could create a customized best practices site ba
 
 <a name="summary"/>
 
-## Summary
+### Summary
 
 In summary, the OpenSSF Best Practices provides an impressive, actionable collection of the open source communities best practices with a strong focus on software security.
 The supplied OpenSSF Best Practices Badge App site codifies these best practices and provides blanks for projects to fill in how they implement each item (or not) and where to find out more information.
@@ -364,7 +364,7 @@ Finally, the OpenSSF Best Practices Badge App site has the potential to provide 
 [19]: #sfer-ezikiw-19 "vulnerability_report_process"
 [20]: #sfer-ezikiw-20 "floss_license"
 <!-- (sfer-ezikiw begin) -->
-## References
+### References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-0"></a><sup>0</sup>[Linux Foundation](https://www.linuxfoundation.org/)
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Open Source Security Foundation](https://openssf.org/)

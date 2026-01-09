@@ -10,7 +10,7 @@
 
 It takes a whole community to build a sustainable ecosystem consisting of various independently developed software products that work well together. Providing a set of guidelines is an essential ingredient.  This article discusses community policies for long-term development of a sustainable software ecosystem for scalable high-performance libraries and applications. 
 
-## Building a software community
+### Building a software community
 
 The design of the Extreme-scale Scientific Software Development Kit (xSDK, see https://xsdk.info) has been
 driven by the vision to provide  a collection of related
@@ -31,7 +31,7 @@ packages that conformed to the initial set of community policies were few. Over
 time, however, the number has grown and is now approaching 20, with new packages
 joining every year (see the figure above).
 
-## Basic design of community policies
+### Basic design of community policies
 
 At the onset of the xSDK project, it became clear that to achieve the seamless
 coordination required to build a variety of software libraries---that are actually
@@ -55,7 +55,7 @@ become mandatory at a later time. An xSDK-compatible package is defined as a
 package that satisfies all of the mandatory policies and can use or be used by at least
 one other xSDK library.
 
-## Allowing for gradual change
+### Allowing for gradual change
 
 To keep the policies up to date and in line with new software developments, the
 xSDK policy design process allows for policy evolution. The community at large
@@ -68,7 +68,7 @@ recommended policies, which---again---are not necessarily less important than
 mandatory policies but provide some members more time to achieve
 compatibility before becoming required as policy.
 
-## Community of communities
+### Community of communities
 
 Any software effort will at some point involve interactions with users, and the
 interactions will lead to a number of known outcomes, including various
@@ -89,7 +89,7 @@ policies' release, leading to an overall improved set of policies.
 The xSDK team always welcomes feedback, which can be provided at
 https://github.com/xsdk-project/xsdk-community-policies.
 
-## Author bios
+### Author bios
 
 Ulrike Meier Yang leads the Mathematical Algorithms & Computing Group in the
 Center for Applied Scientific Computing of Lawrence Livermore National

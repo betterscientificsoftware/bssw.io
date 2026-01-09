@@ -28,7 +28,7 @@ As a result of the exposure she received as a BSSw Honorable Mention, Dr. Georgi
 
 “The goal of my proposal was to raise awareness for smart computing and smart software best practices,” says Dr. Georgiadou. “The BSSw Fellowship community is very supportive. I will continue to engage and go to meetings wherever I can because I can promote this work better through it.”
 
-## More info
+### More info
 
 Learn more about [Antigoni Georgiadou’s work as a BSSw Honorable Mention](https://bssw.io/items?author=antigoni-georgiadou). 
 
@@ -38,7 +38,7 @@ If you have questions about the Fellowship or the application process, please se
 
 Application deadline: Friday, October 31, 2025; this is a firm deadline that will not be extended.
 
-## Author bios
+### Author bios
 
 [Heather Bourbeau](https://www.linkedin.com/in/heatherbourbeau/) is a research analyst, communications strategist, and storyteller.
 [Sustainable Horizons Institute](https://shinstitute.org) is a partner in leading the BSSw Fellowship Program.

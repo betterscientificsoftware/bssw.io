@@ -66,7 +66,7 @@ Software Scientist, Molecular Sciences Software Institute
 Research Software Engineer, Stanford Research Computing Center
 <p>&nbsp;</p>
 
-## About the BSSw Fellowship
+### About the BSSw Fellowship
 The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2019.  More information:
 
 - [2018 BSSw Fellows: Projects and Perspectives](https://bssw.io/resources/bssw-fellows-2018-projects-and-perspectives)
@@ -74,7 +74,7 @@ The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to
 
 Stay tuned for more from the 2019 BSSw Fellows.
 
-## Contribute to the BSSw Site
+### Contribute to the BSSw Site
 Also, we want and need contributions from the international community for the BSSw site.  If you have expertise that can help other scientific software teams, we encourage you to contribute an article or pointer to good work.  See details on [how to contribute to BSSw](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).
 
 <!---

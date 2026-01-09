@@ -10,26 +10,26 @@
 
 #### Publication date: September 20, 2021
 
-## Background: The Collegeville Workshop Series
+### Background: The Collegeville Workshop Series
 What do multi-million dollar HPC projects have in common with a PI and their soon-to-be graduating doctoral student? What are the most pressing concerns of teams on the bleeding edge of scientific discovery? The [Collegeville Workshop Series on Scientific Software](https://collegeville.github.io/CW21) brings together three communities of scientific software contributors: academia, industry, and laboratories. While there are existing exchanges between these communities, this workshop series is dedicated to improving the awareness of common needs, unique contributions, and career paths. Workshop contributions include short white papers and video interviews. The three-day live event includes panels, small-group discussions, and teatime sessions for themed conversations. This blog post is the first of three that summarize the output from the small-group discussions in 2021.
 
-### Collegeville 2021 theme: scientific software teams
+#### Collegeville 2021 theme: scientific software teams
 Research software and scientific discovery are often advanced by collaborative teams rather than individuals. Yet, scientific software teams are often conducting their work with little knowledge of how to best take advantage of their collective experience. A new frontier for scientific software can be met with a better understanding of how software teams function and how teamwork can be improved. As we focus on improving software teams, we see value in augmenting the traditionally-valued expertise of computer scientists, mathematicians, and software engineers with the expertise of social, information, and cognitive scientists
 
-### Workshop small group discussions
+#### Workshop small group discussions
 Each day of the workshop focused on different aspects of software teamwork. The first day of live discussion focused on software team experiences and challenges, the second day on technical strategies for improvement, and the third day on cultural approaches for improvement. Small groups gathered live over video conference to discuss the topic of the day, each group creating a shared notes file. Because the workshop participants come from different work settings and have varying experiences with scientific software (see below), these discussions were a rare opportunity to identify shared concerns and recognize differences among scientific software teams. More than representing their shared knowledge, however, our intention is for these discussions to impact the diverse communities that participated in them.
 
-## Day 1: Software team experiences and challenges
+### Day 1: Software team experiences and challenges
 To provide a framework for discussing software team improvement, we spent Day 1 of Collegeville 2021 learning about each other, our backgrounds, and what we see as the greatest challenges to improving software teams.
 
-### Summary of participant software team experiences
+#### Summary of participant software team experiences
 About half of the discussion participants were from research labs; the remaining half were evenly split between universities and industry. Twenty-two participants (listed as authors above) chose to receive attribution for their contributions to these discussions. Discussion participants from labs and universities represented a number of well-known open-source scientific software projects. Others came from industry, representing the oil & gas sector and technical computing software providers. Finally, several participants were from the social, information, or cognitive science communities, where their domain of study includes scientific software teams and developers.
 
 In aggregate, the discussion participants have approximately 300 years of collective software development and software project leadership experience, ranging from individual contributors to leaders of large, multi-team efforts. Together, these participants provide software to thousands of users throughout the world. Participant experiences further represent approximately four decades of focused study of scientific software teams via methodologies from the social, information, and cognitive sciences.
 
 When describing themselves, participants identified the projects they worked on and some provided further details on their team experiences, reflecting on the perspectives that their teammates brought to the collaborations and their means of communication. For instance, one participant described their small, four person team comprised of three mathematicians and one computer scientist, noting that they have excellent communication but few formal methodologies. In another example, a participant described their weekly teleconferences, active Gitter discussions, and (pre-pandemic) evening coding events with students.
 
-### Key challenges
+#### Key challenges
 In the remainder of this article, we summarize the key challenges identified during the small group discussions. The detailed notes from these discussions are available on the [Collegeville 2021 Workshop website](https://collegeville.github.io/CW21/).
 
 **Staffing diverse software teams:** Finding people with the right skills to contribute to a scientific software project is difficult—the talent pool is small, the work is specialized, and there is competition among institutions and industry to attract qualified candidates. In this context, having better strategies for acquiring and retaining the right talent is a growing problem. Some software teams (such as open-source, peer-produced projects) have temporary contributors whose work can be valuable, but discussion participants were generally interested in building lasting teams made of experienced contributors. This is a substantial challenge. Some discussions noted that training efforts might prove fruitless because they are often directed at students who can spend the entirety of an internship becoming accustomed to the software work. That same student might not perceive a rewarding career path and never return to the project. Skilled contributors might be found in-house, but funding structures often mean that their attention is split such that they have only short amounts of time to dedicate to many projects. We are beginning to address the needs of research software engineers (RSEs), and some teams have funding to hire dedicated RSEs, thus avoiding split attentions. However, in general, we need to improve the recognition, value, and career paths for all members of scientific software teams. Without being recognized and funded, non-PIs find it difficult to continue contributing to a software project and establish their career, forcing them to decide between jeopardizing one or the other. We need to distribute credit across the team so that the diverse actors feel valued. We need to address the question one participant posed, “Why can’t I be a phenomenal *contributor*?”
@@ -46,10 +46,10 @@ In the remainder of this article, we summarize the key challenges identified dur
 
 **Improving business models for research software sustainment:** All scientific software teams have a business model, even if it is implicit. Making the business model explicit and actively managing toward sustainability is much less common. Having a good business model is important for all kinds of software, and critical where there is a distributed and evolving community involved in its development. Each of the above challenges is affected by funding, and our discussion groups recognized this. Seeing the need for more money is easy. However, seeing how funding can affect your teamwork in one, five, or ten years is far more difficult, but crucial to establishing sustainable scientific software.
 
-## Final remarks from Day 1 discussions
+### Final remarks from Day 1 discussions
 Day 1 discussions at the Collegeville 2021 Workshop represent the input of a diverse and experienced group of scientific software developers and leaders, and their colleagues from the social, information, and cognitive sciences. We hope that the challenges summarized in this blog post resonate with you and help the scientific software community when prioritizing efforts to improve the quality and impact of software in the pursuit of scientific discovery. We look forward to addressing these challenges with creativity and community-developed insight.
 
-## Acknowledgements
+### Acknowledgements
 The workshop organizers and authors of this article thank all participants for contributions to workshop discussions.
 
 ---

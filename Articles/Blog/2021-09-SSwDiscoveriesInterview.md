@@ -38,10 +38,10 @@ To give you an example: I lead a project called [Chameleon](https://www.chameleo
 
 **Rinku:** Thank you for taking the time to answer our questions, Kate. We hope, as you do, that your efforts will pay off in having the role of scientific software in scientific discovery recognized and appreciated.
 
-## Image credit
+### Image credit
 Omicron spectrogram of LIGO-Livingston detector’s data around the time of GW170817, using data after glitch subtraction. (Source: Florent Robinet et al: "Omicron: A tool to characterize transient noise in gravitational-wave detectors," SoftwareX, July-Dec 2020).
 
-## Author bio
+### Author bio
 Kate Keahey is one of the pioneers of infrastructure cloud computing. She created the [Nimbus project](https://www.nimbusproject.org/), recognized as one of the first open source Infrastructure-as-a-Service implementations, and continues to work on research and development projects aligning cloud computing concepts with the needs of scientific applications and infrastructure. To facilitate such research for the community at large, Kate created and leads the [Chameleon project](https://www.chameleoncloud.org/), providing a deeply reconfigurable, large-scale, and open experimental platform for Computer Science research. To foster the recognition of contributions to science made by software projects, Kate co-founded and serves as co-Editor-in-Chief of the [SoftwareX journal](https://www.journals.elsevier.com/softwarex), a new format designed to publish software contributions. Kate is a Senior Scientist at the Mathematics and Computer Science Division at Argonne National Laboratory and the Consortium for Advanced Science and Engineering at the University of Chicago.
 
 <!---

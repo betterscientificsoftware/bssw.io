@@ -18,7 +18,7 @@ To understand what has worked best, this article interviews three ECP developmen
 
 Each of these teams has a unique story about how CI fits into their overall project goals, the evolution of their CI pipelines, and the challenges they faced along the way.  The adopters of CI have all described its value to be “obvious” in retrospect because of the numerous occasions where either testing or pull-request reviews have caught errors that would have gone undetected otherwise.  ZFP put significant effort into developing tests, resulting in over 5,000 unit tests with nearly full code coverage.  VisIt’s extensive nightly regression testing combined with a permissive policy regarding breaking the mainline of development meant that the project’s initial CI testing could be rather modest and fit within the time limits of freely available services. The project has seen a greater impact from formal reviews of pull requests.  ExaSMR noted that having CI in place sets the expectation that new contributions come with corresponding tests.  This approach results in better quality code contributions from the community that are less stressful for the maintainers to review.
 
-## Case 1: ExaSMR
+### Case 1: ExaSMR
 
 ExaSMR describes their CI experience with the [OpenMC package](https://github.com/openmc-dev/openmc).  This package simulates Monte Carlo neutron and photon transport for use within multiphysics calculations coupled to computational fluid dynamics.  OpenMC is a C++ library built on top of three geometry and math libraries (DAGMC, GSL, xtensor), and three I/O libraries (HDF5, pugixml, {fmt} a.k.a. fmtlib), and building both an executable and a modular Python ctypes interface.  The project was first hosted on GitHub in 2012, and Travis CI was first added in February of 2015.  The team used CI to install system packages and run its Python test harness.  In December 2020, the project switched to GitHub actions, which supported the automation features the project had adopted by that time: a matrix of compilation and test options (turning on/off MPI/OpenMP/compiler optimizations), coveralls.io code-coverage integration, and automated creation of docker images for releases.
 
@@ -30,7 +30,7 @@ This circumstance has sometimes made it difficult to reproduce CI failures local
 
 Another hidden challenge the team noticed is keeping up with changes in dependencies. Every so often, a library will change its API, deprecate something, or otherwise change some behavior that forces the development team to deal with the change right away because not doing so means that tests no longer pass. ExaSMR tries to stay on top of this circumstnace by not pinning dependencies to specific versions.  The consequence, however, is that issues can pop up periodically and divert attention from other areas.
 
-## Case 2: VisIt
+### Case 2: VisIt
 
 The biggest testing focus is on the (C++) source code for VisIt’s [executable metadata-server, engine, viewer, and controller](https://github.com/visit-dav/visit).  VisIt has dozens of external dependencies for geometry, graphics, file formats, and I/O.  VisIt’s code base was hosted on NERSC’s Subversion servers until early 2019, when it was [migrated](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit) to git and GitHub. Cyrus Harrison first added CI to the codebase in March 2019. Prior to that, only [nightly testing](https://visit-dav.github.io/visit-website/dashboard/) was in use. Adding CI testing was complicated because of the graphical nature of the code and the large number of dependencies.  Harrison opted to use docker images to provide pre-built dependency binaries, combined with a set of scripts that allowed running on both Travis and Circle-CI.  The process to develop the scripts took weeks of trial and error.  The team went on to add more features and switch to Azure Pipelines in August 2020.  The CI tests run using a vanilla RedHat Linux base image, but the release process also builds images for Centos, Fedora, Debian, and Ubuntu.
 
@@ -44,7 +44,7 @@ Miller also had advice for teams developing an initial process for CI.  As a gui
 
 VisIt’s development path was heavily influenced by the prior experience of its developers with CI, along with a healthy dose of [combing through documentation](https://bssw.io/blog_posts/continuous-technology-refreshment-an-introduction-using-recent-tech-refresh-experiences-on-visit).  Perhaps uniquely, the team uses CI primarily as a “smoke test” for compilation, dependencies, and their release process, placing a majority of their software quality focus on reviewing pull requests and running nightly tests on local resources.  Those nightly tests generate, then check 3500+ images and 2000+ numbers/textual results.  Although the tests require bit-for-bit accuracy, the team has a rolling error-resolution process.
 
-## Case 3: ZFP
+### Case 3: ZFP
 
 ZFP’s [main repository](https://github.com/LLNL/zfp/) contains a C++ library and its C, Fortran, and Python interfaces.  A [separate repository](https://github.com/LLNL/zfpy-wheels) builds Python Wheels binary distributions.  ZFP was first hosted on GitHub in March 2016.  In early 2017, ZFP migrated from a simple Makefile to CMake and added CI using Travis and AppVeyor.  That initial investment was somewhat difficult because documentation on Google Test, CMake, and CI services were in early stages, and relevant guides were hard to find.  Since then, the team has steadily expanded its test coverage to 95% with over 5,000 unit tests.  Internally, this effort was made possible by hiring a full-time developer to focus on ZFP’s testing and CI pipeline.
 
@@ -58,7 +58,7 @@ The ZFP project would also like to increase performance testing and coverage of 
 
 Like VisIt, ZFP doesn’t require 100% of its tests to pass before merging unless the merge is going into the main development branch. This approach allows the main branch to serve as a base for releases while letting the feature branches be a place to work collaboratively on issues.
 
-## Summary
+### Summary
 
 As a technology, CI has evolved and developed considerably over the past several years.  Mature systems, connected to ubiquitous version control platforms like GitHub, GitLab, and Bitbucket, offer many examples, tutorials, and documentation that make the entry barrier low. The projects interviewed in this article discussed their specific adaptations for scientific and numerical software.  All three projects mentioned comparing with “golden results” from full-program runs, as well as the unique mindset needed to develop and maintain unit tests.  Testing is a mode and scope of work motivated by adding armor to a codebase. The benefit most cited here was identifying potential bugs early, thereby increasing the project’s ability to collaborate within the open source community.
 
@@ -68,11 +68,11 @@ Aside from CI, much can be learned from studying code construction choices acros
 
 Overall, CI adds value by providing more stable working code bases, test feedback without developer intervention, and greater support for community contributions.  As we watch the evolution of CI technologies, our teams are seeking several features. The ability to freeze the state of tests would both reduce redundant tests after small changes and also allow interaction with these states. Greater availability of testing hardware and runners would further boost the usefulness of this technology.
 
-## Acknowledgments
+### Acknowledgments
 
 The idea and form of the Bright Spot series was shaped by the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp) team the [BSSw.io Editorial Board](https://bssw.io/pages/team).  We owe the insights into developer experiences presented here to interviews with members of the ExaSMR, VisIt, and ZFP teams, including [Paul Romano](https://github.com/paulromano), [Cyrus Harrison](https://github.com/cyrush), and [Peter Lindstrom](https://github.com/lindstro).  Comments, suggestions, collaboration and reviews from [Mark C. Miller](https://github.com/markcmiller86) were especially appreciated during the writing of this article.
 
-## Author bio
+### Author bio
 
 [David M. Rogers](https://www.olcf.ornl.gov/directory/staff-member/david-rogers/) is a Computational Scientist in the National Center for Computational Sciences Division at Oak Ridge National Laboratory, where he works collaboratively to develop and apply new methods and theories for multiscale modeling using HPC.
 

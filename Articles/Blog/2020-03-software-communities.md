@@ -22,7 +22,7 @@ user/developer communities from open-source software projects (see
 relatively little about the challenges that are specific to scientific
 software.
 
-## Community engagement as a limit to project growth?
+### Community engagement as a limit to project growth?
 
 I am a scientist who develops software, and I regularly meet with others in my field (geophysics) to improve their software development
 processes. During my work, I have frequently noticed that some software project members have
@@ -38,7 +38,7 @@ successful scientific software projects tend to grow because they organize
 their community effectively and successfully, in addition to providing
 scientific value and following good development practices.
 
-## Better Scientific Software Communities
+### Better Scientific Software Communities
 
 To investigate my hypothesis and to collect ideas and best-practice
 guides about community coordination practices in different scientific software
@@ -57,7 +57,7 @@ https://gassmoeller.github.io/BSSC/, and the remaining results of my work will
 be uploaded within this month.
 In this blog post I want to discuss some of the main findings, to stimulate ideas and spark a conversation about what other practices might improve software communities.
 
-## Community atmosphere
+### Community atmosphere
 
 A consistent theme during my interviews was that maintainers attribute some
 part of the success of their project to the welcoming atmosphere for new and
@@ -85,7 +85,7 @@ example](https://bssw.io/blog_posts/leading-a-scientific-software-project-it-s-a
 in particular because their responses to one person will usually be watched by
 a much larger group of potential future contributors.
 
-## Credit and growth
+### Credit and growth
 
 Another consistent strategy within successful projects is that they have
 developed ways to attribute credit to contributors, although their approaches
@@ -109,7 +109,7 @@ especially important, since surprises in distributing credit (for example,
 favoritism of institutions or maintainers or confusion about authorship) are
 common conflict points in community projects.
 
-## Managing conflicts
+### Managing conflicts
 
 One of the unsurprising results of my conversations was that many projects and
 maintainers eventually experience various types of conflicts within their
@@ -137,7 +137,7 @@ or in person) and strive to maintain an open and supportive discussion culture.
 Resolving conflicts, in particular, is one of the important tasks
 of project leaders and requires a high level of flexibility and social skills.
 
-## Using the tools that work
+### Using the tools that work
 
 In addition to being a good software developer, coordinating the software community is a job that requires leadership skills -- for example, empathy, intuition, and
 creativity. Honing these skills while growing your project is an important
@@ -157,11 +157,11 @@ HPC Software
 Developers](https://bssw.io/items/best-practices-for-hpc-software-developers-webinar-series)
 series. A recording, slides, and Q&A document are [available](https://ideas-productivity.org/resources/series/hpc-best-practices-webinars/#webinar033).
 
-### Resources
+#### Resources
 - https://opensource.guide/
 - https://producingoss.com/
 
-## Author Bio
+### Author Bio
 
 Rene Gassmoeller is a project scientist at the Computational Infrastructure for
 Geodynamics at the University of California, Davis. He is maintainer of the
