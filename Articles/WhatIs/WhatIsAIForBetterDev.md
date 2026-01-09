@@ -1,5 +1,5 @@
 # What is AI for Better Software Development?
-#### Publication date: October 24, 2025
+#### Publication date: Jan 8, 2026
 <!--deck start--->
 Exploring how AI enhances software creation, deployment, and sustainability in scientific software development.
 <!--deck end--->
