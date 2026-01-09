@@ -11,7 +11,7 @@ This article delves into the intricacies of software configuration during the in
 Effective software configuration plays a critical role in ensuring seamless installation of scientific libraries or applications from source by configuring the package to compile and link the code according to the user's 
 specific platform and requirements.  This document outlines three prevalent approaches adopted by scientific libraries and applications to facilitate this installation process. 
 
-## Method 1: Makefile Options File
+### Method 1: Makefile Options File
 The simplest way to communicate the options and machine parameters
 when building a library or application is to have the person installing the software (henceforth, the installer)
 directly edit a text file that will be read by the compilation scripts. For example, the installer may edit a file
@@ -51,7 +51,7 @@ necessary to build the library, tests the information to make sure that it is va
 information to compile and link the software. Such scripts can be more powerful than having installers edit a
 file, but they require more upfront effort to write and require learning a new scripting language.
 
-## Method 2: GNU Autotools 
+### Method 2: GNU Autotools 
 GNU [Autotools](https://en.wikipedia.org/wiki/GNU_Autotools) ( a.k.a. configure ) is the most commonly used configuration system. The
 installer enters the following:
 
@@ -67,7 +67,7 @@ package developer to simplify providing makefiles and building libraries for the
 This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific
 Computing Research and Biological and Environmental Research programs.
 
-## Method 3: CMake
+### Method 3: CMake
 [CMake](https://cmake.org/) is a more recent alternative to GNU Autotools utilized by some scientific and
 mathematical libraries. The installer enters the following:
 
@@ -96,7 +96,7 @@ dependencies.
 
 Other partial configuration systems include the use of third-party utilities to keep track of what libraries have been installed and what options they used (for example, [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/) or [setup.py in Packaging and Distributing Projects](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/)).
 
-## Note:
+### Note:
 
 This document was prepared by the author with key contributions from Roscoe Bartlett, Todd Gamblin,
 and Barry Smith. This material is based upon work supported by the U.S. Department of Energy Office of Science, Advanced Scientific

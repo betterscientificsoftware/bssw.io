@@ -16,12 +16,12 @@ The broad impact of the Better Scientific Software Fellowship program was eviden
 
 The BSSw Fellowship community looks forward to continued engagement at the US-RSE’26 conference, to be held in the San Francisco Bay area, with Keith Beattie (2021 BSSw Honorable Mention) serving as a co-General Chair.
 
-## Further information
+### Further information
 
 * Check out the US-RSE website: [https://us-rse.org](https://us-rse.org).  
 
 
-## Author bio
+### Author bio
 
 Adam Lavely is the BSSw Fellowship Deputy Coordinator and a User Environment Architect at Lawrence Berkeley National Laboratory.
 

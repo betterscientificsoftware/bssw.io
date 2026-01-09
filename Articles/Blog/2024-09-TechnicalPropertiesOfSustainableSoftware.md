@@ -12,7 +12,7 @@ While some authors have looked at software sustainability from primarily institu
 
 <img src='../../images/2024-08-TechnicalPropertiesOfSustainableSoftware-hero-image.jpg' class='page'/>
 
-## Definitions of sustainable software
+### Definitions of sustainable software
 
 Various definitions of "software sustainability" exist in the software development community.
 The Better Scientific Software (BSSw.io) community defines software sustainability as<sup>[1]</sup>:
@@ -45,7 +45,7 @@ Therefore, your project is forced to sustain software Package X for its own usag
 What technical properties of Package X would make it so that your project could continue to sustain (with reasonable cost and risk) your own project's usage of Package X, which includes activities like adding some new features, porting to new platforms and compilers, and fixing bugs (i.e., that may be exposed by adding new features and porting to new platforms and upgrading upstream dependencies)?
 
 
-## Key technical properties of sustainable software
+### Key technical properties of sustainable software
 
 The following technical properties have been widely recognized to lead to software that is less expensive to extend and maintain (and is therefore more sustainable).
 
@@ -102,7 +102,7 @@ In addition, especially smaller or extremely well-structured software packages t
 (If needed, you could sustain such an upstream package yourself for your project's usage at a reasonable cost.)
 
 
-## Some key practices for creating and maintaining sustainable software
+### Some key practices for creating and maintaining sustainable software
 
 While this article has focused on the technical properties of the software itself, several key practices<sup>[7],[8]</sup> can aid in the creation and maintenance of sustainable software that possess these technical properties, including some of the following.
 
@@ -137,7 +137,7 @@ While this article has focused on the technical properties of the software itsel
 * Set up automated builds that run tests before integrating changes to the main development branch (e.g., use continuous integration frameworks that are integrated into GitHub or GitLab).
 
 
-## Summary
+### Summary
 
 Some key technical properties of a software package (and its upstream dependencies) can have a major impact on reducing the cost of maintaining and extending a given software package, and therefore improving its sustainability.
 In some cases, the software can be sufficiently clean, well-tested, well-structured, and well-documented, and with minimal-enough upstream dependencies, that it can be reasonably sustained by any motivated developer, even if the originating development team and/or organization disappear.
@@ -152,7 +152,7 @@ In identifying these desirable technical properties, projects can adopt and adap
 --->
 
 
-## Author bio
+### Author bio
 
 Roscoe A. Bartlett earned a PhD in chemical engineering from Carnegie Mellon University, researching numerical approaches for solving large-scale constrained optimization problems applied to chemical process engineering.
 At Sandia National Laboratories and Oak Ridge National Laboratory, he continued research and development in constrained optimization, sensitivity methods, and large-scale numerical software design and integration for computational science and engineering (CSE).
@@ -186,7 +186,7 @@ Topics: Software sustainability
 [8]: #sfer-ezikiw-8 "Code Complete: 2nd Edition"
 [9]: #sfer-ezikiw-9 "BSSw: An Introduction to Choosing an Open Source Code License"
 <!-- (sfer-ezikiw begin) -->
-## References
+### References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[BSSw: Software Sustainability](https://bssw.io/items?topic=software-sustainability)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[BSSw: What is Software Sustainability?](https://bssw.io/items/what-is-software-sustainability)

@@ -14,7 +14,7 @@ Taking the pulse of our community, from discussions held in November 2024 at SC2
 
 At the annual Supercomputing conference and sometimes at the ISC High Performance conference, members of the scientific software developer community come together to share their thoughts, network, and build community. These “Birds of a Feather” (BoF) sessions started in 2015 under the title *Software Engineering for Computational Science and Engineering on Supercomputers*. While the titles of the sessions have morphed over time, the purpose has always been to focus on the “people” side of high-performance scientific computing.  Below, we summarize the 2024 edition of the BoF at SC24 as a sampling of what’s on people’s minds lately.
 
-## Lightning talks
+### Lightning talks
 
 As usual, we kicked off the session with a set of lightning talks.  The organizers selected these 3-minute talks to highlight recent developments in the community and spur further conversation.  This year, we had eight talks covering a wide range of topics.
 
@@ -38,9 +38,9 @@ Cristin pointed us to the project’s [Knowledge Portal](https://alces-flight.co
 
 * [**Equity, Diversity and Inclusivity Concerns When Building Communities of Practice**](https://betterscientificsoftware.github.io/swe-cse-bof/assets/2024-11-sc24-bof/08-chuehong-edicop.pdf) by Neil P. Chue Hong (University of Edinburgh).  Neil discussed a garden as a metaphor for a community of practice based on [resources](https://zenodo.org/records/10849575) developed by the [Center for Scientific Collaboration and Community Engagement](https://www.cscce.org/)—i.e., many different plants (community members) with different needs and roles.  Various tools are needed at different times to help the garden flourish. Interventions need to be intentional. “Gardens thrive when different plants support each other well, rather than being monocultures.”  Sometimes there are “weeds” in the garden that need to be dealt with – perhaps using the community’s code of conduct to remove them.  Though some disruptive elements may, in fact, be useful to cross-pollinate ideas, so, again, interventions should be thoughtful.
 
-## Discussion
+### Discussion
 
-### Community-building
+#### Community-building
 
 We began the general discussion following up on some of the community-related themes that arose in a number of the lightning talks. The first question was, “What is the hardest thing in building a community of practice?”  Numerous participants chimed in with responses from their own experiences, including getting the attention of the people who might benefit from participating, overcoming the inertia of approaching people to participate (with the further note that many people are happy to write code but less comfortable talking about it). It takes effort to share and discuss with others, and it is not uncommon to find rivalries getting in the way of a free exchange of information.  Another participant noted that it is often easier to bring together existing communities than to create a new one.  
 
@@ -48,11 +48,11 @@ Someone else asked for experiences and recommendations to start a *trans-discipl
 
 A few other observations about communities also came up in our discussions.  People can become too invested in one community to the extent that they may become suspicious of another “nearby” community – community organizers need to watch out for this.  Someone remarked that the communities that really “stuck” for them tended to be the ones that were somewhat difficult to get into – if it is too easy to join, then it is too easy to leave.  Requiring some kind of (non-monetary) investment to get in made the community more important to them.  In this context, it is sometimes useful to distinguish between communities of *interest* and communities of *practice*, with the former being easy to get into and the latter having a bit of a barrier or being more exclusive.  In this case, the community of interest should require minimal effort to sustain, while people can afford to invest more to sustain a community of practice. Communities of interest can be organized around websites or mailing lists – passive for many members. The community starts looking more like a community of practice when people begin desiring to do things together – producing joint outputs.
 
-### Uptake of software engineering practices in scientific software
+#### Uptake of software engineering practices in scientific software
 
 Then, a student, who was just beginning a Ph.D. program, asked those in the audience who identified as *research software engineers* (RSEs) how they ended up on that path.  The answers were varied: some people liked research but didn’t care for paper and grant writing; someone started as an engineer in a commercial organization but liked the programming aspect and ended up finding a fulfilling RSE position.  Others observed that RSEs have been around for 30+ years, but it is only recently that the term has gained significant recognition. In the last (roughly) ten years since the term research software engineer was coined, there has also been a significant increase in the adoption of software engineering practices in the scientific community. Participants in the Argonne Training Program for Extreme-Scale Computing (ATPESC) went through a rather sudden phase change in terms of the level of awareness, interest in, and use of software engineering practices.  Within a couple of years, the community codes/software engineering track of the summer school went from one of the lowest-scoring to one of the highest-rated tracks.  Similarly, the number of participants who were already familiar with version control quickly changed from very few to nearly all (95%+).  Another national laboratory transitioned from engineers writing (often bad) code to engineers developing prototypes and letting software engineers write the production code.  Attitudes changed from “it's just code” to letting the professionals do it.
 
-### Large language models in coding
+#### Large language models in coding
 
 Having transitioned to talking about software engineering and software development more directly, it may not be surprising that artificial intelligence (AI) and more specifically large language models (LLMs) re-entered the discussion. About a third of the audience raised their hands to affirm they used LLMs in their coding.  However, there are numerous challenges.  Many institutions (especially government labs and companies) have security and intellectual property concerns about their staff engaging with public LLMs.  Some labs have localized LLMs to deal with such concerns.  People tend to use LLMs more in the simpler parts of the code because they’re not so good at discovering algorithms.  Someone else observed that LLMs might convince people to do test-driven development – since we can’t rely on LLMs to produce correct code\!  When the question was refined to how many people are looking *systematically* into using LLMs in coding, the number of hands raised in the room was much smaller.  Anshu Dubey noted a paper she published on [using LLMs to translate Fortran code to C++](https://doi.org/10.48550/arXiv.2410.24119).
 
@@ -60,13 +60,13 @@ We then turned to what students should be taught about LLMs in coding. An educat
 
 Finally, rounding out the discussion, an audience member reminded us that LLMs aren’t the only code-generation option.  We know and understand physics fairly well.  Can we use physics-based requirements as the basis for generating code (and documentation)?  One person noted that requirements gathering is very important and often neglected – “understanding the problem is the problem.”  However, the audience generally thought that requirements gathering was not likely to be a strength of LLMs.  Another point was that integration of a piece of physics into a larger code system could also be a significant challenge – no matter whether the code is generated by LLMs or other means, and that a lot more attention to verification and validation will be required in any automatic generation scenario.  Finally, someone noted that in many cases, the mathematics resulting from an interesting physics problem might be highly nonlinear, which can be very hard to translate automatically into code.  
 
-## Summary
+### Summary
 
 From this year’s discussions, there is a great deal of interest in building communities. Still, it seems that many people lack the knowledge, experience, or comfort levels to do this work effectively.  Several resources were noted that might help, and numerous audience members have had particular experience with the work of the Center for Scientific Collaboration and Community Engagement, which deserves a shout-out.  It may be worth exploring developing other venues for people to share knowledge and experiences with building communities on a more regular basis.
 
 The other major topic of discussion was LLMs in coding.  There remains a great deal of work to be done to make LLMs useful in the context of high-performance scientific software development.  In her lightning talk, Harshitha Menon argued that we need to work as a community to move this forward. We also need to be more direct in showing students the limitations of LLMs.
 
-## Resources mentioned
+### Resources mentioned
 
 Links to the BoF website, and other resources mentioned in the presentations and discussions.
 
@@ -96,7 +96,7 @@ Links to the BoF website, and other resources mentioned in the presentations and
 * [A survey of the state of the practice for research software in the United States](https://doi.org/10.7717/peerj-cs.963)  
 * [Leveraging Large Language Models for Code Translation and Software Development in Scientific Computing](https://doi.org/10.48550/arXiv.2410.24119)
 
-## Author bios
+### Author bios
 
 David E. Bernholdt is a Distinguished R\&D Staff Member at Oak Ridge National Laboratory.  His research interests are broadly in the development of scientific software for high-performance computers, including developer productivity, and software quality and sustainability.
 

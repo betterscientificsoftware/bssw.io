@@ -79,7 +79,7 @@ The planned agenda includes the following talks and discussions:
 For more details see the [event website](https://us-rse.org/rse-hpc-2020/) or the SC20 [program page](https://sc20.supercomputing.org/session/?sess=sess217). If you’re
 participating in **SC20**, we hope you can join us! (Workshop registration required.)
 
-## Author bios
+### Author bios
 Charles Ferenbaugh is a staff member in the Applied Computer Science group at Los Alamos National Laboratory. He received a PhD in Mathematics from Princeton University in 1992. Since 2001, he has been a software developer on HPC code projects in LANL's Advanced Simulation and Computing program. He is currently involved in two large multiphysics code projects: the Eulerian Applications Project and the Ristra/Next Generation Code Project. He has also been a part of LANL research efforts in advanced architectures and programming models. He is a member of the steering committee for the US Research Software Engineer Association.
 
 Sandra Gesing is an Associate Research Professor in the Department of Computer Science and Engineering and a Computational Scientist at the Center for Research Computing at the University of Notre Dame. Her research interests include science gateways, computational workflows as well as distributed and parallel computing, focusing on research aspects around sustainability, usability and reproducibility. Prior to the position at Notre Dame, she was a research associate at the University of Edinburgh, UK and at the University of Tübingen, Germany. Additionally, she has perennial experience as a project manager and system developer in industry. 

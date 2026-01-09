@@ -24,13 +24,13 @@ We encourage diverse applicants at all career stages—ranging from students thr
 
 Applicants must be affiliated with a U.S.-based institution that is able to receive Federal funding.  Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations. 
 
-## Q&A Webinar about the BSSw Fellowship Program
+### Q&A Webinar about the BSSw Fellowship Program
 
 Join us for a Q&A Webinar to hear more about the BSSw Fellowship Program and get your questions answered.
 - Monday, September 13, 2021, 1:00-2:00 PM EDT 
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
 
-## More information, including on-line application and FAQ
+### More information, including on-line application and FAQ
 
 Better Scientific Software is an organization dedicated to improving developer productivity and software sustainability for computational science and engineering through BETTER Planning, Development, Performance, Reliability, Collaboration, and Skills. 
 
@@ -38,14 +38,14 @@ Better Scientific Software is an organization dedicated to improving developer p
 - [APPLY NOW!](https://bssw.io/pages/apply-for-the-bssw-fellowship-program)
 - <mark>Application deadline: Thursday, September 30, 2021</mark>; this is a firm deadline that will not be extended.
 
-## Current and past BSSw Fellows are:
+### Current and past BSSw Fellows are:
 
 - [Providing information on projects and perspectives](https://bssw.io/blog_posts/2020-bssw-fellows-projects-and-perspectives)
 - [Guiding developers through each stage of the scientific software lifecycle](https://bssw.io/blog_posts/2019-bssw-fellows-guide-developers-through-each-stage-of-the-scientific-software-lifecycle)
 - [Tackling scientific productivity challenges](https://bssw.io/blog_posts/2018-bssw-fellows-tackle-scientific-productivity-challenges)
 - And more!  [Check out how each of our BSSw Fellows are improving developer productivity and software sustainability.](https://bssw.io/pages/meet-our-fellows)
 
-## Author bio
+### Author bio
 Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp/) team, and a researcher in the [Advanced Technologies Group at NERSC/LBNL](https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/hai-ah-nam/). Her scientific career spans four DOE national laboratories (LLNL, ORNL, LANL, LBNL), where she has contributed to work in low-energy nuclear physics, computational physics, high performance computing, and research scientific software development. Hai Ah’s research interests include emerging technologies for the HPC ecosystem, with a focus on AI/ML capabilities. She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [DOE Performance, Portability and Productivity Annual Meetings](https://p3hpc.org/) since 2015. 
 
 **The BSSw Fellowship is sponsored by the U.S. Department of Energy and National Science Foundation.**

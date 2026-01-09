@@ -40,12 +40,12 @@ Firstly, the sponsor can actually fund the various activities (mentioned below) 
 Here we outline a number of actions software project members can take to ensure computer science knowledge will remain accessible after a project comes to an end.
 With fair warning, a project can move to *tidy things up* before all funding is lost.
 
-## Gracefully discontinuing
+### Gracefully discontinuing
 
 When there is a planned sunset date or with fair warning, taking any of the actions outlined below is easier than trying to cram them in at the last minute if funding is suddenly and unexpectedly lost.
 If work must cease immediately, we acknowledge few of the actions listed here may be possible.
 
-### Make an end-of-project release
+#### Make an end-of-project release
 
    The purpose of an end-of-project release is to capture not only the most up to date version of the software but also as much of the computer science knowledge that is not already available through other resources.
    When scrambling to make an end-of-project release, there may be critical bug fix or feature enhancement work to bring to a close.
@@ -60,7 +60,7 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
    If so, the release can be identified as *development* or *experimental* to help clarify these issues.
    Remember, the goal is primarily to document and make available critical computer science knowledge for others who may want to follow in your footsteps.
 
-### Open-source the code
+#### Open-source the code
 
    If the project's source code is not already open source, a key way to ensure the computer science knowledge remains available to the community is to release it under a widely adopted open-source license.
    The institution(s) that sponsored development of the software may have specific processes to follow to release it as open-source.
@@ -70,7 +70,7 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
    Most open source licenses do. 
    Good options are [MIT](https://opensource.org/license/mit/) or [ISC](https://www.isc.org/licenses/).
 
-### Document final status
+#### Document final status
 
    For a project that is quickly ending, there is likely very little resource available to fill in any *massive* gaps in documentation.
    In addition, the role of any remaining documentation effort should be to try to capture as complete a snapshot of the computer science knowledge as practical.
@@ -80,14 +80,14 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
    Include key design decisions, architecture notes, algorithms, and implementation details that may be valuable to others.
    If large swaths of documentation are located in restricted places (emails, slide decks, pdf files) that are not already available online and/or *with* the source code, consider getting this information *out there* with the source code as well, possibly by adding the relevant artifacts to the repository holding the source code.
 
-### Establish an enduring on-line presence
+#### Establish an enduring on-line presence
 
    If the project doesn't already have a web site, create one.
    Even a single-page site that describes the software at a high level would be fine for this purpose.
    There are various free website hosting options.
    A good one is a [GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#) site because it offers a place to host both a web site about the project and the project's actual source code as well as other project artifacts.
 
-### Archive the software
+#### Archive the software
 
    Consider archiving the software with an online archival service.
    There are archival services available such as [DOE Code](https://www.code.gov), [netlib.org](https://netlib.org), [Software Heritage](https://www.softwareheritage.org), [Internet Archive](https://archive.org) and [Archive Team](https://wiki.archiveteam.org/index.php/Main_Page), which handle archival of software among other things.
@@ -95,13 +95,13 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
    There are many DOI agencies often specializing in certain kinds of digital assets; some handle source code.
    Consider [Crossref](https://www.crossref.org), [Zenodo](https://zenodo.org) and [Open Science Framework](https://osf.io).
 
-### Present or publish
+#### Present or publish
 
    Try to get at least one piece of literature (conference presentation or proceedings publication) anywhere it may be a good fit where one can write in more detail about the computer science known-how.
    Often case-studies and lessons learned are good candidate topical areas for a piece of literature focusing on the computer science aspects of the project.
    Published research papers, technical reports, or white papers that discuss the project's methodologies, challenges, and outcomes are a great way to capture the computer science knowledge of a project.
 
-### Refactor critical dependencies
+#### Refactor critical dependencies
 
    Instead of the *whole* code base, it may be appropriate to carve out *pieces* of the code for the actions we're discussing here.
    Assess whether any parts of the code base or architecture can be reused in other projects.
@@ -111,7 +111,7 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
    Reach out to researchers working in a similar area to explore whether they could benefit from maintaining a *piece*.
    Graduate students looking for projects may be interested and willing to pick up and build upon a package.
 
-### Gather lessons learned
+#### Gather lessons learned
 
    Conduct a lessons-learned session with the team to capture insights into what went well and what didn't during the project's development.
    Document these lessons, as they can be valuable for future projects, ensuring that the same mistakes are not repeated.
@@ -124,7 +124,7 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
    Hold a postmortem meeting with the team to discuss the reasons behind the project's discontinuation and reflect on the overall experience.
    Capture various key details of this discussion in some form to be included with other documentation.
 
-### Communications
+#### Communications
 
    The decision to discontinue a project needs to be communicated as soon as possible to all stakeholders.
    Whenever possible, be open and honest about the reasons and express gratitude for contributors' efforts.
@@ -141,7 +141,7 @@ If work must cease immediately, we acknowledge few of the actions listed here ma
    For projects that involve persistent data formats, provide users with documentation about how to convert their data to another format.
    For projects for which decent alternative software products exist, ensure that users are aware of these alternatives.
 
-### What about reproducibility?
+#### What about reproducibility?
 
 In this article, we have set aside the issue of reproducibility and the impact discontinuing a project can have on reproducibility.
 That is not because we do not think reproducibility is important.
@@ -150,7 +150,7 @@ Undoubtedly, projects can engage in practices that either help or hinder post-pr
 Many of the actions suggested here will likely help.
 Nonetheless, the extent to which a project that has lost funding can be held responsible for reproducibility is an open question and outside the scope of this article.
 
-## Conclusions
+### Conclusions
 
 HPC/CSE software projects involve at least two kinds of *deep* knowledge.
 One is the computational science the software enables, which is usually captured in publications where the science results from the project are described.
@@ -159,7 +159,7 @@ Important aspects of that knowledge is often at risk of being lost when a projec
 
 By following many of the suggested actions in this article, a project can be effectively discontinued in a partially completed state while retaining as much of the computer science knowledge as possible for posterity.
 
-## Author bio
+### Author bio
 
 Mark C. Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)

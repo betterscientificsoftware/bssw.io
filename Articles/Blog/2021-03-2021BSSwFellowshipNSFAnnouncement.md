@@ -52,7 +52,7 @@ Amy is an assistant professor of physics at the University of Colorado Denver wh
 
 
 
-## About the BSSw Fellowship
+### About the BSSw Fellowship
 The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in summer 2021.  More information:
 
 - [BSSw Meet Our Fellows](https://bssw.io/pages/meet-our-fellows)
@@ -60,10 +60,10 @@ The main goal of the [BSSw Fellowship Program](https://bssw.io/fellowship) is to
 
 Stay tuned for more from the 2021 BSSw Fellows.
 
-## Contribute to the BSSw site
+### Contribute to the BSSw site
 Also, we want and need contributions from the international community for the BSSw site.  If you have expertise that can help other scientific software teams, we encourage you to contribute an article or pointer to good work.  See details on [how to contribute to BSSw](https://bssw.io/pages/what-to-contribute-content-for-better-scientific-software).
 
-## Author bio
+### Author bio
 Hai Ah Nam is coordinator of the BSSw Fellowship Program, a member of the IDEAS-ECP team, and a computational physicist at Los Alamos National Laboratory.  Her  background includes computational low-energy nuclear physics, large-scale scientific computing, and high-performance computing. She is an advocate for developer productivity and software sustainability and has been one of the organizers of the [Performance, Portability and Productivity in HPC Forum](https://p3hpcforum2020.alcf.anl.gov/) for four years.
 
 <!---

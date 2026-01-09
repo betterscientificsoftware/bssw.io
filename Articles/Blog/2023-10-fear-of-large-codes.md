@@ -27,7 +27,7 @@ two critical concerns shared by a lot of graduate students, resonating with some
 More broadly, I would argue these concerns still affect the community involved in scientific research as a whole.
 Why? Let me elaborate on them.
 
-## Fear of large codes
+### Fear of large codes
 
 In general, a graduate research program is aimed at exploring a very specific scientific problem or question.
 What distinguishes graduate work from a lower-level degree is the level of detail expected when exploring the topic -- a Ph.D. program is intended to produce experts.
@@ -52,7 +52,7 @@ Imagine a code (started as a small project, but on its way to becoming a large o
 If this were the case, I believe that any person with even a minimum set of skills should be able to contribute -- such a code need not be feared, but rather appreciated and liked by users who are comfortable using it in their learning and research.
 However, there is a caveat, in that more often than not, the time scale of developing a "pristine" code conflicts with funding and research timelines, which brings me to the following point.
 
-## Concern that software development should be more valued as an integral part of research
+### Concern that software development should be more valued as an integral part of research
 
 Despite software's fundamental role in computational science, some research efforts are still carried out by treating software just as a means to an end.
 This circumstance is particularly common in projects driven by graduate students.
@@ -71,7 +71,7 @@ After all, many graduate students and junior researchers are the computational s
 More broadly, for a research idea or a proposal, I see two critical benefits: (a) solid, robust software would decrease the chances of doing something incorrectly and, therefore, increase the trustworthiness of the results and benefit scientific reproducibility; (b) any research code developed from the ground up with good practices would less likely be forgotten and more likely to become the starting point for a production code.
 -->
 
-## What if AI models take over?
+### What if AI models take over?
 
 Some people believe that the rise of AI and large language models (LLMs) will change the way we write and understand software.
 In fact, some experts in the field of programming believe that humans writing software and the corresponding documentation, and the whole idea of software maintainability will eventually become obsolete.
@@ -93,7 +93,7 @@ However, I am skeptical (for now) that AI will replace the creative innovation a
 For the sake of the argument, let's assume I am wrong: we have an AI system capable of tackling and solving complex architectural and/or design decisions equally well (or better) than humans.
 I do not look forward to a future where we avoid critical thinking, learning, and problem solving, and just delegate that too.
 
-## Author bio
+### Author bio
 
 Francesco Rizzi is CTO and principal scientist at NexGen Analytics. Broadly speaking, he works in the field of scientific computing---which he is really passionate about.
 He is currently engaged in multiple projects, from performance portability and linear algebra to generic programming, model reduction of large-scale applications, and uncertainty quantification.

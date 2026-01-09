@@ -16,7 +16,7 @@ https://commons.wikimedia.org/wiki/File:Covid-19-curves-graphic-social-v3.gif
 
 **Note:** The BSSw.io site will host a series of articles related to effective strategies for working remotely, from the perspectives of both individuals and collaborating teams.  Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) for periodic updates about new resources.  We also welcome contributions to BSSw.io; if you have experience or pointers to existing online material that can help others in the scientific software community, please consider [contributing to the site](https://bssw.io/contribute).
 
-## The importance of keeping work surfaces clean
+### The importance of keeping work surfaces clean
 Keeping our work areas clean is always a good practice but even more so now to
 help stem the spread of SARS-CoV-2 (Note: *SARS-CoV-2* is the name of the virus
 whereas *COVID-19* is the name of the disease it causes).<sup>[2],[9]</sup> There
@@ -44,7 +44,7 @@ for up to three days.
 What surfaces do we need to consider cleaning? What cleaning solutions work?
 How often should we be cleaning?
 
-## What surfaces to clean? 
+### What surfaces to clean? 
 
 You should routinely clean, with a disinfecting solution of some
 kind (see below), any surface and object that you touch in your work, even if infrequently.
@@ -78,7 +78,7 @@ your hands after you've finished cleaning your office surfaces.
 
 <br> 
 
-## When and how often to clean?
+### When and how often to clean?
 
 The time to clean is *now* and every day. Given the potential for asymptomatic
 transmission of SARS-CoV-2<sup>[11]</sup>, we should keep our work areas
@@ -98,7 +98,7 @@ to carry some portable wipes with you to wipe the areas *you* will be using just
 prior to your use of them. Alternatively, carry some tissue you can place in your
 hand to push a switch or grab a door handle.
 
-## What cleaners to use?
+### What cleaners to use?
 
 Some electronics are sensitive to common household cleaning solutions. Using the
 wrong cleaners can cause surface discolorations or negatively effect display surfaces.
@@ -122,7 +122,7 @@ use a new, dry microfiber cloth to buff out the residue.
 Just a few days ago, on March 9, 2020, Apple changed its guidelines<sup>[16]</sup>
 for cleaning Apple products to endorse a 70% alcohol solution.
 
-## The science behind the scenes
+### The science behind the scenes
 
 The whole point of simple actions like these and other social distancing<sup>[34]</sup> measures
 is to help *flatten the curve.*<sup>[33]</sup> Health care systems can care for a slow and
@@ -141,7 +141,7 @@ role in helping  track and fight the spread of SARS-CoV-2.
   * Some simple, 2D simulations demonstrate value of social distancing.<sup>[36]</sup>
 
 
-## Other things to keep in mind
+### Other things to keep in mind
 
 For those who are either sensitive to household cleaning chemicals or simply want
 to be more environmentally friendly, unfortunately there are not many studies or data indicating
@@ -170,7 +170,7 @@ in slowing the spread of COVID-19.
 
 
 
-## Author bio
+### Author bio
 
 Mark C. Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
@@ -290,7 +290,7 @@ Pinned: no
 [36]: #sfer-ezikiw-36 "Simple 2D simulations demonstrate value of social distancing"
 [37]: #sfer-ezikiw-37 "Kahn Academy lesson on estimating actual cases"
 <!-- (sfer-ezikiw begin) -->
-## References
+### References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[CDC guidance on CV-19 transmission](https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[WHO summary remarks of COVID-19](https://www.who.int/health-topics/coronavirus)

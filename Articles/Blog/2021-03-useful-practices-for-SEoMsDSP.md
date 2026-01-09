@@ -14,7 +14,7 @@ Find out how scientists at Lawrence Berkeley National Laboratory have approached
 with contributors from multiple labs, universities and disciplines, spread across multiple timezones.
 <!-- deck text end --> 
 
-## Software engineering and distributed teams 
+### Software engineering and distributed teams 
 
 Modern science depends heavily on computing and computer software.  The correctness, the efficiency and,
 more generally, the quality of the software are instrumental to scientific advancement.  Software
@@ -36,7 +36,7 @@ to apply software engineering and project management approaches from industry in
 always end up frustrated with some of the assumptions about centralized authority, dedicated
 software engineering effort and incentive.
 
-## Challenges facing a medium-sized project
+### Challenges facing a medium-sized project
 A good example of such a project team is the Institute for the Design of Advanced Energy Systems
 ([IDAES](https://idaes.org)), which was formed in 2016 to develop new advanced process systems
 engineering (PSE) capabilities. Funded by the DOE Office of Fossil Energy and led by the National
@@ -48,7 +48,7 @@ and Notre Dame University). Most of the team is spread in the two Pennsylvania l
 simulating important aspects of power plants and power grids. The eventual target
 users are power plant operators and power grid designers, with a current user base primarily of researchers, graduate students and the developers themselves.
 
-## A three-pronged approach
+### A three-pronged approach
 
 While the IDAES project runs functionally as a unit, there are sub-hierarchies of control in each national laboratory and university that set local priorities within the framework of the project deliverables. And although most of the effort is being spent on new software to perform chemical
 process engineering,  significant effort is devoted to  adding related capabilities to an existing
@@ -62,7 +62,7 @@ believe, generally applicable to projects with this kind of mix of institutions,
 scale: weekly whole-team developer meetings, incrementally better automation, and
 “soapboxing” (including software engineering in official goals & deliverables).
 
-## Not just another meeting
+### Not just another meeting
 Many styles of meetings have been discussed in recent years with respect to software development
 teams, most commonly the daily “standup” meetings combined with some semi-weekly longer
 “retrospective” meetings. Neither of these  fits what we believe is a unique set of
@@ -101,7 +101,7 @@ release or other timelines. Almost always, this simple practice will bring up in
 between the different pieces of ongoing work that would have otherwise been discovered much later,
 if at all.
 
-## An incremental approach to automated testing
+### An incremental approach to automated testing
 Between meetings, the best friend of overall team productivity is automated practices, and in
 particular automated tests. Although  few people disagree with this idea in principle, the truth is
 that getting a large suite of automated tests to work and keeping them working in the face of
@@ -120,7 +120,7 @@ authority.  The regular meeting "baby steps approach" both educates and builds c
 on the best procedures, practices and tools to adopt. Ideally this approach is driven by
 demonstrated effectiveness from those with the most software development experience.
 
-## Soapboxing
+### Soapboxing
 The third element that we think is useful is what we call “soapboxing,” not in the negative sense of grandstanding but in the positive sense of putting key elements of software engineering and
 development practices where they can gain favorable attention from project management and funders. Probably the least important
 place for this is grant proposals, since these are read at most once every few years, whereas the message needs to be repeated frequently. One of the best places to try to insert some
@@ -130,7 +130,7 @@ excellent way to do so is to show them the team engaging in a spirited discussio
 semi-public forum. Progress reports and general-audience publications about the project are also
 opportunities to describe software engineering practices. 
 
-## The goal:  developer productivity
+### The goal:  developer productivity
 
 We have spoken largely of social challenges, but of course scientific software also presents numerous technical challenges to developer productivity. We
 believe that conquering these technical challenges goes hand in hand with reducing the friction of
@@ -139,7 +139,7 @@ time working in silos and unintentionally stepping on each other’s toes and, p
 important, so that they feel  they are working as a single team no matter how different their technical
 backgrounds.
 
-## Author bios
+### Author bios
 
 **Dan Gunter** leads the Integrated Data Frameworks (IDF) group in the Data Science and Technology
 department of the Computational Research Division at Lawrence Berkeley National Laboratory. Dan's interests include data management and data

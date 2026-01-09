@@ -14,7 +14,7 @@ people." So while I could be writing about all the technical things
 that are going on in my scientific software projects, let me instead
 write about people.
 
-## Emacs's CC mode
+### Emacs's CC mode
 
 My first involvement with open source was when I was a freshman at the
 University of Stuttgart, in Germany, in 1994. I got an account on one
@@ -43,7 +43,7 @@ patient mentoring relationship, with an eye toward the fact that to
 bind  contributors to a project, they need to feel like their
 contributions are appreciated.
 
-## Other projects
+### Other projects
 
 Since that time, I've worked with quite a number of other open source
 projects. It turns out that the people didn't all have the same style as
@@ -72,7 +72,7 @@ of key individuals or the group as a whole, but surely also how much
 thought the maintainers of a software put into what they *want* their
 style to be.
 
-## My own path: the deal.II finite element library
+### My own path: the deal.II finite element library
 
 In 1997, I was working on my master's thesis in Germany and was too stubborn to use the finite element
 package (called DEAL) that was used in the lab at the time. So I wrote
@@ -154,7 +154,7 @@ under closer control. Personally, it has also been a fantastic
 ride: I got to work closely with so many, often younger, people whom I
 now call my friends.
 
-## Summary
+### Summary
 
 What kind of community develops around a software package is not a coincidence
 but instead a consequence of the leadership style. Where we are today as a
@@ -176,7 +176,7 @@ person will become a future principal developer who will write the kind
 of sentence above in a few years when answering someone on the mailing
 list.
 
-## Author bio
+### Author bio
 
 Wolfgang Bangerth is a professor of mathematics at Colorado State
 University. In 1997, he founded and is now one of the principal developers of the

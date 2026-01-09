@@ -8,13 +8,13 @@
 
 #### Publication date: March 7, 2024
 
-## Introduction
+### Introduction
 
 The Research Software Engineers in HPC workshop (RSE-HPC-2023) was held last November as part of the SC23 conference in Denver, CO, USA. Following up on the successful workshops of the previous three years, the 2023 session was a half-day event including nine speakers, about 85 in-person participants, and a number of online participants.
 
 This year’s workshop theme was “Growing the RSE Community,” with many of the talks and discussions focusing on RSE training and mentoring. The workshop was divided into four main sessions:  a featured talk, lightning talks, a panel discussion, and breakout discussion groups.
 
-## Featured talk
+### Featured talk
 
 The program of the RSE-HPC workshop started with a featured talk by Weronika Filinger from Edinburgh Parallel Computing Centre.  Her talk was entitled “UNIVERSE-HPC - towards a sustainable RSE training ecosystem,” and was co-authored by Jeremy Cohen and Neil Chue Hong. She began with an introduction about challenges for RSE education and training in HPC such as that many RSEs have a lack of dedicated time for skill development and that learning is often task oriented which can lead to gaps. Designing personalized pathways requires some knowledge of the skills and how they fit into the overall landscape and establishing “common” or “typical” learning pathways is hard. Finding suitable training content takes a lot of time and using training from different sources is difficult. The [UNIVERSE-HPC](https://www.universe-hpc.ac.uk) project aims to understand and nurture an integrated vision for education in RSE and HPC. This includes defining a training framework for RSEs specializing in HPC, identifying and integrating course materials, developing new materials to fill gaps, and enabling more people from a wide diversity of disciplines and backgrounds to obtain the skills and experience they require to have a successful RSE career. The project is organized around four main topics: 
 
@@ -36,7 +36,7 @@ The project developed new processes such as pilot operations guidance, pilot sur
 
 After the talk, the discussion revolved around training in interpersonal skills and barriers to sharing training materials such as funding, effort, and how to make content ready to use in different contexts.
 
-## Lightning talks
+### Lightning talks
 
 The workshop brought together four speakers to discuss views on research software engineering and the achievements of Research Software Engineers.
 
@@ -49,7 +49,7 @@ Jamie Quinn from University College London shared his experiences of being a Tru
 
 Jenny Wong discussed her experiences as a senior RSE at the University of Birmingham. She introduced her work with RSE Midlands, a regional RSE group in the UK, and the way in which it has brought together the local community for regular meetings. She discussed her work in equality, diversity, inclusivity, and accessibility both in HPC-SIG, a UK-based national HPC community, and in the international Women in HPC organization. She focused on the benefits of mentoring and the importance of role models, and discussed how her work in this area had been supported by her employment, which allows 10% of her time for self-development activities.
 
-## Panel
+### Panel
 
 We next held a panel on RSE training and mentoring.  The panelists were Francesca Schiavello from the [Hartree Centre](https://www.hartree.stfc.ac.uk/), Science and Technology Facilities Council, UK; Helen Kershaw from the [National Center for Atmospheric Research](https://ncar.ucar.edu/), US; Samantha Wittke from [CSC - IT Center for Science Ltd](https://www.csc.fi/en/), Finland; and Ian Cosden from [Princeton University](https://www.princeton.edu/). The panelists first discussed their backgrounds, which were quite varied.
 
@@ -100,7 +100,7 @@ The panel then discussed questions from the audience:
 
     We need to collaborate on this, but no clear ideas came up. Many current opportunities are found by chance.
 
-## Breakout sessions
+### Breakout sessions
 
 We organized an interactive session on the topic of training/mentoring/preparation of RSEs. We split the attendees in the room into seven working groups of 5-8 people. Each working group discussed the following questions:
 
@@ -151,13 +151,13 @@ A lot of answers to "4. What are the gaps, specifically in HPC?" were focused ar
 
 The discussion around "5. Who should help provide what’s missing?" elucidated that there are many stakeholders who could fill in gaps, from university-level support to RSE societies to vendors. Also, the community at large, including researchers, people who can fund and develop material, and the open source community, can fill in gaps and support funded training programs.
 
-## Conclusions
+### Conclusions
 
 We believe the workshop was successful in helping to connect RSEs with one another, and to connect them with resources and ideas to take back to their home institutions.  Many enthusiastic conversations took place during and after the sessions.  The energy level in the breakout discussions was particularly noticeable; it was clear that participants enjoyed the chance to share challenges and successes.
 
 We would like to thank everyone who participated, especially the committee members and speakers who helped make the workshop possible.  And we hope to be able to continue the discussions in the next workshop at SC24!
 
-## Author bios
+### Author bios
 
 Charles Ferenbaugh is the Computer Science Lead for the Eulerian Applications Project at Los Alamos National Laboratory. He received a Ph.D. in Mathematics from Princeton University in 1992. He spent several years working at Raytheon developing high-performance signal processing software, before coming on staff at LANL in 2001. At LANL he has been a software developer contributing to large multiphysics code projects running on supercomputer clusters. He has also been a part of LANL research efforts in advanced architectures and programming models. He was a founding steering committee member of the US Research Software Engineer Association.
 
