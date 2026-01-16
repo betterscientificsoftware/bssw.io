@@ -33,7 +33,7 @@ Papers presented:
 - Bowen Cui of George Mason University presented the first accepted paper titled “Comprehensive Evaluation of LLMs in HPC Code Performance Optimization,” which identified advantages and gaps in LLMs for HPC motif for a real applications. 
 
 - The second paper, “AI Assistants to Enhance and Exploit the PETSc Knowledge Base,” was presented by Junchao Zhang from Argonne National Laboratory. The work showcased how industry-driven AI technologies can enhance the development
-process of a well-established Portable, Extensible Toolkit for Scientific Computation (PETSc) library, widely used in HPC. The highlight the fact that as a mature libray, PETSc has valuable by unstructured information, so there is a need to adapt this knowledge along with the niche nature of HPC to make LLM more effective for their project needs.
+process of a well-established Portable, Extensible Toolkit for Scientific Computation (PETSc) library, widely used in HPC. The highlight the fact that as a mature library, PETSc has valuable by unstructured information, so there is a need to adapt this knowledge along with the niche nature of HPC to make LLM more effective for their project needs.
 
 Panel discussion:
 
@@ -65,6 +65,6 @@ This work was supported by the U.S. Department of Energy (DOE) Office of Science
 ## Authors bio 
 **William F Godoy** is a Senior Computer Scientist in the Computer Science and Mathematics Division at Oak Ridge National Laboratory (ORNL). His interests are in the areas of HPC, AI for scientific software, programming models, and workflows. He is a 2022 BSSw Fellowship honorable mention, IEEE Senior member, ACM, and US-RSE member serving in several HPC venues.
 
-**Ignacio Laguna** is the Group Leader of the Parallel Systems Group (PSG) at the Center for Applied Scientific Computing (CASC) at the Lawrence Livermore National Laboratory (LLNL), California. His main area of research in HPC are programing models and systems, software correctness, program analysis, debugging, compilers, testing, and fault tolerance. He is a 2019 BSSw Fellow, and an IEEE Senior member serving in several HPC venues.
+**Ignacio Laguna** is the Group Leader of the Parallel Systems Group (PSG) at the Center for Applied Scientific Computing (CASC) at the Lawrence Livermore National Laboratory (LLNL), California. His main area of research in HPC are programming models and systems, software correctness, program analysis, debugging, compilers, testing, and fault tolerance. He is a 2019 BSSw Fellow, and an IEEE Senior member serving in several HPC venues.
 
-**Pedro Valero-Lara** is a Senior Computer Scientis at Oak Ridge National Laboratory (ORNL). His research interests include programing models, parallel programming models, math libraries, applications, and AI for the scientific software ecosystem. He is a 2020 IEEE TCHPC Early Award Recipient, IEEE member, serving in several HPC venues.
+**Pedro Valero-Lara** is a Senior Computer Scientist at Oak Ridge National Laboratory (ORNL). His research interests include programming models, parallel programming models, math libraries, applications, and AI for the scientific software ecosystem. He is a 2020 IEEE TCHPC Early Award Recipient, IEEE member, serving in several HPC venues.
