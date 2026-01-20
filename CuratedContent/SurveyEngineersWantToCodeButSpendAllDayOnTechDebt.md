@@ -22,11 +22,17 @@ Article Title | [Survey: Engineers Want To Code, But Spend All Day on Tech Debt]
 Authors | Darryl K. Taft (The New Stack)
 Focus | Tech debt impacts
 
-Software teams in scientific computing often live with a tension between creating new capabilities and keeping complex systems reliable, secure, and reproducible. Chainguard’s *2026 Engineering Reality Report* puts numbers behind that tension based on 1,200 responses (600 software engineers and 600 senior technology leaders) collected in August 2025. The report’s headline is stark: while 93% of engineers say writing code and building new features is rewarding, respondents report spending only about 16% of their week on that kind of work. Instead, engineers report being pulled toward maintenance, upgrades, patching, vulnerability remediation, and other “toil” that can feel disconnected from mission value.
+Software teams in scientific computing often live with a tension between creating new capabilities and keeping complex systems reliable, secure, and reproducible.
+Chainguard’s *2026 Engineering Reality Report* puts numbers behind that tension based on 1,200 responses (600 software engineers and 600 senior technology leaders) collected in August 2025.
+The report’s headline is stark: while 93% of engineers say writing code and building new features is rewarding, respondents report spending only about 16% of their week on that kind of work.
+Instead, engineers report being pulled toward maintenance, upgrades, patching, vulnerability remediation, and other “toil” that can feel disconnected from mission value.
 
-The report also underscores how tech debt and fragmented toolchains amplify the problem. Two-thirds of respondents say they frequently encounter technical debt that impacts their ability to deliver effectively, and 72% of engineers say competing demands make it difficult to find space for building new features. Tool sprawl is another recurring theme: engineers report using many tools each week, and most say that switching between tools harms productivity (including a large fraction reporting a significant loss of focus).
+The report also underscores how tech debt and fragmented toolchains amplify the problem.
+Two-thirds of respondents say they frequently encounter technical debt that impacts their ability to deliver effectively, and 72% of engineers say competing demands make it difficult to find space for building new features.
+Tool sprawl is another recurring theme: engineers report using many tools each week, and most say that switching between tools harms productivity (including a large fraction reporting a significant loss of focus).
 
-The New Stack’s companion summary, *Survey: Engineers Want To Code, But Spend All Day on Tech Debt*, is a helpful entry point for readers who want a narrative overview and additional context around burnout and retention concerns. For leaders of research software projects, this framing matters: sustained delivery requires not just talented people, but also an environment that protects time for high-value work.
+The New Stack’s companion summary, *Survey: Engineers Want To Code, But Spend All Day on Tech Debt*, is a helpful entry point for readers who want a narrative overview and additional context around burnout and retention concerns.
+For leaders of research software projects, this framing matters: sustained delivery requires not just talented people, but also an environment that protects time for high-value work.
 
 Both pieces point to practical levers that translate well to the scientific software ecosystem:
 
