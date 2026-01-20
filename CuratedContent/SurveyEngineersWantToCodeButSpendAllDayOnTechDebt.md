@@ -2,7 +2,7 @@
 
 <!--deck text start-->
 
-Chainguard’s *2026 Engineering Reality Report* highlights a familiar challenge: engineers find building new features energizing, but day-to-day work is dominated by maintenance, [technical debt](https://bssw.io/items/technical-debt-in-practice-how-to-find-it-and-fix-it), and tool friction.
+Chainguard’s *2026 Engineering Reality Report* shows that engineers find building new features energizing, but day-to-day work is dominated by maintenance, technical debt, and tool friction.
 
 <!--deck text end-->
 
@@ -21,17 +21,45 @@ Article Title | [2026 Engineering Reality Report](https://www.chainguard.dev/202
 Authors | Chainguard
 Focus | Developer experience survey
 
-Software teams in scientific computing often live with a tension between creating new capabilities and keeping complex systems reliable, secure, and reproducible.
+Software teams struggle to create new capabilities while keeping complex systems reliable, secure, and reproducible.
 Chainguard’s *2026 Engineering Reality Report* puts numbers behind that tension based on 1,200 responses (600 software engineers and 600 senior technology leaders) collected in August 2025.
 The report’s headline is stark: while 93% of engineers say writing code and building new features is rewarding, respondents report spending only about 16% of their week on that kind of work.
-Instead, engineers report being pulled toward maintenance, upgrades, patching, vulnerability remediation, and other “toil” that can feel disconnected from mission value.
+Instead, 72% of engineers report struggling to find time to create new features due to spending 84% of their time on maintenance, upgrades, patching, vulnerability remediation, and other "toil".
 
-The report underscores how tech debt and fragmented toolchains amplify the problem.
-Two-thirds of respondents say they frequently encounter technical debt that impacts their ability to deliver effectively, and 72% of engineers say competing demands make it difficult to find space for building new features.
-Tool sprawl is another recurring theme: engineers report using many tools each week, and most say that switching between tools harms productivity (including a large fraction reporting a significant loss of focus).
+The report underscores how [technical debt](https://bssw.io/items/technical-debt-in-practice-how-to-find-it-and-fix-it) and fragmented toolchains amplify the problem.
+Two-thirds of respondents say they frequently encounter technical debt that impacts their ability to deliver effectively.
+Tool sprawl is another recurring theme as engineers report using many tools each week, and most say that switching between tools harms productivity (including a large fraction reporting a significant loss of focus).
 
-The New Stack’s companion summary, *Survey: Engineers Want To Code, But Spend All Day on Tech Debt*, is a helpful entry point for readers who want a narrative overview and additional context around burnout and retention concerns.
-For leaders of research software projects, this framing matters: sustained delivery requires not just talented people, but also an environment that protects time for high-value work.
+The New Stack’s companion summary article, *Survey: Engineers Want To Code, But Spend All Day on Tech Debt*, provides a useful narrative overview and additional context around burnout and retention concerns.
+For leaders of research software projects, this framing matters as sustained delivery requires not just talented people, but also an environment that protects time for high-value work.
+
+Some of the more interesting quotes from this article include:
+
+> 
+> Chainguard survey reveals that developers spend 84% of their time on maintenance and tech debt
+
+> 
+>  Engineers spend just 16% of their week writing code and building new features, despite 93% saying that’s the most rewarding part of their jobs.
+
+> 
+>  ... tedious tasks (38% cited this as a barrier), ongoing code maintenance like patches and vulnerability management (another 38%), and the technical debt that two-thirds of engineers say they bump into all the time.
+
+> 
+>  Two-thirds of the leaders say they’re concerned about keeping their engineering talent from walking out the door.
+
+> 
+> About 65% of organizations have automated most common engineering tasks, from writing code to handling admin work. And it’s working: among engineers who heavily use automation, 94% say they spend most of their time on energizing work. That compares to just 67% for those who don’t automate much of their daily tasks.
+
+> 
+>  Even more surprising, one in five respondents said AI is not allowed at all where they work. Kirkland said he found that “a little bit shocking.” These engineers are likely in government agencies and regulated industries.
+
+> 
+>  The survey also flagged the rise of “shadow AI” — engineers using unapproved tools on their own to try to get work done faster.
+
+
+> 
+>  Kirkland thinks the next big shift will be AI agents that can handle problems autonomously, working in the background while engineers sleep.
+
 
 Both articles point to practical levers that translate well to the scientific software ecosystem:
 
@@ -40,7 +68,7 @@ Both articles point to practical levers that translate well to the scientific so
 * Use [automation](https://bssw.io/items/github-actions-for-automation) and (carefully governed) [AI](https://bssw.io/items/ai-coding-agents-what-works-and-what-doesn-t) to reclaim time from repetitive tasks; the report associates higher automation with engineers spending more time on work that energizes them.
 * Make technical debt visible and actionable: define what “debt” means for the project, track it, and routinely budget time to pay it down.
 
-For BSSw.io readers, the value of these resources is less about any single statistic and more about the consistent signal: engineering organizations (including those building research software) should intentionally design their processes and tooling to minimize toil, so that teams can spend more time on the creative, mission-driven work that motivates them.
+The main takeaways from this survey and the analysis of the results are that engineering organizations (including those building research software) should intentionally design their processes and tooling to minimize and manage technical debt, so that teams can spend more time on the creative, mission-driven work that motivates them.
 
 <!---
 Publish: yes
