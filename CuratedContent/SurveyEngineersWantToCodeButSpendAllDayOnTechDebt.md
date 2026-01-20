@@ -2,7 +2,7 @@
 
 <!--deck text start-->
 
-Chainguard’s *2026 Engineering Reality Report* highlights a familiar challenge: engineers find building new features energizing, but day-to-day work is dominated by maintenance, technical debt, and tool friction.
+Chainguard’s *2026 Engineering Reality Report* highlights a familiar challenge: engineers find building new features energizing, but day-to-day work is dominated by maintenance, [technical debt](https://bssw.io/items/technical-debt-in-practice-how-to-find-it-and-fix-it), and tool friction.
 
 <!--deck text end-->
 
@@ -35,9 +35,9 @@ For leaders of research software projects, this framing matters: sustained deliv
 
 Both articles point to practical levers that translate well to the scientific software ecosystem:
 
-* Treat “maintenance work” as planned, funded project work (dependency upgrades, security patching, CI reliability, documentation) rather than ad hoc interruptions.
-* Reduce context switching by simplifying and integrating toolchains where possible, and by standardizing workflows that new team members can adopt quickly.
-* Use automation and (carefully governed) AI to reclaim time from repetitive tasks; the report associates higher automation with engineers spending more time on work that energizes them.
+* Treat “maintenance work” as planned, funded project work (dependency upgrades, [security patching](https://bssw.io/items/guide-to-securing-scientific-software), [CI](https://bssw.io/items/what-is-continuous-integration-testing) reliability, [documentation](https://bssw.io/items/diataxis-a-systematic-approach-to-technical-documentation-authoring)) rather than ad hoc interruptions.
+* Reduce [context switching](https://bssw.io/items/a-look-at-detrimental-effects-of-context-switching-with-devops) by simplifying and integrating toolchains where possible, and by standardizing workflows that new team members can adopt quickly.
+* Use [automation](https://bssw.io/items/github-actions-for-automation) and (carefully governed) [AI](https://bssw.io/items/ai-coding-agents-what-works-and-what-doesn-t) to reclaim time from repetitive tasks; the report associates higher automation with engineers spending more time on work that energizes them.
 * Make technical debt visible and actionable: define what “debt” means for the project, track it, and routinely budget time to pay it down.
 
 For BSSw.io readers, the value of these resources is less about any single statistic and more about the consistent signal: engineering organizations (including those building research software) should intentionally design their processes and tooling to minimize toil, so that teams can spend more time on the creative, mission-driven work that motivates them.
