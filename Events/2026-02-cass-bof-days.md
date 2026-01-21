@@ -2,7 +2,7 @@
 
 Registration is now open for the Consortium for the Advancement of Scientific Software’s (CASS) Birds-of-a-Feather sessions, Feb 10-12, 2026
 
-CASS BoF Days provides opportunities to bring communities together for Birds-of-a-Feather (BoF) sessions around topics of interest. Many of these topics will resonate with BSSw.io readers.
+CASS BoF Days provide opportunities to bring communities together for Birds-of-a-Feather (BoF) sessions around topics of interest. Many of these topics will resonate with BSSw.io readers.
 
 Participation is free and open to the public, however, registration is required for each event. For details and registration links, see <https://cass.community/news/2026-02-10-cass-bof-days.html> or follow the individual links below.
 
@@ -13,7 +13,7 @@ Participation is free and open to the public, however, registration is required 
 
 #### Contributed by [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: January 22, 2026
+#### Publication date: January 21, 2026
 
 Day/Time<br>(EST time zone) | Event Title (see linked event page for full details)
 :---------------------------|:-----------------------------------------------------
