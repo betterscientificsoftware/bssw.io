@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2025-10-22*
+*Listed in reverse chronological order. Last updated: 2026-01-23*
+
+- 2026-01-21: [Please, No More Loops (Than Necessary): New Patterns in Fortran 2023](https://ideas-productivity.org/events/hpcbp-095-fortran), presented by Damian Rouson (Berkeley Lab)
 
 - 2025-10-15: [Sustainable HPC Software: A Maintainer's Perspective](https://ideas-productivity.org/events/hpcbp-094-sustainable-sw), presented by Damien Lebrun-Grandié (Oak Ridge National Laboratory)
 
@@ -141,7 +143,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 - 2020-04-15: [Best Practices for Using Proxy Applications as Benchmarks](https://ideas-productivity.org/events/hpcbp-039-bp4proxyapps), presented by David Richards (Lawrence Livermore National Laboratory), and Joe Glenski (Hewlett-Packard Enterprise)
 
-- 2020-03-18: [Testing: Strategies When Learning Programming Models and Using High-Performance Libraries](https://ideas-productivity.org/events/hpcbp-038-testing), presented by Balint Joo (Jefferson Lab) <!--- codespell:ignore joo --->
+- 2020-03-18: [Testing: Strategies When Learning Programming Models and Using High-Performance Libraries](https://ideas-productivity.org/events/hpcbp-038-testing), presented by Balint Joo (Jefferson Lab)
 
 - 2020-02-19: [Introduction to Kokkos](https://ideas-productivity.org/events/hpcbp-037-kokkos), presented by Christian Trott (Sandia National Laboratories)
 
@@ -219,7 +221,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2025-10-22
+#### Publication date: 2026-01-23
 
 <!---
 Publish: yes
