@@ -8,13 +8,13 @@
 A summary of the papers presented at the AI4Dev and LLM4HPC workshops, held recently at major high-performance computing (HPC) conferences (ISC'25, ICPP'25), which highlight recent advancements in leveraging state-of-the-art AI and LLMs to enhance scientific software development.  
 <!-- end deck -->
 
-### Introduction
+## Introduction
 
 The release of [ChatGPT](https://chatgpt.com/) in late 2022 was a revolutionary step for human-computer interactions. Since then, the AI landscape has evolved rapidly opening new avenues for enhancing software development processes via state-of-the art large language models (LLMs) and agentic AI. Recognizing this potential, the authors organized one of the first workshops tackling the intersection of AI and scientific software development AI4Dev [(SC'23 Laguna et al.)](https://ai4dev-workshop.github.io/2023/). This vision has paid off, as AI is now at the forefront of HPC research and development, shifting paradigms in how scientific software is created, optimized, and maintained.
 Following this initial success, we continued creating venues in top HPC conferences where researchers and practitioners could share their latest advances in software development aided by AI.
 This article summarizes the key insights and advances related to better scientific software in the recent workshops hosted at ISC'25 and ICPP'25.
 
-### LLM4HPC at ISC'25
+## LLM4HPC at ISC'25
 
 The [ISC'25 1st LLM4HPC workshop](https://llm4hpc.github.io/2025/) had two paper presentations in the topic of leveraging LLMs for HPC software development gathering approximately 30 attendees for the first time workshop.
 
@@ -22,7 +22,7 @@ The [ISC'25 1st LLM4HPC workshop](https://llm4hpc.github.io/2025/) had two paper
   
 - Pedro Valero-Lara (Oak Ridge National Laboratory) presented "[Leveraging AI for Productive and Trustworthy HPC Software: Challenges and Research Directions](https://doi.org/10.1007/978-3-032-07612-0_47)" showcasing several research directions to leverage AI for the HPC software development lifecycle. The paper captures the goals and priorities of the U.S. Department of Energy (DOE)-funded Durban and Ellora projects as part of the Advanced Scientific Computing Research (ASCR) "Advancements in Artificial Intelligence for Science" program.
 
-### AI4Dev at ICPP'25
+## AI4Dev at ICPP'25
 
 The [ICPP'25 AI4Dev workshop](https://ornl.github.io/events/AI4Dev-ICPP-2025/) featured two paper presentations and a panel discussion on the intersection of AI and scientific software development. The half-day workshop gathered nearly 30 attendees.
 
@@ -49,7 +49,7 @@ The workshop ended with a panel of experts that are actively working on the use 
   
 Overall, the panel highlighted the importance of collaboration between AI researchers and HPC software developers to address the unique challenges in this domain.
 
-### Future directions and events
+## Future directions and events
 
 AI is here to stay as the largest technological revolution of our time, and HPC software development can be significantly improved by leveraging AI technologies. Through these workshops, we explored some of the findings and insights from the community experts at the intersection of AI and HPC.
 
@@ -59,14 +59,20 @@ For those interested in community activities or submitting papers in this topic,
 - [LLM4HPC at ISC'26](https://ornl.github.io/events/llm4hpc2026/)
 - [HPAI4S at IPDPS'26](https://sites.google.com/view/hpai4s/)
 
-### Acknowledgments
+## Acknowledgments
 
 This work was supported by the U.S. Department of Energy (DOE) Office of Science, Advanced Scientific Computing Research (ASCR) under the "Advancements in Artificial Intelligence for Science" program and the "Next Generation Scientific Software Technologies" program. We thank the above speakers (many [BSSw fellows and honorable mentions](https://bssw.io/pages/bssw-fellowship-program)) and co-authors for their contributions to the workshops and to this article.
 
-### Author bios
+## Author bios
 
 William F Godoy is a Senior Computer Scientist in the Computer Science and Mathematics Division at Oak Ridge National Laboratory (ORNL). His interests are in the areas of HPC, AI for scientific software, programming models, and workflows. He is a 2022 BSSw Fellowship honorable mention, IEEE Senior member, ACM, and US-RSE member.
 
 Ignacio Laguna is the Group Leader of the Parallel Systems Group (PSG) at the Center for Applied Scientific Computing (CASC) at the Lawrence Livermore National Laboratory (LLNL), California. His main area of research in HPC are programming models and systems, software correctness, program analysis, debugging, compilers, testing, and fault tolerance. He is a 2019 BSSw Fellow, and an IEEE Senior member.
 
 Pedro Valero-Lara is a Senior Computer Scientist at Oak Ridge National Laboratory (ORNL). His research interests include programming models, parallel programming models, math libraries, applications, and AI for the scientific software ecosystem. He is a 2020 IEEE TCHPC Early Award Recipient, and an IEEE member.
+
+<!---
+Publish: Yes
+Track: Community
+Topics: "Conferences and Workshops", "ai for better development"
+--->
