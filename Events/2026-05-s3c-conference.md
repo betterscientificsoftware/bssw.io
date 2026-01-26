@@ -19,9 +19,9 @@ Event Date | May 4-7, 2026
 Abstract Deadline | March 1, 2026
 Limits on participation | Registration is free for national lab employees with a .gov, .org, .mil or awe.co.uk email address; others should contact the organizers for eligibility.
 
-The National Laboratories Sustainable Scientific Software Conference (NLS3C) will help connect individuals and teams from the High Performance Computing (HPC) community that are working to deliver scientific software solutions in a sustainable manner. Sustainable software delivery spans the spectrum of software engineering, from design and development to DevOps, and software deployment platforms, from laptops to HPC systems.
+The National Laboratories Sustainable Scientific Software Conference (NLS³C) will help connect individuals and teams from the High Performance Computing (HPC) community that are working to deliver scientific software solutions in a sustainable manner. Sustainable software delivery spans the spectrum of software engineering, from design and development to DevOps, and software deployment platforms, from laptops to HPC systems.
 
-The NLS3C committee is excited to have our fifth conference in 2026. We are now partnering with the National Labs Information Technology (NLIT) summit to have our tracks executed. We are looking to get broad input from everyone in the Development and Operations workflow to submit an abstract and present your view of what is going well, and what needs to be improved. If you are a user, application developer, DevOps engineer, or system administrator, consider discussing your successes and challenges with your peers in the community.
+The NLS³C committee is excited to have our fifth conference in 2026. We are now partnering with the National Labs Information Technology (NLIT) summit to have our tracks executed. We are looking to get broad input from everyone in the Development and Operations workflow to submit an abstract and present your view of what is going well, and what needs to be improved. If you are a user, application developer, DevOps engineer, or system administrator, consider discussing your successes and challenges with your peers in the community.
 
 ### Themes of this year's conference include:
 
