@@ -2,7 +2,7 @@
 
 #### Contributed by: [William F Godoy](https://github.com/williamfgc), [Ignacio Laguna](https://github.com/ilagunap), and [Pedro Valero-Lara](https://github.com/pedrovlara)
 
-#### Publication Date: January 26, 2026
+#### Publication Date: January 27, 2026
 
 <!-- begin deck -->
 This article provides a summary of the papers presented at the AI4Dev and LLM4HPC workshops, held recently at major high-performance computing (HPC) conferences (ISC'25, ICPP'25), which highlight recent advancements in leveraging state-of-the-art AI and LLMs to enhance scientific software development.  
@@ -10,7 +10,7 @@ This article provides a summary of the papers presented at the AI4Dev and LLM4HP
 
 ## Introduction
 
-The release of [ChatGPT](https://chatgpt.com/) in late 2022 was a revolutionary step for human-computer interactions. Since then, the AI landscape has evolved rapidly, opening new avenues for enhancing software development processes via state-of-the-art large language models (LLMs) and agentic AI. Recognizing this potential, the authors organized one of the first workshops tackling the intersection of AI and scientific software development, AI4Dev [(SC'23 Laguna et al.)](https://ai4dev-workshop.github.io/2023/). This vision has paid off, as AI is now at the forefront of HPC research and development, shifting paradigms in how scientific software is created, optimized, and maintained.
+The release of [ChatGPT](https://chatgpt.com/) in late 2022 was a revolutionary step for human-computer interactions. Since then, the AI landscape has evolved rapidly, opening new avenues for enhancing software development processes via state-of-the-art large language models (LLMs) and agentic AI. Recognizing this potential, one of the authors organized one of the first workshops tackling the intersection of AI and scientific software development, AI4Dev [(SC'23 Laguna et al.)](https://ai4dev-workshop.github.io/2023/). This vision has paid off, as AI is now at the forefront of HPC research and development, shifting paradigms in how scientific software is created, optimized, and maintained.
 Following this initial success, we have continued creating venues in top HPC conferences where researchers and practitioners can share their latest advances in software development aided by AI.
 This article summarizes the key insights and advances related to better scientific software in the recent workshops hosted at ISC'25 and ICPP'25.
 
@@ -68,7 +68,7 @@ William F. Godoy is a Senior Computer Scientist in the Computer Science and Math
 
 Ignacio Laguna is the Group Leader of the Parallel Systems Group (PSG) at the Center for Applied Scientific Computing (CASC) at the Lawrence Livermore National Laboratory (LLNL), California. His main area of research in HPC is programming models and systems, software correctness, program analysis, debugging, compilers, testing, and fault tolerance. He is a 2019 BSSw Fellow and an IEEE Senior member.
 
-Pedro Valero-Lara is a Senior Computer Scientist at Oak Ridge National Laboratory (ORNL). His research interests include programming models, parallel programming models, math libraries, applications, and AI for the scientific software ecosystem. He is a 2020 IEEE TCHPC Early Award recipient and an IEEE member.
+Pedro Valero-Lara is a Senior Computer Scientist at Oak Ridge National Laboratory (ORNL). His research interests include parallel programming models, math libraries, applications, and AI for the scientific software ecosystem. He is a 2020 IEEE TCHPC Early Award recipient and an IEEE member.
 
 <!---
 Publish: Yes
