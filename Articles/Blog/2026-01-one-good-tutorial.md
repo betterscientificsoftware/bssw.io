@@ -115,7 +115,7 @@ a suggested set of steps to go from zero to a checklist-compliant suite of
 documentation. There’s nothing particularly profound about it, but if you’re not
 quite sure how you want to get started, it gives you a tangible way to proceed.
 I present the playbook as an HTML slideshow (built using the [reveal.js]
-framework), which I’ve found to be a convenient and effective way to to present
+framework), which I’ve found to be a convenient and effective way to present
 this kind of step-by-step material.
 
 [pb]: https://onegoodtutorial.org/playbook/
