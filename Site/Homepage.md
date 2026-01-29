@@ -3,6 +3,23 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
+Slide1 L: ../Articles/Blog/BSSwHighlights2025.md
+Slide1 R: ../images/Blog_bssw_2025YIR_010225.png
+Slide2 L: ../Articles/Blog/2026-01-ai4hpc-sw-dev.md
+Slide2 R: ../CuratedContent/SurveyEngineersWantToCodeButSpendAllDayOnTechDebt.md
+Slide3 L: ../CuratedContent/hpcbp-webinars-cc.md
+Slide3 R: ../Events/2026-02-cass-bof-days.md 
+Slide4 L: ../Events/2026-02-nls3c-cop-webinar.md 
+Slide4 R: ../Events/hpcbp-096-cpp.md
+Slide5 L: ../Events/ATPESC2026.md
+Slide5 R: ../Events/2026-05-s3c-conference.md
+--->
+
+<!---
+Note: We have had up to 7 L and R panels in the carousel, even if the current carousel may be shorter.
+
+Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
+LCM: Saving for use again later
 Slide1 L: ../Articles/Blog/2025-12-bsswf-usrse25.md
 Slide1 R: ../images/Blog_BSSwF_2025_USRSE25.jpg
 Slide2 L: ../Articles/Blog/2025-12-ux4.md
@@ -17,25 +34,6 @@ Slide6 L: ../CuratedContent/OnEvaluationOfResearchSoftware.md
 Slide6 R: ../CuratedContent/AgileIsOutArchitectureIsBack.md
 Slide7 R: ../Events/2025-11-teamwork-ai-survey.md
 Slide7 L: ../CuratedContent/GoogleGuidanceOnCodeReview.md
---->
-
-<!---
-Note: We have had up to 7 L and R panels in the carousel, even if the current carousel may be shorter.
-
-Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
-LCM: Saving for use again later
-Slide1 L: ../Articles/Blog/2025-09-bsswf-profile3.md
-Slide1 R: ../Articles/Blog/2025-09-bsswf-profile2.md
-Slide2 L: ../CuratedContent/RSEvsSERLanguage.md
-Slide2 R: ../CuratedContent/IsAITheNewRubberDuckandWillItReplaceHumanCoders.md
-Slide3 L: ../Events/hpcbp-094-sustainable-sw.md
-Slide3 R: ../Events/2025-10-bssw-fellowship.md
-Slide4 L: ../Events/2025-10-ssi-fellowship.md 
-Slide4 R: ../Events/2025-11-sc25-sw-events.md
-Slide5 L: ../images/Blog_2507_BSSwFellows2024.png
-Slide5 R: ../Articles/Blog/2025-07-BSSwFellows2024.md
-Slide6 L: ../Articles/Blog/2025-08-bsswf-profile1.md
-Slide6 R: ../Articles/Blog/2025-08-BSSwFellowsOpen2025.md 
 <!---
 [Site Overview](SiteOverview.md)
 
