@@ -71,7 +71,7 @@ National Renewable Energy Laboratory, Postdoctoral Researcher
 Argonne National Laboratory, Argonne Scholar, Argonne Leadership Computing Facility
 <p>&nbsp;</p>
 
-### About the BSSw Fellowship
+## About the BSSw Fellowship
 As described in a [prior blog article](https://bssw.io/blog_posts/applications-open-for-new-bssw-fellowship-program-q-a-webinar-on-dec-12-2017), the main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. BSSw Fellows are selected annually based on an application process that includes the proposal of an activity that promotes better scientific software. Subscribe to the [BSSw email digest](https://bssw.io/pages/receive-our-email-digest) for notification about next year’s call for applications, which will be announced in fall 2018.
 
 Stay tuned for more from the 2018 BSSw Fellows.

@@ -12,7 +12,7 @@ Anticipating what could go wrong is an essential part of becoming a master craft
 An important part of that process is reflecting on and learning from mistakes made along the way.
 This blog article draws analogies to perspectives in defensive programming.
 
-### From journeyman to master craftsperson
+## From journeyman to master craftsperson
 
 We tend to have a romanticized notion of craftspeople and artisans as
 skillful creators striving for perfection, every time. That perception may of
@@ -59,7 +59,7 @@ called [defensive
 programming](https://en.wikipedia.org/wiki/Defensive_programming),
 which is a form of [defensive design](https://en.wikipedia.org/wiki/Defensive_design).
 
-### It's a mindset question
+## It's a mindset question
 
 It's definitely a good habit to use defensive techniques, 
 and I'll provide a few examples of defensive programming below.
@@ -84,7 +84,7 @@ have to have grave consequences if one anticipates it and guards
 against it.
 
 
-### An example
+## An example
 
 Let me show you a simple piece of code, not untypical of the kind we all write
 when dealing with geometry in three-dimensional spaces:
@@ -168,7 +168,7 @@ because *introspection has allowed me to understand what kinds of mistakes
 I often make*, and how I can learn to live with it.
 
 
-### Defensive programming
+## Defensive programming
 
 Assertions are one component of "defensive programming". I use them
 extensively in all of the codes I work on. For example, the [deal.II
@@ -240,7 +240,7 @@ assertion in the code to ensure that they trigger when they are needed;
 in my view, that may be going too far, but I appreciate the spirit
 of anticipating that one may also make mistakes writing assertions.
 
-### Summary
+## Summary
 
 The point I want to make here is not that defensive programming is
 good (though it unambiguously is), but what made people think about it in the
@@ -263,7 +263,7 @@ is *forcing* ourselves to be introspective and learn how we, as
 software engineers, operate.
 
 
-### Author bio
+## Author bio
 
 Wolfgang Bangerth is a professor of mathematics and (by courtesy)
 geosciences at Colorado State University. In 1997, he founded and is

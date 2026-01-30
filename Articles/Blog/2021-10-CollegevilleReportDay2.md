@@ -10,19 +10,19 @@
 
 #### Publication date: October 13, 2021
 
-### Background: The Collegeville Workshop Series
+## Background: The Collegeville Workshop Series
 What do multi-million dollar HPC projects have in common with a PI and their soon-to-be graduating doctoral student? What are the most pressing concerns of teams on the bleeding edge of scientific discovery? The [Collegeville Workshop Series on Scientific Software](https://collegeville.github.io/CW21) brings together three communities of scientific software contributors: academia, industry, and laboratories.  While there are existing exchanges between these communities, this workshop series is dedicated to improving the awareness of common needs, unique contributions, and career paths. Workshop contributions include short white papers and video interviews. The three-day live event includes panels, small-group discussions, and teatime sessions for themed conversations. This blog is the second of three that summarize the output from the small-group discussions in 2021.
 
-#### Collegeville 2021 theme: scientific software teams
+### Collegeville 2021 theme: scientific software teams
 Research software and scientific discovery are often advanced by collaborative teams rather than individuals. Yet, scientific software teams are often conducting their work with little knowledge of how to best take advantage of their collective experience. A new frontier for scientific software can be met with a better understanding of how software teams function and how teamwork can be improved. As we focus on improving software teams, we see value in augmenting the traditionally-valued expertise of computer scientists, mathematicians, and software engineers with the expertise of social, information, and cognitive scientists
 
-#### Workshop small group discussions
+### Workshop small group discussions
 Each day of the workshop focused on different aspects of software teamwork. The first day of live discussion focused on software team experiences and challenges, the second day on technical strategies for improvement, and the third day on cultural approaches for improvement. Small groups gathered live over video conference to discuss the topic of the day, each group creating a shared notes file. Because the workshop participants come from different work settings and have varying experiences with scientific software, these discussions were a rare opportunity to identify shared concerns and recognize differences among scientific software teams. More than *representing* their shared knowledge, however, our intention is for these discussions to *impact* the diverse communities that participated in them.
 
-### Day 2: Technical Approaches to Improved Software Teams
+## Day 2: Technical Approaches to Improved Software Teams
 After talking about software teams on the first day, we spent the second day discussing technical approaches to improving teams, aiming to keep discussions about cultural approaches until the third day. Each of the four small group discussions were made up of five or six participants. Roughly 10% of the discussion participants were from industry, about 20% were from universities, and the rest hailed from government labs. Twenty-one participants (listed above) chose to receive attribution for their contributions to these engaging discussions.
 
-#### Key technical approaches
+### Key technical approaches
 In this article, we summarize the key technical approaches to improving scientific software teams identified during the small group discussions. The detailed notes from these discussions are available on the [Collegeville 2021 Workshop website](https://collegeville.github.io/CW21/).
 
 **Agree on and use collaborative software tools:** The adoption of modern software engineering tools and techniques will empower scientific software teams to do their best work. This includes tried-and-true solutions like tools for version control and planning/organization (e.g., Kanban), as well as emerging technologies like test case prioritization and containerization. Challenges for using such tools include lack of buy-in from all team members, too many tools to keep track of, and getting everyone on the same page for following the process. As some of the individuals on the software team may not be software developers, browser-based software project management tools (like GitHub or Jira) are useful. Training should be provided as well as encouragement from management for the continual use of such tools. As changing tools is disruptive, longer-term support for the chosen tools should be a consideration when deciding which tools to use; some teams value using open, non-commercial tools wherever possible, whereas other teams may be required to use common tools across an organization.
@@ -39,10 +39,10 @@ In this article, we summarize the key technical approaches to improving scientif
 
 **Technical and social aspects of software development go hand-in-hand:** Understanding those social aspects is critical to the adoption of new technologies. As a community, we should be working closer with social scientists to understand how we do our work and how we could do it better. A lot of the issues we have with scientific software teams can be recognized and addressed by including the soft sciences. Developing solutions people will actually use requires understanding them and their culture. Providing curated relevant literature to software teams can help with this.
 
-### Final remarks from Day 2 discussions
+## Final remarks from Day 2 discussions
 Day 2 discussions at the Collegeville 2021 Workshop represent the input of a diverse and experienced group of scientific software developers and leaders, and their colleagues from the social and cognitive sciences. We hope that the technical approaches summarized in this blog resonate with the reader and help the scientific software community when prioritizing efforts to improve the quality and impact of software in the pursuit of scientific discovery.
 
-### Acknowledgements
+## Acknowledgements
 The workshop organizers and authors of this article thank all participants for contributions to workshop discussions.
 
 ---

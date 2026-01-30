@@ -10,7 +10,7 @@
 
 This article introduces new tutorial materials on [I/O sleuthing](https://github.com/radix-io/io-sleuthing) for high performance.
 
-### Introduction
+## Introduction
 
 When we run into slow input/output (I/O) problems -- and we will -- we need to
 understand the I/O software stack, the tuning available at each level,
@@ -35,7 +35,7 @@ performance challenges.  As we look more broadly at task-oriented and AI
 workloads, we need to adapt these tools; the landscape is changing but the
 tools can still provide insights.
 
-### Building blocks of high-performance storage
+## Building blocks of high-performance storage
 
 When we run an application on a supercomputer and read or write some
 data, that operation might go through several layers.  Each of those
@@ -56,7 +56,7 @@ HDF5 or other high-level I/O libraries add arrays and data structures that fit w
 with what applications want.  Instead of operating on bytes and files,
 these libraries operate on the kinds of data that applications are using.
 
-### Making sense of all these components
+## Making sense of all these components
 
 When we investigate I/O problems, we have two main tools at our disposal:  I/O
 benchmarks for exploring storage in isolation, and characterization tools that
@@ -76,7 +76,7 @@ characterization tool](https://www.mcs.anl.gov/research/projects/darshan/) to ob
 to speak.  Here we use Darshan to show what is happening at the file and MPI
 layers when HDF5 and PnetCDF optimizations kick in.
 
-### Looking beyond MPI-based applications
+## Looking beyond MPI-based applications
 
 We developed these tools and benchmarks in an environment where MPI was the
 dominant programming model.  AI, task-oriented workflows, and non-MPI
@@ -84,12 +84,12 @@ applications are all more important workloads today. We are working to update
 Darshan and tools like it.  For example, Darshan has a "non-MPI" mode for
 characterizing applications that do not call MPI.
 
-### Your turn
+## Your turn
 
 I hope you check out https://github.com/radix-io/io-sleuthing, try out the
 examples on your own file systems, and share what you learn.
 
-### Author bio
+## Author bio
 
 Rob Latham, as a Research Software Developer at Argonne
 National Laboratory, strives to make scientific applications use I/O more

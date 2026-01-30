@@ -22,7 +22,7 @@ One of the challenges in putting on a long-running webinar series like this is, 
 
 With your help, we’re looking forward to five (or more) years of offering the webinar series on Best Practices for HPC Software Developers!
 
-### Author bios
+## Author bios
 
 Osni A. Marques is a staff scientist at the Applied Mathematics & Computational Research Division at Lawrence Berkeley National Laboratory. He has worked with software libraries that provide solutions to common and important computational problems in engineering and scientific applications. He has studied and implemented algorithms for the solution of numerical linear algebra problems in applications related to the motion of proteins, acoustics problems, structural analyses, inverse problems in geophysics, and electronic properties of materials. Osni is currently involved in the IDEAS Productivity project and training activities of the DOE Exascale Computing Project.
 

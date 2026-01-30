@@ -7,7 +7,7 @@
 
 Share your knowledge and perspectives on developing, applying, and promoting reusable research software by submitting an idea for an article for a special issue of IEEE's *Computing in Science and Engineering (CiSE)* that will be published by April of 2019.
 
-### Submit an idea for an article to a special issue of IEEE-CiSE
+## Submit an idea for an article to a special issue of IEEE-CiSE
 
 - Letter of intent to submit (with abstract) deadline: April 2, 2018
 - Full paper submission deadline: July 2, 2018
