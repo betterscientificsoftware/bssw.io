@@ -1,4 +1,4 @@
-# AI4Dev and LLM4HPC workshops: Leveraging AI for Productive HPC Software Development
+# AI4Dev and LLM4HPC Workshops: Leveraging AI for Productive HPC Software Development
 
 #### Contributed by: [William F Godoy](https://github.com/williamfgc), [Ignacio Laguna](https://github.com/ilagunap), and [Pedro Valero-Lara](https://github.com/pedrovlara)
 
