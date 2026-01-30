@@ -31,18 +31,18 @@ His advice for those applying for the 2025 BSSw Fellowship: “Dream big. If the
 
 *The main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Submissions for the 2025 cohort are now open: [2025 BSSw Fellowship Application](https://bssw.io/pages/apply-for-the-bssw-fellowship-program)!*
 
-### More info
+## More info
 Learn more about [Rafael Mudafort's work as a BSSw Fellow](https://bssw.io/fellows/rafael-mudafort).
 
 See the new [blog post](https://bssw.io/blog_posts/applications-open-for-the-2025-bssw-fellowship-program) by Elsa Gonsiorowski, coordinator of the BSSw Fellowship Program.
 
 Application deadline: Monday, September 30, 2024; this is a firm deadline that will not be extended.
 
-### Q&A webinar
+## Q&A webinar
 
 Those interested in applying are encouraged to participate in an informational fellowship webinar and Q&A session scheduled for Tuesday, September 10, 2024, 2:00-3:00 PM EDT.  Webinar details will be sent to the BSSw mailing list.
 
-### Author bios
+## Author bios
 [Heather Bourbeau](https://www.linkedin.com/in/heatherbourbeau/) is a research analyst, communications strategist, and storyteller. 
 [Sustainable Horizons Institute](https://shinstitute.org) is a partner in leading the BSSw Fellowship Program. 
 

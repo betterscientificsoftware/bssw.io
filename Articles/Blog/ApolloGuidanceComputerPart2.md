@@ -29,7 +29,7 @@ some familiar themes such as the benefits and challenges of *co-design*, the imp
 sufficient testing resources, the role and impact of software process
 improvements and more.
 
-### Extreme co-design
+## Extreme co-design
 Initially, about all that was known with any certainty was that a digital
 computer would be the centerpiece of a complex collection of GN&C subsystems.
 A year would pass before NASA selected the Lunar Orbit
@@ -57,7 +57,7 @@ But, in the 1960s when there were no DevOps<sup>[38]</sup> best practices and co
 such as GitLab, Jenkins, Confluence, Kanban and WebEx, or even email, it presented a massive
 coordination and management challenge.
 
-### Evolving requirements, versions and flight rope releases
+## Evolving requirements, versions and flight rope releases
 NASA had established a need for the machine and had determined its general tasks, and
 MIT received a contract based on only a short, very general requirements statement.
 Requirements started changing immediately and continued to change throughout the program.<sup>[39]</sup>
@@ -84,7 +84,7 @@ with their revision numbers would be used to identify CM and LM flight programs,
 respectively.<sup>[24]</sup> LUMINARY 1A is the revision used in the first lunar
 landing of Apollo 11.
 
-### The AGC software stack
+## The AGC software stack
 Each flight program involved a combination of common utilities and mission-specific
 space guidance subroutines. Mission-specific components required significant
 analysis and development time. Early development activity, 1961–1965, focused on
@@ -125,7 +125,7 @@ multiple ropes for different launch windows would be manufactured as contingenci
 A 1962 memo<sup>[19]</sup> lists 45 major software analysis efforts then
 underway for various aspects of planned Apollo missions.
 
-### The AGC had an app for that
+## The AGC had an app for that
 Flying to the moon and returning safely involved long periods of boredom
 punctuated by moments of extreme peril. A mission was divided into phases by
 *velocity change maneuvers* or *burns* of the main engines<sup>[1]</sup>. A complete mission
@@ -152,7 +152,7 @@ of communications between them and mission control.
 
 ![](../../images/Blog_0619_agc_major_modes_B.jpg)
 
-### Performance portability and the digital autopilot (DAP)
+## Performance portability and the digital autopilot (DAP)
 
 Digital Autopilot (DAP) software was developed based on *Kalman Filtering*.<sup>[42]</sup>
 The computation is decomposed into a *prediction* phase where an idealized model
@@ -180,7 +180,7 @@ Kalman filtering algorithm to control RCS jet firings in coasting flight.
 With a change of a dial on the control panel, astronauts could adjust the
 filter from *coarse* to *fine* control.
 
-### AGC software testing: 60% of the whole effort
+## AGC software testing: 60% of the whole effort
 Five different levels of testing were developed.
 
 * An all-software simulator (also known as the *all-digital* simulator)
@@ -221,7 +221,7 @@ Honeywell 800, two Honeywell-1800s and two IBM 360/75 peaking at about 4,500 CPU
 testing resources together with simulator software development and test operators comprised
 nearly 60% of the entire software development budget. 
 
-### Putting the software effort in context
+## Putting the software effort in context
 The whole Apollo GN&C system cost about $600M over ten years<sup>[18]</sup>. The software alone
 was about 10% of that or about $60M<sup>[17]</sup>, the majority
 of it occurring over the last five years. This equates to $100M/year in 2019 dollars.
@@ -266,7 +266,7 @@ successful Russian circumlunar mission.
 
 <br>
 
-### Author bio
+## Author bio
 
 Mark C. Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
@@ -391,7 +391,7 @@ Pinned: no
 [51]: #sfer-ezikiw-51 "A Comprehensive Digital Simulation for the Verification of Apollo Flight Software"
 [52]: #sfer-ezikiw-52 "MIT and navigating a path to the moon"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Apollo flight plan diagram created by NASA in 1967 to illustrate the flight path and key mission events for the upcoming Apollo missions to the Moon. To allow our readers to explore the image in more detail we include a link to the full-res image here.](https://github.com/betterscientificsoftware/bssw.io/raw/main/images/397_apollo_flightdiagram.jpg)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Earth's Lumpy Gravity Field](https://en.wikipedia.org/wiki/Gravity_of_Earth)

@@ -14,7 +14,7 @@ Hone your code-reviewing skills in a no-consequence environment using this tutor
 
 [Code-review.org](https://code-review.org/) is an online tutorial that helps impart best practices for reviewing code, responding constructively to feedback from others, and offering solutions using Github.
 
-### What are the goals?
+## What are the goals?
 
 The goals of the project are to enable everyone involved in scientific software to:
 
@@ -29,7 +29,7 @@ The goals of the project are to enable everyone involved in scientific software 
 * **Enable more open-source contributors and more open-source reviewers.** This is a lofty goal, but there are many people who would make really good software engineers, *and they just don’t know it yet.*
 
 
-### What are the learning outcomes?
+## What are the learning outcomes?
 
 Code review is a skill. You can break it down, you can practice, and you can improve.  A difficulty is that developers are often learning a bunch of other skills at the same time as writing code -- the mechanics of git and Github (which can be tricky), maybe a new programming language. Maybe you are a scientist learning a new language, or maybe you are a software engineer learning new science. Perhaps you have to fit into a new team and its culture.
 
@@ -37,7 +37,7 @@ And this process never stops! Whether you are just starting out or are a seasone
 
 As you work through the code review tutorial, you’ll practice the mechanics of Github: navigating issues, pull requests, adding comments and suggestions. You’ll have the chance to review the pull requests in the exercises, with some prompts to help you along.
 
-### You are not alone.
+## You are not alone.
 
 Code review can feel quite exclusionary. It can be a gatekeeping exercise, particularly for new contributors to open-source projects. There is no easy remedy to this situation, and it takes continued thought and effort within each team or community to find a dynamic that works well.
 
@@ -54,11 +54,11 @@ your people.
 * [UCAR Software Engineering Assembly](https://sea.ucar.edu/sea) A community for software engineering professionals within UCAR.
 
 
-### Acknowledgement
+## Acknowledgement
 
 This work was supported by the Better Scientific Software Fellowship Program, funded by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy (DOE) Office of Science and the National Nuclear Security Administration; and by the National Science Foundation (NSF) under Grant No. 2154495.
 
-### Author bio
+## Author bio
 
 Helen Kershaw is the Lead Software Engineer for the [Data Assimilation Research Testbed](https://dart.ucar.edu/), a widely used, open-source community software facility for data assimilation. Helen has a PhD in Mechanical Engineering
 from the University of Canterbury, New Zealand, and a Geophysical Sciences degree from the University of
