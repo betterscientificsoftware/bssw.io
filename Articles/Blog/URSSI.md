@@ -10,7 +10,7 @@ development and sustainability of research software in the United States.
 
 The goal of the [URSSI](http://urssi.us/) conceptualization project is to create a roadmap for a software institute to overcome pervasive concerns in research software.
 
-### Challenges in research software
+## Challenges in research software
 Research software is essential to progress in the sciences, engineering, humanities, and myriad other fields.  In many
 fields, research software is produced within academia, by academics who range in experience and status from students
 and postdocs to staff members and faculty.  Important software
@@ -45,7 +45,7 @@ researchers in the usage of software.
 
 <br>
 
-### Creating a roadmap
+## Creating a roadmap
 The goal of the conceptualization project is to create a roadmap for URSSI to minimize or at least decrease these
 types of concerns. In order to do so, the  URSSI conceptualization has two aims:
 
@@ -58,7 +58,7 @@ This situation leads to a risk of developing solutions that solve one issue but 
 how we should address the issues in coordination with the communities, and determine how to prioritize all the issues
 in URSSI.
 
-### Collaboration
+## Collaboration
 We are not working in a vacuum, but with other like-minded projects.  In addition to
 [Better Scientific Software (BSSw)](https://bssw.io/) and activities around research facilitators
 [ACI-REF](https://aciref.chpc.utah.edu/?page_id=31) in the United States, there are two ongoing institutes in
@@ -80,7 +80,7 @@ We have held [one workshop](http://urssi.us/workshops/berkeley/) and are plannin
 community survey we plan to have out soon and a set of ethnographic studies on specific projects. We are
 communicating through our [website](http://urssi.us) and a [series of newsletters](http://urssi.us/newsletter/). 
 
-### Get involved!
+## Get involved!
 We welcome members of the BSSw community to join us, both to help us determine how to proceed and to directly
 contribute. Please
 [sign up for our mailing list](https://urssi.us17.list-manage.com/subscribe/post?u=34c9c3bb4d54665136bd03e49&id=f55b22de1d), contribute to our discussions, and potentially publish a

@@ -27,7 +27,7 @@ She credits her BSSw Fellowship with giving her the time and resources to develo
 
 Her enthusiasm for the program is such that she is now turning her mentoring skills to the BSSw Fellowship itself, working with newer fellows. “BSSw is a great organization. It is a great way to connect with people who are your peers at other institutions. As a result, the BSSw experience gives you valuable perspectives.”  
 
-### More info
+## More info
 Learn more about [Helen Kershaw's work as a BSSw Fellow](https://bssw.io/fellows/helen-kershaw).
 
 The main goal of the BSSw Fellowship program is to foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes. Submissions for the 2026 cohort are now open: [2026 BSSw Fellowship application details and form](https://bssw.io/pages/apply-for-the-bssw-fellowship-program)!
@@ -36,7 +36,7 @@ Fellowship Q&A webinar: Tuesday, September 16, 2025 1:00-2:00 pm EDT. [Subscribe
 
 Application deadline: Friday, October 31, 2025; this is a firm deadline that will not be extended.
 
-### Author bios
+## Author bios
 [Heather Bourbeau](https://www.linkedin.com/in/heatherbourbeau/) is a research analyst, communications strategist, and storyteller.
 [Sustainable Horizons Institute](https://shinstitute.org) is a partner in leading the BSSw Fellowship Program.
 
