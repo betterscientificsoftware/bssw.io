@@ -8,7 +8,7 @@ BSSw Fellows receive recognition and funding to be advocates of high-quality sci
 
 <!-- Submissions for the 2026 BSSw Fellowship Program are accepted through the [online application form](https://ssl.linklings.net/applications/BSSw/). -->
 
-### Timeline for 2026 BSSw Fellowship Program
+## Timeline for 2026 BSSw Fellowship Program
 
 <!-- Applications for the 2026 BSSw Fellowship Program will open August 14, 2025. Please check back for additional information and dates. -->
 
@@ -27,14 +27,14 @@ We select at least three Fellows per year and honorable mentions as appropriate.
 Each 2026 BSSw Fellow will receive up to $25,000 for an activity that promotes better scientific software.
 Activities can include organizing a workshop, preparing a tutorial, or creating content to engage the scientific software community.
 
-### Application Format
-#### Experience:
+## Application Format
+### Experience:
 
 - Short C.V. or Resume File (PDF only) 2-pages or less
 - Describe your work relevant to scientific software (1000 - 1500 characters).
 - Describe your background and experience relevant to being a BSSw Fellow (1000 - 1500 characters).
 
-#### Proposed work and impact:
+### Proposed work and impact:
 
 - What is the name (or tag line) of your proposed project? (max 100 characters).
 - What would you do as a BSSw Fellow? (1500 - 2000 characters).
@@ -45,7 +45,7 @@ Activities can include organizing a workshop, preparing a tutorial, or creating 
 
 **Questions must be answered directly in the fields of the online application form.  Answers provided elsewhere (e.g., GitHub repo) and linked in the application form will not be reviewed.**
 
-### Applications for the BSSw Fellowship Program
+## Applications for the BSSw Fellowship Program
 
 <!-- Applications for the 2026 BSSw Fellowship Program will open on August 14, 2025; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
 
@@ -54,7 +54,7 @@ Applications are closed for the 2026 BSSw Fellowship Program.  Please check back
 <!-- Applications are now being accepted for the 2026 BSSw Fellowship Program.  Submissions for the 2026 BSSw Fellowship Program are accepted through the [**online application form**](https://ssl.linklings.net/applications/BSSw/). -->
 
 
-### Q&A Webinar about the BSSw Fellowship Program
+## Q&A Webinar about the BSSw Fellowship Program
 
 <!-- - Tuesday, September 16, 2025 1:00-2:00 pm EDT -->
 
@@ -67,7 +67,7 @@ Slides and Q&A for the 2026 BSSw Fellowship Q&A Webinar:
 Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details about the BSSw Fellowship Program, including telecon information for a Q&A session to take place in September.
 
 
-### More information, including on-line application
+## More information, including on-line application
 <!-- ### More information -->
 
 - [BSSw Fellowship Program](https://bssw.io/fellowship)
