@@ -1,5 +1,5 @@
 <!-- start of deck -->
-### What to Contribute: Content for Better Scientific Software
+# What to Contribute: Content for Better Scientific Software
 
 We want and need contributions to the BSSw site from the community. If you have experience or expertise that can help other scientific software teams, we encourage you to contribute an original article or point users to existing resources you find useful.
 <!-- end of deck -->
