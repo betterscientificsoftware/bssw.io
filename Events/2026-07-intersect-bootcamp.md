@@ -7,7 +7,7 @@ The INTERSECT Research Software Engineering Bootcamp will be a 4.5 day intensive
 - Application Deadline: March 13, 2026
 - Event Dates: July 13-17, 2026
 - Location: Princeton, New Jersey
-- Website: https://intersect-training.org/bootcamp26/
+- Website: https://intersect-training.org/bootcamp26-announce/
 - Organizers: INTERSECT Project
 
 #### Contributed by [Jeffrey C. Carver](https://github.com/JeffCarver/)
@@ -16,10 +16,10 @@ The INTERSECT Research Software Engineering Bootcamp will be a 4.5 day intensive
 
 Event Information | Details
 :--- | :---			   
-Event Name | [INTERSECT Bootcamp '26](https://intersect-training.org/bootcamp26/)
+Event Name | [INTERSECT Bootcamp '26](https://intersect-training.org/bootcamp26-announce/)
 Application Deadline | March 13, 2026
 Event Dates | July 13-17, 2026
-Website | https://intersect-training.org/bootcamp26/
+Website | https://intersect-training.org/bootcamp26-announce/
 
 The INTERSECT Research Software Engineering Bootcamp will be a 4.5 day intensive hands-on workshop focusing on practices that will help research software developers improve the quality, reproducibility, and sustainability of their software.
 
@@ -63,7 +63,7 @@ We welcome anyone who identifies with the description above and is interested in
 
 Selection Criteria: Potential participants will be asked to explain their background and future goals as they relate to research software. Applicants are encouraged to use the questions and space provided in the application to make a strong argument for why their application should be accepted. Applications will be reviewed independent of need for funding until all available funded slots are filled after which those applicants who are able to support their own travel will be accepted until all slots are filled.
 
-Please check the [bootcamp webpage](https://intersect-training.org/bootcamp26/) for further details and updates.
+Please check the [bootcamp webpage](https://intersect-training.org/bootcamp26-announce/) for further details and updates.
 
 <!---
 Publish: yes
