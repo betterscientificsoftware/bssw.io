@@ -101,23 +101,23 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE, 
 
 <div class='fellow'>
 <div class='img_div'>
+<img src='../../images/Blog_BSSwF_2026_HM_Feickert.jpg' class='logo' />
+</div>
+
+<div class='short_bio'>
+    <h3>Matthew Feickert, University of Wisconsin-Madison</h3>
+    <p>Research Scientist, Data Science Institute</p>
+</div>
+</div>
+
+<div class='fellow'>
+<div class='img_div'>
 <img src='../../images/Blog_BSSwF_2026_HM_Frimpong.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
     <h3>Joseph Frimpong, Argonne National Laboratory</h3>
     <p>Postdoctoral Research, Midwest Integrated Center for Computational Materials</p>
-</div>
-</div>
-
-<div class='fellow'>
-<div class='img_div'>
-<img src='../../images/Blog_BSSwF_2026_HM_Steger.jpg' class='logo' />
-</div>
-
-<div class='short_bio'>
-    <h3>Daniel Steger, Center For Open Science</h3>
-    <p>Technical Community Manager, Open Science Framework</p>
 </div>
 </div>
 
@@ -134,23 +134,23 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE, 
 
 <div class='fellow'>
 <div class='img_div'>
-<img src='../../images/Blog_BSSwF_2026_HM_Feickert.jpg' class='logo' />
-</div>
-
-<div class='short_bio'>
-    <h3>Matthew Feickert, University of Wisconsin-Madison</h3>
-    <p>Research Scientist, Data Science Institute</p>
-</div>
-</div>
-
-<div class='fellow'>
-<div class='img_div'>
 <img src='../../images/Blog_BSSwF_2026_HM_Primo.jpg' class='logo' />
 </div>
 
 <div class='short_bio'>
     <h3>Abena Primo, Huston-Tillotson University</h3>
     <p>Associate Professor, Computer Science</p>
+</div>
+</div>
+
+<div class='fellow'>
+<div class='img_div'>
+<img src='../../images/Blog_BSSwF_2026_HM_Steger.jpg' class='logo' />
+</div>
+
+<div class='short_bio'>
+    <h3>Daniel Steger, Center For Open Science</h3>
+    <p>Technical Community Manager, Open Science Framework</p>
 </div>
 </div>
 
