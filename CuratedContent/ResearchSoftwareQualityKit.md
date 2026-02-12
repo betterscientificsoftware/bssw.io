@@ -6,7 +6,7 @@ The Research Software Quality Kit (RSQKit) is an evolving set of information, re
 <!-- deck text end -->
 
 #### Contributed by [Patricia Grubel](https://github.com/pagrubel "Patricia Grubel")
-#### Publication date: February 27, 2026
+#### Publication date: February 12, 2026
 
 Resource information | Details
 :--- | :---
@@ -35,7 +35,7 @@ If you produce, manage, or fund research software, RSQKit offers a well-organize
 
 <!-- 
 Publish: yes 
-RSS update: 2026-02-27
+RSS update: 2026-02-12
 Topics: Research Software Engineers, Software Engineering, Software Sustainability, Release and Deployment, Testing
 
 -->
