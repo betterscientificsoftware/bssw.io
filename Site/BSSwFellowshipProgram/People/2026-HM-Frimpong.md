@@ -6,6 +6,6 @@
 
 **Affiliation:** Argonne National Laboratory
 
-**Short Bio:** Postdoctoral Research, Midwest Integrated Center for Computational Materials
+**Short Bio:** Postdoctoral Researcher, Midwest Integrated Center for Computational Materials
 
 **Honorable Mention:** Yes
