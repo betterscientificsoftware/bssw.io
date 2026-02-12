@@ -6,7 +6,7 @@
 
 **Image:** /images/People_2026_F_Bludau.jpg
 
-**Linkedin:** https://www.linkedin.com/in/jakob-bludau-0bbb7913a
+**LinkedIn:** https://www.linkedin.com/in/jakob-bludau-0bbb7913a
 
 **Github:** https://github.com/JBludau
 
