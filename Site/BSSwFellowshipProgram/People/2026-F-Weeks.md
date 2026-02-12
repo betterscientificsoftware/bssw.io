@@ -6,7 +6,7 @@
 
 **Image:** /images/People_2026_F_Weeks.jpg
 
-**Linkedin:** https://www.linkedin.com/in/vicweeks/
+**LinkedIn:** https://www.linkedin.com/in/vicweeks/
 
 **Github:** https://github.com/vweeks
 
