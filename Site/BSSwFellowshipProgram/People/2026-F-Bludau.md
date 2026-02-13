@@ -10,7 +10,7 @@
 
 **Github:** https://github.com/JBludau
 
-**Short Bio:** Performance-Portable Design Patterns: A gallery and community hub
+**Short Bio:** Performance-Portable Design Patterns: A Gallery and Community Hub
 
 **Long Bio:**
 
