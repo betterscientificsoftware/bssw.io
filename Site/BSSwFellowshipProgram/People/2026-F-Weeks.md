@@ -2,7 +2,7 @@
 
 **Name:** Victor Weeks
 
-**Affiliation:** NFS National Center for Atmospheric Research
+**Affiliation:** NSF National Center for Atmospheric Research
 
 **Image:** /images/People_2026_F_Weeks.jpg
 
