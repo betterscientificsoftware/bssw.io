@@ -22,7 +22,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE, 
 <div class='short_bio'>
     <h3>Suzan Anwar, Philander Smith University</h3>
     <p>Associate Professor, Computer Science</p>
-    <p><i>BSSw Focus</i>: Sustainable AI: Best Practices for Reproducible Scientific Software Development</p>
+    <p><i>BSSw focus</i>: Sustainable AI: Best Practices for Reproducible Scientific Software Development</p>
 </div>
 </div>
 
@@ -34,7 +34,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE, 
 <div class='short_bio'>
     <h3>Jakob Bludau, Oak Ridge National Laboratory</h3>
     <p>Postdoctoral Research Associate, Computational Sciences and Engineering Division</p>
-    <p><i>BSSw focus</i>: Performance-Portable Design Patterns: A gallery and community hub</p>
+    <p><i>BSSw focus</i>: Performance-Portable Design Patterns: A Gallery and Community Hub</p>
 </div>
 </div>
 
