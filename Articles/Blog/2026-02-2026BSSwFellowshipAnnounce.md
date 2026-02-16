@@ -117,7 +117,7 @@ The BSSw Fellowship Program is supported by the U.S. Department of Energy (DOE, 
 
 <div class='short_bio'>
     <h3>Joseph Frimpong, Argonne National Laboratory</h3>
-    <p>Postdoctoral Research, Midwest Integrated Center for Computational Materials</p>
+    <p>Postdoctoral Researcher, Midwest Integrated Center for Computational Materials</p>
 </div>
 </div>
 
