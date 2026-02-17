@@ -17,7 +17,7 @@ Authors | Stephen Ramsay
 Focus | AI Tools for Software Development
 
 "*Programming languages are for humans, not computers*" is a fact that is easy to forget when you
-spend a lot of time writing in one of those languges in order to get a computer do to something
+spend a lot of time writing in one of those languages in order to get a computer do to something
 interesting or solve a problem.  Over the history of computing we (humans) have created quite a few
 languages for programming computers, generally moving in the direction away from the machine
 language computers natively work in, towards a language that is easier for humans to understand and
