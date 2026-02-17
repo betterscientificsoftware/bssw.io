@@ -39,6 +39,7 @@ Applications are now closed for the 2026 BSSw Fellowship Program. Check back in 
 
 ### More Information
 
+- Read about the [2026 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2026-bssw-fellows)
 - Read about work of the [2024 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2024-bssw-fellows-projects-and-perspectives)
 - Read about the [2025 BSSw Fellows](https://bssw.io/blog_posts/introducing-the-2025-bssw-fellows)
 - Read about work of the [2023 BSSw Fellows and their perspectives on the program](https://bssw.io/blog_posts/2023-bssw-fellows-projects-and-perspectives)
