@@ -5,9 +5,9 @@ Software—the foundation of discovery in computational science & engineering—
 <!---
 Slide1 L: ../Articles/Blog/BSSwHighlights2025.md
 Slide1 R: ../images/Blog_bssw_2025YIR_010225.png
-Slide2 L: ../Articles/Blog/2026-01-ai4hpc-sw-dev.md
-Slide2 R: ../CuratedContent/SurveyEngineersWantToCodeButSpendAllDayOnTechDebt.md
-Slide3 L: ../CuratedContent/hpcbp-webinars-cc.md
+Slide2 L: ../Articles/Blog/2026-02-2026BSSwFellowshipAnnounce.md
+Slide2 R: ../Articles/Blog/2026-01-ai4hpc-sw-dev.md
+Slide3 L: ../CuratedContent/SurveyEngineersWantToCodeButSpendAllDayOnTechDebt.md
 Slide3 R: ../Events/2026-02-cass-bof-days.md 
 Slide4 L: ../Events/2026-02-nls3c-cop-webinar.md 
 Slide4 R: ../Events/hpcbp-096-cpp.md
