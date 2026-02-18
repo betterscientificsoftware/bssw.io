@@ -38,5 +38,5 @@ languages are for humans.
 Publish: yes
 Topics: AI for Better Development, Software Process Improvement, Software Engineering, Development Tools
 Pinned: no
-RSS update: 2026-01-25
+RSS update: 2026-02-25
 --->
