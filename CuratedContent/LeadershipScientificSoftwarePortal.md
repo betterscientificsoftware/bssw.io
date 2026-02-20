@@ -6,7 +6,7 @@ The Leadership Scientific Software (LSSw) portal focuses on building community a
 Resource information | Details
 :--- | :---
 Resource name | Leadership Scientific Software (LSSw) Portal
-Website | https://lssw.io
+Website | https://leadershipscientificsoftware.github.io
 Focus | Building community and understanding around the development and sustainable delivery of leadership scientific software
 
 The US Department of Energy (DOE) Exascale Computing Project (ECP) is developing many of the important enabling technologies required for obtaining functionality and performance on upcoming exascale computers. As part of this effort, the ECP Software Technology (ST) focus area has established a macro-engineering software lifecycle to plan, execute, track, and assess product development toward the delivery of a curated portfolio of reusable, open-source software products called the Extreme-scale Scientific Software Stack or [E4S](https://e4s.io/).
