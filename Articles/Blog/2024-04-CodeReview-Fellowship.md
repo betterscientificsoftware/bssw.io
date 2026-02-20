@@ -51,7 +51,7 @@ your people.
 * [Society of Research Software Engineering](https://society-rse.org/) which emerged from the successful grass-roots RSE movement and is the successor to the UK RSE Association.
 * [Better Scientific Software](https://bssw.io/). A hub for scientific software development resources.
 * [Campus Champions](https://campuschampions.cyberinfrastructure.org/). Uniting Research Computing Facilitators
-* [UCAR Software Engineering Assembly](https://sea.ucar.edu/sea) A community for software engineering professionals within UCAR.
+* [UCAR Software Engineering Assembly](https://sea.ucar.edu/) A community for software engineering professionals within UCAR.
 
 
 ## Acknowledgement

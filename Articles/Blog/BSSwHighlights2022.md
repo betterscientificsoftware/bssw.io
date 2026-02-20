@@ -19,7 +19,6 @@ As we enter 2023 and into the seventh year of BSSw.io, I want to thank the BSSw.
 
 ## Better Planning:
 - [User Stories in Scientific Software Development](https://bssw.io/blog_posts/user-stories-in-scientific-software-development), O. Marques et al.
-- [Experiences Replacing Master/Slave Terminology in ALE3D and Sierra](https://bssw.io/blog_posts/experiences-replacing-master-slave-terminology-in-ale3d-and-sierra), M. Miller
 - [Agile Project Management](https://bssw.io/items/agile-project-management), P. Grubel
 - [Recap: Encouraging and Enabling Mutual Ownership in a RSE Community of Practice](https://bssw.io/blog_posts/recap-encouraging-and-enabling-mutual-ownership-in-a-rse-community-of-practice), M. Mundt et al. 
 - [Keep Interest on Technical Debt from Sinking Your Software Project](https://bssw.io/items/keep-interest-on-technical-debt-from-sinking-your-software-project) M. Miller

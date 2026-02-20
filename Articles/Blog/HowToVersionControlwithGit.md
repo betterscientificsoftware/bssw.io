@@ -18,7 +18,7 @@ CSE software project leaders and developers who would like to adopt an appropria
 Describe the basic setup and usage of Git, and outline the different basic building blocks for constructing effective workflows for single software source Git repositories.
 
 ## Prerequisites
-First read the document [What Is Version Control](./WhatIsVersionControl.md).
+First read the document [What Is Version Control](https://bssw.io/items/what-is-revision-control).
 
 ## Basic Git Setup
 Before using Git on a new machine, perform the following minimal setup:

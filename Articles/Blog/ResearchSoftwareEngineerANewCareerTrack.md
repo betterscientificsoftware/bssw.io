@@ -6,7 +6,7 @@
 
 With the emergence of software as the pre-eminent research tool used across all disciplines comes the realization that a significant majority of results are based, ultimately, on the skill of the experts who design and build that software. 
 
-Research relies on software, and not just word processing and spreadsheets. A study by the Software Sustainability Institute in the UK found that over 50% of researchers, in diverse fields including veterinary science, architecture, engineering and medicine, all develop their own software. Shared software development benefits the community, but it is not rewarded in the same way as journal publications.  To fill the gap, a body of Research Software Engineers has emerged, and the model is now spreading across the world. Read [this article](https://sinews.siam.org/Details-Page/research-software-engineer-a-new-career-track-3) in *SIAM News* to find out more.
+Research relies on software, and not just word processing and spreadsheets. A study by the Software Sustainability Institute in the UK found that over 50% of researchers, in diverse fields including veterinary science, architecture, engineering and medicine, all develop their own software. Shared software development benefits the community, but it is not rewarded in the same way as journal publications.  To fill the gap, a body of Research Software Engineers has emerged, and the model is now spreading across the world. Read [this article](https://www.siam.org/publications/siam-news/articles/research-software-engineer-a-new-career-track/) in *SIAM News* to find out more.
  
 ## A Gathering of Research Software Engineers
 

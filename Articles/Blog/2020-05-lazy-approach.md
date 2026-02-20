@@ -144,7 +144,7 @@ the supervision of Sharon C. Glotzer in 2019. Dr. Adorf is an expert in
 employing machine learning algorithms for identifying and
 analyzing crystallization pathways of colloidal crystals and has
 made a huge impact on the scientific computing community by inventing
-and leading the development of the signac framework ([signac.io](http://signac.io/)). He is
+and leading the development of the signac framework ([signac.readthedocs.io](https://signac.readthedocs.io/en/latest/index.html)). He is
 currently a developer for the AiiDA computing infrastructure
 ([aiida.net](http://aiida.net/)) and the Materials Cloud open science platform
 ([materialscloud.org](http://materialscloud.org/)) as part of his involvement with the Horizon 2020
@@ -153,7 +153,7 @@ MARKETPLACE project.
 Vyas Ramasubramani is a Ph.D. candidate in the group of Sharon Glotzer
 at the University of Michigan, Ann Arbor, where he studies particle
 self-assembly, especially of
-proteins, at the nanoscale and microscale. Vyas is a maintainer and lead developer for both the [signac](http://signac.io/)
+proteins, at the nanoscale and microscale. Vyas is a maintainer and lead developer for both the [signac](https://signac.readthedocs.io/en/latest/index.html)
 data management framework and the [freud](http://freud.readthedocs.io/) simulation analysis toolkit,
 and he created the [rowan](https://rowan.readthedocs.io/) package for quaternion mathematics. He is
 also a core developer for [HOOMD-blue](http://glotzerlab.engin.umich.edu/hoomd-blue/), a popular particle simulation
