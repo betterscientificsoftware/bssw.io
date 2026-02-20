@@ -52,8 +52,8 @@ As mentioned, the HIP ecosystem enables one to compile for both AMD GPUs and NVI
 
 ## Further reading and references
 - Tsai et al.: *[Preparing Ginkgo for AMD GPUs — A Testimonial on Porting CUDA Code to HIP](https://arxiv.org/abs/2006.14290) (arXiv preprint, submitted to HeteroPar 2020)*
-- AMD: *[HIP Porting Guide](https://rocmdocs.amd.com/en/latest/Programming_Guides/HIP-porting-guide.html)*
-- AMD: *[HIP kernel language](https://rocmdocs.amd.com/en/latest/Programming_Guides/Kernel_language.html#kernel-language)*
+- AMD: *[HIP Porting Guide](https://rocm.docs.amd.com/projects/HIP/en/docs-5.7.1/user_guide/hip_porting_guide.html)*
+- AMD: *[HIP kernel language](https://rocm.docs.amd.com/projects/HIP/en/docs-5.7.0/reference/kernel_language.html)*
 
 ## Author bio
 [Hartwig Anzt](https://github.com/hartwiganzt) is a Helmholtz Young Investigator Group leader at the Steinbuch Centre for Computing at the Karlsruhe Institute of Technology, Germany. He also holds a Research Consultant position in Jack Dongarra's [Innovative Computing Lab](http://www.icl.utk.edu/) at the University of Tennessee, USA.  Anzt has a strong background in numerical mathematics, specializes in iterative methods and preconditioning techniques for the next-generation hardware architectures, and has a long track record of high-quality software development. He is author of the [MAGMA-sparse](http://icl.cs.utk.edu/magma/) open source software package, managing lead and developer of the [Ginkgo project](https://ginkgo-project.github.io/), and part of the ["Production-ready, Exascale-enabled Krylov Solvers for Exascale Computing" (PEEKS)](http://icl.utk.edu/peeks/) effort for delivering production-ready numerical linear algebra libraries as part of the [Exascale Computing Project](https://www.exascaleproject.org/).

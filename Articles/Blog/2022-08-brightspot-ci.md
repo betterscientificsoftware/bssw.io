@@ -74,7 +74,7 @@ The idea and form of the Bright Spot series was shaped by the [IDEAS-ECP](https:
 
 ## Author bio
 
-[David M. Rogers](https://www.olcf.ornl.gov/directory/staff-member/david-rogers/) is a Computational Scientist in the National Center for Computational Sciences Division at Oak Ridge National Laboratory, where he works collaboratively to develop and apply new methods and theories for multiscale modeling using HPC.
+[David M. Rogers](https://www.ornl.gov/staff-profile/david-rogers) is a Computational Scientist in the National Center for Computational Sciences Division at Oak Ridge National Laboratory, where he works collaboratively to develop and apply new methods and theories for multiscale modeling using HPC.
 
 <!---
 Publish: yes

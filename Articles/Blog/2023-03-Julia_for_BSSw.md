@@ -98,7 +98,7 @@ Julia is part of the natural evolution of programming languages. Powered by LLVM
 
 ## Acknowledgment
 
-I want to thank the many people in the community for enabling our efforts, in particular the IDEAS and PROTEAS-TUNE sub-projects within ECP, the [Sustainable Research Pathways](https://shinstitute.org/sustainable-research-pathways-2022) program, and the Bluestone project.
+I want to thank the many people in the community for enabling our efforts, in particular the IDEAS and PROTEAS-TUNE sub-projects within ECP, the [Sustainable Research Pathways](https://shinstitute.org/sustainable-research-pathways/) program, and the Bluestone project.
 
 ## Author bio
 

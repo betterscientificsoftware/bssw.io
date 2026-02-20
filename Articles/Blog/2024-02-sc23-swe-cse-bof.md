@@ -50,7 +50,7 @@ Links to the BoF website, and other resources mentioned in the presentations and
     * Newsletter: [https://dl.acm.org/sig/eigrep](https://dl.acm.org/sig/eigrep)
     * Conference: [https://acm-rep.github.io/](https://acm-rep.github.io/)
 * [European Environment for Scientific Software Installations](https://www.eessi-hpc.org) (EESSI)
-    * Join the mailing list and Slack channel: [https://www.eessi-hpc.org/join](https://www.eessi-hpc.org/join)
+    * Join the mailing list and Slack channel: [https://www.eessi-hpc.org/join](https://www.eessi.io/)
     * Paper: [https://doi.org/10.1002/spe.3075](https://doi.org/10.1002/spe.3075)
     * Docs: [https://eessi.github.io/docs](https://eessi.github.io/docs)
     * GitHub: [https://github.com/eessi](https://github.com/eessi)
