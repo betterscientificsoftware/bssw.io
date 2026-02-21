@@ -10,13 +10,15 @@
 - Organizers: Software Sustainability Institute (SSI)
 
 <!-- deck text start -->
-The Research Software Engineering (RSE) community continues to grow, and in order for the SSI and the many national RSE associations to properly support it, we need to hear from you. We have launched the 2026 International RSE Survey to help us better understand what RSEs need and how we can advocate for the community with policymakers and funders.
+The Research Software Engineering (RSE) community continues to grow, and in order for the SSI and the many national RSE associations to properly support it, we need to hear from you!
 <!-- deck text end -->
 
 Event Information | Details
 :--- | :---	
 Event Name | 2026 International RSE Survey
 Website | https://www.software.ac.uk/news/2026-international-rse-survey 
+
+The Research Software Engineering (RSE) community continues to grow, and in order for the SSI and the many [national RSE associations](https://researchsoftware.org/assoc.html) to properly support it, we need to hear from you. We have launched the 2026 International RSE Survey to help us better understand what RSEs need and how we can advocate for the community with policymakers and funders.
 
 The RSE Survey produces an incredibly valuable trove of data that anyone can use to understand the RSE community, including national associations, funders and policymakers. Please help us provide this data and support the RSE community by completing the survey.
 
