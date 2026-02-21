@@ -6,7 +6,7 @@
 
 - Event Dates: June 11-13, 2024
 - Location: Online
-- Event Website: https://cass.community/bofs.html
+- Event Website: https://cass.community/events
 - Organizers: Consortium for the Advancement of Scientific Software
 
 The Consortium for the Advancement of Scientific Software is hosting Birds of a Feather sessions on several software-related topics.
