@@ -1,11 +1,12 @@
 # Workshop: Policies for research software in the age of artificial intelligence
 
 <!-- deck text start -->
-At this hybrid workshop, stakeholders from academia, government and the private sector will explore policy options to strengthen access to research software as a key enabler of open science. The event will bring together delegates and experts from across the open science ecosystem to review progress, exchange insights, and identify concrete actions.<!-- deck text ends -->
+At this hybrid workshop, stakeholders from academia, government and the private sector will explore policy options to strengthen access to research software as a key enabler of open science. The event will bring together delegates and experts from across the open science ecosystem to review progress, exchange insights, and identify concrete actions.
+<!-- deck text ends -->
 
-- Event Dates: March 6, 2026
 - In-person registration deadline: March 2, 2026
 - Online registration deadline: March 6, 2026
+- Event Dates: March 6, 2026
 - Location: Paris, France and online
 - Event Website: https://www.oecd.org/en/events/2026/03/access-to-research-software-opportunities-and-challenges.html
 - Organizers: Organization for Economic Co-operation and Development (OECD), ESOC/EVERSE, and Research Software Alliance (ReSA)
