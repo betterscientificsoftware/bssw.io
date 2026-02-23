@@ -30,7 +30,7 @@ view?*", why not have the AI write in C, or for that matter machine language?  O
 come up with a "Vibe-Oriented Programming language" (VOP) that makes it easier for us to express
 ideas to the AI as opposed to a compiler?
 
-Ramsay asserts a couple interesting ideas, not without some controversy (addressed in the article)
+Ramsay asserts a couple of interesting ideas, not without some controversy (addressed in the article),
 that are perhaps even more surprising and obvious than programming languages are for humans not
 machines.
 
