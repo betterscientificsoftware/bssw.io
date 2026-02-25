@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2026-01-23*
+*Listed in reverse chronological order. Last updated: 2026-02-25*
+
+- 2026-02-18: [Modernizing C++ Interfaces with Concepts, Constraints and std::mdspan](https://ideas-productivity.org/events/hpcbp-096-cpp), presented by Christian Trott (Sandia National Laboratories)
 
 - 2026-01-21: [Please, No More Loops (Than Necessary): New Patterns in Fortran 2023](https://ideas-productivity.org/events/hpcbp-095-fortran), presented by Damian Rouson (Berkeley Lab)
 
@@ -221,7 +223,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2026-01-23
+#### Publication date: 2026-02-25
 
 <!---
 Publish: yes
