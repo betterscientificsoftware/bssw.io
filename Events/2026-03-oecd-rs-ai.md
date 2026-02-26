@@ -1,4 +1,4 @@
-# Workshop: Policies for research software in the age of artificial intelligence
+# Workshop: Policies for Research Software in the Age of Artificial Intelligence
 
 <!-- deck text start -->
 At this hybrid workshop, stakeholders from academia, government and the private sector will explore policy options to strengthen access to research software as a key enabler of open science. The event will bring together delegates and experts from across the open science ecosystem to review progress, exchange insights, and identify concrete actions.
