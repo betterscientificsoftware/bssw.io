@@ -18,20 +18,20 @@ Focus | AI Tools for Software Development
 
 "*Programming languages are for humans, not computers*" is a fact that is easy to forget when you
 spend a lot of time writing in one of those languages in order to get a computer do to something
-interesting or solve a problem.  Over the history of computing we (humans) have created quite a few
+interesting or solve a problem.  Over the history of computing, we (humans) have created quite a few
 languages for programming computers, generally moving in the direction away from the machine
-language computers natively work in, towards a language that is easier for humans to understand and
-be effective in.
+language in which computers natively work toward a language that is easier for humans to understand and
+use.
 
-Now with AI models allowing us to Vibe Code by writing in our native spoken language and the AI
-generates the results of our requests in a programming language, Stephen Ramsay's blog post above
+Now with AI models allowing us to *vibe code* by writing in our native spoken language and the AI
+generates the results of our requests in a programming language, Stephen Ramsay's blog post 
 asks the question: "*Why vibe code with a language that has human convenience and ergonomics in
 view?*", why not have the AI write in C, or for that matter machine language?  Or maybe we want to
 come up with a "Vibe-Oriented Programming language" (VOP) that makes it easier for us to express
 ideas to the AI as opposed to a compiler?
 
 Ramsay asserts a couple of interesting ideas, not without some controversy (addressed in the article),
-that are perhaps even more surprising and obvious than programming languages are for humans not
+that are perhaps even more surprising and obvious than programming languages are for humans, not
 machines.
 
 <!---
