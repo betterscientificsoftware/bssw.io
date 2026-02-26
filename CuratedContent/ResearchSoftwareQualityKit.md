@@ -14,9 +14,9 @@ Website | [Research Software Quality Kit (RSQKit)](https://everse.software/RSQKi
 Focus | Support for research software quality and sustainability
 
 Most research software is developed under real-world constraints: limited time, discovery-driven and evolving requirements, and varied expectations about reuse, sustainability, and credit, and, of course, funding and budget considerations.
-RSQKit, developed through the [EVERSE project](https://everse.software/) brings together information and tools that map roles, tasks, lifecycles, and goals to help practitioners reason about research software quality practices.
+RSQKit, developed through the [EVERSE project](https://everse.software/), brings together information and tools that map roles, tasks, lifecycles, and goals to help practitioners reason about research software quality practices.
 
-The goal of RSQKit is to provide resources that enable anyone involved in producing or maintaining research software that is "repeatable, reproducible, trustworthy, resilient, understandable, efficient, adaptable and maintainable".
+The goal of RSQKit is to provide resources that support anyone involved in producing or maintaining research software that is "repeatable, reproducible, trustworthy, resilient, understandable, efficient, adaptable and maintainable."
 RSQKit organizes its content into selectable topics that expand into a side-panel navigation.
 These topics include:
 
