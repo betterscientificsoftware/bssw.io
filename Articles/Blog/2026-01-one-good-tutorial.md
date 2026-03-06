@@ -13,12 +13,12 @@ software write better documentation with less stress.
 ### The challenge of scientific software documentation
 
 “Documentation.” For many authors of scientific software, the word evokes a
-feeling of guilt, or dread. Have I written enough? Is what I’ve written any
+feeling of guilt or dread. Have I written enough? Is what I’ve written any
 good? We’re already working outside of our comfort zones — scientists asked to
 pass as professional developers, and vice versa. To write really great
 documentation to go along with our software, we’d have to don many more hats:
 technical writer, information architect, typographer, teacher. If you or your
-project are able to marshal all those skill sets, that’s wonderful, but most of
+project can marshal all those skill sets, that’s wonderful, but most of
 us generally have to do the best we can with limited time, resources, and
 expertise. It’s a recipe for a frustrating experience.
 
@@ -26,12 +26,12 @@ What’s more, documentation is often only really tackled when a project is clos
 to release time, too. It’s not that it’s an afterthought, but it does tend to be
 less urgent than adding features or fixing bugs, so it can naturally drift to
 the bottom of the priority queue. The unfortunate result is that work on
-documentation is frequently getting started when both time and energy are
+documentation is frequently started when both time and energy are
 already low.
 
 ### Does it have to be this way?
 
-One day, maybe you’ll be able to wave a magical AI wand and a computer will
+One day, maybe you’ll be able to wave a magical AI wand, and a computer will
 write all of your documentation for you, and maybe it won’t even be riddled with
 errors. But for the near future, at least, creating high-quality documentation
 for your software takes old-fashioned human elbow grease. That’s the bad news.
@@ -61,8 +61,8 @@ Scientific Software
 Fellowship](https://bssw.io/blog_posts/introducing-the-2025-bssw-fellows) to
 create materials aimed at people who are documenting scientific software
 projects. The goal was to create something pragmatic, intended for people
-working on small-to-medium scientific projects who want to do the best they can
-with their documentation but also have a lot of other demands on their time.
+working on small-to-medium scientific projects, who want to do the best they can
+with their documentation, but also have a lot of other demands on their time.
 
 ### Introducing: One Good Tutorial
 
@@ -76,7 +76,7 @@ elements, such as “Installation instructions” and “Licensing statement”.
 core pitch of One Good Tutorial is: *if your software’s documentation contains
 all of the items listed in [the official One Good Tutorial software
 documentation checklist](https://onegoodtutorial.org/), you have permission to declare that your
-documentation is good enough*. Go ahead and move on to the next task in your
+documentation is good enough*. Go ahead and move on to the next task on your
 to-do list. Hooray!
 
 The goal of the checklist is to turn the task of writing documentation from one
@@ -91,16 +91,16 @@ thought that it was so important to emphasize this item that I made it into the
 name of the whole project. The emphasis is because when some developers think of
 “documentation,” they think of API reference material and nothing else. One of
 the fundamental arguments of Diátaxis, which I wholeheartedly agree with, is
-that idea is tempting but wrong. Reference material such as API documentation is
+that the idea is tempting but wrong. Reference material, such as API documentation, is
 important, but it’s important to a certain set of people: those who are already
 familiar with your software and are actively using it to solve a problem. For a
 new software project, there’s a much more important group of people to target:
-*potential* users who have become of your software, but don’t necessarily even
+*potential* users who have become aware of your software, but don’t necessarily even
 really understand what it’s for, let alone how to use it in detail. These people
 need an entirely different kind of documentation: a tutorial. Now, tutorials are
 hard to write because they are fundamentally acts of teaching, delivered
 remotely and anonymously. Think of how rare truly great teaching is in this
-world — it’s daunting. But I contend that for a new project this is the single
+world — it’s daunting. But I contend that for a new project, this is the single
 most important part of your documentation, and so the one that deserves the
 biggest piece of your limited attention.
 
@@ -115,7 +115,7 @@ this kind of step-by-step material.
 Finally, in support of all of these, One Good Tutorial includes [a series of
 in-depth guides](https://onegoodtutorial.org/in-depth/). These are longer articles that offer help on different
 aspects of the documentation process, with an emphasis on examples and links to
-other resources for those that have the time and inclination to go into greater
+other resources for those who have the time and inclination to go into greater
 depth.
 
 ### How you can help
@@ -124,7 +124,7 @@ There's no mystery here: if you’re in a position to, please give [One Good
 Tutorial](https://onegoodtutorial.org/) a try and [provide some feedback](https://onegoodtutorial.org/about/#feedback) about what worked and
 what didn’t! Or spread the word to your colleagues who you think might find this
 resource useful. You are more than welcome to reach out via [the One Good
-Tutorial repository on GitHub](https://github.com/pkgw/onegoodtutorial/) where all of the project materials are
+Tutorial repository on [GitHub](https://github.com/pkgw/onegoodtutorial/) where all of the project materials are
 managed. Happy documenting!
 
 ### Related resources
@@ -135,7 +135,7 @@ managed. Happy documenting!
 
 [Peter K. G. Williams](https://newton.cx/~peter/) is an astronomer based at the
 [Center for Astrophysics | Harvard & Smithsonian][https://cfa.harvard.edu] in
-Cambridge, MA. There he serves as the Technical Lead for the [IAU Minor Planet
+Cambridge, MA. There, he serves as the Technical Lead for the [IAU Minor Planet
 Center](https://minorplanetcenter.net), which is tasked with gathering,
 analyzing, and publishing all worldwide positional measurements of asteroids.
 Alongside his astronomical research, which is focused on time-domain radio
