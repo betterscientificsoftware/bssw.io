@@ -1,16 +1,12 @@
 # Stuck Writing Software Documentation? Focus on One Good Tutorial
 
-**Hero Image:**
-
-- <img src='../../images/Hero_topic_user_experience_072125.png' />
-
 #### Contributed by [Peter K. G. Williams](https://newton.cx/~peter/)
 
-#### Publication date: January TKTK, 2026
+#### Publication date: March 12, 2026
 
 <!-- begin deck -->
-BSSw Fellow Peter K. G. Williams has developed a new resource called [One Good
-Tutorial](https://onegoodtutorial.org/) that aims to help creators of scientific
+BSSw Fellow Peter K. G. Williams has developed a new resource called *One Good
+Tutorial* that aims to help creators of scientific
 software write better documentation with less stress.
 <!-- end deck -->
 
@@ -71,17 +67,15 @@ with their documentation but also have a lot of other demands on their time.
 ### Introducing: One Good Tutorial
 
 The resource that I built is called *One Good Tutorial*, and it’s now available
-for early feedback at [onegoodtutorial.org][ogt]. It’s not quite polished enough
+for early feedback at [onegoodtutorial.org](https://onegoodtutorial.org/). It’s not quite polished enough
 to be stamped as “version 1.0,” but it’s substantially complete and ready for
 real-world testing.
-
-[ogt]: https://onegoodtutorial.org/
 
 The focal point of One Good Tutorial is a short checklist of documentation
 elements, such as “Installation instructions” and “Licensing statement”. The
 core pitch of One Good Tutorial is: *if your software’s documentation contains
 all of the items listed in [the official One Good Tutorial software
-documentation checklist][ogt], you have permission to declare that your
+documentation checklist](https://onegoodtutorial.org/), you have permission to declare that your
 documentation is good enough*. Go ahead and move on to the next task in your
 to-do list. Hooray!
 
@@ -110,36 +104,32 @@ world — it’s daunting. But I contend that for a new project this is the sing
 most important part of your documentation, and so the one that deserves the
 biggest piece of your limited attention.
 
-Alongside the checklist is [the One Good Tutorial playbook][pb]. The playbook is
+Alongside the checklist is [the One Good Tutorial playbook](https://onegoodtutorial.org/playbook/). The playbook is
 a suggested set of steps to go from zero to a checklist-compliant suite of
 documentation. There’s nothing particularly profound about it, but if you’re not
 quite sure how you want to get started, it gives you a tangible way to proceed.
-I present the playbook as an HTML slideshow (built using the [reveal.js]
+I present the playbook as an HTML slideshow (built using the [reveal.js](https://revealjs.com/)
 framework), which I’ve found to be a convenient and effective way to present
 this kind of step-by-step material.
 
-[pb]: https://onegoodtutorial.org/playbook/
-[reveal.js]: https://revealjs.com/
-
 Finally, in support of all of these, One Good Tutorial includes [a series of
-in-depth guides][guides]. These are longer articles that offer help on different
+in-depth guides](https://onegoodtutorial.org/in-depth/). These are longer articles that offer help on different
 aspects of the documentation process, with an emphasis on examples and links to
 other resources for those that have the time and inclination to go into greater
 depth.
 
-[guides]: https://onegoodtutorial.org/in-depth/
-
 ### How you can help
 
-No mystery here: if you’re in a position to, please give [One Good
-Tutorial][ogt] a try and [provide some feedback][feedback] about what worked and
+There's no mystery here: if you’re in a position to, please give [One Good
+Tutorial](https://onegoodtutorial.org/) a try and [provide some feedback](https://onegoodtutorial.org/about/#feedback) about what worked and
 what didn’t! Or spread the word to your colleagues who you think might find this
 resource useful. You are more than welcome to reach out via [the One Good
-Tutorial repository on GitHub][gh] where all of the project materials are
+Tutorial repository on GitHub](https://github.com/pkgw/onegoodtutorial/) where all of the project materials are
 managed. Happy documenting!
 
-[feedback]: https://onegoodtutorial.org/about/#feedback
-[gh]: https://github.com/pkgw/onegoodtutorial/
+### Related resources
+
+- Webinar: [One Good Tutorial: Defining a “Minimum Viable Documentation Product” for Scientific Software](https://ideas-productivity.org/events/hpcbp-097-onegoodtutorial)
 
 ### Author bio
 
@@ -158,5 +148,5 @@ Fellow](https://bssw.io/blog_posts/introducing-the-2025-bssw-fellows).
 <!---
 Publish: Yes
 Track: BSSw Fellowship
-Topics: software process improvement, documentation
+Topics: documentation, software process improvement
 --->
