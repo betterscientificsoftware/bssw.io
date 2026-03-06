@@ -14,7 +14,7 @@ A snapshot of our community from the SC25 Birds of a Feather session on Scientif
 
 At the annual Supercomputing conference and sometimes at the ISC High Performance conference, members of the scientific software developer community come together to share their thoughts, network, and build community. These “Birds of a Feather” (BoF) sessions started in 2015 under the title *Software Engineering for Computational Science and Engineering on Supercomputers*. While the titles of the sessions have morphed over time, the purpose has always been to focus more on the “people” side of high-performance scientific computing. Below, we summarize the 2025 edition of the BoF as a sampling of what’s on people’s minds lately.
 
-### Lightning talks
+## Lightning talks
 
 As usual, we kicked off the session with a set of lightning talks. The organizers selected these 3-minute talks to highlight recent developments in the community and spur further conversation. This year, we had eight talks covering a wide range of topics.
 
@@ -43,7 +43,7 @@ As usual, we kicked off the session with a set of lightning talks. The organizer
 - [Sustaining scientific software through the High Performance Software Foundation](https://betterscientificsoftware.github.io/swe-cse-bof/assets/2025-11-sc25-bof/07-gamblin-hpsf.pdf) by Todd Gamblin (LLNL). Todd described the High Performance Software Foundation (HPSF) as a neutral hub for open-source high-performance software. HPSF was founded about a year ago under the umbrella of the Linux Foundation. HPSF members are mostly HPC providers – mostly industry, and some national laboratories; several universities are among the associate members as well. The HPSF wants to help software projects build communities. They’ve defined a lifecycle for projects: “emerging”, “established”, and “core”, in which the depth and breadth of the communities around them play a significant role. HPSF also looks for synergies across projects. Working groups are currently exploring potential synergies in the areas of benchmarking and CI/CD, with additional efforts expected. Users of HPSF software can benefit from the structure, mentoring, and (soon) common services that the HPSF provides to its projects, which de-risks some decisions about software for users. HPSF also launched the HPSF Conference series in May 2025 and plans to hold the [next one](https://events.linuxfoundation.org/hpsf-conference/) in March 2026 in Chicago. In addition to an extensive plenary program, the venue provides opportunities for HPSF projects to colocate more focused meetings.
 - [Building Bridges Between the Software Engineering Research (SER) and Research Software Engineering (RSE) Communities](https://betterscientificsoftware.github.io/swe-cse-bof/assets/2025-11-sc25-bof/08-cosden-bridges.pdf) by Ian A Cosden (Princeton University). Ian talked about a Dagstuhl seminar that took place in April 2024 on building bridges between the software engineering research (SER) and research software engineering (RSE) communities. Starting with the premise that both communities could benefit from more interactions, the focus of the seminar was to explore how. The purpose of this presentation was to share some of the outputs since the original seminar and encourage this community to join the conversation. Outputs, which are being collected at [https://ser-rse-bridge.github.io/](https://ser-rse-bridge.github.io/), include the organization of follow-on events; published papers, including a special issue of Computing in Science and Engineering; posters in a variety of venues; and the creation of new discussion spaces.
 
-### Discussion
+## Discussion
 
 The discussion began with a question about templates. Many people are using basic project templates, for example, as starting points for new projects. A template for a documentation project that is preconfigured with a set of recommended tools and styles; a template for a Python- or C++-based project that provides the common directory structure and includes a working “hello world” that will build and run. People also mentioned templates for README files and job templates to facilitate reproducing past runs. Attendees particularly recommended the use of templates with early-career people. Often, as people are getting started in research or research software, they can be overwhelmed by the myriad choices; when starting with a template, many of those decisions are already made, and the user can quickly proceed to their true interests. Templates can also be an effective way to introduce and standardize a particular set of tools and practices within a research group, organization, or community.
 
@@ -55,13 +55,13 @@ A self-identified software engineering researcher then asked a question: How do 
 
 Finally, rounding out the discussion, someone asked how we should be *teaching* coding in this age of AI? The consensus was that students still need to learn to think algorithmically to be able to judge the validity of the code, regardless of how it was produced. In other words, they need to learn the craftsmanship of coding. We noted that many people in the room finished their schooling well before AI became so prominent, and it would be helpful to understand the students' perspective on AI in teaching coding. Fortunately, our student volunteer was willing to relate their experience. They started using AI on assignments in the last year. They often use AI to check assignments they’ve done by hand and to help debug when they’re having problems. We observed that, generally, there’s probably a strong analogy with the introduction of calculators into the classroom. Students still had to learn the “easy stuff” to have a basic understanding of what the calculator was doing for them, and they had to develop an intuition to identify when something went wrong in using the calculator. Similarly, we’ll need to teach students how and when to use AI and create a culture of thoughtful and careful use.
 
-### Summary
+## Summary
 
 In this year's discussions, we saw interest in ratcheting up software development practices, and also in bridging between communities to help do that – both “horizontally”, across research software developers in different geographical regions and scientific domains, and “vertically”, between those who make an academic study of software development and those who are hands-on producing the code, or those who are focused on the scientific research of interest and those who are hands-on with the primary tools (i.e., the code).
 
 As in previous years, AI came up repeatedly in the discussions, but the discussions seem to have evolved and matured this year to be more accepting of its use, and to provide reasoned suggestions for how to teach coding in the AI era and how to use it effectively as a practitioner.
 
-### Resources mentioned
+## Resources mentioned
 
 Links to the BoF website and other resources mentioned in the presentations and discussions.
 
@@ -83,7 +83,7 @@ Links to the BoF website and other resources mentioned in the presentations and 
   - [Seminar page](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24161)
   - [Outputs site](https://ser-rse-bridge.github.io/)
 
-### Author bios
+## Author bios
 
 Stefania Amodeo works at OpenAIRE as an engagement and training officer. She leads community engagement initiatives centered on the OpenAIRE Knowledge Graph. Through collaboration with researchers, institutions, and partner projects, she bridges technical and user groups, fostering a community-driven innovation. Before her current position, she worked as a researcher in astrophysics for five years.
 
