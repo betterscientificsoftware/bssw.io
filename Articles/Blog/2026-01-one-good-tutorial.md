@@ -10,7 +10,7 @@ Tutorial* that aims to help creators of scientific
 software write better documentation with less stress.
 <!-- end deck -->
 
-### The challenge of scientific software documentation
+## The challenge of scientific software documentation
 
 “Documentation.” For many authors of scientific software, the word evokes a
 feeling of guilt or dread. Have I written enough? Is what I’ve written any
@@ -29,7 +29,7 @@ the bottom of the priority queue. The unfortunate result is that work on
 documentation is frequently started when both time and energy are
 already low.
 
-### Does it have to be this way?
+## Does it have to be this way?
 
 One day, maybe you’ll be able to wave a magical AI wand, and a computer will
 write all of your documentation for you, and maybe it won’t even be riddled with
@@ -64,7 +64,7 @@ projects. The goal was to create something pragmatic, intended for people
 working on small-to-medium scientific projects, who want to do the best they can
 with their documentation, but also have a lot of other demands on their time.
 
-### Introducing: One Good Tutorial
+## Introducing: One Good Tutorial
 
 The resource that I built is called *One Good Tutorial*, and it’s now available
 for early feedback at [onegoodtutorial.org](https://onegoodtutorial.org/). It’s not quite polished enough
@@ -118,7 +118,7 @@ aspects of the documentation process, with an emphasis on examples and links to
 other resources for those who have the time and inclination to go into greater
 depth.
 
-### How you can help
+## How you can help
 
 There's no mystery here: if you’re in a position to, please give [One Good
 Tutorial](https://onegoodtutorial.org/) a try and [provide some feedback](https://onegoodtutorial.org/about/#feedback) about what worked and
@@ -127,11 +127,11 @@ resource useful. You are more than welcome to reach out via [the One Good
 Tutorial repository](https://github.com/pkgw/onegoodtutorial/) on GitHub, where all of the project materials are
 managed. Happy documenting!
 
-### Related resources
+## Related resources
 
 - Webinar: [One Good Tutorial: Defining a “Minimum Viable Documentation Product” for Scientific Software](https://ideas-productivity.org/events/hpcbp-097-onegoodtutorial)
 
-### Author bio
+## Author bio
 
 [Peter K. G. Williams](https://newton.cx/~peter/) is an astronomer based at the
 [Center for Astrophysics | Harvard & Smithsonian](https://cfa.harvard.edu) in
