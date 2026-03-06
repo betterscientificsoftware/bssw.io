@@ -124,7 +124,7 @@ There's no mystery here: if you’re in a position to, please give [One Good
 Tutorial](https://onegoodtutorial.org/) a try and [provide some feedback](https://onegoodtutorial.org/about/#feedback) about what worked and
 what didn’t! Or spread the word to your colleagues who you think might find this
 resource useful. You are more than welcome to reach out via [the One Good
-Tutorial repository on [GitHub](https://github.com/pkgw/onegoodtutorial/) where all of the project materials are
+Tutorial repository](https://github.com/pkgw/onegoodtutorial/) on GitHub, where all of the project materials are
 managed. Happy documenting!
 
 ### Related resources
@@ -134,7 +134,7 @@ managed. Happy documenting!
 ### Author bio
 
 [Peter K. G. Williams](https://newton.cx/~peter/) is an astronomer based at the
-[Center for Astrophysics | Harvard & Smithsonian][https://cfa.harvard.edu] in
+[Center for Astrophysics | Harvard & Smithsonian](https://cfa.harvard.edu) in
 Cambridge, MA. There, he serves as the Technical Lead for the [IAU Minor Planet
 Center](https://minorplanetcenter.net), which is tasked with gathering,
 analyzing, and publishing all worldwide positional measurements of asteroids.
