@@ -50,7 +50,7 @@ Diátaxis is also known as the Divio system or the “four docs” model, the la
 because its central tenet is that documentation comes in four fundamental
 *kinds*: [tutorials](https://diataxis.fr/tutorials/), [how-to
 guides](https://diataxis.fr/how-to-guides/),
-[reference](https://diataxis.fr/reference/), and
+[references](https://diataxis.fr/reference/), and
 [explanations](https://diataxis.fr/explanation/). Diátaxis doesn’t get into the
 nuts and bolts of writing actual documents, but rather presents a theoretical
 framework for thinking about documentation as a whole — one that has proven
@@ -95,7 +95,7 @@ that the idea is tempting but wrong. Reference material, such as API documentati
 important, but it’s important to a certain set of people: those who are already
 familiar with your software and are actively using it to solve a problem. For a
 new software project, there’s a much more important group of people to target:
-*potential* users who have become aware of your software, but don’t necessarily even
+*potential* users who have become aware of your software but don’t necessarily even
 really understand what it’s for, let alone how to use it in detail. These people
 need an entirely different kind of documentation: a tutorial. Now, tutorials are
 hard to write because they are fundamentally acts of teaching, delivered
