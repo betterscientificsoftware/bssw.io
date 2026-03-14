@@ -2,7 +2,7 @@
 
 #### Contributed by [Peter K. G. Williams](https://newton.cx/~peter/)
 
-#### Publication date: March 12, 2026
+#### Publication date: March 13, 2026
 
 <!-- begin deck -->
 BSSw Fellow Peter K. G. Williams has developed a new resource called *One Good
