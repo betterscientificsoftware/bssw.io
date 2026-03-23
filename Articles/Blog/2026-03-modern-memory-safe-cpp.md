@@ -9,7 +9,7 @@ Modern C++ is safer than much of the C++ sofware written decades, but it is stil
 This article surveys the practical work now underway in LLVM and the C++ standards process to reduce undefined behavior and that results in security and correctness bugs.
 <!-- end deck -->
 
-ToDo: Add a hero image for this article!
+<img src='../../images/2026-03-modern-memory-safe-cpp-hero-image.jpg' class='page'/>
 
 ## Why memory safety matters
 
