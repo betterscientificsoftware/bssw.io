@@ -86,22 +86,16 @@ Their bounds-safety profile says to not use pointer arithmetic, do not rely on a
 The guidelines also separate bounds safety, type safety, and lifetime safety.
 
 That same separation is now showing up in WG21 (i.e. the ISO Working Group 21 for C++ standards) proposals.
-Bjarne Stroustrup's P3274, *A framework for Profiles development*,<sup>[11]</sup> argues that the industry needs portable, tool-supported profiles that can offer guarantees rather than just style advice.
-Related work includes Herb Sutter's P3081, *Core safety profiles for C++26*,<sup>[12]</sup> the initialization-focused P3402,<sup>[13]</sup> and Stroustrup's invalidation proposal P3446<sup>[14]</sup> for reducing dangling-pointer bugs.
+Bjarne Stroustrup's P3274, *A framework for Profiles development*,<sup>[11]</sup> argues for portable, tool-supported profiles that can offer guarantees rather than just style advice, while related papers such as P3081,<sup>[12]</sup> P3402,<sup>[13]</sup> and P3446<sup>[14]</sup> explore specific safety directions.
+The most concrete C++26 proposal with existing deployment experience is P3471, *Standard library hardening*,<sup>[15]</sup> which standardizes "hardened implementations" and "hardened preconditions" so that operations such as out-of-range indexing on containers, `std::string_view`, `std::span`, and `std::mdspan` become contract violations instead of silent undefined behavior.
 
-The most concrete proposal with existing field experience is P3471, *Standard library hardening*.<sup>[15]</sup>
-It proposes standardizing the idea of "hardened preconditions" so that operations such as out-of-range indexing on containers, `std::span`, and `std::mdspan` can become contract violations in hardened implementations rather than latent undefined behavior.
-
-What does that mean for C++26 and C++29?
-The answer, as of March 2026, is still evolving.
-The committee discussion is active enough that it is safer to speak in terms of direction than guarantees.
-One important paper, P3608, *Contracts and profiles: what can we reasonably ship in C++26*,<sup>[16]</sup> explicitly argues for a limited C++26 scope which includes a general profiles framework, standard library hardening, and a simple concrete profile that enables it, while postponing more ambitious profile machinery to post-C++26 work and likely C++29.
-Newer papers such as Stroustrup's P3984<sup>[17]</sup> show that broader profile design is still moving.
-
-So the likely near-term picture is incremental.
-C++20 and C++23 already delivered safer vocabulary types such as `std::span` and `std::mdspan`.
-C++26 may standardize more of the hardening framework around them.
-C++29 is a plausible target for more mature C++ safety profiles if implementation experience arrives in time.
+P3608, *Contracts and profiles: what can we reasonably ship in C++26*,<sup>[16]</sup> argued for a minimalist package: ship the Contracts MVP, ship library hardening, and use a standardized profile mechanism to enable that hardening.
+As of March 2026, after the February 2025 Hagenberg meeting and later review, the draft standard adopted the first two pieces but not the third.
+C++26 now includes the Contracts MVP with `pre`, `post`, and `contract_assert`, while deliberately leaving out contracts on virtual functions and function pointers to keep the feature set narrow.
+It also includes library hardening via hardened preconditions checked at runtime in hardened implementations.
+What did not make C++26 is the profiles framework itself: broader profiles work, including the framework and core safety profiles, has been deferred to later standardization work, likely C++29.
+In practice, that means C++26 hardening is enabled by implementation-defined mechanisms such as compiler flags rather than standard `profile` syntax.
+P3608 also argued for termination-oriented behavior; in the draft, hardening failures are specified as contract violations, so the exact handling follows the selected contract semantics.
 
 ## How this compares with Rust
 
