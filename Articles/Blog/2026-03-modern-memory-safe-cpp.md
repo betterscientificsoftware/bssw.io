@@ -141,7 +141,7 @@ What would still remain are the places where C++ must deliberately escape that c
 In that sense, the most plausible future is not that every corner of ISO C++ becomes uniformly memory safe, but that tool-enforced safe regions become large enough that most scientific application code can be written in a style where memory-related undefined behavior is rare, diagnosable, and mostly confined to trusted boundary code.
 
 But in the end, it is impossible for complex general programs to both be 100% safe and also run at the maximum possible performance.
-Even many Rust programs contain some `unsafe` code in order to achieve the necessary performance (todo: add reference to https://arxiv.org/pdf/2404.02230v1).
+Even many Rust programs contain some `unsafe` code in order to achieve the necessary performance.<sup>[23]</sup>
 And there will always be the need to hand-off data between different libraries that increases the surface area for adding memory-related defects.
 Therefore, there will always be a tradeoff between features, performances, and safety.
 And from a correctness and security perspective, even if you eliminate all memory errors, you still are left with 19 of the CWE Top 25 Most Dangerous Software Weaknesses in 2025.<sup>[1]</sup>
@@ -206,6 +206,7 @@ Dr. Bartlett currently focuses on software engineering challenges in CSE as well
 [eo14144-sfer-ezikiw]: https://www.federalregister.gov/documents/2025/01/23/2025-01548/strengthening-and-promoting-innovation-in-the-nations-cybersecurity "Executive Order 14144: Strengthening and Promoting Innovation in the Nation's Cybersecurity"
 [cisa-secure-by-design-sfer-ezikiw]: https://www.cisa.gov/securebydesign "CISA Secure by Design"
 [teuchos-memory-management-sfer-ezikiw]: https://bartlettroscoe.github.io/publications/TeuchosMemoryManagementSAND.pdf "Teuchos Memory Management Classes paper"
+[against-the-void-rust-unsafe-sfer-ezikiw]: https://arxiv.org/pdf/2404.02230v1 "'Against the Void': An Interview and Survey Study on How Rust Developers Use Unsafe Code"
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "CWE Top 25 Most Dangerous Software Weaknesses in 2025"
 [2]: #sfer-ezikiw-2 "CWE Top 25 Most Dangerous Software Weaknesses in 2023"
@@ -229,6 +230,7 @@ Dr. Bartlett currently focuses on software engineering challenges in CSE as well
 [20]: #sfer-ezikiw-20 "Executive Order 14144: Strengthening and Promoting Innovation in the Nation's Cybersecurity"
 [21]: #sfer-ezikiw-21 "CISA Secure by Design"
 [22]: #sfer-ezikiw-22 "Teuchos Memory Management Classes paper"
+[23]: #sfer-ezikiw-23 "'Against the Void': An Interview and Survey Study on How Rust Developers Use Unsafe Code"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
@@ -253,4 +255,5 @@ Dr. Bartlett currently focuses on software engineering challenges in CSE as well
 * <a name="sfer-ezikiw-19"></a><sup>19</sup>[Executive Order 14028: Improving the Nation's Cybersecurity](https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity)
 * <a name="sfer-ezikiw-20"></a><sup>20</sup>[Executive Order 14144: Strengthening and Promoting Innovation in the Nation's Cybersecurity](https://www.federalregister.gov/documents/2025/01/23/2025-01548/strengthening-and-promoting-innovation-in-the-nations-cybersecurity)
 * <a name="sfer-ezikiw-21"></a><sup>21</sup>[CISA Secure by Design](https://www.cisa.gov/securebydesign)
-* <a name="sfer-ezikiw-22"></a><sup>22</sup>[Teuchos C++ Memory Management  Classes, Idioms, and Related Topics: The Complete Reference](https://bartlettroscoe.github.io/publications/TeuchosMemoryManagementSAND.pdf)
+* <a name="sfer-ezikiw-22"></a><sup>22</sup>[Teuchos Memory Management Classes paper](https://bartlettroscoe.github.io/publications/TeuchosMemoryManagementSAND.pdf)
+* <a name="sfer-ezikiw-23"></a><sup>23</sup>['Against the Void': An Interview and Survey Study on How Rust Developers Use Unsafe Code](https://arxiv.org/pdf/2404.02230v1)
