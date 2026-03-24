@@ -166,13 +166,13 @@ Dr. Bartlett currently focuses on software engineering challenges in CSE as well
 [wwdc25-safe-mix-sfer-ezikiw]: https://developer.apple.com/videos/play/wwdc2025/311/ "Safely mix C, C++, and Swift"
 [google-spatial-safety-sfer-ezikiw]: https://security.googleblog.com/2024/11/retrofitting-spatial-safety-to-hundreds.html "Retrofitting spatial safety to hundreds of millions of lines of C++"
 [google-secure-by-design-sfer-ezikiw]: https://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html "Secure by Design: Google's perspective on memory safety"
-[p3274-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3274r0.pdf "P3274R0"
-[p3081-sfer-ezikiw]: https://isocpp.org/files/papers/P3081R2.pdf "P3081R2"
-[p3402-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3402r2.html "P3402R2"
-[p3446-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3446r0.pdf "P3446R0"
-[p3471-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3471r4.html "P3471R4"
-[p3608-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3608r0.html "P3608R0"
-[p3984-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p3984r0.pdf "P3984R0"
+[p3274-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3274r0.pdf "P3274R0: A framework for Profiles development"
+[p3081-sfer-ezikiw]: https://isocpp.org/files/papers/P3081R2.pdf "P3081R2: Core safety profiles for C++26"
+[p3402-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3402r2.html "P3402R2: A Safety Profile Verifying Initialization"
+[p3446-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3446r0.pdf "P3446R0: Profile invalidation - eliminating dangling pointers"
+[p3471-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3471r4.html "P3471R4: Standard library hardening"
+[p3608-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3608r0.html "P3608R0: Contracts and profiles: what can we reasonably ship in C++26"
+[p3984-sfer-ezikiw]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p3984r0.pdf "P3984R0: A type-safety profile"
 [rust-book-slices-sfer-ezikiw]: https://doc.rust-lang.org/stable/book/ch04-03-slices.html "The Rust Programming Language: Slices"
 [eo14028-sfer-ezikiw]: https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity "Executive Order 14028: Improving the Nation's Cybersecurity"
 [eo14144-sfer-ezikiw]: https://www.federalregister.gov/documents/2025/01/23/2025-01548/strengthening-and-promoting-innovation-in-the-nations-cybersecurity "Executive Order 14144: Strengthening and Promoting Innovation in the Nation's Cybersecurity"
@@ -188,13 +188,13 @@ Dr. Bartlett currently focuses on software engineering challenges in CSE as well
 [8]: #sfer-ezikiw-8 "Safely mix C, C++, and Swift"
 [9]: #sfer-ezikiw-9 "Retrofitting spatial safety to hundreds of millions of lines of C++"
 [10]: #sfer-ezikiw-10 "Secure by Design: Google's perspective on memory safety"
-[11]: #sfer-ezikiw-11 "P3274R0"
-[12]: #sfer-ezikiw-12 "P3081R2"
-[13]: #sfer-ezikiw-13 "P3402R2"
-[14]: #sfer-ezikiw-14 "P3446R0"
-[15]: #sfer-ezikiw-15 "P3471R4"
-[16]: #sfer-ezikiw-16 "P3608R0"
-[17]: #sfer-ezikiw-17 "P3984R0"
+[11]: #sfer-ezikiw-11 "P3274R0: A framework for Profiles development"
+[12]: #sfer-ezikiw-12 "P3081R2: Core safety profiles for C++26"
+[13]: #sfer-ezikiw-13 "P3402R2: A Safety Profile Verifying Initialization"
+[14]: #sfer-ezikiw-14 "P3446R0: Profile invalidation - eliminating dangling pointers"
+[15]: #sfer-ezikiw-15 "P3471R4: Standard library hardening"
+[16]: #sfer-ezikiw-16 "P3608R0: Contracts and profiles: what can we reasonably ship in C++26"
+[17]: #sfer-ezikiw-17 "P3984R0: A type-safety profile"
 [18]: #sfer-ezikiw-18 "The Rust Programming Language: Slices"
 [19]: #sfer-ezikiw-19 "Executive Order 14028: Improving the Nation's Cybersecurity"
 [20]: #sfer-ezikiw-20 "Executive Order 14144: Strengthening and Promoting Innovation in the Nation's Cybersecurity"
@@ -212,13 +212,13 @@ Dr. Bartlett currently focuses on software engineering challenges in CSE as well
 * <a name="sfer-ezikiw-8"></a><sup>8</sup>[Safely mix C, C++, and Swift](https://developer.apple.com/videos/play/wwdc2025/311/)
 * <a name="sfer-ezikiw-9"></a><sup>9</sup>[Retrofitting spatial safety to hundreds of millions of lines of C++](https://security.googleblog.com/2024/11/retrofitting-spatial-safety-to-hundreds.html)
 * <a name="sfer-ezikiw-10"></a><sup>10</sup>[Secure by Design: Google's perspective on memory safety](https://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html)
-* <a name="sfer-ezikiw-11"></a><sup>11</sup>[P3274R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3274r0.pdf)
-* <a name="sfer-ezikiw-12"></a><sup>12</sup>[P3081R2](https://isocpp.org/files/papers/P3081R2.pdf)
-* <a name="sfer-ezikiw-13"></a><sup>13</sup>[P3402R2](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3402r2.html)
-* <a name="sfer-ezikiw-14"></a><sup>14</sup>[P3446R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3446r0.pdf)
-* <a name="sfer-ezikiw-15"></a><sup>15</sup>[P3471R4](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3471r4.html)
-* <a name="sfer-ezikiw-16"></a><sup>16</sup>[P3608R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3608r0.html)
-* <a name="sfer-ezikiw-17"></a><sup>17</sup>[P3984R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p3984r0.pdf)
+* <a name="sfer-ezikiw-11"></a><sup>11</sup>[P3274R0: A framework for Profiles development](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3274r0.pdf)
+* <a name="sfer-ezikiw-12"></a><sup>12</sup>[P3081R2: Core safety profiles for C++26](https://isocpp.org/files/papers/P3081R2.pdf)
+* <a name="sfer-ezikiw-13"></a><sup>13</sup>[P3402R2: A Safety Profile Verifying Initialization](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3402r2.html)
+* <a name="sfer-ezikiw-14"></a><sup>14</sup>[P3446R0: Profile invalidation - eliminating dangling pointers](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3446r0.pdf)
+* <a name="sfer-ezikiw-15"></a><sup>15</sup>[P3471R4: Standard library hardening](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3471r4.html)
+* <a name="sfer-ezikiw-16"></a><sup>16</sup>[P3608R0: Contracts and profiles: what can we reasonably ship in C++26](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3608r0.html)
+* <a name="sfer-ezikiw-17"></a><sup>17</sup>[P3984R0: A type-safety profile](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p3984r0.pdf)
 * <a name="sfer-ezikiw-18"></a><sup>18</sup>[The Rust Programming Language: Slices](https://doc.rust-lang.org/stable/book/ch04-03-slices.html)
 * <a name="sfer-ezikiw-19"></a><sup>19</sup>[Executive Order 14028: Improving the Nation's Cybersecurity](https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity)
 * <a name="sfer-ezikiw-20"></a><sup>20</sup>[Executive Order 14144: Strengthening and Promoting Innovation in the Nation's Cybersecurity](https://www.federalregister.gov/documents/2025/01/23/2025-01548/strengthening-and-promoting-innovation-in-the-nations-cybersecurity)
