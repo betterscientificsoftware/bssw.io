@@ -139,6 +139,20 @@ The most honest answer to "Modern Memory Safe C++?" is therefore: not yet, and n
 The interesting part of the current moment is that this is no longer just a language-design conversation.
 Apple and Google are shipping it, LLVM is enabling it, and the C++ standards process is trying to catch up.
 
+## Potential for memory-safe C++ in the future?
+
+One useful way to think about the current work is as a stack of complementary defenses, each aimed at a different source of memory-related undefined behavior.
+Clang Safe Buffers and Core-Guidelines-oriented `clang-tidy` checks can drive raw-pointer buffer manipulation out of ordinary code and replace it with standard C++ containers and views that preserve bounds information across APIs.<sup>[3],[5],[6]</sup>
+libc++ hardening already turns many out-of-range operations on standard-library types into diagnosed failures rather than silent undefined behavior,<sup>[4],[15]</sup> and a future stronger runtime mode could plausibly go further by tracking the lifetime of views and iterators in the style of the Teuchos `ArrayRCP` and `ArrayView` debug-mode checking, which demonstrated that dangling-view and invalidated-reference errors can be caught reliably at runtime with tolerable development-time overhead.<sup>[22]</sup>
+
+The standards work suggests how the remaining major categories could be addressed more systematically.
+A future profiles framework could combine `std::bounds` to inject bounds checks, `std::lifetime` to reject manual `delete` and `free` and to check null dereference, and `std::initialization` to verify that objects are initialized before use.<sup>[11],[12],[13]</sup>
+That same direction could then be extended with a `std::type` profile to restrict unsafe casts and wrong-type access, plus an invalidation profile to prevent use of iterators, pointers, references, and views after a container mutation or destruction.<sup>[14],[17]</sup>
+Together with custom `clang-tidy` checks that disallow persisting raw C++ references and with future LLVM lifetime and invalidation analysis, that points to a subset of single-threaded C++ that could come reasonably close to being memory safe in practice even if the full language remains outside that guarantee.<sup>[5],[6],[11]</sup>
+
+What would still remain are the places where C++ must deliberately escape that checked subset: low-level runtime and library internals, interoperability layers with C, Fortran, CUDA, and operating-system APIs, custom allocators and raw-storage manipulation, and any code that explicitly suppresses safety checks for compatibility or performance reasons.<sup>[11],[22]</sup>
+In that sense, the most plausible future is not that every corner of ISO C++ becomes uniformly memory safe, but that tool-enforced safe regions become large enough that most scientific application code can be written in a style where memory-related undefined behavior is rare, diagnosable, and mostly confined to trusted boundary code.
+
 ## Author bio
 
 Roscoe A. Bartlett earned a PhD in chemical engineering from Carnegie Mellon University, researching numerical approaches for solving large-scale constrained optimization problems applied to chemical process engineering.
@@ -177,6 +191,7 @@ Dr. Bartlett currently focuses on software engineering challenges in CSE as well
 [eo14028-sfer-ezikiw]: https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity "Executive Order 14028: Improving the Nation's Cybersecurity"
 [eo14144-sfer-ezikiw]: https://www.federalregister.gov/documents/2025/01/23/2025-01548/strengthening-and-promoting-innovation-in-the-nations-cybersecurity "Executive Order 14144: Strengthening and Promoting Innovation in the Nation's Cybersecurity"
 [cisa-secure-by-design-sfer-ezikiw]: https://www.cisa.gov/securebydesign "CISA Secure by Design"
+[teuchos-memory-management-sfer-ezikiw]: https://bartlettroscoe.github.io/publications/TeuchosMemoryManagementSAND.pdf "Teuchos Memory Management Classes paper"
 <!-- DO NOT EDIT BELOW HERE. THIS IS ALL AUTO-GENERATED (sfer-ezikiw) -->
 [1]: #sfer-ezikiw-1 "CWE Top 25 Most Dangerous Software Weaknesses in 2025"
 [2]: #sfer-ezikiw-2 "CWE Top 25 Most Dangerous Software Weaknesses in 2023"
@@ -199,6 +214,7 @@ Dr. Bartlett currently focuses on software engineering challenges in CSE as well
 [19]: #sfer-ezikiw-19 "Executive Order 14028: Improving the Nation's Cybersecurity"
 [20]: #sfer-ezikiw-20 "Executive Order 14144: Strengthening and Promoting Innovation in the Nation's Cybersecurity"
 [21]: #sfer-ezikiw-21 "CISA Secure by Design"
+[22]: #sfer-ezikiw-22 "Teuchos Memory Management Classes paper"
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
@@ -223,3 +239,4 @@ Dr. Bartlett currently focuses on software engineering challenges in CSE as well
 * <a name="sfer-ezikiw-19"></a><sup>19</sup>[Executive Order 14028: Improving the Nation's Cybersecurity](https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity)
 * <a name="sfer-ezikiw-20"></a><sup>20</sup>[Executive Order 14144: Strengthening and Promoting Innovation in the Nation's Cybersecurity](https://www.federalregister.gov/documents/2025/01/23/2025-01548/strengthening-and-promoting-innovation-in-the-nations-cybersecurity)
 * <a name="sfer-ezikiw-21"></a><sup>21</sup>[CISA Secure by Design](https://www.cisa.gov/securebydesign)
+* <a name="sfer-ezikiw-22"></a><sup>22</sup>[Teuchos Memory Management Classes paper](https://bartlettroscoe.github.io/publications/TeuchosMemoryManagementSAND.pdf)
