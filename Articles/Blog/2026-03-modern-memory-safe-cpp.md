@@ -253,7 +253,7 @@ Dr. Bartlett currently focuses on software engineering challenges in CSE as well
 * <a name="sfer-ezikiw-17"></a><sup>17</sup>[P3984R0: A type-safety profile](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p3984r0.pdf)
 * <a name="sfer-ezikiw-18"></a><sup>18</sup>[The Rust Programming Language: Slices](https://doc.rust-lang.org/stable/book/ch04-03-slices.html)
 * <a name="sfer-ezikiw-19"></a><sup>19</sup>[Executive Order 14028: Improving the Nation's Cybersecurity](https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity)
-* <a name="sfer-ezikiw-20"></a><sup>20</sup>[Executive Order 14144: Strengthening and Promoting Innovation in the Nation's Cybersecurity](https://www.federalregister.gov/documents/2025/01/23/2025-01548/strengthening-and-promoting-innovation-in-the-nations-cybersecurity)
+* <a name="sfer-ezikiw-20"></a><sup>20</sup>[Executive Order 14144: Strengthening and Promoting Innovation in the Nation's Cybersecurity](https://www.federalregister.gov/documents/2025/01/17/2025-01470/strengthening-and-promoting-innovation-in-the-nations-cybersecurity)
 * <a name="sfer-ezikiw-21"></a><sup>21</sup>[CISA Secure by Design](https://www.cisa.gov/securebydesign)
 * <a name="sfer-ezikiw-22"></a><sup>22</sup>[Teuchos Memory Management Classes paper](https://bartlettroscoe.github.io/publications/TeuchosMemoryManagementSAND.pdf)
 * <a name="sfer-ezikiw-23"></a><sup>23</sup>['Against the Void': An Interview and Survey Study on How Rust Developers Use Unsafe Code](https://arxiv.org/pdf/2404.02230v1)
