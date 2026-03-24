@@ -126,19 +126,6 @@ That does not mean every C++ codebase must be rewritten.
 It does mean the burden of proof has shifted.
 Organizations are increasingly expected to show a credible plan for reducing memory-unsafe attack surface, whether by migration, hardening, safer subsets, or some combination of the three.
 
-## A practical takeaway for scientific software teams
-
-For research software groups, the most useful stance is probably neither denial nor panic.
-Modern C++ can be made significantly safer today, but that requires conscious toolchain and API choices.
-
-If you maintain a C++ codebase, a practical starting point is to target at least C++20 where feasible, prefer containers and views such as `std::vector`, `std::array`, `std::span`, `std::string_view`, and `std::mdspan`, enable `libc++` hardening in development and CI before wider deployment, and run `clang-tidy` with the relevant `cppcoreguidelines` bounds and ownership checks.
-For code that still depends on raw pointers, Clang's `-Wunsafe-buffer-usage` offers a concrete migration path.
-And for especially high-risk new components, it is increasingly reasonable to ask whether Rust is the better default.
-
-The most honest answer to "Modern Memory Safe C++?" is therefore: not yet, and not completely, but substantially safer C++ is becoming practical.
-The interesting part of the current moment is that this is no longer just a language-design conversation.
-Apple and Google are shipping it, LLVM is enabling it, and the C++ standards process is trying to catch up.
-
 ## Potential for memory-safe C++ in the future?
 
 One useful way to think about the current work is as a stack of complementary defenses, each aimed at a different source of memory-related undefined behavior.
@@ -152,6 +139,19 @@ Together with custom `clang-tidy` checks that disallow persisting raw C++ refere
 
 What would still remain are the places where C++ must deliberately escape that checked subset: low-level runtime and library internals, interoperability layers with C, Fortran, CUDA, and operating-system APIs, custom allocators and raw-storage manipulation, and any code that explicitly suppresses safety checks for compatibility or performance reasons.<sup>[11],[22]</sup>
 In that sense, the most plausible future is not that every corner of ISO C++ becomes uniformly memory safe, but that tool-enforced safe regions become large enough that most scientific application code can be written in a style where memory-related undefined behavior is rare, diagnosable, and mostly confined to trusted boundary code.
+
+## A practical takeaway for scientific software teams
+
+For research software groups, the most useful stance is probably neither denial nor panic.
+Modern C++ can be made significantly safer today, but that requires conscious toolchain and API choices.
+
+If you maintain a C++ codebase, a practical starting point is to target at least C++20 where feasible, prefer containers and views such as `std::vector`, `std::array`, `std::span`, `std::string_view`, and `std::mdspan`, enable `libc++` hardening in development and CI before wider deployment, and run `clang-tidy` with the relevant `cppcoreguidelines` bounds and ownership checks.
+For code that still depends on raw pointers, Clang's `-Wunsafe-buffer-usage` offers a concrete migration path.
+And for especially high-risk new components, it is increasingly reasonable to ask whether Rust is the better default.
+
+The most honest answer to "Modern Memory Safe C++?" is therefore: not yet, and not completely, but substantially safer C++ is becoming practical.
+The interesting part of the current moment is that this is no longer just a language-design conversation.
+Apple and Google are shipping it, LLVM is enabling it, and the C++ standards process is trying to catch up.
 
 ## Author bio
 
