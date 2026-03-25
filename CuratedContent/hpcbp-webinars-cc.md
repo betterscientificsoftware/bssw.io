@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2026-02-25*
+*Listed in reverse chronological order. Last updated: 2026-03-25*
+
+- 2026-03-18: [One Good Tutorial: Defining a “Minimum Viable Documentation Product” for Scientific Software](https://ideas-productivity.org/events/hpcbp-097-onegoodtutorial), presented by Peter K. G. Williams (Center for Astrophysics, Harvard & Smithsonian)
 
 - 2026-02-18: [Modernizing C++ Interfaces with Concepts, Constraints and std::mdspan](https://ideas-productivity.org/events/hpcbp-096-cpp), presented by Christian Trott (Sandia National Laboratories)
 
@@ -223,7 +225,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2026-02-25
+#### Publication date: 2026-03-25
 
 <!---
 Publish: yes
