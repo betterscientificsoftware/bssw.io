@@ -1,4 +1,4 @@
-# Research Software Science: Applying the Scientific Method to Software for Discovery
+# Research Software Science: Expanding RSE Impact Through Scientific Practice
 <!-- deck text start --> 
 Explore how Research Software Science (RSS) complements Research Software Engineering by applying scientific methods to improve how research software is developed and used.
 <!-- deck text end --> 
