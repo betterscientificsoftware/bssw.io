@@ -1,7 +1,7 @@
 #Sunsetting Open Source Projects: Dos and Don’ts
 
 <!--deck text start-->
-How do you know when the time has come to retire an open source project, and what should you do about it?"
+How do you know when the time has come to retire an open source project, and what should you do about it?
 <!--deck text end-->
 
 #### Contributed by [Keith Beattie](https://github.com/ksbeattie)
