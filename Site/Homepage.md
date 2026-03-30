@@ -7,7 +7,7 @@ Slide1 L: ../Articles/Blog/2026-03-ux5.md
 Slide1 R: ../images/Hero_topic_user_experience_072125.png
 Slide2 L: ../Articles/Blog/2026-03-one-good-tutorial.md
 Slide2 R: ../hero_topic_documentation_031125.png
-Slide3 L: ../CuratedContent/
+Slide3 L: ../CuratedContent/ResearchSoftwareScience.md 
 Slide3 R: ../CuratedContent/DosAndDontsWhenSunsettingOpenSourceProjects.md 
 Slide4 L: ../Events/2026-04-iss.md
 Slide4 R: ../Events/2026-03-nls3c-cop-webinar.md 
