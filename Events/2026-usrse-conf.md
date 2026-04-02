@@ -35,7 +35,7 @@ USRSE’26 is looking for a variety of types of submissions directly engaged wit
   - Posters — a chance to discuss your work (both established or new) with the community during a dynamic reception. Both typical academic posters and less traditional poster formats are encouraged.
   - Rapid Access Microtalk (RAM) — an opportunity organized in-person at the conference to present a 5-minute rapid-fire talk on any topic of their choice. This session offers conference participants a platform that encourages spontaneity and creativity at the time of the event itself.
 
-Please check the [conference webpage](https://us-rse.org/usrse25/) for general conference infomation or the [Call for Submissions](https://us-rse.org/usrse26/participate/) for details on the technical program.
+Please check the [conference webpage](https://us-rse.org/usrse25/) for general conference information or the [Call for Submissions](https://us-rse.org/usrse26/participate/) for details on the technical program.
 
 <!---
 Publish: yes
