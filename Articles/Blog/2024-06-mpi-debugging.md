@@ -33,11 +33,11 @@ The last thing the community should want is to discourage new talent with a mise
 Second, although many developers ultimately run their code on remote clusters, they often develop first on laptops or local workstations without commercial debuggers.
 It is inconvenient to switch back and forth between a development environment and a separate debugging environment.
 
-Finally, I found that MPI debugging information online was scattered across places such as Open MPI documentation pages, Stack Overflow comments, and blog posts that were sometimes out of date.
+Finally, I found that MPI debugging information online was scattered across places such as Open MPI documentation pages, Stack Overflow comments, and blog posts that were sometimes out-of-date.
 
 All of this made me think the HPC community needs a hub dedicated to MPI debugging.
 
-Supported by the 2025 Better Scientific Software (BSSw) Fellowship Program, I have launched [https://mpi-debug.org](https://www.mpi-debug.org) to share debugging strategies and tools, with a focus on freely available options for beginners.
+Supported by the 2025 Better Scientific Software (BSSw) Fellowship Program, I have launched <https://mpi-debug.org> to share debugging strategies and tools, with a focus on freely available options for beginners.
 The website includes a discussion system so visitors can leave comments and ask questions.
 It also contains a [survey](https://forms.gle/cUbXUfu2Z2dK5d9V7) to help us better understand the current MPI debugging landscape in the community.
 
@@ -75,7 +75,7 @@ Clear error messages also improve communication between developers and users, an
 At PETSc, they enable what we sometimes call *debugging through email*: developers can often diagnose bugs in PETSc or in a user’s code simply by reading the error messages pasted into an email.
 
 In addition to assertions, you should use memory-checking tools to validate your code.
-For example, Valgrind can help detect memory leaks, uninitialized memory reads, and dangling-pointer use.
+For example, `Valgrind` can help detect memory leaks, uninitialized memory reads, and dangling-pointer use.
 It is often best to begin interactive debugging only after your program is already *clean* under such validation tools.
 
 ## Debugging with `printf`
@@ -101,7 +101,7 @@ In both situations, it makes sense to take advantage of the simpler setup and de
 
 If you are able to run `xterm` and do not see the error message `xterm: Xt error: Can't open display`, you may want to try debugging with `xterm`.
 
-The default fonts in `xterm` are not exactly pleasant, as the example below suggests. Still, this [post](https://mpi-debug.org/2026-01-28-xterm/) provides instructions for debugging with `xterm`.
+The default fonts in `xterm` are not exactly pleasant, as the screen capture below suggests. Still, this [post](https://mpi-debug.org/2026-01-28-xterm/) provides instructions for debugging with `xterm`.
 
 <img src='../../images/2026-04-mpi-debugging-xterm.png' class='page lightbox' alt="Image of a gdb debugging session in an xterm"/>
 
@@ -167,7 +167,7 @@ This work was supported by the Better Scientific Software (BSSw) Fellowship Prog
 
 ## Author bio
 
-Junchao Zhang is a research software developer at Argonne National Laboratory, where he contributes to the Portable, Extensible Toolkit for Scientific Computation (PETSc). His work focuses on improving communication and computational efficiency for large-scale scientific applications on GPU-equipped supercomputers. Prior to joining the PETSc team, he was a developer of MPICH at Argonne, where he contributed to the MPI-3.0 standard by implementing the MPI Fortran 2008 bindings and the MPI tools interface. He is particularly interested in helping PETSc users diagnose and resolve MPI-related issues. Zhang received his Ph.D. in computer science from the Institute of Computing Technology, CAS, China. He was named a Better Scientific Software Fellow in 2025.
+Junchao Zhang is a research software developer at Argonne National Laboratory, where he contributes to the Portable, Extensible Toolkit for Scientific Computation (PETSc). His work focuses on improving communication and computational efficiency for large-scale scientific applications on GPU-equipped supercomputers. Prior to joining the PETSc team, he was a developer of MPICH at Argonne, where he contributed to the MPI-3.0 standard by implementing the MPI Fortran 2008 bindings and the MPI tools interface. He is particularly interested in helping PETSc users diagnose and resolve MPI-related issues. Zhang received his Ph.D. in computer science from the Institute of Computing Technology, Chinese Academy of Sciences (CAS), China. He was named a [2025 Better Scientific Software Fellow](https://bssw.io/blog_posts/introducing-the-2025-bssw-fellows).
 
 <!---
 Publish: Yes
