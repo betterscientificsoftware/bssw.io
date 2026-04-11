@@ -1,4 +1,4 @@
-# MPI Debugging Resources and a Community Hub
+# Making Debugging MPI Applications a Little Easier
 
 **Hero Image:**
 
@@ -9,7 +9,7 @@
 #### Publication date: April 27, 2026
 
 <!-- begin deck -->
-
+Debugging MPI applications is often challenging. A new resource site provides tips, resources, and a community discussion space aimed at making it a little easier, especially for beginners.
 <!-- end deck -->
 
 As a graduate student, I wrote codes on Linux systems and used the GNU debugger, `gdb`, extensively.
@@ -37,11 +37,13 @@ Finally, I found that MPI debugging information online was scattered across plac
 
 All of this made me think the HPC community needs a hub dedicated to MPI debugging.
 
+## Launching a new resource to make MPI debugging a little easier
+
 Supported by the 2025 Better Scientific Software (BSSw) Fellowship Program, I have launched <https://mpi-debug.org> to share debugging strategies and tools, with a focus on freely available options for beginners.
 The website includes a discussion system so visitors can leave comments and ask questions.
 It also contains a [survey](https://forms.gle/cUbXUfu2Z2dK5d9V7) to help us better understand the current MPI debugging landscape in the community.
 
-In this article, I would like to share some of my experience and perspectives on MPI debugging.
+In this article, I would like to share some of my experience and perspectives on MPI debugging as examples of the kind of content you can find on the site.
 
 ## Defensive debugging
 
@@ -51,40 +53,40 @@ In that sense, every HPC programmer should become comfortable with MPI debugging
 
 But even if you develop strong debugging skills, the first priority should be to write code that is easier to debug and less likely to require debugging in the first place.
 
-First, write clearly.
+First, *write clearly.*
 Use descriptive variable and function names, and add appropriate comments.
 Comments should explain intent, not merely restate implementation details.
 For complex or obscure code, comments are especially important.
 Clear code helps both your future self and anyone else who may need to debug it.
 With a better understanding of the code, you are more likely to spot problems quickly.
 
-Second, write defensively.
+Second, *write defensively.*
 Always check error codes returned by functions, and add assertions to validate assumptions.
 For example, check whether function arguments are valid or whether a block of code produces the expected result, and provide clear error messages when something goes wrong.
 These assertions can be disabled in optimized builds, or simply left in place if their performance impact is minimal.
 
 In MPI programs, you also need to consider whether an assertion is collective, meaning it must occur in the same way across all processes in an MPI communicator.
 If it is collective, you may want only one process to print the error message to avoid flooding the screen.
-In PETSc, we use a macro, `PetscCheck(condition, comm, ierr, ...)`, which takes an MPI communicator for exactly this purpose.
+In PETSc, we use a macro, `PetscCheck(condition, comm, ierr, ...)`, which takes an MPI communicator (`comm`) for exactly this purpose.
 If the check is local, you can pass `MPI_COMM_SELF`.
 
 Better still, programmers should build in stack-tracing support so that, when something goes wrong, the program can print a call stack with function names, file names, and line numbers.
 With that information, developers can often identify the problem directly from the error message without opening a debugger.
 
 Clear error messages also improve communication between developers and users, and save developers' time.
-At PETSc, they enable what we sometimes call *debugging through email*: developers can often diagnose bugs in PETSc or in a user’s code simply by reading the error messages pasted into an email.
+For the PETSc team, they enable what we sometimes call *debugging through email*: developers can often diagnose bugs in PETSc or in a user’s code simply by reading the error messages pasted into an email.
 
 In addition to assertions, you should use memory-checking tools to validate your code.
 For example, `Valgrind` can help detect memory leaks, uninitialized memory reads, and dangling-pointer use.
-It is often best to begin interactive debugging only after your program is already *clean* under such validation tools.
+Often, it is more useful to use such tools to make sure your program is generally free of such problems than to debug a problem at a time as they arise.
 
 ## Debugging with `printf`
 
 Our survey suggests that developers still rely heavily on `printf` debugging.
-Although it is basic, it remains useful when you only need to inspect variable values or confirm that a particular code path was taken.
+Although basic, it remains useful when you only need to inspect variable values or confirm that a particular code path was taken.
 
 `printf` debugging requires no special tool support, does not depend on compiler flags, works in both local and remote environments, and can be used with any MPI job scheduler.
-It is ideal when it is sufficient.
+When it is sufficient for your needs, it can be an ideal solution.
 
 In this [post](https://mpi-debug.org/2025-07-17-debug-with-printf/), I describe how to tag standard output with MPI ranks and how to direct output into separate files or directories using the two most popular MPI implementations, MPICH and Open MPI.
 
@@ -99,7 +101,7 @@ In both situations, it makes sense to take advantage of the simpler setup and de
 
 ## Debugging with `xterm`
 
-If you are able to run `xterm` and do not see the error message `xterm: Xt error: Can't open display`, you may want to try debugging with `xterm`.
+If you are able to successfully run `xterm` and do not see the error message `xterm: Xt error: Can't open display`, you may want to use it to display `gdb` sessions for your MPI processes.
 
 The default fonts in `xterm` are not exactly pleasant, as the screen capture below suggests. Still, this [post](https://mpi-debug.org/2026-01-28-xterm/) provides instructions for debugging with `xterm`.
 
@@ -112,7 +114,7 @@ Arno Mayrhofer came up with a brilliant idea for MPI debugging based on `tmux`, 
 Arno’s tool—specifically, the bash script [`tmpi`](https://github.com/Azrael3000/tmpi.git)—runs MPI processes in a grid of panes within a `tmux` window and multiplexes keyboard input to all of them.
 This is another major improvement over `xterm`.
 
-The following image shows `tmpi` in action, and this [article](https://mpi-debug.org/2026-02-20-tmux/) explains its usage in detail.
+The following screen capture shows `tmpi` in action, and this [article](https://mpi-debug.org/2026-02-20-tmux/) explains its usage in detail.
 
 <img src='../../images/2026-04-mpi-debugging-tmux.png' class='page lightbox' alt="Image of a multi-process debugging session in tmux"/>
 
@@ -134,7 +136,7 @@ That means the watchpoint can remain useful even after execution moves beyond th
 That said, `DDT` is too heavy for my everyday workflow.
 To use it, I have to leave my integrated development environment (IDE), find a system with `DDT`, set up remote desktop access, and then launch the GUI.
 These commercial tools are powerful for large-scale debugging, but our survey suggests that most HPC developers debug with only a handful of MPI processes.
-For that common case, such tools can be more than what is needed.
+For that situation, such tools can be overkill.
 
 ## Looking ahead: debugging in the age of AI
 
@@ -153,7 +155,7 @@ Second, AI can explain code snippets.
 Developers can compare that explanation with what they observe during execution in a debugger.
 If the two do not match, that discrepancy is a useful signal that something deserves closer inspection.
 
-We can imagine an AI-enabled MPI debugger that connects source code and runtime information to an AI system in the backend, dramatically improving developer productivity during the debugging process.
+We can imagine a future AI-enabled MPI debugger that connects source code and runtime information to an AI system in the backend, dramatically improving developer productivity during the debugging process.
 
 We all make mistakes; that is part of being human.
 And as AI-assisted code generation becomes more widespread—and as more subtle bugs make their way into code—debugging may become even more important in software development than it already is.
