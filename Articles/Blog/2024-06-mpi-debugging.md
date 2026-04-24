@@ -24,7 +24,7 @@ Later, after moving to Argonne National Laboratory and becoming a PETSc develope
 That made the situation much better.
 With its graphical user interface (GUI), `DDT` is a powerful tool for debugging multiple processes and has helped me many times.
 
-Even so, I did not feel it was the right answer to the MPI debugging problem for the broader high performance computing (HPC) community.
+Even so, I did not feel it was the right answer to the MPI debugging problem for the broader high-performance computing (HPC) community.
 
 First, not everyone has the privilege of using expensive commercial MPI debuggers.
 This is especially true for students, who often lack access to such tools.
@@ -35,7 +35,7 @@ It is inconvenient to switch back and forth between a development environment an
 
 Finally, I found that MPI debugging information online was scattered across places such as Open MPI documentation pages, Stack Overflow comments, and blog posts that were sometimes out-of-date.
 
-All of this made me think the HPC community needs a hub dedicated to MPI debugging.
+All of this made me think that the HPC community needs a hub dedicated to MPI debugging.
 
 ## Launching a new resource to make MPI debugging a little easier
 
@@ -78,12 +78,12 @@ For the PETSc team, they enable what we sometimes call *debugging through email*
 
 In addition to assertions, you should use memory-checking tools to validate your code.
 For example, `Valgrind` can help detect memory leaks, uninitialized memory reads, and dangling-pointer use.
-Often, it is more useful to use such tools to make sure your program is generally free of such problems than to debug a problem at a time as they arise.
+Often, it is more efficient to use such tools to make sure your program is generally free of such problems than to debug a problem at a time as they arise.
 
 ## Debugging with `printf`
 
 Our survey suggests that developers still rely heavily on `printf` debugging.
-Although basic, it remains useful when you only need to inspect variable values or confirm that a particular code path was taken.
+Although basic, it remains useful when you need only to inspect variable values or confirm that a particular code path was taken.
 
 `printf` debugging requires no special tool support, does not depend on compiler flags, works in both local and remote environments, and can be used with any MPI job scheduler.
 When it is sufficient for your needs, it can be an ideal solution.
