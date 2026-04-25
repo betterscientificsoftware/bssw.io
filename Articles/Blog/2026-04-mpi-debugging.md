@@ -1,9 +1,5 @@
 # Making Debugging MPI Applications a Little Easier
 
-**Hero Image:**
-
-- <img src='../../images/2026-04-everse-hero.png' alt="hero image" />
-
 #### Contributed by [Junchao Zhang](https://github.com/jczhang07)
 
 #### Publication date: April 27, 2026
