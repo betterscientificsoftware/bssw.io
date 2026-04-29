@@ -21,13 +21,13 @@ While not science or research specific, the results reported in the blog apply e
 
 The blog breaks down their finding into four takeaways familiar to anyone who has been part of, or run a project of any non-trivial size:
 
-1) Delegate: Divide the tasks in your project's workflow so that the division of labor plays into the strengths of your hybrid AI/Human teams.  For example, AI agents for tasks that parallelize and need to be done quickly and humans for tasks that require judgement within a larger context.
+1) **Delegate**: Divide the tasks in your project's workflow so that the division of labor plays into the strengths of your hybrid AI/Human teams.  For example, AI agents for tasks that parallelize and need to be done quickly and humans for tasks that require judgement within a larger context.
 
-2) Iterate: While humans are better at accurately identifying the solution to novel problems in their field of expertise, AI agents will be faster at exploring multiple trial-and-error solutions in parallel.  This hybrid iterative approach, with the humans at the top of the loop guiding AI agents away from falling into "rabbit holes" proves to be a very effective combination.
+2) **Iterate**: While humans are better at accurately identifying the solution to novel problems in their field of expertise, AI agents will be faster at exploring multiple trial-and-error solutions in parallel.  This hybrid iterative approach, with the humans at the top of the loop guiding AI agents away from falling into "rabbit holes" proves to be a very effective combination.
 
-3) Share: Directing AI agents to specialize and explore different aspects of the problem at hand requires them to share data between each other.  The lead researcher then becomes a generalist looking at the big picture while the sub-agents report on their results, recording hand-off details so that another agent or person can follow their work.
+3) **Share**: Directing AI agents to specialize and explore different aspects of the problem at hand requires them to share data between each other.  The lead researcher then becomes a generalist looking at the big picture while the sub-agents report on their results, recording hand-off details so that another agent or person can follow their work.
 
-4) Measure and Improve: Over time, in striving to improve these hybrid teams, measurement of their effectiveness should be made with changes from lessons learned applied to the next effort.
+4) **Measure and Improve**: Over time, in striving to improve these hybrid teams, measurement of their effectiveness should be made with changes from lessons learned applied to the next effort.
 
 The conclusion here is that knowing your team, understanding their strengths, weaknesses and guiding them appropriately, has long been understood as a key requirement for managing teams of people.  This study shows that having this empathy is still key when managing a team with AI agents.
 
