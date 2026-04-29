@@ -1,4 +1,4 @@
-# AI Tools Cause Shift in Which Skills are Important
+# AI Tools Cause Shift in Which Skills Are Important
 <!-- deck text start --> 
 As AI accelerates code generation, the bottleneck in software development is shifting from implementation speed to architectural clarity. 
 This article highlights why intentional design, guardrails, and coherence are becoming more important than raw agility.  
