@@ -2,7 +2,7 @@
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication Date: April 13, 2026
+#### Publication Date: May 13, 2026
 
 <!-- begin deck -->
 Modern C++ is safer than much of the C++ software written decades ago, but it is still not yet a memory-safe language by default.
