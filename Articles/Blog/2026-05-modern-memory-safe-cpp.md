@@ -2,29 +2,37 @@
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
-#### Publication Date: March 30, 2026
+#### Publication Date: April 13, 2026
 
 <!-- begin deck -->
 Modern C++ is safer than much of the C++ software written decades ago, but it is still not yet a memory-safe language by default.
-This article surveys what currently exists to support safer C++, the practical work now underway in LLVM and the C++ standards process to reduce undefined behavior that leads to security and correctness bugs, and the potential for nearly 100% memory safe C++ programming environment in the near future.
+This article surveys what currently exists to support safer C++, the practical work now underway in LLVM and the C++ standards process to reduce undefined behavior that leads to memory-related security and correctness bugs, and the potential for near 100% memory-safe C++ programming environment in the near future.
 <!-- end deck -->
 
-<img src='../../images/2026-03-modern-memory-safe-cpp-hero-image.jpg' class='page'/>
+<img src='../../images/2026-05-modern-memory-safe-cpp-hero-image.jpg' class='page'/>
 
 ## Why memory safety matters
 
-Of the CWE Top 25 Most Dangerous Software Weaknesses in 2025,<sup>[1]</sup> six are directly related to memory access errors in unsafe languages like C++: out-of-bounds write (5), use after free (7), out-of-bounds read (8), buffer copy without checking size of input (11), null pointer dereference (13), and stack-based buffer overflow (14).
-(However, note that this is a significant reduction from the 2023 list, where memory errors occupied the top three spots: use after free (1), heap-based buffer overflow (2), and out-of-bounds write (3).<sup>[2]</sup>)
-So while memory safety issues did not dominate the reported memory vulnerabilities in 2025, memory-safety bugs remain one of the most persistent sources of serious software defects and security vulnerabilities.
-Even if software security is not a major concern for scientific and high-performance computing (HPC) codes, software correctness bugs caused by incorrect memory use are a major threat to the reliability of HPC software and can be among the most challenging and expensive bugs to diagnose and fix.
-Memory-related bugs in HPC C++ codes can escape testing and lie dormant for some time before causing problems in large, expensive simulation runs.
+Of the CWE Top 25 Most Dangerous Software Weaknesses in 2025,<sup>[1]</sup> six are directly related to memory access errors in unsafe languages like C++:
 
-Large HPC codes are often long-lived, performance-sensitive, and deeply invested in C++ ecosystems and in NVIDIA CUDA, the primary toolchain for accelerated HPC software, which is essentially an extension of the C++ language.
-Rewriting everything in a different, safer programming language is rarely realistic and, in many cases, not even viable because of the limited tooling and libraries available for safer languages.
-Yet, continuing to accept unchecked undefined behavior in these HPC C++ codes is becoming harder to justify.
+- \#5: out-of-bounds write
+- \#7: use after free
+- \#8: out-of-bounds read
+- \#11: buffer copy without checking size of input
+- \#13: null pointer dereference
+- \#14: stack-based buffer overflow
+
+(However, note that this is a significant reduction from the 2023 list, where memory errors occupied the top three spots: \#1: use after free, \#2: heap-based buffer overflow, \#3: and out-of-bounds write.<sup>[2]</sup>)
+So while memory-safety issues did not dominate the reported memory vulnerabilities in 2025, memory-safety bugs remain one of the most persistent sources of serious software defects and security vulnerabilities.
+Even if software security is not a major concern for scientific and high-performance computing (HPC) codes, software correctness bugs caused by incorrect memory use are a major threat to the reliability of HPC software and can be among the most challenging and expensive bugs to diagnose and fix.
+Memory-related bugs in C++ HPC codes can escape testing and lie dormant for some time before causing problems in large, expensive simulation runs.
+
+Large HPC codes are often long-lived, performance-sensitive, and deeply invested in C++ ecosystems and in NVIDIA CUDA (i.e., the primary toolchain for accelerated HPC software, which is essentially an extension of the C++ language).
+Rewriting everything in a different, safer programming language is rarely realistic and, in many cases, not even viable because of the limited tooling and libraries available for safer languages, like Rust.
+Yet, continuing to accept unchecked undefined behavior in these C++ HPC codes is becoming harder to justify.
 
 While there is no single switch that turns ISO C++23 (or proposed C++26) into a memory-safe language, there is now a substantial body of work that can make modern C++ materially safer, especially for spatial memory errors such as out-of-bounds access, which account for a substantial number of reported software security vulnerabilities.
-Much of the most concrete progress is happening around the LLVM and Clang compiler toolchain.
+Much of the concrete progress is happening around the LLVM and Clang compiler toolchains.
 
 ## What "modern C++" already provides for memory safety
 
@@ -33,17 +41,17 @@ C++11 gave developers a better ownership vocabulary with `std::unique_ptr`, `std
 C++14 added `std::make_unique`, which made ownership transfer less error-prone.
 C++17 added `std::string_view`, `std::optional`, `std::variant`, and `std::byte`, all of which helped replace ad hoc conventions with explicit types.
 C++20 added `std::span`, ranges, and concepts.
-C++23 added `std::mdspan` and `std::expected`, both useful for expressing intent more clearly in high-performance and systems code.
+C++23 added `std::mdspan` and `std::expected`, both useful for expressing intent more clearly in high-performance numerical and systems code.
 
 While consistent use of those newer types eliminates many kinds of memory-use errors at compile time or runtime, they do not eliminate all undefined behavior.
-And C++ code benefits from these standard abstractions only if it is refactored to use them.
-The C++ standard alone does not provide the necessary safety; compiler and library implementations must provide the necessary checks.
+And C++ code benefits from these newer standard abstractions only if it is refactored to use them.
+The C++ standard alone does not provide the necessary safety.  It is compiler and library implementations that must provide the necessary checks.
 
 ## LLVM and Clang: Making existing C++ code safer
 
-Large companies like Google, Apple, and others have made significant contributions to the LLVM/Clang compiler stack to improve C++ memory safety.
-Apple started the Clang Safe Buffers effort<sup>[3]</sup>, where setting the compiler flag `-Wunsafe-buffer-usage` triggers diagnostics that identify pointer arithmetic, unchecked subscripting, and other patterns that often result in out-of-bounds indexing errors and pointer read/write errors.
-The intended migration path is to wrap raw buffers in safer abstractions such as `std::span`, `std::vector`, `std::array`, or `std::string_view`, and to preserve bounds information across APIs instead of dropping back to pointer-plus-size pairs.
+Large companies like Google, Apple, and others have made significant contributions to the LLVM/Clang compiler and tooling stack to improve C++ memory safety.
+Apple started the Clang Safe Buffers effort<sup>[3]</sup>, where setting the compiler flag `-Wunsafe-buffer-usage` triggers diagnostics that identify error-prone pointer arithmetic, unchecked subscripting, and other patterns that often result in out-of-bounds indexing errors and pointer read/write errors.
+The intended migration path is to wrap raw buffers in safer abstractions such as `std::span`, `std::mdspan`, `std::vector`, `std::array`, `std::string_view`, etc., and to preserve bounds information across APIs instead of dropping back to pointer-plus-size pairs.
 Clang also provides `[[clang::unsafe_buffer_usage]]` and `#pragma clang unsafe_buffer_usage` so teams can mark compatibility boundaries and adopt the model incrementally.
 
 The second major piece is libc++ hardening,<sup>[4]</sup> which was also started by Apple with major support from Google.
@@ -52,16 +60,16 @@ In today's libc++, hardened support already covers important facilities includin
 LLVM's C++ Safe Buffers documentation explicitly treats hardened libc++ and compiler diagnostics as complementary pieces of one programming model.
 
 The third piece is static checking via the LLVM tool `clang-tidy`<sup>[5]</sup>.
-Clang-tidy's `cppcoreguidelines` checks line up with the C++ Core Guidelines<sup>[6]</sup> and enforce proper usage of modern C++ types instead of raw pointers.
-Those checks operationalize the Core Guidelines' bounds rules: avoid pointer arithmetic, avoid array-to-pointer decay, prefer `span`, and make ownership explicit.
+Clang-tidy's `cppcoreguidelines` checks line up with the C++ Core Guidelines<sup>[6]</sup> and enforce proper usage of modern C++ encapsulated types (instead of using raw pointers).
+Those checks operationalize the Core Guidelines' bounds rules: avoid pointer arithmetic, avoid array-to-pointer decay, prefer `std::span` and other types, and make ownership explicit.
 
-While this is a significant improvement over the use of raw C++ pointers, it is not yet full memory safety.
+While this is a significant improvement over the use of raw C++ pointers, it is not yet fully memory safe.
 But it is increasingly a practical engineering path rather than just advice.
 Existing unsafe C++ code can be incrementally refactored to use modern, safer C++ types and eliminate much of the undefined behavior that causes security and correctness problems.
 
 ## How companies and organizations are using LLVM to improve C++ memory safety
 
-Apple has become one of the most visible contributors and deployers of LLVM C++ memory safety work.
+Apple has become one of the most visible contributors and deployers of LLVM C++ memory-safety work.
 Its C++ language support page<sup>[7]</sup> documents that Xcode 16 added C++ standard library hardening for Apple Clang and `libc++`, with production-oriented modes such as `Yes (fast)` and `Yes (extensive)` as well as a stricter debug mode.
 Apple's WWDC25 session *Safely mix C, C++, and Swift*<sup>[8]</sup> is especially revealing because it connects several strands into one developer workflow.
 
@@ -82,34 +90,32 @@ In Android 13, for example, Google reported that annual memory-safety vulnerabil
 ## The C++ Core Guidelines and the C++ standards pipeline
 
 The C++ Core Guidelines<sup>[6]</sup> provide best practices for using newer C++ standards and standard-library types to eliminate C++ memory errors.
-Their bounds-safety profile says not to use pointer arithmetic, not to rely on array-to-pointer decay, to prefer `span`, and to avoid standard-library facilities that are not bounds-checked.
+Their bounds-safety profile says not to use pointer arithmetic, not to rely on array-to-pointer decay, to prefer `std::span`, and to avoid standard-library facilities that are not bounds-checked.
 The guidelines also separate bounds safety, type safety, and lifetime safety.
 
 That same separation is now showing up in WG21 (i.e. the ISO Working Group 21 for C++ standards) proposals.
-Bjarne Stroustrup's P3274, *A framework for Profiles development*,<sup>[11]</sup> argues for portable, tool-supported profiles that can offer guarantees rather than just style advice, while related papers such as P3081,<sup>[12]</sup> P3402,<sup>[13]</sup> and P3446<sup>[14]</sup> explore specific safety directions.
+Bjarne Stroustrup's P3274, *A framework for Profiles development*,<sup>[11]</sup> argues for portable, tool-supported profiles that can offer memory-safety guarantees rather than just style advice, while related papers such as P3081,<sup>[12]</sup> P3402,<sup>[13]</sup> and P3446<sup>[14]</sup> explore specific safety directions.
 The most concrete C++26 proposal with existing deployment experience is P3471, *Standard library hardening*,<sup>[15]</sup> which standardizes "hardened implementations" and "hardened preconditions" so that operations such as out-of-range indexing on containers, `std::string_view`, `std::span`, and `std::mdspan` become contract violations instead of silent undefined behavior.
-
-P3608, *Contracts and profiles: what can we reasonably ship in C++26*,<sup>[16]</sup> argued for a minimalist package: ship the Contracts MVP, ship library hardening, and use a standardized profile mechanism to enable that hardening.
-As of March 2026, after the February 2025 Hagenberg meeting and later review, the draft standard adopted the first two pieces but not the third.
+P3608, *Contracts and profiles: what can we reasonably ship in C++26*,<sup>[16]</sup> argues for a minimalist package: ship the Contracts MVP, ship library hardening, and use a standardized profile mechanism to enable that hardening.
 C++26 now includes the Contracts MVP with `pre`, `post`, and `contract_assert`, while deliberately leaving out contracts on virtual functions and function pointers to keep the feature set narrow.
-It also includes library hardening via hardened preconditions checked at runtime in hardened implementations.
-What did not make C++26 is the profiles framework itself: broader profiles work, including the framework and core safety profiles, has been deferred to later standardization work, likely C++29.
-In practice, that means C++26 hardening is enabled by implementation-defined mechanisms such as compiler flags rather than standard `profile` syntax.
-P3608 also argued for termination-oriented behavior; in the draft, hardening failures are specified as contract violations, so the exact handling follows the selected contract semantics.
+The C++26 standard is also slated to include library hardening via hardened preconditions checked at runtime in hardened implementations.
+What did not make C++26 is the profiles framework itself: broader profiles work, including the framework and core safety profiles, has been deferred to later standardization work (likely C++29).
+
+Therefore, C++26 software will have hardening enabled by implementation-defined mechanisms such as compiler flags rather than a standard `profile` syntax.
 
 ## How this compares with Rust
 
 Discussions about C++ memory safety do not exist in a vacuum and almost always involve arguments for and against migrating C++ software to *The Rust Programming Language*.<sup>[18]</sup>
-In Rust, ownership, borrowing, and slices are presented as core language mechanisms that enforce memory safety at compile time without the need for runtime garbage collection to clean up.
+In Rust, ownership, borrowing, and slices are presented as core language mechanisms that enforce memory safety mostly at compile time without the need for runtime garbage collection or runtime checks (except for bounds checking).
 Unsafe operations are still possible, but they are pushed into explicitly marked `unsafe` regions.
 Rust software is largely memory safe by construction if it compiles, but it still requires runtime checks for certain operations like array-bounds indexing, where the values of the indices cannot be proven to be in bounds at compile time.
 
 C++, by contrast, is assembling a layered system of safer library types, compiler diagnostics, runtime hardening, static analysis, and opt-in profiles.
-Those layers are useful, but they do not make the language uniformly memory-safe, and they are easier to bypass accidentally or intentionally.
+Those layers are useful, but they do not make the language uniformly memory safe, and they are easier to bypass accidentally or intentionally.
 
-However, C++ has one advantage that rewriting code to Rust does not: it can be improved in place inside enormous deployed systems while preserving existing ABIs, interoperability, and performance envelopes.
-That is why the LLVM work matters so much.
-It offers a realistic migration path for codebases that will still be largely C++ for years.
+However, C++ has one advantage that rewriting code to Rust does not: it can be incrementally improved in place inside enormous deployed systems while preserving existing ABIs, interoperability, and performance envelopes.
+The recent C++ standards work and the added checking built into LLVM/Clang makes this possible today.
+This offers a realistic migration path for codebases that will still be largely C++ for years to come.
 
 For greenfield components that parse untrusted input or sit on critical attack surfaces, Rust often offers the cleaner answer.
 For established scientific and HPC codebases, modern C++ plus LLVM hardening and guideline-driven cleanup may be the most feasible way to remove a large fraction of today's risk.
@@ -121,10 +127,10 @@ In the United States, Executive Order 14028, *Improving the Nation's Cybersecuri
 That direction continued through the White House's 2023 National Cybersecurity Strategy, Executive Order 14144, *Strengthening and Promoting Innovation in the Nation's Cybersecurity*,<sup>[20]</sup> signed on January 16, 2025, and the June 6, 2025 amendment to that order.
 
 The policy conversation has also become more explicit about language choice.
-CISA's *Secure by Design* effort<sup>[21]</sup> now includes guidance such as *The Case for Memory Safe Roadmaps*.
+CISA's *Secure by Design* effort<sup>[21]</sup> now includes guidance such as *The Case for Memory-Safe Roadmaps*.
 That does not mean every C++ codebase must be rewritten.
 It does mean the burden of proof has shifted.
-Organizations are increasingly expected to show a credible plan for reducing memory-unsafe attack surface, whether by migration, hardening, safer subsets, or some combination of the three.
+Organizations are increasingly expected to show a credible plan for reducing memory-unsafe attack surface, whether by migration, hardening, safer subsets, or some combination of these.
 
 ## Potential for memory-safe C++ in the future?
 
@@ -133,9 +139,9 @@ Clang Safe Buffers and Core-Guidelines-oriented `clang-tidy` checks can drive ra
 The libc++ hardening already turns many out-of-range operations on standard-library types into diagnosed failures rather than silent undefined behavior,<sup>[4],[15]</sup> and a future stronger runtime (debug) checking mode could plausibly go further by tracking the lifetime of views and iterators in the style of the Teuchos `ArrayRCP` and `ArrayView` debug-mode checking, which demonstrated that dangling-view and invalidated-reference errors can be caught reliably at runtime with tolerable development-time overhead.<sup>[22]</sup>
 
 The C++ standards work suggests how the remaining major categories could be addressed more systematically.
-A future profiles framework could combine a `std::bounds` profile to inject bounds checks, a `std::lifetime` profile to reject manual `delete` and `free` and to check for null dereference, and a `std::initialization` profile to verify that objects are initialized before use.<sup>[11],[12],[13]</sup>
+A future profiles framework could combine an `std::bounds` profile to inject bounds checks, an `std::lifetime` profile to reject manual `delete` and `free` and to check for null dereference, and an `std::initialization` profile to verify that objects are initialized before use.<sup>[11],[12],[13]</sup>
 That same direction could then be extended with a `std::type` profile to restrict unsafe casts and wrong-type access, plus an invalidation profile to prevent use of iterators, pointers, references, and views after a container mutation or destruction.<sup>[14],[17]</sup>
-Together with custom `clang-tidy` checks that discourage persistent raw C++ references, uture LLVM lifetime and invalidation analysis, and other rule checks, this can create a subset of C++ that could come reasonably close to being memory safe in practice for most HPC C++ programs, while still maintaining near maximum performance.<sup>[5],[6],[11]</sup>
+Together with custom `clang-tidy` checks that discourage persistent raw C++ references, future LLVM lifetime and invalidation analysis, and other rule checks, this can create a subset of C++ that could come reasonably close to being memory safe in practice for most C++ HPC programs, while still maintaining near maximum runtime performance.<sup>[5],[6],[11]</sup>
 
 What would still remain are the places where C++ must deliberately escape that checked subset: low-level runtime and library internals, interoperability layers with C, Fortran, CUDA, and operating-system APIs, custom allocators and raw-storage manipulation, and any code that explicitly suppresses safety checks for compatibility or performance reasons.<sup>[11],[22]</sup>
 In that sense, the most plausible future is not that every corner of ISO C++ becomes uniformly memory safe, but that tool-enforced safe regions become large enough that most scientific application code can be written in a style where memory-related undefined behavior is rare, diagnosable, and mostly confined to trusted boundary code.
@@ -148,37 +154,37 @@ And from a correctness and security perspective, even if you eliminate all memor
 
 ## A practical takeaway for scientific software teams
 
-For research software groups, the most useful stance is probably neither denial nor panic.
+For HPC research software groups, the most useful stance is probably neither denial nor panic.
 Modern C++ can be made significantly safer today, but that requires conscious toolchain and API choices.
 
-If you maintain a C++ codebase, a practical starting point is to target at least C++20 where feasible, prefer containers and views such as `std::vector`, `std::array`, `std::span`, `std::string_view`, and `std::mdspan`, enable `libc++` hardening in development and CI before wider deployment, and run `clang-tidy` with the relevant `cppcoreguidelines` bounds and ownership checks.
-For code that still depends on raw pointers, Clang's `-Wunsafe-buffer-usage` offers a concrete migration path.
+If you maintain a C++ codebase, a practical starting point is to target at least C++20 where feasible, prefer containers and views such as `std::vector`, `std::array`, `std::span`, `std::mdspan`, and `std::string_view`, enable `libc++` hardening in development and CI before wider deployment, and run `clang-tidy` with the relevant `cppcoreguidelines` bounds and ownership checks as well as the Clang compiler option `-Wunsafe-buffer-usage` to ferret out remaining memory-unsafe C++ usage.
 
-The most honest answer to "Modern Memory-Safe C++?" is therefore not yet, and not completely, but substantially safer C++ is becoming practical.
-The interesting part of the current moment is that this is no longer just a language-design conversation.
-Apple and Google are shipping it, LLVM is enabling it, and the C++ standards process is trying to catch up.
+To summarize, the most honest answer to "Is Modern C++ Memory-Safe?" is therefore not completely, but the it is much safer than what was possible just a few years ago.
+The interesting part of the current moment is that memory safety with C++ is no longer just a language-design conversation.
+LLVM/Clang is enabling it, Apple and Google are shipping it, and the C++ standards process is catching up.
 
 ## The impact of artificial intelligence
 
-As this article is being written, it is impossible to ignore the impact that artificial intelligence (AI), large language models (LLMs), and AI coding agents will have in this area.
-It is likely that in the next few years, improved AI models and coding agents will automate much of the work needed to build out the tooling for memory-safe C++ and to incrementally refactor existing legacy C++ codebases to use memory-safe C++ types and idioms.
+As this article is being written, it is impossible to ignore the impact that artificial intelligence (AI), large language models (LLMs), and AI coding agents will have on C++ memory safety.
+It is likely that in the next few years (and perhaps much sonner), improved AI models and coding agents will automate much of the work needed to build out the tooling for memory-safe C++ and to incrementally refactor existing legacy C++ codebases to use memory-safe C++ types and idioms.
 While any type of change to existing software can be risky, the incremental approach of refactoring existing C++ code is likely much lower risk than trying to completely rewrite large, complex codebases (e.g., convert from C++ to Rust).
 It will likely take artificial super intelligence (ASI) to rewrite complete legacy codebases from C++ to Rust, but much less capable AI models and tools can likely incrementally refactor C++ code.
-We may not even need complete artificial general intelligence (AGI) to achieve that.
-It will be fascinating to see what is possible in the next few years to automate away memory safety issues in legacy C++ codes.
+(We may not even need artificial general intelligence (AGI) to achieve the latter.)
+It will be fascinating to see what is possible in the near future to automate-away memory safety issues in legacy C++ codes through the application of these tools and updated standards.
+This is an exciting time to be C++ HPC developer and researcher!
 
 ## Author bio
 
 Roscoe A. Bartlett earned a PhD in chemical engineering from Carnegie Mellon University, researching numerical approaches for solving large-scale constrained optimization problems applied to chemical process engineering.
 At Sandia National Laboratories and Oak Ridge National Laboratory, he continued research and development in constrained optimization, sensitivity methods, and large-scale numerical software design and integration for computational science and engineering (CSE).
-Dr. Bartlett currently focuses on software engineering challenges in CSE as well as the development of build, test, and integration software and processes for CSE.
+Dr. Bartlett's recent work focuses on the application agentic AI to reduce technical debt in large-scale legacy C++ HPC software projects.
 
 <!---
  Publish: yes
  Track: Deep Dive
  Pinned: no
  Topics: programming languages, development tools
- RSS update: 2026-03-30
+ RSS update: 2026-05-13
  --->
 
 
