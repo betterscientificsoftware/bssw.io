@@ -9,7 +9,7 @@ Modern C++ is safer than much of the C++ software written decades ago, but it is
 This article surveys what currently exists to support safer C++, the practical work now underway in LLVM and the C++ standards process to reduce undefined behavior that leads to memory-related security and correctness bugs, and the potential for near 100% memory-safe C++ programming environment in the near future.
 <!-- end deck -->
 
-<img src='../../images/2026-03-modern-memory-safe-cpp-hero-image.jpg' class='page'/>
+<img src='../../images/2026-05-modern-memory-safe-cpp-hero-image.jpg' class='page'/>
 
 ## Why memory safety matters
 
@@ -184,7 +184,7 @@ Dr. Bartlett's recent work focuses on the application agentic AI to reduce techn
  Track: Deep Dive
  Pinned: no
  Topics: programming languages, development tools
- RSS update: 2026-03-30
+ RSS update: 2026-05-13
  --->
 
 
