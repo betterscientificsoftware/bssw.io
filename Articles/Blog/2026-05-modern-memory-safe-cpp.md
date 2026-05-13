@@ -31,7 +31,7 @@ So while memory-safety issues did not dominate the reported vulnerabilities in 2
 Even if software security is not a major concern for scientific and high-performance computing (HPC) codes, software correctness bugs caused by incorrect memory use are a major threat to the reliability of HPC software and can be among the most challenging and expensive bugs to diagnose and fix.
 Memory-related bugs in C++ HPC codes can escape testing and lie dormant for some time before causing problems in large, expensive simulation runs.
 
-Large HPC codes are often long-lived, performance-sensitive, and deeply invested in C++ ecosystems, which include NVIDIA's CUDA, AMD's HIP, and the Khronos Group's SYCL, which are key toolchains for accelerated HPC software, and essentially extensions of the C++ language.
+Large HPC codes are often long-lived, performance-sensitive, and deeply invested in C++ ecosystems, which include NVIDIA's CUDA, AMD's HIP, and the Khronos Group's SYCL, which are key toolchains for GPU-accelerated HPC software, and essentially extensions of the C++ language.
 Rewriting everything in a different, safer programming language is rarely realistic and, in many cases, not even viable because of the limited tooling and libraries available for safer languages, like Rust.
 Yet, continuing to accept unchecked undefined behavior in these C++ HPC codes is becoming harder to justify.
 
