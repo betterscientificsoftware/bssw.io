@@ -22,7 +22,7 @@ Of the CWE Top 25 Most Dangerous Software Weaknesses in 2025,<sup>[1]</sup> six 
 - \#13: null pointer dereference
 - \#14: stack-based buffer overflow
 
-(However, note that this is a significant reduction from the 2023 list, where memory errors occupied the top three spots: \#1: use after free, \#2: heap-based buffer overflow, \#3: and out-of-bounds write.<sup>[2]</sup>)
+(However, note that this is a significant reduction from the 2023 list, where memory errors occupied the top three spots: \#1: use after free, \#2: heap-based buffer overflow, and \#3: out-of-bounds write.<sup>[2]</sup>)
 So while memory-safety issues did not dominate the reported memory vulnerabilities in 2025, memory-safety bugs remain one of the most persistent sources of serious software defects and security vulnerabilities.
 Even if software security is not a major concern for scientific and high-performance computing (HPC) codes, software correctness bugs caused by incorrect memory use are a major threat to the reliability of HPC software and can be among the most challenging and expensive bugs to diagnose and fix.
 Memory-related bugs in C++ HPC codes can escape testing and lie dormant for some time before causing problems in large, expensive simulation runs.
@@ -159,14 +159,14 @@ Modern C++ can be made significantly safer today, but that requires conscious to
 
 If you maintain a C++ codebase, a practical starting point is to target at least C++20 where feasible, prefer containers and views such as `std::vector`, `std::array`, `std::span`, `std::mdspan`, and `std::string_view`, enable `libc++` hardening in development and CI before wider deployment, and run `clang-tidy` with the relevant `cppcoreguidelines` bounds and ownership checks as well as the Clang compiler option `-Wunsafe-buffer-usage` to ferret out remaining memory-unsafe C++ usage.
 
-To summarize, the most honest answer to "Is Modern C++ Memory-Safe?" is therefore not completely, but the it is much safer than what was possible just a few years ago.
+To summarize, the most honest answer to "Is Modern C++ Memory-Safe?" is therefore not completely, but it is much safer than what was possible just a few years ago.
 The interesting part of the current moment is that memory safety with C++ is no longer just a language-design conversation.
 LLVM/Clang is enabling it, Apple and Google are shipping it, and the C++ standards process is catching up.
 
 ## The impact of artificial intelligence
 
 As this article is being written, it is impossible to ignore the impact that artificial intelligence (AI), large language models (LLMs), and AI coding agents will have on C++ memory safety.
-It is likely that in the next few years (and perhaps much sonner), improved AI models and coding agents will automate much of the work needed to build out the tooling for memory-safe C++ and to incrementally refactor existing legacy C++ codebases to use memory-safe C++ types and idioms.
+It is likely that in the next few years (and perhaps much sooner), improved AI models and coding agents will automate much of the work needed to build out the tooling for memory-safe C++ and to incrementally refactor existing legacy C++ codebases to use memory-safe C++ types and idioms.
 While any type of change to existing software can be risky, the incremental approach of refactoring existing C++ code is likely much lower risk than trying to completely rewrite large, complex codebases (e.g., convert from C++ to Rust).
 It will likely take artificial super intelligence (ASI) to rewrite complete legacy codebases from C++ to Rust, but much less capable AI models and tools can likely incrementally refactor C++ code.
 (We may not even need artificial general intelligence (AGI) to achieve the latter.)
