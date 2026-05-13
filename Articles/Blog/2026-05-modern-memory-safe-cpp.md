@@ -1,5 +1,9 @@
 # Modern Memory-Safe C++?
 
+**Hero Image:**
+
+- <img src='../../images/2026-05-modern-memory-safe-cpp-hero-image.jpg' alt="hero image" />
+
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
 #### Publication Date: May 13, 2026
