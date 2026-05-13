@@ -1,9 +1,5 @@
 # Modern Memory-Safe C++?
 
-**Hero Image:**
-
-- <img src='../../images/2026-05-modern-memory-safe-cpp-hero-image.jpg' alt="hero image" />
-
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe)
 
 #### Publication Date: May 13, 2026
@@ -12,8 +8,6 @@
 Modern C++ is safer than much of the C++ software written decades ago, but it is still not yet a memory-safe language by default.
 This article surveys what currently exists to support safer C++, the practical work now underway in LLVM and the C++ standards process to reduce undefined behavior that leads to memory-related security and correctness bugs, and the potential for near 100% memory-safe C++ programming environment in the near future.
 <!-- end deck -->
-
-<img src='../../images/2026-05-modern-memory-safe-cpp-hero-image.jpg' class='page'/>
 
 ## Why memory safety matters
 
