@@ -50,7 +50,7 @@ The C++ standard alone does not provide that safety; compiler and library implem
 ## LLVM and Clang: Making existing C++ code safer
 
 Large companies like Google, Apple, and others have made significant contributions to the LLVM/Clang compiler and tooling stack to improve C++ memory safety.
-Apple started the Clang Safe Buffers effort<sup>[3]</sup>, where setting the compiler flag `-Wunsafe-buffer-usage` triggers diagnostics that identify error-prone pointer arithmetic, unchecked subscripting, and other patterns that often result in out-of-bounds indexing errors and pointer read/write errors.
+Apple started the Clang Safe Buffers effort,<sup>[3]</sup> where setting the compiler flag `-Wunsafe-buffer-usage` triggers diagnostics that identify error-prone pointer arithmetic, unchecked subscripting, and other patterns that often result in out-of-bounds indexing errors and pointer read/write errors.
 The intended migration path is to wrap raw buffers in safer abstractions such as `std::span`, `std::mdspan`, `std::vector`, `std::array`, `std::string_view`, etc., and to preserve bounds information across APIs instead of dropping back to pointer-plus-size pairs.
 Clang also provides `[[clang::unsafe_buffer_usage]]` and `#pragma clang unsafe_buffer_usage` so teams can mark compatibility boundaries and adopt the model incrementally.
 
@@ -59,7 +59,7 @@ This hardening adds default always-on runtime checks to important standard-libra
 In today's libc++, hardened support already covers important facilities including `std::span`, `std::string_view`, `std::vector`, `std::string`, `std::mdspan`, `std::optional`, and `std::expected`, with several iterator checks available when application binary interface (ABI) settings permit bounded iterators.
 LLVM's C++ Safe Buffers documentation explicitly treats hardened libc++ and compiler diagnostics as complementary pieces of one programming model.
 
-The third piece is static checking via the LLVM tool `clang-tidy`<sup>[5]</sup>.
+The third piece is static checking via the LLVM tool `clang-tidy`.<sup>[5]</sup>
 Clang-tidy's `cppcoreguidelines` checks line up with the C++ Core Guidelines<sup>[6]</sup> and enforce proper usage of modern C++ encapsulated types (instead of using raw pointers).
 Those checks operationalize the Core Guidelines' bounds rules: avoid pointer arithmetic, avoid array-to-pointer decay, prefer `std::span` and other types, and make ownership explicit.
 
@@ -74,13 +74,13 @@ Its C++ language support page<sup>[7]</sup> documents that Xcode 16 added C++ st
 Apple's WWDC25 session *Safely mix C, C++, and Swift*<sup>[8]</sup> is especially revealing because it connects several strands into one developer workflow.
 
 Google is pursuing the same LLVM direction at a much larger deployment scale and has published some of the best public evidence that the approach can pay off.
-In November 2024, Google reported on retrofitting spatial safety to hundreds of millions of lines of C++<sup>[9]</sup>.
+In November 2024, Google reported on retrofitting spatial safety to hundreds of millions of lines of C++.<sup>[9]</sup>
 After enabling hardened libc++ and rolling it out carefully, Google reported finding more than 1,000 bugs, estimating that the approach would prevent 1,000 to 2,000 new bugs per year at its current development rate, and reporting a 30% reduction in its baseline segmentation-fault rate across production.
 The same post claimed that LLVM hardened libc++ had already disrupted an internal red-team exercise and would have prevented another exploit path that predated deployment.
 The WG21 paper P3471,<sup>[15]</sup> authored by Apple libc++ maintainers, cites Google's deployment experience and notes a performance impact as low as 0.3%.
 
 Google is not stopping with library hardening.
-The company is expanding checking beyond the standard library and migrating code toward Clang Safe Buffers<sup>[3]</sup>.
+The company is expanding checking beyond the standard library and migrating code toward Clang Safe Buffers.<sup>[3]</sup>
 Hardened containers catch misuse at access sites, while Safe Buffers aims to move APIs and data flow away from raw pointers so that bounds information is preserved instead of constantly discarded.
 
 At the same time, Google has acknowledged that more work needs to be done.
@@ -99,7 +99,7 @@ The most concrete C++26 proposal with existing deployment experience is P3471, *
 P3608, *Contracts and profiles: what can we reasonably ship in C++26*,<sup>[16]</sup> argues for a minimalist package: ship the Contracts minimum viable product (MVP), ship library hardening, and use a standardized profile mechanism to enable that hardening.
 C++26 now includes the Contracts MVP with `pre`, `post`, and `contract_assert`, while deliberately leaving out contracts on virtual functions and function pointers to keep the feature set narrow.
 The C++26 standard is also slated to include library hardening via hardened preconditions checked at runtime in hardened implementations.
-What did not make it into C++26 is the profiles framework itself: broader profiles work, including the framework and core safety profiles, has been deferred to later standardization work (likely C++29).
+What did not make it into C++26 is the profiles framework itself; broader profiles work, including the framework and core safety profiles, has been deferred to later standardization work (likely C++29).
 
 Therefore, C++26 software will have hardening enabled by implementation-defined mechanisms such as compiler flags rather than a standard `profile` syntax.
 
