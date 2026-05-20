@@ -1,7 +1,8 @@
 # Research Software Sharing, Publication & Distribution Checklists 
 <!-- deck text start -->
 
-Would you like to implement lightweight checklists for sustainable research software directly in your repository? If so, investigate the Research Software Sharing, Publication, & Distribution Checklists (RSSPDC) project at rsspdc.org.
+Would you like to implement lightweight checklists for sustainable research software directly in your repository? 
+If so, investigate the Research Software Sharing, Publication, & Distribution Checklists (RSSPDC) project at rsspdc.org.
 
 <!-- deck text end -->
 
