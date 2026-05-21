@@ -19,7 +19,7 @@ A methodology is proposed for *node-to-node* scaling studies, including node-to-
 Standardized plotting conventions are also proposed using log<sub>2</sub>–log<sub>2</sub> axes, ideal scaling reference lines, and time-per-cycle metrics to improve clarity and comparability across systems.
 
 The authors demonstrate their proposed approach using the [MARBL](https://www.researchgate.net/publication/344230366_The_MARBL_Multi-physics_Code) multiphysics simulation code on several LLNL systems, including CPU-only and GPU-accelerated supercomputers such as [Sierra](https://en.wikipedia.org/wiki/Sierra_(supercomputer)) and [EAS-3](https://www.llnl.gov/article/48121/early-access-systems-llnl-mark-progress-toward-el-capitan).
-The studies show how node-based analysis highlights GPU saturation effects, memory bandwidth limitations, and differences in scaling behavior across diverse architectures.
+The studies show how node-based scaling analysis highlights GPU saturation effects, memory bandwidth limitations, and differences in scaling behavior across diverse architectures.
 
 The paper concludes that node-to-node scaling studies provide a practical framework for evaluating portable performance of HPC applications, complementing rather than replacing traditional scaling studies.
 
