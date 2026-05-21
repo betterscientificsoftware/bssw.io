@@ -1,6 +1,6 @@
 # Comparing Scaling Behavior Across Diverse Parallel Architectures
 <!--- deck text start --->
-Characterizing performance portability in the presence of substantial architectural diversity.
+Characterizing performance portability in the presence of extreme architectural diversity.
 <!--- deck text end --->
 
 #### Contributed by [Mark C. Miller](https://github.com/markcmiller86)
@@ -15,6 +15,7 @@ Publication | Year 2026, The International Journal of High Performance Computing
 
 The paper argues that traditional HPC scaling methodologies are increasingly inadequate for modern HPC systems composed of CPUs, GPUs or other accelerators as well as diverse memory hierarchies and layouts.
 The authors contend that the most meaningful unit for cross-platform performance comparison is the compute node rather than individual processors, cores, or MPI ranks.
+
 A methodology is proposed for *node-to-node* scaling studies, including node-to-node strong scaling, weak scaling, combined strong-weak scaling, and throughput scaling.
 Standardized plotting conventions are also proposed using log<sub>2</sub>–log<sub>2</sub> axes, ideal scaling reference lines, and time-per-cycle metrics to improve clarity and comparability across systems.
 
