@@ -9,7 +9,7 @@ Use this skill to add or update event listings under `Events/` in the `bssw.io` 
 
 ## Core Workflow
 
-1. Gather event facts from the official event page or announcement. If the user provides a URL, open it and extract dates, deadlines, location, organizers, eligibility limits, cost, application/registration links, and program topics.
+1. Gather event facts from the official event page or announcement. If the user provides a URL, open it and extract dates, deadlines, location, organizers, eligibility limits, cost, application/registration links, and program topics. If the page lists both upcoming and past events, use the clearly marked upcoming event unless the user asks for an archive entry.
 2. Inspect nearby or similar files in `Events/` before writing. Prefer a recent, closely related event as the pattern.
 3. Check the event styling guidance only as needed:
    - `docs/pages/bssw/bssw_styling_event.md`
@@ -18,6 +18,13 @@ Use this skill to add or update event listings under `Events/` in the `bssw.io` 
 4. Create or update a Markdown file in `Events/`. Prefer `YYYY-MM-short-slug.md` for dated events unless the repository already uses a specific event-series naming pattern.
 5. Keep wording third-person, timeline-neutral where possible, and concise. Do not copy the full event page.
 6. Verify formatting and metadata before finishing.
+
+## Fact Gathering Rules
+
+- Prefer official event URLs over third-party pages, search results, and inferred dates.
+- If the official page appears stale, cached, or ambiguous, fetch it directly with no-cache headers or another primary-source route before deciding which event to draft.
+- Do not infer missing years from third-party listings when official page context, calendar data, or live HTML can answer the question.
+- For event times, list only the natural timezone of the host organization when that can be determined. Check whether the event date falls under standard time or daylight saving time, and correct timezone abbreviations when the source page is wrong.
 
 ## Event File Pattern
 
@@ -69,11 +76,11 @@ Topics: conferences and workshops, software engineering
 --->
 ```
 
-Adapt the table rows to the source. Common rows include `Abstract Deadline`, `Submission Deadline`, `Application Deadline`, `Event Date`, `Event Dates`, `Date and Time`, `Presenter`, `Website`, and `Limits on participation`. Do not include empty rows.
+Adapt the table rows to the source. Common rows include `Abstract Deadline`, `Submission Deadline`, `Application Deadline`, `Event Date`, `Event Dates`, `Date and Time`, `Presenter`, `Website`, `Registration`, and `Limits on participation`. Do not include empty rows.
 
 Do not include `Location`, notification dates, or costs in the event information table. Keep location in the deck attributes and, if useful, in the body text. Mention costs or travel support in the body only when important to participants.
 
-Do not include separate `Application`, `Registration`, or `Registration and Other Information` rows when the event website already links to the application or registration page. Use a separate application or registration row only when there is no broader official event page and that link is the primary official event URL.
+Use the broader official event page for `Website`. Add a separate `Registration` row when the official event page exposes a direct registration link that is useful to participants. Use a separate `Application` row only when the application link is distinct from the broader official event page and important to the event workflow.
 
 ## BSSw Style Rules
 
@@ -84,12 +91,21 @@ Do not include separate `Application`, `Registration`, or `Registration and Othe
 - Include "The current deadline is ..." and "Please see the event website for deadline updates." when deadlines may change.
 - Use absolute URLs for external event pages.
 - Prefer official event URLs over third-party pages or search results.
+- For body text, use the official event abstract or description verbatim when it is concise enough for a BSSw event entry. Summarize only when the source text is too long, too detailed, or unsuitable for direct reuse.
 - Use ASCII punctuation in new event files unless the surrounding file already intentionally uses Unicode.
 - Preserve unrelated local changes. Check `git status --short` before and after edits.
 
 ## Contributors
 
-If the event page identifies the submitter or author and the repository has used that person as contributor before, reuse the same contributor format. Otherwise, use:
+Base the `Contributed by` field on the identity of the user creating the event when that can be determined. Prefer an existing contributor format already used in the repository for that person.
+
+To determine the contributor, use the conversation context first. If needed, check local Git config such as `git config user.name` and search existing files for that name or GitHub handle. Use a linked contributor line when a confident match is found:
+
+```markdown
+#### Contributed by [Contributor Name](https://github.com/contributor)
+```
+
+Fall back to the BSSw.io team language only when the creator's identity or GitHub profile cannot be determined confidently:
 
 ```markdown
 #### Contributed by BSSw.io team
@@ -126,5 +142,5 @@ Before final response:
 1. Read the new or edited file.
 2. Run `rg -n "[^\x00-\x7F]" Events/path-to-file.md` to catch accidental non-ASCII characters.
 3. Run `codespell Events/path-to-file.md` if `codespell` is available.
-4. Run `git diff -- Events/path-to-file.md` and review the actual changes.
+4. Run `git diff -- Events/path-to-file.md` and review the actual changes. For an untracked new file, `git diff -- path` is empty; use `git diff --no-index -- /dev/null Events/path-to-file.md` instead.
 5. Report the file path, main facts captured, and any checks that could not be run.
