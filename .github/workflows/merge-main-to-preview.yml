@@ -10,7 +10,7 @@ jobs:
     if: github.repository_owner == 'betterscientificsoftware'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v6
 
       - name: Merge main -> preview
         uses: devmasx/merge-branch@v1.3.0
