@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # - name: Check the file is there
       #   run: |
@@ -31,7 +31,7 @@ jobs:
 
       - name: Create pull request
         id: cpr
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           title: Update HPC-BP webinar curated content
           branch: ${{ github.actor }}-hpcbp-webinars-cc-update
