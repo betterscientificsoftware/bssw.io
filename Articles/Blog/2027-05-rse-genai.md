@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='../../images/2027-05-rse-genai-figure2.png' alt="hero image" />
+- <img src='../../images/2027-05-rse-genai-hero.png' alt="hero image" />
 
 #### Contributed by [Stephan Druskat](https://sdruskat.net), [Michelle Barker](https://www.linkedin.com/in/michelledbarker/), [Ian Cosden](https://github.com/cosden), [Cunliang Geng](https://github.com/CunliangGeng), [Robert Haines](https://github.com/hainesr), [Daniel S. Katz](https://danielskatz.org/), [Joseph Shingleton](https://github.com/jshng-glasgow), and [Ben van Werkhoven](https://github.com/benvanwerkhoven)
 
