@@ -4,8 +4,6 @@
 
 #### Publication date: May 28, 2026
 
-DOI: [10.5281/zenodo.20320179](https://doi.org/10.5281/zenodo.20320179)
-
 <!-- begin deck -->
 Research software and its creators have long played a critical role in the advancement of research worldwide. This role is changing in the age of “generative AI” (GenAI), but both the software and the people remain of key importance. Understanding these changes is essential in enabling Research Software Engineers (RSEs) to continue contributing the same high value to the research process and its outputs.
 
@@ -55,6 +53,10 @@ Figure 3 highlights the unique position of RSEs in the research ecosystem. RSEs 
 
 MB and DSK were supported to undertake this work as part of Schmidt Sciences grant G-25-69965.
 
+DOI: [10.5281/zenodo.20320178](https://doi.org/10.5281/zenodo.20320178)
+
+This blog post is being cross-posted by the [Research Software Alliance](https://www.researchsoft.org/blog/) (ReSA), [Better Scientific Software](https://bssw.io/blog_posts) (BSSw), [European Virtual Institute for Research Software Excellence](https://everse.software/news/) (EVERSE), [Netherlands eScience Center](https://blog.esciencecenter.nl/), and [Software Sustainability Institute](https://www.software.ac.uk/news-and-blogs-hub) (SSI).
+
 ## Author bios
 
 [Michelle Barker](https://www.linkedin.com/in/michelledbarker/) is Director of the Research Software Alliance and has extensive expertise in open science, the research software community, digital skills, and digital research infrastructure. As a sociologist, Michelle is passionate about building collaborative partnerships to achieve system change. She is a former Director of the Australian Research Data Commons, where she led the national research software infrastructure investment program.
@@ -72,8 +74,6 @@ MB and DSK were supported to undertake this work as part of Schmidt Sciences gra
 [Joseph Shingleton](https://github.com/jshng-glasgow) is a Research Software Engineer at the University of Glasgow. His research explores how artificial intelligence can be safely and effectively applied to tasks in geospatial data science and research software engineering. He is the recipient of a UKRI Metascience AI Fellowship, focusing on how generative AI is shaping RSE practice and its consequences for the scientific process. He is also a Software Sustainability Institute Fellow and leads the SSI study group on responsible AI in RSE.
 
 [Ben van Werkhoven](https://github.com/benvanwerkhoven) is assistant professor at Leiden University, where he heads the Accelerated Computing research group, focusing on making high-performance computing more energy-efficient and sustainable. He holds a PhD from VU Amsterdam on GPU-accelerated scientific computing (2014) and spent nearly a decade at the Netherlands eScience Center before joining Leiden in 2023. With over 15 years of GPU programming and optimization experience, Ben has worked on scientific applications ranging from microscopy and climate modeling to radio astronomy. He is also a co-founder of the Netherlands Research Software Engineers community (NL-RSE), advocating for the recognition of research software engineering as a professional discipline. At Leiden, he teaches High Performance Computing and Multiprocessor Programming, and serves as principal investigator on several research projects. He participates in major European and national consortia, including CORTEX and ESiWACE, advancing large-scale computing infrastructure for science.
-
-*This blog post is being cross-posted by the [Research Software Alliance](https://www.researchsoft.org/blog/) (ReSA), [Better Scientific Software](https://bssw.io/blog_posts) (BSSw), [European Virtual Institute for Research Software Excellence](https://everse.software/news/) (EVERSE), [Netherlands eScience Center](https://blog.esciencecenter.nl/), and [Software Sustainability Institute](https://www.software.ac.uk/news-and-blogs-hub) (SSI).*
 
 <!---
 Publish: yes
