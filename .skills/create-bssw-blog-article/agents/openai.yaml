@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create BSSw Blog Article"
+  short_description: "Draft BSSw.io blog articles"
+  default_prompt: "Use $create-bssw-blog-article to draft a BSSw.io blog article from notes, source links, and author information."
