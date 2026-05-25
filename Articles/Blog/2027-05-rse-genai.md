@@ -5,10 +5,12 @@
 #### Publication date: May 28, 2026
 
 <!-- begin deck -->
+Before GenAI, the RSE movement had learned to clearly articulate the value proposition of embedding expert software engineering in research to its stakeholders. This blog post highlights how RSEs use GenAI to increase their capacity in both software engineering and research, and visualize this evolution.
+<!-- end deck -->
+
 Research software and its creators have long played a critical role in the advancement of research worldwide. This role is changing in the age of “generative AI” (GenAI), but both the software and the people remain of key importance. Understanding these changes is essential in enabling Research Software Engineers (RSEs) to continue contributing the same high value to the research process and its outputs.
 
 Before GenAI, the RSE movement had learned to clearly articulate the value proposition of embedding expert software engineering in research to its stakeholders. This blog post highlights how RSEs use GenAI to increase their capacity in both software engineering and research, and visualize this evolution. While GenAI is changing - perhaps considerably - how RSEs work in practice, their value and the value of their work for research remains steady and likely to increase.
-<!-- end deck -->
 
 Generative AI, specifically Large Language Models (LLMs) and coding agents, is rapidly changing software engineering. The practice of software engineering is shifting away from writing lines of code to specifying requirements, implementations, designs and verification strategies in higher-level abstractions, including natural language specifications, that are then enacted by an AI coding agent. This lowers the barrier to entry for producing code and reduces the development time for new solutions.
 
