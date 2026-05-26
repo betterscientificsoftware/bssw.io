@@ -6,7 +6,7 @@ As scientific software ecosystems grow in complexity, storytelling becomes a cri
 
 #### Contributed by [Michael A. Heroux](https://github.com/maherou)
 
-#### Publication date: TBD
+#### Publication date: May 26, 2026
 
 Resource information | Details
 :--- | :---  
@@ -18,9 +18,9 @@ In the article *Storytelling for Systems Change*, the authors argue that storyte
 
 For scientists developing software as part of discovery workflows, this insight is particularly relevant. Scientific software is rarely just code. It is embedded in **research programs, collaborations, funding structures, and evolving user communities**. Without effective storytelling, even technically excellent software can struggle to gain adoption or sustain impact.
 
-A central premise of the article is that **systems change requires shifting mental models**, not just building new tools. Stories are the primary way humans, and increasingly organizations, make sense of complexity. They define what matters, who is involved, and what success looks like. In scientific software contexts, this translates into framing not just *what the software does*, but *why it exists* and *how it fits into a broader ecosystem*.
+A central premise of the article is that **systems change requires shifting mental models**, not just building new tools. Stories are the primary way humans, and increasingly organizations, make sense of complexity. They define what matters, who is involved, and what success looks like. In scientific-software contexts, this translates into framing not just *what the software does*, but *why it exists* and *how it fits into a broader ecosystem*.
 
-The authors emphasize that effective storytelling operates across multiple layers:
+The author emphasizes that effective storytelling operates across multiple layers:
 
 - **Individual narratives**: Why a researcher or developer cares about a problem  
 - **Project narratives**: What a software effort aims to achieve and how it evolves  
@@ -37,7 +37,7 @@ Another key concept is that stories should be **intentional and structured**, no
 
 In practice, this means that README files, tutorials, and project descriptions should not merely list features, but should **tell a coherent story about usage, value, and evolution**.
 
-For teams working in HPC, AI, and scientific computing ecosystems, storytelling plays an additional role: it helps coordinate across **distributed, interdisciplinary efforts**. For project that I am involved in, like [E4S](https://e4s.io) and [CASS](https://cass.community), initiatives depend on shared understanding across institutions and domains. Narrative becomes a lightweight but powerful form of infrastructure—aligning expectations without requiring rigid control mechanisms.
+For teams working in HPC, AI, and scientific computing ecosystems, storytelling plays an additional role: it helps coordinate across **distributed, interdisciplinary efforts**. For projects that I am involved in, like [E4S](https://e4s.io) and [CASS](https://cass.community), initiatives depend on shared understanding across institutions and domains. Narrative becomes a lightweight but powerful form of infrastructure—aligning expectations without requiring rigid control mechanisms.
 
 The article also warns against overly simplistic or static narratives. Systems change requires acknowledging uncertainty, competing perspectives, and evolving conditions. For scientific software teams, this translates into:
 
@@ -63,7 +63,7 @@ This curated contribution should be useful for scientists, research software eng
 
 <!---  
 Publish: yes  
-RSS update: 2026-04-02  
+RSS update: 2026-05-26  
 Topics: software engineering, scientific software ecosystems, communication, AI for better development  
 Pinned: no  
 --->  
