@@ -4,7 +4,7 @@
 We invite submissions for the fourth US-RSE Conference to be held in San Jose, California 19-21 October 2026. The theme of this year’s conference will be “Advancing Science in the Age of AI.”
 <!-- deck text ends -->
 
-- Deadline for most submissions: May 22, 2026
+- Deadline for most submissions: June 5, 2026 
 - Deadline for posters: Aug 7, 2026
 - Event Dates: October 19-21, 2026
 - Location: San Jose, CA
@@ -18,7 +18,7 @@ We invite submissions for the fourth US-RSE Conference to be held in San Jose, C
 Event Information | Details
 :--- | :---			   
 Event Name | [4th Annual Conference of the United States Research Software Engineer Association (USRSE'26)](https://us-rse.org/usrse26/)
-Deadline for most submissions | May 22, 2026
+Deadline for most submissions | June 5, 2026
 Deadline for posters | Aug 7, 2026
 Event Dates | October 19-21, 2026
 Website | https://us-rse.org/usrse26/
