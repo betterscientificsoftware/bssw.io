@@ -2,6 +2,7 @@
 
 #### Contributed by [Jasmine Buckley-Williams](https://github.com/jbuckleywilliams)
 
+#### Publication date:
 
 Technology is evolving rapidly, and students entering computer science, data science, and
 engineering fields are expected to understand far more than just programming fundamentals.
@@ -108,7 +109,7 @@ learners complete structured exercises that simulate real-world workflows.
 
 Exercises include:
 - Git collaboration practice
-- MPI “Hello World” programs
+- MPI "Hello World" programs
 - OpenMP threading exercises
 - Hybrid parallel programming challenges
 - Performance tuning experiments
@@ -117,48 +118,6 @@ Exercises include:
 
 These activities reinforce problem-solving skills while exposing students to tools commonly used
 in scientific computing and enterprise software development.
-
-## Building the Website
-
-The website itself was developed using:
-- HTML5
-- CSS3
-- Visual Code Studio
-- Git version control
-
-The site structure was intentionally designed to remain lightweight and easy for beginners to
-understand. Each tutorial exists on its own HTML page to help students learn how multi-page
-websites are organized and linked together.
-
-The project also demonstrates practical web development concepts including:
-- Navigation menus
-- Dropdown navigation
-- Responsive layouts
-- External stylesheets
-- Semantic HTML structure
-- Code formatting with <pre> and <code> blocks
-
-By building the site manually rather than relying entirely on templates, I was able to better
-understand how front-end systems are organized and deployed.
-
-## Challenges During Development
-
-One major challenge during development involved Git repository management and
-synchronization between local and remote repositories. While working on the site, I
-encountered:
-- Merge conflicts
-- Non-fast-forward push errors
-- Deleted file recovery
-- Workflow restoration
-- GitHub Pages deployment issues
-
-These challenges ultimately became learning opportunities and helped strengthen my
-understanding of Git troubleshooting, repository recovery, and collaborative version control
-practices.
-
-Another challenge was organizing advanced HPC concepts in a way that remained accessible
-to beginners while still being technically accurate. This required balancing simplified
-explanations with real-world examples and mathematical models.
 
 ### Educational Goals and Future Expansion
 
