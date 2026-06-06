@@ -18,7 +18,7 @@ Use this skill to create or revise blog articles under `Articles/Blog/` in the `
 3. Read the compact format guide when needed: `references/blog-article-format.md`.
 4. Create or update the article as `Articles/Blog/YYYY-MM-short-slug.md`, using the expected publication year and month unless the user specifies another naming plan.
 5. Add images under `images/` and reference them as `../../images/name.ext`. Use slug-aligned names such as `2027-05-rse-genai-figure1.png`.
-6. If the article uses formal citations, edit only the human-authored source references, then run `utils/wikize_refs.py` as described in `.skills/wikize-refs/SKILL.md`. Do not hand-edit the generated `sfer-ezikiw` block.
+6. If the article uses formal citations, edit only the human-authored source references, then run `utils/wikize_refs.py` as described in `.skills/wikize-refs/SKILL.md`. Do not hand-edit the generated `sfer-ezikiw` block unless the user explicitly asks for a displayed-reference formatting change.
 7. Verify the article before finishing.
 
 ## Article Structure
@@ -59,7 +59,7 @@ Optional cross-posting note.
 Single-author bio paragraph.
 
 <!---
-Publish: no
+Publish: yes
 Track: Community
 Pinned: no
 Topics: research software engineers, strategies for more effective teams
@@ -68,13 +68,13 @@ Topics: research software engineers, strategies for more effective teams
 <!--- References --->
 ```
 
-For hero-image articles, place the `**Hero Image:**` block immediately after the title and omit deck text unless a nearby article pattern or explicit editorial direction calls for both. For multi-author articles, use `## Author bios` and one paragraph per author.
+For hero-image articles, place the `**Hero Image:**` block immediately after the title. Blog house style normally prefers either a hero image or deck text, but keep both when the user or editor says the deck text should appear as opening body text. Treat the checker's hero-plus-deck warning as non-actionable in that case. For multi-author articles, use `## Author bios` and one paragraph per author, normally in the same order as the contributor line unless the draft or user indicates another order.
 
 ## Writing Rules
 
 - Keep the title as the only level-one heading. Body sections start at `##`.
 - Use `#### Contributed by ...` and `#### Publication date: Month D, YYYY` near the top.
-- Use `<!-- begin deck -->` and `<!-- end deck -->` for current blog deck text. Keep the deck to one or two sentences and do not include links.
+- Use `<!-- begin deck -->` and `<!-- end deck -->` for current blog deck text. Keep the deck to one or two sentences and do not include links. If a hero image is also present and the deck is intentionally retained, leave the deck block in place.
 - Prefer third-person, reader-centered prose. For editorial conversions, preserve author voice while tightening repetition, date references, and unclear transitions.
 - Keep blog length flexible. The author guide suggests 500-1,500 words for many articles; deep dives and community reports may be longer when the topic warrants it.
 - Limit figures, tables, and links unless they directly support the article.
@@ -83,11 +83,11 @@ For hero-image articles, place the `**Hero Image:**` block immediately after the
 
 ## Metadata
 
-Every blog article needs a formatted metadata comment near the end:
+Every blog article needs a formatted metadata comment near the end. Set `Publish: yes` for articles you create or edit unless the user explicitly asks for a draft or unpublished article:
 
 ```markdown
 <!---
-Publish: no
+Publish: yes
 Track: Community
 Pinned: no
 Topics: software engineering, testing
@@ -119,6 +119,7 @@ Choose a small set of existing topics from `docs/pages/bssw/bssw_content_metadat
   - <img src='../../images/YOUR-IMAGE-NAME.png' />
   ```
 
+- Include meaningful `alt` text for hero images; avoid generic text such as `alt="hero image"`.
 - For body images, use HTML image tags, not Markdown image syntax.
 - Include `class='page lightbox'` for diagrams or detailed figures that should expand; use `class='page'` for ordinary page-width images and `class='logo'` for logos or headshots.
 - Include meaningful `alt` text.
@@ -139,6 +140,8 @@ For articles with many external sources, sensitive claims, research literature, 
 3. Run `utils/wikize_refs.py -i Articles/Blog/file.md` from the repository root, preferably through `uv run python` if invoking Python directly is needed.
 4. Review the diff and confirm the generated `sfer-ezikiw` block is present and idempotent.
 
+If the user has manually edited displayed reference text or asks for displayed-reference formatting changes, do not rerun `wikize_refs.py` afterward unless they explicitly permit regeneration. Common manual display edits include changing `### References` to `## References`, removing generated short titles, and removing generated `<br>` tags. Preserve link anchors, numbered footnote definitions, and URLs while making those display-only edits.
+
 ## Verification
 
 Before final response:
@@ -150,7 +153,7 @@ Before final response:
    uv run python .skills/create-bssw-blog-article/scripts/check_blog_article.py Articles/Blog/path-to-file.md
    ```
 
-3. If formal citations changed, run or rerun:
+3. If formal citations changed and the displayed references have not been manually customized, run or rerun:
 
    ```bash
    uv run python utils/wikize_refs.py -i Articles/Blog/path-to-file.md
@@ -158,4 +161,4 @@ Before final response:
 
 4. Run `codespell Articles/Blog/path-to-file.md` if available.
 5. Run `git diff -- Articles/Blog/path-to-file.md` and review the actual changes. For a new untracked file, use `git diff --no-index -- /dev/null Articles/Blog/path-to-file.md`.
-6. Report the article path, important metadata choices, citation/image checks, and any checks that could not be run.
+6. Report the article path, important metadata choices, citation/image checks, intentional checker warnings such as accepted hero-plus-deck usage, and any checks that could not be run.
