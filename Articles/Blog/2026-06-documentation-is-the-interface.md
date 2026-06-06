@@ -6,7 +6,7 @@
 
 #### Contributed by [Vicente Bolea](https://github.com/vicentebolea), [Jaswant Panchumarti](https://github.com/jspanchu), [Berk Geveci](https://www.kitware.com/berk-geveci/), [Will Schroeder](https://www.kitware.com/will-schroeder/), and [Patrick O'Leary](https://www.kitware.com/patrick-oleary/)
 
-#### Publication date: June 12, 2026
+#### Publication date: June 11, 2026
 
 <!-- begin deck -->
 Scientific software documentation now has a second audience: AI systems that use it to explain software behavior, generate code, and help users reach complex APIs.
