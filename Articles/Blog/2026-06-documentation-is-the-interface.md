@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='../../images/hero_topic_documentation_031125.png' alt="hero image" />
+- <img src='../../images/hero_topic_documentation_031125.png' alt="Stylized repeating document pages" />
 
 #### Contributed by [Vicente Bolea](https://github.com/vicentebolea), [Jaswant Panchumarti](https://github.com/jspanchu), [Berk Geveci](https://www.kitware.com/berk-geveci/), [Will Schroeder](https://www.kitware.com/will-schroeder/), and [Patrick O'Leary](https://www.kitware.com/patrick-oleary/)
 
@@ -13,14 +13,14 @@ Scientific software documentation now has a second audience: AI systems that use
 As users interact with software through AI, documentation becomes part of the software's interface.
 <!-- end deck -->
 
-In this article, we summarize our recent experience revamping the documentation for the [Visualization Toolkit](https://vtk.org) (VTK) software package to work better for AI tools.
+In this article, we summarize our recent experience revamping the documentation for the [Visualization Toolkit](https://vtk.org) (VTK) software package so it can better support both human readers and AI-assisted workflows.
 
 ## Opening problem
 
 *Scientific software is powerful, but it still depends on documentation to make that power usable.*
 
 Documentation has always been part of what makes scientific software usable.
-VTK may offer a rich set of algorithms, data structures, and rendering components, but users still need help understanding how those pieces work together in practice.
+VTK offers a rich set of algorithms, data structures, and rendering components, but users still need help understanding how those pieces work together in practice.
 Documentation has traditionally supplied that missing layer by explaining concepts, walking through workflows, and connecting APIs to real applications.<sup>[1]</sup>
 
 That role remains.
@@ -30,7 +30,7 @@ The difference now is that documentation has a second audience.
 
 *Documentation no longer serves only human readers; it also serves AI systems that use it to explain software and generate code.*
 
-What is new is not documentation itself, but who and what is consuming it.
+What is new is not documentation itself, but who, and what, uses it.
 AI systems now work from the same API pages, guides, tutorials, and examples that human users rely on.
 They use that material to answer questions, explain software behavior, and help generate code.
 Once that happens, documentation stops being just explanatory material.
@@ -40,12 +40,11 @@ It starts becoming part of the way the software is accessed and used.
 
 *AI systems consume documentation in several ways, including model adaptation, retrieval, structured tool access, and code generation.*
 
-AI can use documentation in several ways.
-We usually cannot tell from public information whether a general-purpose model such as ChatGPT was trained on a specific documentation set like VTK, even though OpenAI says its models draw on a mix of public, licensed, synthetic, and human-generated data.<sup>[2]</sup>
+Public information usually does not tell us whether a general-purpose model such as ChatGPT was trained on a specific documentation set like VTK, even though OpenAI says its models draw on a mix of public, licensed, synthetic, and human-generated data.<sup>[2]</sup>
 But developers can still build smaller domain models from curated documentation, tutorials, examples, and API descriptions.
 
 They can also bring documentation into the loop at runtime.
-Retrieval can supply relevant passages and examples when a user asks a question, while tool interfaces such as the model context protocol (MCP) can expose structured software knowledge more directly.<sup>[3],[4],[5]</sup>
+Retrieval can supply relevant passages and examples when a user asks a question, while tool interfaces such as the Model Context Protocol (MCP) can expose structured software knowledge more directly.<sup>[3],[4],[5]</sup>
 In code generation, those pieces often work together: a model produces the response, retrieval supplies context, and tools expose structure.<sup>[6]</sup>
 For VTK, that only works well when the documentation makes roles, relationships, inputs, outputs, and common usage patterns explicit.
 
@@ -63,7 +62,7 @@ That means documentation now has to do more than read well.
 It also has to state concepts, relationships, and common usage patterns clearly enough for software systems to use them.
 
 In VTK, that difference shows up quickly.
-If the documentation clearly says what a class does, what kind of object it is, what it takes as input, what it produces, and where it fits in the visualization pipeline, AI-assisted tools have a much better chance of producing something useful.
+If the documentation clearly says what a class does, what role it plays in the software, what it takes as input, what it produces, and where it fits in the visualization pipeline, AI-assisted tools have a much better chance of producing something useful.
 If that information is scattered, left implicit, or described inconsistently, the answer may still sound convincing while getting important details wrong.
 
 ## What to do differently
@@ -89,7 +88,7 @@ Human experts then handle the smaller, higher-value part of the work: validating
 The result is not two separate documentation systems.
 It is a documentation system that serves people through the website and AI through a structured knowledge layer.
 
-The practical takeaway is pretty simple.
+The practical takeaway is straightforward.
 Most projects do not need a massive overhaul of AI documentation.
 However, a few habits suddenly matter even more than they used to.
 
@@ -104,7 +103,7 @@ Now they also shape how well AI can work with the software.
 
 ## Final takeaway
 
-*As users work through AI and AI works through documentation, documentation becomes part of the software's interface.*
+*As users reach software through AI, and AI reaches software through documentation, documentation becomes part of the software's interface.*
 
 More and more people will come to software through AI rather than through source code, manuals, or search results alone.
 When that happens, the AI still needs some way to figure out what the software does, how its pieces fit together, and what patterns of use actually make sense.
@@ -114,29 +113,30 @@ That is the bigger shift.
 Documentation is no longer just supporting material.
 It is becoming part of how software is actually used.
 
-**As users interact with software through AI, and the AI itself relies on documentation to understand APIs, relationships, and usage patterns, the documentation becomes a new computational interface to the software itself.**
+**As users interact with software through AI, the AI itself relies on documentation to understand APIs, relationships, and usage patterns.
+In that context, documentation becomes a new computational interface to the software.**
 
 ## Author bios
-
-[Will Schroeder](https://www.kitware.com/will-schroeder/), Ph.D., is a co-founder of Kitware and served as its CEO for 19 years.
-His role is to identify technology and business opportunities and obtain the necessary support for Kitware to meet these opportunities.
-Will also provides technical leadership in large open source projects such as the National Library of Medicine Insight Toolkit (ITK) project, the NA-MIC NIH National Center for Biomedical Computing, and the Visualization Toolkit (VTK), where he is a lead developer and the first author of the VTK textbook.
-
-[Jaswant Panchumarti](https://github.com/jspanchu) is a graduate student at RPI and a Senior R&D Engineer at Kitware.
-He is leading the VTK WebAssembly effort at Kitware.
-His research topic addresses detecting shocks in hypersonic flows with neural networks.
-
-[Berk Geveci](https://www.kitware.com/berk-geveci/) leads the scientific visualization and informatics teams at Kitware Inc.
-He is one of the leading developers of the ParaView visualization application and the Visualization Toolkit (VTK).
-His research interests include large scale parallel computing, computational dynamics, finite elements, and visualization algorithms.
-Dr. Geveci regularly publishes and teaches courses at conferences including IEEE Visualization and Supercomputing conferences.
 
 [Vicente Bolea](https://github.com/vicentebolea) is a senior R&D engineer at Kitware Inc.
 He is a core developer in VTK and its ecosystem, ParaView, Viskores, and ADIOS2, and is a regular contributor in other projects within the DAV and Tools integration initiative.
 He has a strong interest in open source solutions, system programming, software sustainability, and high-performance computing.
 
+[Jaswant Panchumarti](https://github.com/jspanchu) is a graduate student at RPI and a Senior R&D Engineer at Kitware.
+He is leading the VTK WebAssembly effort at Kitware.
+His research focuses on detecting shocks in hypersonic flows with neural networks.
+
+[Berk Geveci](https://www.kitware.com/berk-geveci/) leads the scientific visualization and informatics teams at Kitware Inc.
+He is one of the leading developers of the ParaView visualization application and the Visualization Toolkit (VTK).
+His research interests include large-scale parallel computing, computational dynamics, finite elements, and visualization algorithms.
+Dr. Geveci regularly publishes and teaches courses at conferences including IEEE Visualization and Supercomputing conferences.
+
+[Will Schroeder](https://www.kitware.com/will-schroeder/), Ph.D., is a co-founder of Kitware and served as its CEO for 19 years.
+His role is to identify technology and business opportunities and obtain the necessary support for Kitware to meet these opportunities.
+He also provides technical leadership in large open source projects such as the National Library of Medicine Insight Toolkit (ITK) project, the NA-MIC NIH National Center for Biomedical Computing, and the Visualization Toolkit (VTK), where he is a lead developer and the first author of the VTK textbook.
+
 [Patrick O'Leary](https://www.kitware.com/patrick-oleary/) is the Assistant Director of Scientific Computing for Kitware, Inc.
-Dr. O'Leary's research interests include high performance computing (HPC), numerical analysis, finite elements, and visualization.
+Dr. O'Leary's research interests include high-performance computing (HPC), numerical analysis, finite elements, and visualization.
 
 <!---
 Publish: yes
@@ -165,7 +165,7 @@ Topics: documentation, ai for better development
 [7]: #sfer-ezikiw-7 "A Translation Approach to Portable Ontology Specifications"
 [8]: #sfer-ezikiw-8 "Knowledge Graphs"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Kitware and the VTK Community. VTK Documentation. Accessed April 20, 2026.](https://vtk.org/)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[OpenAI. How ChatGPT and Our Foundation Models Are Developed. Help Center. Accessed April 20, 2026.](https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed)
