@@ -1,8 +1,12 @@
 # Documentation Is the Interface
 
+**Hero Image:**
+
+- <img src='../../images/hero_topic_documentation_031125.png' alt="hero image" />
+
 #### Contributed by [Vicente Bolea](https://github.com/vicentebolea), [Jaswant Panchumarti](https://github.com/jspanchu), [Berk Geveci](https://www.kitware.com/berk-geveci/), [Will Schroeder](https://www.kitware.com/will-schroeder/), and [Patrick O'Leary](https://www.kitware.com/patrick-oleary/)
 
-#### Publication date: June 6, 2026
+#### Publication date: June 12, 2026
 
 <!-- begin deck -->
 Scientific software documentation now has a second audience: AI systems that use it to explain software behavior, generate code, and help users reach complex APIs.
@@ -131,7 +135,7 @@ He has a strong interest in open source solutions, system programming, software 
 Dr. O'Leary's research interests include high performance computing (HPC), numerical analysis, finite elements, and visualization.
 
 <!---
-Publish: no
+Publish: yes
 Track: Deep Dive
 Pinned: no
 Topics: documentation, software engineering, development tools
