@@ -13,6 +13,8 @@ Scientific software documentation now has a second audience: AI systems that use
 As users interact with software through AI, documentation becomes part of the software's interface.
 <!-- end deck -->
 
+In this article, we summarize our recent experience revamping the documentation for the [Visualization Toolkit](https://vtk.org) (VTK) software package to work better for AI tools.
+
 ## Opening problem
 
 *Scientific software is powerful, but it still depends on documentation to make that power usable.*
@@ -43,7 +45,7 @@ We usually cannot tell from public information whether a general-purpose model s
 But developers can still build smaller domain models from curated documentation, tutorials, examples, and API descriptions.
 
 They can also bring documentation into the loop at runtime.
-Retrieval can supply relevant passages and examples when a user asks a question, while tool interfaces such as MCP can expose structured software knowledge more directly.<sup>[3],[4],[5]</sup>
+Retrieval can supply relevant passages and examples when a user asks a question, while tool interfaces such as the model context protocol (MCP) can expose structured software knowledge more directly.<sup>[3],[4],[5]</sup>
 In code generation, those pieces often work together: a model produces the response, retrieval supplies context, and tools expose structure.<sup>[6]</sup>
 For VTK, that only works well when the documentation makes roles, relationships, inputs, outputs, and common usage patterns explicit.
 
@@ -90,11 +92,13 @@ It is a documentation system that serves people through the website and AI throu
 The practical takeaway is pretty simple.
 Most projects do not need a massive overhaul of AI documentation.
 However, a few habits suddenly matter even more than they used to.
-**Clear structure matters.**
-**Consistent terminology matters.**
-**Self-contained pages matter.**
-**Good examples matter.**
-**Machine-readable metadata matters.**
+
+- **Clear structure matters.**
+- **Consistent terminology matters.**
+- **Self-contained pages matter.**
+- **Good examples matter.**
+- **Machine-readable metadata matters.**
+
 Those were already signs of good documentation.
 Now they also shape how well AI can work with the software.
 
@@ -138,7 +142,7 @@ Dr. O'Leary's research interests include high performance computing (HPC), numer
 Publish: yes
 Track: Deep Dive
 Pinned: no
-Topics: documentation, software engineering, development tools
+Topics: documentation, ai for better development
 --->
 
 <!--- References --->
@@ -163,11 +167,11 @@ Topics: documentation, software engineering, development tools
 <!-- (sfer-ezikiw begin) -->
 ### References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[VTK Documentation<br>Kitware and the VTK Community. VTK Documentation. Accessed April 20, 2026.](https://vtk.org/)
-* <a name="sfer-ezikiw-2"></a><sup>2</sup>[How ChatGPT and Our Foundation Models Are Developed<br>OpenAI. How ChatGPT and Our Foundation Models Are Developed. Help Center. Accessed April 20, 2026.](https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed)
-* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks<br>Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Kuttler, Mike Lewis, Wen-tau Yih, Tim Rocktaschel, Sebastian Riedel, and Douwe Kiela. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. In Advances in Neural Information Processing Systems 33 (NeurIPS, 2020), 9459-9474, 2020.](https://dl.acm.org/doi/10.5555/3495724.3496517)
-* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Introducing the Model Context Protocol<br>Anthropic. Introducing the Model Context Protocol. Anthropic, November 25, 2024.](https://www.anthropic.com/news/model-context-protocol)
-* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Model Context Protocol Specification<br>Model Context Protocol. Specification. Accessed April 20, 2026.](https://modelcontextprotocol.io/specification/2025-11-25)
-* <a name="sfer-ezikiw-6"></a><sup>6</sup>[Program Synthesis with Large Language Models<br>Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, and Charles Sutton. Program Synthesis with Large Language Models. arXiv, 2021.](https://arxiv.org/abs/2108.07732)
-* <a name="sfer-ezikiw-7"></a><sup>7</sup>[A Translation Approach to Portable Ontology Specifications<br>Thomas R. Gruber. A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition 5, no. 2 (1993): 199-220.](https://tomgruber.org/writing/ontolingua-kaj-1993.pdf)
-* <a name="sfer-ezikiw-8"></a><sup>8</sup>[Knowledge Graphs<br>Aidan Hogan, Eva Blomqvist, Michael Cochez, Claudia D'Amato, Gerard de Melo, Claudio Gutierrez, Sabrina Kirrane, Jose Emilio Labra Gayo, Roberto Navigli, Sebastian Neumaier, Axel-Cyrille Ngonga Ngomo, Axel Polleres, Sabbir M. Rashid, Anisa Rula, Lukas Schmelzeisen, Juan Sequeda, Steffen Staab, and Antoine Zimmermann. Knowledge Graphs. ACM Computing Surveys 54, no. 4 (2021): 1-37.](https://doi.org/10.1145/3447772)
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Kitware and the VTK Community. VTK Documentation. Accessed April 20, 2026.](https://vtk.org/)
+* <a name="sfer-ezikiw-2"></a><sup>2</sup>[OpenAI. How ChatGPT and Our Foundation Models Are Developed. Help Center. Accessed April 20, 2026.](https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Kuttler, Mike Lewis, Wen-tau Yih, Tim Rocktaschel, Sebastian Riedel, and Douwe Kiela. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. In Advances in Neural Information Processing Systems 33 (NeurIPS, 2020), 9459-9474, 2020.](https://dl.acm.org/doi/10.5555/3495724.3496517)
+* <a name="sfer-ezikiw-4"></a><sup>4</sup>[Anthropic. Introducing the Model Context Protocol. Anthropic, November 25, 2024.](https://www.anthropic.com/news/model-context-protocol)
+* <a name="sfer-ezikiw-5"></a><sup>5</sup>[Model Context Protocol. Specification. Accessed April 20, 2026.](https://modelcontextprotocol.io/specification/2025-11-25)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, and Charles Sutton. Program Synthesis with Large Language Models. arXiv, 2021.](https://arxiv.org/abs/2108.07732)
+* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Thomas R. Gruber. A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition 5, no. 2 (1993): 199-220.](https://tomgruber.org/writing/ontolingua-kaj-1993.pdf)
+* <a name="sfer-ezikiw-8"></a><sup>8</sup>[Aidan Hogan, Eva Blomqvist, Michael Cochez, Claudia D'Amato, Gerard de Melo, Claudio Gutierrez, Sabrina Kirrane, Jose Emilio Labra Gayo, Roberto Navigli, Sebastian Neumaier, Axel-Cyrille Ngonga Ngomo, Axel Polleres, Sabbir M. Rashid, Anisa Rula, Lukas Schmelzeisen, Juan Sequeda, Steffen Staab, and Antoine Zimmermann. Knowledge Graphs. ACM Computing Surveys 54, no. 4 (2021): 1-37.](https://doi.org/10.1145/3447772)
