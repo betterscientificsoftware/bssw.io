@@ -31,8 +31,8 @@ The difference now is that documentation has a second audience.
 *Documentation no longer serves only human readers; it also serves AI systems that use it to explain software and generate code.*
 
 What is new is not documentation itself, but who, and what, uses it.
-AI systems now work from the same API pages, guides, tutorials, and examples that human users rely on.
-They use that material to answer questions, explain software behavior, and help generate code.
+AI systems now work from the same API pages, guides, tutorials, and examples that human users employ.
+AI systems use that material to answer questions, explain software behavior, and help generate code.
 Once that happens, documentation stops being just explanatory material.
 It starts becoming part of the way the software is accessed and used.
 
