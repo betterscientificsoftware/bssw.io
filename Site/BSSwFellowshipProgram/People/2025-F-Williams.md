@@ -22,6 +22,8 @@ BSSw Fellow Peter K. G. Williams aims to teach scientific software developers ho
 
 Peter is the technical lead for the Minor Planet Center, based at the Center for Astrophysics | Harvard & Smithsonian. Along with a research background in time-domain observational radio astronomy, he has extensive experience in open-source software development, and he is preoccupied with all of the ways in which information technology could be revolutionizing science---but isn't yet.
 
-<!-- ### Selected Resources -->
+### Selected Resources
 
-<!-- <a href="url" class="link-row">Text</a> -->
+<a href="https://onegoodtutorial.org" class="link-row">OneGoodTutorial.org</a>
+<a href="https://bssw.io/blog_posts/stuck-writing-software-documentation-focus-on-one-good-tutorial" class="link-row">Stuck Writing Software Documentation? Focus on One Good Tutorial</a>
+<a href="https://ideas-productivity.org/events/hpcbp-097-onegoodtutorial" class="link-row">(Webinar) One Good Tutorial: Defining a "Minimum Viable Documentation Product" for Scientific Software</a>

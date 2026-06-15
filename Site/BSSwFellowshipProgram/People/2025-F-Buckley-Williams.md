@@ -20,6 +20,6 @@ Scientific research increasingly depends on complex HPC systems, which require n
 
 Jasmine is a Public Utilities Regulatory Analyst and Master’s candidate in Big Data Analytics, with a background in data manipulation and management in utilities enforcement. Her work bridges the gap between technical excellence and practical accessibility, ensuring that HPC best practices are not only understood but also effectively applied in real-world scientific computing environments.
 
-<!-- ### Selected Resources -->
+### Selected Resources
 
-<!-- <a href="url" class="link-row">Text</a> -->
+<a href="https://jbuckleywilliams.github.io/BSSw-onlinetoolkit.github.io/index.html" class="link-row">"From Code to Performance" online toolkit</a>

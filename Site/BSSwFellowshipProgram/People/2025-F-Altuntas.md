@@ -22,6 +22,9 @@ BSSw Fellow Alper Altuntas will organize a hands-on tutorial on software testing
 
 Alper is a software engineer and climate model developer at the NSF National Center for Atmospheric Research, where he leads software efforts for the ocean component of the Community Earth System Model, a state-of-the-art climate model. His work focuses on coupled ocean modeling and high-performance computing, alongside initiatives in code modernization, user-friendly modeling toolkits, and formal verification techniques to enhance the reliability, maintainability, and usability of scientific software systems. He holds a Ph.D. in civil engineering from North Carolina State University.
 
-<!-- ### Selected Resources -->
+### Selected Resources
 
-<!-- <a href="url" class="link-row">Text</a> -->
+<a href="https://ncar.github.io/correctness-workshop/" class="link-row">Tutorial: Rigor and Reasoning in Research Software</a>
+<a href="https://www.alperaltuntas.com/R3Sw/welcome.html" class="link-row">Rigor and Reasoning in Research Software lecture materials</a>
+<a href="https://ncar.github.io/correctness-workshop/assets/NCAR_Correctness_25.pdf" class="link-row"></a>
+<a href="" class="link-row">Report on the Rigor and Reasoning in Research Software (R3Sw) Tutorial</a>

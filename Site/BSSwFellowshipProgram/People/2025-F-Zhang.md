@@ -18,6 +18,7 @@
 
 Junchao is a research software engineer in the Mathematics and Computer Science Division of Argonne National Laboratory.  He is a developer of PETSc (the Portable, Extensible Toolkit for Scientific Computation), a widely used math library written in C. His primary focus is on the MPI communication module and the GPU backends in PETSc. He often needs to debug PETSc codes. Before joining PETSc, he was an MPICH developer and he still keeps close collaboration with the MPICH team at Argonne.
 
-<!-- ### Selected Resources -->
+### Selected Resources
 
-<!-- <a href="url" class="link-row">Text</a> -->
+<a href="https://mpi-debug.org" class="link-row">MPI-Debug.org</a>
+<a href="https://bssw.io/blog_posts/making-debugging-mpi-applications-a-little-easier" class="link-row">Making Debugging MPI Applications a Little Easier</a>
