@@ -1,4 +1,4 @@
-# Lawrence Livermore National Lab (LLNL) High Performance Computing (HPC) Tutorials
+# Lawrence Livermore National Lab (LLNL) High Performance Computing (HPC) Tutorials (2026)
 
 <!-- deck text start --> 
 Learn how to use a modern, open-source HPC software stack.
@@ -22,7 +22,7 @@ Visit the [event website](https://hpcic.llnl.gov/2026-hpc-tutorials) for the sch
 
 ### Tutorial schedules and topics
 
-Day&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Time | Topic
+Day | Time | Topic
 :--- | :--- | :--- 
 July 7 | 9:00am – 12:00pm | **Spack** (part 1 of 2): learn to install HPC software quickly
 July 8 | 9:00am – 12:00pm | **Spack** (part 2 of 2): learn to install HPC software quickly
@@ -45,7 +45,7 @@ The times posted above may change so be sure to check with the [event website](h
 
 #### Contributed by [Holly Auten](https://github.com/hauten)
 
-#### Publication date: July 1st, 2026
+#### Publication date: June 15, 2026
 
 Please check the [event webpage](https://hpcic.llnl.gov/2026-hpc-tutorials) for further details and updates.
 Questions can be directed to hpcic-tutorials@llnl.gov or https://github.com/kab163 or https://github.com/hauten.
