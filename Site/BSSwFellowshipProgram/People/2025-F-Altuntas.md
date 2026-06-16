@@ -26,5 +26,4 @@ Alper is a software engineer and climate model developer at the NSF National Cen
 
 <a href="https://ncar.github.io/correctness-workshop/" class="link-row">Tutorial: Rigor and Reasoning in Research Software</a>
 <a href="https://www.alperaltuntas.com/R3Sw/welcome.html" class="link-row">Rigor and Reasoning in Research Software lecture materials</a>
-<a href="https://ncar.github.io/correctness-workshop/assets/NCAR_Correctness_25.pdf" class="link-row"></a>
-<a href="" class="link-row">Report on the Rigor and Reasoning in Research Software (R3Sw) Tutorial</a>
+<a href="https://ncar.github.io/correctness-workshop/assets/NCAR_Correctness_25.pdf" class="link-row">Report on the Rigor and Reasoning in Research Software (R3Sw) Tutorial</a>
