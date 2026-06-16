@@ -19,8 +19,7 @@ BSSw Fellow Alper Altuntas organized a [hands-on tutorial](https://ncar.github.i
 
 <a href="https://ncar.github.io/correctness-workshop/" class="link-row">Tutorial: Rigor and Reasoning in Research Software</a>
 <a href="https://www.alperaltuntas.com/R3Sw/welcome.html" class="link-row">Rigor and Reasoning in Research Software lecture materials</a>
-<a href="https://ncar.github.io/correctness-workshop/assets/NCAR_Correctness_25.pdf" class="link-row"></a>
-<a href="" class="link-row">Report on the Rigor and Reasoning in Research Software (R3Sw) Tutorial</a>
+<a href="https://ncar.github.io/correctness-workshop/assets/NCAR_Correctness_25.pdf" class="link-row">Report on the Rigor and Reasoning in Research Software (R3Sw) Tutorial</a>
 
 <br>
 
@@ -114,7 +113,7 @@ BSSw Fellow Peter K. G. Williams aims to teach scientific software developers ho
   <img src='../../images/People_2025_F_Williams.jpg' class='logo' />
 </div>
 <div class='short_bio'>
-<p><a href="https://newton.cx/~peter/">Peter</a> is the technical lead for the Minor Planet Center, based at the Center for Astrophysics | Harvard & Smithsonian. Along with a research background in time-domain observational radio astronomy, he has extensive experience in open-source software development, and he is preoccupied with all of the ways in which information technology could be revolutionizing science---but isn't yet.</p>
+<p><a href="https://newton.cx/~peter/">Peter</a> is the technical lead for the Minor Planet Center, based at the Center for Astrophysics | Harvard & Smithsonian. Along with a research background in time-domain observational radio astronomy, he has extensive experience in open-source software development, and he is preoccupied with all of the ways in which information technology could be revolutionizing science--but isn't yet.</p>
 </div>
 </div>
 
