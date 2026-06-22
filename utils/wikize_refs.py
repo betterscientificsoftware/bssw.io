@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # run ./wikize_refs.py --help for documentation
 
@@ -18,7 +18,7 @@ except:
 
 def usage():
     return \
-"""
+r"""
 Adjusts, slightly, a markdown file so that any footnotes using
 reference-style markdown links and link-definitions behave more
 Wikipedia-like. Ordinarily, this can be accomplished by simply
@@ -290,7 +290,7 @@ def is_link_def_line(mdfl):
 
         Returns footnote handle, url, title, biblio-info as a list
     """
-    retval = re.findall("^\[([a-zA-Z0-9_-]*)\]:\s*((https?://|ftp://|file:///|#)\S*)\s*\"?([^{]*)([^\"]*)\"?$", mdfl)
+    retval = re.findall(r"^\[([a-zA-Z0-9_-]*)\]:\s*((https?://|ftp://|file:///|#)\S*)\s*\"?([^{]*)([^\"]*)\"?$", mdfl)
     if not retval:
         return None
 
@@ -325,30 +325,30 @@ def gather_and_classify_file_lines(filename):
             elif in_frontmatter and re.match("^---$", line):
                 line_type = "frontmatter"
                 in_frontmatter = False
-            elif not in_wrblock and re.match("^<!-- \(%s begin\) -->$"%magic(), line):
+            elif not in_wrblock and re.match(r"^<!-- \(%s begin\) -->$"%magic(), line):
                 line_type = "wrblock"
                 in_wrblock = True
-            elif in_wrblock and re.match("^<!-- \(%s end\) -->$"%magic(), line):
+            elif in_wrblock and re.match(r"^<!-- \(%s end\) -->$"%magic(), line):
                 line_type = "wrblock"
                 in_wrblock = False
-            elif not in_xmlcomment and re.match("^\s*<!---?.*---?>\s*$", line):
+            elif not in_xmlcomment and re.match(r"^\s*<!---?.*---?>\s*$", line):
                 line_type = "comment"
-            elif not in_xmlcomment and re.match("^\S+<!---?.*---?>\s*$", line):
+            elif not in_xmlcomment and re.match(r"^\S+<!---?.*---?>\s*$", line):
                 line_type = "mixed"
-            elif not in_xmlcomment and re.match("^\s*<!---?.*---?>\S+$", line):
+            elif not in_xmlcomment and re.match(r"^\s*<!---?.*---?>\S+$", line):
                 line_type = "mixed"
-            elif not in_xmlcomment and re.match("^\S+<!---?.*---?>\S+$", line):
+            elif not in_xmlcomment and re.match(r"^\S+<!---?.*---?>\S+$", line):
                 line_type = "mixed"
-            elif not in_xmlcomment and re.match("^\S+<!---?.*$", line):
+            elif not in_xmlcomment and re.match(r"^\S+<!---?.*$", line):
                 line_type = "mixed"
                 in_xmlcomment = True
-            elif in_xmlcomment and re.match("^.*---?>\S+$", line):
+            elif in_xmlcomment and re.match(r"^.*---?>\S+$", line):
                 line_type = "mixed"
                 in_xmlcomment = False
-            elif not in_xmlcomment and re.match("^\s*<!---?.*$", line):
+            elif not in_xmlcomment and re.match(r"^\s*<!---?.*$", line):
                 line_type = "comment"
                 in_xmlcomment = True
-            elif in_xmlcomment and re.match("^.*---?>\s*$", line):
+            elif in_xmlcomment and re.match(r"^.*---?>\s*$", line):
                 line_type = "comment"
                 in_xmlcomment = False
 
@@ -394,25 +394,25 @@ def gather_fn_handles(file_lines):
         fl = file_lines[k]['line']
 
         # detect cases of <sup>[x]</sup> 
-        fns1 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\]</sup>", fl)
+        fns1 = re.findall(r"<sup>\[([a-zA-Z0-9_-]*)\]</sup>", fl)
         if fns1: fn_handles = fn_handles.union(set(fns1))
 
         # detect cases of <sup>[x],[y]</sup> 
-        fns2 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", fl)
+        fns2 = re.findall(r"<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", fl)
         if fns2:
             if len(set(fns2[0])) != 2:
                 message("Duplicate footnote used between <sup>...</sup> at line %d."%k)
             fn_handles = fn_handles.union(set(fns2[0]))
 
         # detect cases of <sup>[x],[y],[z]</sup> 
-        fns3 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", fl)
+        fns3 = re.findall(r"<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", fl)
         if fns3:
             if len(set(fns3[0])) != 3:
                 message("Duplicate footnote used between <sup>...</sup> at line %d."%k)
             fn_handles = fn_handles.union(set(fns3[0]))
 
         # detect cases of <sup>[x],[y],[z],...</sup> 
-        fns4p = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],(.*)</sup>", fl)
+        fns4p = re.findall(r"<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],(.*)</sup>", fl)
         if fns4p and len(fns4p[0]) >= 4:
             fn_handles = fn_handles.union(set(fns4p[0][:3]))
             message("Extra footnotes beyond 3 between <sup>...</sup> at line %d."%k)
@@ -464,6 +464,35 @@ def build_ref_map(file_lines):
             ref_map[ref_hdl].append(len(ref_map))
 
     return ref_map, has_basic_footnotes
+
+def maybe_remap_numeric_footnotes(fn_handles, ref_map, renumber):
+    """
+    If a file has already been renumbered, its content footnotes may be numeric
+    while the preserved original link definitions still carry the author's
+    original labels. In that case, rebuild a temporary ref_map keyed by the
+    visible numeric footnote labels so reruns and up-to-date checks can operate
+    on the already-renumbered file without changing it.
+    """
+
+    if not renumber or not fn_handles or not ref_map:
+        return ref_map
+
+    if any(not fn.isdigit() for fn in fn_handles):
+        return ref_map
+
+    if any(fn in ref_map for fn in fn_handles):
+        return ref_map
+
+    numeric_ref_map = {}
+    for k, v in ref_map.items():
+        numeric_hdl = str(v[3] + renumber - 1)
+        numeric_ref_map[numeric_hdl] = [v[0], v[1], v[2], v[3]]
+
+    expected_handles = set(numeric_ref_map.keys())
+    if not fn_handles.issubset(expected_handles):
+        return ref_map
+
+    return numeric_ref_map
 
 def error_checks(file_lines, fn_handles, ref_map, check_links, has_lddbs):
     """
@@ -586,17 +615,17 @@ def build_main_content(file_lines, ref_map, renumber, gather_linkdefs):
             # Since we're re-filtering the same line multiple times, we replace
             # <sup></sup> with <pus></pus> to avoid collisions and then undue that
             # filter in the last step.
-            fns1 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\]</sup>", line)
+            fns1 = re.findall(r"<sup>\[([a-zA-Z0-9_-]*)\]</sup>", line)
             for fn in fns1:
-                line = re.sub("<sup>\[%s\]</sup>"%fn, "<pus>[%d]</pus>"%(ref_map[fn][3]+renumber-1), line)
-            fns2 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", line)
+                line = re.sub(r"<sup>\[%s\]</sup>"%fn, "<pus>[%d]</pus>"%(ref_map[fn][3]+renumber-1), line)
+            fns2 = re.findall(r"<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", line)
             for fn in fns2:
-                line = re.sub("<sup>\[%s\],\[%s\]</sup>"%(fn[0],fn[1]),
+                line = re.sub(r"<sup>\[%s\],\[%s\]</sup>"%(fn[0],fn[1]),
                              "<pus>[%d],[%d]</pus>"%\
                              (ref_map[fn[0]][3]+renumber-1, ref_map[fn[1]][3]+renumber-1), line)
-            fns3 = re.findall("<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", line)
+            fns3 = re.findall(r"<sup>\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\],\[([a-zA-Z0-9_-]*)\]</sup>", line)
             for fn in fns3:
-                line = re.sub("<sup>\[%s\],\[%s\],\[%s\]</sup>"%(fn[0],fn[1],fn[2]),
+                line = re.sub(r"<sup>\[%s\],\[%s\],\[%s\]</sup>"%(fn[0],fn[1],fn[2]),
                              "<pus>[%d],[%d],[%d]</pus>"%\
                              (ref_map[fn[0]][3]+renumber-1,ref_map[fn[1]][3]+renumber-1,ref_map[fn[2]][3]+renumber-1), line)
             line = re.sub("<pus>","<sup>", line)
@@ -673,7 +702,7 @@ def build_reference_list_lines(remapped_ref_map, renumber, has_basic_footnotes):
                     continue
                 if phase == 'refs' and v[0] == '#':
                     continue
-                v3 = k+renumber if renumber else v[3]
+                v3 = k+renumber-1 if renumber else v[3]
                 if v[1] and v[2]: # both title and bibinfo exist
                     outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"%(magic(), v3, v3, v[1], v[2], v[0]))
                 elif v[1]: # only title exists
@@ -722,6 +751,7 @@ def main(opts, mdfile):
 
     # Build a map of the references including their re-numbering
     ref_map, has_basic_footnotes = build_ref_map(file_lines)
+    ref_map = maybe_remap_numeric_footnotes(fn_handles, ref_map, opts['renumber'])
 
     # Do some error checking
     missing_refs = error_checks(file_lines, fn_handles, ref_map,

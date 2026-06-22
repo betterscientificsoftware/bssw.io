@@ -56,7 +56,7 @@ This "sign-off" implies that the developer is asserting the terms of the DCO<sup
 >     maintained indefinitely and may be redistributed consistent with
 >     this project or the open source license(s) involved.
 
-This `Signed-of-by` line can be added to the Git commit log automatically using the standard `-s` option with `git commit -s` (using information already registered with Git locally).
+This `Signed-off-by` line can be added to the Git commit log automatically using the standard `-s` option with `git commit -s` (using information already registered with Git locally).
 
 Some major projects are using the DCO with Git commit sign-offs for handling contributions, including the Linux Kernel<sup>[8]</sup> and, more recently, the source code for GitLab itself <sup>[3],[4]</sup>.
 In addition, the Linux Foundation's CII Best Practices Badge Program<sup>[9]</sup> contains the Silver-level item:
@@ -77,7 +77,7 @@ Tools are available to assert that all commits in a GitHub Pull Request (PR) con
 In summary, using a Developer Certificate of Origin (DCO) is a lightweight legal approach to provide cover in accepting contributions. However, it does come at the cost of requiring every nontrivial commit from a Pull Request for a proposed contribution to be signed-off by an outside contributor (and the process to go back and fix unsigned commits can be quite cumbersome for some people with poor Git knowledge and skills, or depending on how those commits and branches were constructed).
 Therefore, for some developer communities, the upstream technical overhead and mechanics of applying the DCO may be more of an impediment to accepting outside contributions than the barriers to getting outside contributors or organizations to sign CLAs.
 
-### Disclaimer
+## Disclaimer
 
 This is not legal advice.
 Consult your own lawyer before any action that may have legal consequences.
@@ -138,7 +138,7 @@ RSS update: 2022-01-26
 [13]: #sfer-ezikiw-13 "Github DCO App"
 [14]: #sfer-ezikiw-14 "Handling CLAs and DCOs via GitHub Action"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-0"></a><sup>0</sup>[An Introduction to Software Licensing](https://bssw.io/items/an-introduction-to-software-licensing)
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Contributor Agreements](https://contributoragreements.org/)

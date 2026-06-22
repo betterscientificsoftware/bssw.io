@@ -8,7 +8,7 @@
 We usually think about documentation as being for others -- other developers, users, etc.  But documentation can be useful even if you're the sole person working on the project.
 <!-- end deck -->
 
-### Background: About the project
+## Background: About the project
 
 Scientific software requires complex sets of dependencies on a wide variety of platforms.  It is a challenge to create a standard environment for development, testing, and deployment.  These three phases of software creation often occur on separate machines and at different times.  Ideally, testing and deployment are automated processes that occur on dedicated systems.  Development usually takes place on a user's machine, and that machine may need to have multiple software environments available.  Containers can help with these challenges and can be used to provide a standard environment on all of these different machines, matching what developers needs, so they have the potential to facilitate the use of standardized software environments for reproducibility and portability.   We are trying to provide turn-key environment containers that look and feel like the systems project teams are accustomed to using.  It is important for the container environment to closely match the environment of the current development, build, and test systems. The process for building typically looks something like this:
 
@@ -34,7 +34,7 @@ The initial effort was exploratory, informal, and mainly conducted by one develo
 More details of our container environment project were presented at the National Laboratories Information Technology (NLIT) Summit in 2024 and the slides can be found here: 2024_04_NLIT_SEMS_Containers.
 -->
 
-### The role of documentation
+## The role of documentation
 
 In addition to containerizing scientific software development environments, we were also interested in improving our own development processes, including integrating the generation of project documentation into the daily workflow. The overall effort for the containerized environment project was small and relatively short-lived, with one developer working 20% time for a few months. This circumstance made it difficult to devote a large amount of time to documentation.  While it was important to capture the state of the investigation, we could not afford to slow the development process.  To help us improve the documentation, we were inspired by some of the core ideas of the [Productivity and Sustainability Improvement Planning](https://bssw.io/blog_posts/productivity-and-sustainability-improvement-planning-psip) (PSIP) process, although we did not rigorously follow it.  We created a progress tracking card (PTC) as a means of setting intermediate and final goals and revisited it a couple of times to keep on track.  The process essentially provided a lightweight but structured way to have conversations about improvements we wanted to make in the project, and it helped us break an abstract goal into concrete, achievable steps.  The PSIP process also helped simply by making it a point of conversation during project meetings.
 
@@ -54,7 +54,7 @@ The documentation strategy turned out to be great for the project and it also ch
 
 But old habits die hard, and new skills are sometimes hard to integrate.  The good news is that some of these lessons have stuck around.   Realizing just how low the barrier for usefulness is when it comes to documentation, combined with seeing how helpful it can be for someone following along, I find myself documenting more frequently in other projects too.  I don't keep the "notebook wiki" open all the time, but I do have a sharper eye for when documentation will be useful for someone else and an understanding that it does not have to be formal and rigorous to be helpful.   I am also much more likely to log my process step-by-step when I'm working on tickets submitted against a code because I know other people may encounter a similar problem later, and my notes may help them solve their problems too.
 
-### Author bio
+## Author bio
 
 Joe Frye has been a computer scientist in the Computer Science Research Institute at Sandia National Laboratory since 2016.  His work focuses on reproducible software environments, automated testing, and using standardized tools for devops.  He builds and maintains software environments using Spack to support scientific software across a wide variety of hardware at Sandia. He has an M.S. in computer science and a B.S. in applied mathematics from the University of New Mexico.
 

@@ -33,11 +33,11 @@ high. A focus on general productivity enhancement is critical at this scale, as 
   
 CSE is broadly recognized as a peer, along with experimental and theoretical research, in the process of scientific discovery. Improving CSE software productivity can play a critical and unique role in accelerating the cycle of scientific discovery on emerging extremescale architectures.
   
-### A Practical Characterization of CSE Software Productivity
+## A Practical Characterization of CSE Software Productivity
 A common saying in product development is, “Better, faster, cheaper: Pick two of the three.” Given a fixed level of productivity, this saying acknowledges that if product development is behind schedule, product features must be dropped, the schedule must slip, or more resources must be applied to the project. At least one of the three must be adjusted. Productivity is a volume measure of these three concerns. CSE Software Productivity is this measure applied to software developed for and used by scientists and
 engineers.
 
-#### CSE Software Productivity Impacts Scientific Productivity
+### CSE Software Productivity Impacts Scientific Productivity
 **Solution quality:** The community has many metrics that attempt to measure the impact of scientific and
 engineering efforts. CSE software can improve impact by enabling computer modeling & simulation, design
 optimization, and uncertainty quantification to provide answers to important science and engineering
@@ -51,7 +51,7 @@ Consequently, people with good CSE software skills are in high demand, within th
 community and in other industries. Making effective use of skills and increasing CSE software usability are
 critically important. ***Improving CSE software productivity will improve scientific productivity.***
 
-#### Why Focus on CSE Software Productivity?
+### Why Focus on CSE Software Productivity?
 CSE software plays a critical role in science and engineering. At the same time, the CSE community faces
 numerous challenges and opportunities in the coming years:
 

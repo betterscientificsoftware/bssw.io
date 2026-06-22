@@ -27,7 +27,19 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2025-07-10*
+*Listed in reverse chronological order. Last updated: 2026-05-24*
+
+- 2026-05-20: [Research Software Sharing, Publication, & Distribution Checklists](https://ideas-productivity.org/events/hpcbp-098-checklists), presented by Dr. Richard J. Acton (Babraham Institute)
+
+- 2026-03-18: [One Good Tutorial: Defining a “Minimum Viable Documentation Product” for Scientific Software](https://ideas-productivity.org/events/hpcbp-097-onegoodtutorial), presented by Peter K. G. Williams (Center for Astrophysics, Harvard & Smithsonian)
+
+- 2026-02-18: [Modernizing C++ Interfaces with Concepts, Constraints and std::mdspan](https://ideas-productivity.org/events/hpcbp-096-cpp), presented by Christian Trott (Sandia National Laboratories)
+
+- 2026-01-21: [Please, No More Loops (Than Necessary): New Patterns in Fortran 2023](https://ideas-productivity.org/events/hpcbp-095-fortran), presented by Damian Rouson (Berkeley Lab)
+
+- 2025-10-15: [Sustainable HPC Software: A Maintainer's Perspective](https://ideas-productivity.org/events/hpcbp-094-sustainable-sw), presented by Damien Lebrun-Grandié (Oak Ridge National Laboratory)
+
+- 2025-09-24: [Application of the OpenSSF Best Practices Badge Program to Scientific Software](https://ideas-productivity.org/events/hpcbp-093-openssf), presented by Roscoe A. Bartlett (Sandia National Laboratories), Yanfei Guo (Argonne National Laboratory), and Pratik Nayak (Technical University of Munich)
 
 - 2025-07-09: [Using Generative AI for Coding Tasks in Scientific Software](https://ideas-productivity.org/events/hpcbp-092-genai-coding), presented by Anshu Dubey (Argonne National Laboratory), and Akash Dhruv (Argonne National Laboratory)
 
@@ -215,7 +227,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2025-07-10
+#### Publication date: 2026-05-24
 
 <!---
 Publish: yes

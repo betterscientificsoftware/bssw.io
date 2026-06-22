@@ -8,13 +8,13 @@
 #### Publication date: January 28, 2020
 
 
-### What is PSIP?
+## What is PSIP?
 
 Scientific software teams are typically focused on the creation of a new set of features that will enable the next set of computational experiments. Teams seldom have the time to stop development and focus solely on improving productivity or sustainability. However, teams can incorporate improvements on the way to developing new science capabilities.
 
 The Productivity and Sustainability Improvement Planning (PSIP) process recognizes that productivity and sustainability improvements for scientific software benefit from an incremental, iterative approach.
 
-### How can I get started with PSIP?
+## How can I get started with PSIP?
 
 - Take a [Team Practices Survey](https://bssw-psip.github.io/ptc-catalog/pages/survey.html) to identify practices which could be improved.
 - Read the [PSIP user manual and practice guides](https://bssw-psip.github.io/practice-guides/). These guides include a PSIP introduction, practice guides, and PSIP examples.
@@ -24,7 +24,7 @@ The Productivity and Sustainability Improvement Planning (PSIP) process recogniz
 - Request help from the PSIP team through a [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdcQxb158piJeBqELZmJFkJTOFx71WBNBChtec5f21kyvPiCg/viewform)
 
 
-### What does improving processes through PSIP entail?
+## What does improving processes through PSIP entail?
 
 PSIP is very lightweight.
 
@@ -41,7 +41,7 @@ The [PSIP Progress Tracking Card Catalog](https://bssw-psip.github.io/ptc-catalo
 <img src='../../images/Blog_0120_PTCCards.png' class='page lightbox'/>[Snapshots of Progress Tracking Cards]
 
 
-### Are there other articles to read about PSIP?
+## Are there other articles to read about PSIP?
 
 PSIP has been used by several ECP teams and others in the BSSw.io community.
 

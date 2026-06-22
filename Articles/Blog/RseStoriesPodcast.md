@@ -8,7 +8,7 @@
 
 #### Publication date: April 24, 2020
 
-### We look to experts for knowledge, but do they know the whole picture?
+## We look to experts for knowledge, but do they know the whole picture?
 
 I woke up one morning in September of 2019 with something on my mind. I had seen several
 papers, talks, and other "academically approved" presentation formats that were defining what
@@ -22,7 +22,7 @@ worked on everything from documentation to user support. What I saw in the real 
 didn't reflect what the experts were advocating — research software engineers did not
 always exist on some dimension between software engineer and researcher.
 
-### If there is missing information, where can we find it?
+## If there is missing information, where can we find it?
 
 This of course wasn't a new problem — I had been chewing on it for a few months now.
 How could we best define what an RSE is, but not from some select pool of experts, but 
@@ -50,7 +50,7 @@ for our ears. I decided in a split second moment, and without much thought about
 the immense amount of work it takes to create, manage, and maintain a podcast, 
 schedule people, edit audio (and edit it again), that I needed to create a podcast.
 
-### How do we do something we've never done before?
+## How do we do something we've never done before?
 
 When in doubt, ask the internet, and look to the tools that you already know and use.
 I figured that I could post the podcast as a static site on [GitHub](https://github.com/usrse/rse-stories), 
@@ -63,7 +63,7 @@ for perfection, especially with audio recording and editing. The RSE Stories pod
 by way of being entirely done by one software engineer, is not going to be on the same
 level as some of my favorite (professionally created) podcasts, but this is OK. 
 
-### So what is a research software engineer?
+## So what is a research software engineer?
 
 I suspect my answer will differ from how I perceive the average RSE to be. If you ask me, being a research software engineer 
 isn't about being handed a script to optimize, a container to build, or a package to write tests for. Being an RSE is about
@@ -80,7 +80,7 @@ It's easy to get distracted by the trending technologies of the moment, and tryi
 you think you are expected to be. I know that these hard working engineers, dreamers, and advocates are out 
 there, and this is what I find so inspiring and compells me to continue the podcast.
 
-### How do I find the podcast?
+## How do I find the podcast?
 
 The episodes are released via a feed that plugs right into itunes, so you can
 find it on [Apple Podcasts](https://podcasts.apple.com/us/podcast/rse-stories/id1481504497)
@@ -89,7 +89,7 @@ available on the main [RSE Stories](https://us-rse.org/rse-stories/) website,
 and announced at time of publication on [@vsoch](https://twitter.com/vsoch/)'s Twitter,
 and often the US-RSE and UK-RSE slack channels.
 
-### What I've learned from RSE Stories
+## What I've learned from RSE Stories
 
 Along with hugely expanding my understanding of what an RSE is, I've learned a lot of
 technical and social tidbits by way of working on the RSE Stories podcast. I'd like
@@ -106,7 +106,7 @@ the podcast and express interest [here](https://us-rse.org/rse-stories/about/). 
 let's share your story!
 
 
-### Author bio
+## Author bio
 
 Vanessa Sochat is a research software engineer for the Stanford Research Computing Center. She received her PhD in Biomedical Informatics in 2016, and stayed at Stanford to focus on open source software development for scientific reproducibility. Her work includes development of container technologies, workflow software, and recipes for continuous integration. She is passionate about programming and system design, and continues to run the Singularity Hub container registry and maintain a large set of open source libraries. When not programming, Vanessa can be found eating avocados, recording podcast episodes or fun videos, making dinosaur noises, and running outside in the snow.
 

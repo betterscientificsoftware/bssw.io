@@ -52,7 +52,7 @@ You can also crowdsource answers to questions you may have while learning. Consi
 
 <strong>Elaine:</strong>  Great point to end our conversation. Since everyone is different and circumstances are different, content selection will seem like trial and error until you gain more experience and can employ a set of heuristics for content curation that work for you. This may involve looking at reviews or other expert evaluations. Don’t forget that as members of the HPC community, you’ve amassed a number of skills you can apply to discerning whether the content you have curated will be useful. If you are learning Git/GitHub or Python, you can go to Better Scientific Software for resources or view the webinar slides and video.
 
-### Summary
+## Summary
 I’ve provided guidelines and a transmedia learning framework (TLF) for content curation, story development, and platform selection that are actionable. Think about how you will stay engaged while learning, build skills to add to your HPC ethos, and co-create content for others. Share your story with us. Thank you for your excellent questions, and best wishes in optimizing your productivity with transmedia learning in the wild!
 
 

@@ -4,7 +4,7 @@
 
 #### Publication date: January 9, 2019
 
-### Introduction
+## Introduction
 
 After more than ten years of growth and development, our project -- [QMCPACK](https://github.com/QMCPACK/qmcpack) -- needed  improvements to its development processes.
 Changing and understanding the code had become increasingly difficult amid added features,
@@ -14,7 +14,7 @@ Our team determined that one step toward enhancing development velocity was to a
 Unit testing is valuable for ensuring correctness of a program, performing regression tests, and decomposing the program into small, testable units.
 The next step was to choose a method for implementing unit tests.
 
-### Choosing a framework
+## Choosing a framework
 
 But before diving into examining unit test frameworks, we might ask whether using a framework is even necessary.
 After all, it is straightforward to write a piece of code that exercises some functionality, tests it, and prints the results (pass or fail).
@@ -35,7 +35,7 @@ The main advantages of Catch for our project are twofold:
 The [Catch website](https://github.com/catchorg/Catch2) has a longer description of the [rationale for Catch and feature list](https://github.com/catchorg/Catch2/blob/master/docs/why-catch.md#top).
 
 
-### Catch overview
+## Catch overview
 
 The existing [Catch tutorial](https://github.com/catchorg/Catch2/blob/master/docs/tutorial.md#top) is the essential first stop for learning more about Catch.
 
@@ -63,7 +63,7 @@ TESTCASE("Simple Addition", "[test label]")
 }
 ```
 
-#### Assertion macros
+### Assertion macros
 
 Catch uses the `REQUIRE` macro for testing an expression, for example, `REQUIRE(a == 1)` or `REQUIRE(a < 1)`.
 Upon failure, Catch reports the value in the following expression.
@@ -81,7 +81,7 @@ Catch uses templates to decompose the expression into parts so that it can use m
 
 There is, of course, a limitation: the comparisons must be simple expressions. For example, `REQUIRE((a==1) || (a==2))` will not be decomposed.
 
-#### Floating-point values
+### Floating-point values
 
 Floating-point values need some allowable tolerance in the comparison. This can be achieved with the Approx class.
 
@@ -90,7 +90,7 @@ REQUIRE(a == Approx(3.1));
 ```
 The Approx class has methods for adjusting the tolerance of the comparison (e.g., `Approx(1.0).epsilon(1e-12)`).
 
-#### Custom main
+### Custom main
 
 Some versions of MPI will output a warning if `MPI_Finalize` is not called before the program exits. However, calling `MPI_Finalize` at the end of a test will disable MPI for all the other tests. This can be handled by creating a custom runner that performs initialization before any tests run and shuts down after all tests complete.
 ```
@@ -109,7 +109,7 @@ int main(int argc, char *argv[])
 This custom main can be incorporated into a project by placing it in an include file, such as `catch_mpi_main.hpp`, and including this file in place of `#define CATCH_CONFIG_MAIN / #include <catch.hpp>`.
 
 
-#### Organization
+### Organization
 
 The default organization is to put all the unit tests in a single executable. Most frameworks, including Catch, offer a way to run a subset of tests from the command line. However, a single large executable for the entire project may get difficult to manage.
 
@@ -124,7 +124,7 @@ Our solution is to use multiple test executables, with one executable per top-le
 The test executables are named after the directory, such as `test_utilities` and `test_numerics`.
 
 
-#### Interaction with CMake and CTest
+### Interaction with CMake and CTest
 
 Our project uses CMake and CTest for building and running tests. After  the unit test executable is defined, it can be added to CTest with the `add_test` command (assuming the test executable is in the `TEST_BINARY` variable).
 ```
@@ -136,11 +136,11 @@ Tests can be given stylized names to facilitate selections or can be given label
 Tests can be selected from CTest by using the `-R` option to perform a regular expression filter on the test name or by using the `-L` options to select a label. For example, all the unit tests can be run with `ctest -L unit`.
 
 
-#### Interaction with other software development processes
+### Interaction with other software development processes
 Other changes to our development process included adding code review with pull requests on Github.
 Unit tests enabled a continuous integration step where the code is built and unit tests are run for every submitted change to the code.  This helps catch errors earlier in the development cycle.
 
-### Conclusion
+## Conclusion
 We added the Catch framework for unit testing to our project, and now it is an integral part of our development process.
 
 

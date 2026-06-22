@@ -6,7 +6,7 @@
 
 **Image:** /images/People_2024_F_Newton.jpg
 
-**URL:** https://small0live.github.io
+**URL:** https://oliviabnewton.com
 
 **LinkedIn:** https://www.linkedin.com/in/olivia-b-newton/
 

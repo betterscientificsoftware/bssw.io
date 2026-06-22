@@ -36,7 +36,7 @@ For example, one thing I learned at the onset of the pandemic that surprised me 
 
 **Thanks** to [PSIP](https://bssw.io/psip/) team members Reed Milewicz (SNL), David Rogers (ORNL), Elsa Gonsiorowski (LLNL), Ben Sims (LANL), and Greg Watson (ORNL) for their interview questions and review.
 
-### Author bio
+## Author bio
 
 Elaine Raybourn is a social scientist in the Statistics and Human Systems Group (Applied Cognitive Science) at Sandia National Laboratories. Her research focuses on virtual teams, software developer productivity, and transmedia learning. She has worked remotely for a combined total of 14 years while at Sandia National Laboratories: from the UK as a guest researcher at British Telecom; Germany (Fraunhofer FIT) and France (INRIA) as a Fellow of the European Research Consortium in Informatics and Mathematics (ERCIM), and most recently from Orlando, Florida as Sandia’s Institutional PI for the IDEAS-ECP productivity project. She leads [PSIP](https://bssw.io/psip/) and the panel series [Strategies for Working Remotely](https://www.exascaleproject.org/strategies-for-working-remotely/).
 

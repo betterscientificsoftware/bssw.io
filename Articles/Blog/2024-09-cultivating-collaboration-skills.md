@@ -26,12 +26,12 @@ Modules will focus on skills such as using constructive and specific language an
 
 The lessons will be reviewed by the pyOpenSci community  to ensure they are community driven and then published online as free open education resources. The goal of the lessons is to make it easier for scientists to work together collaboratively and for anyone to contribute to open source software. “Even though I have been awarded the fellowship, I see this work as a community resource,” says Leah. “I am really grateful that BSSw empowered me to do more of this work for the broader community.”
 
-### More info
+## More info
 The BSSw Fellowship Program gives recognition and funding to leaders and advocates of high-quality scientific software. See the [blog post](https://bssw.io/blog_posts/applications-open-for-the-2025-bssw-fellowship-program) by Elsa Gonsiorowski, coordinator of the BSSw Fellowship Program.
 
 Application deadline: Monday, September 30, 2024; this is a firm deadline that will not be extended.
 
-### Author bios
+## Author bios
 [Heather Bourbeau](https://www.linkedin.com/in/heatherbourbeau/) is a research analyst, communications strategist, and storyteller. 
 [Sustainable Horizons Institute](https://shinstitute.org) is a partner in leading the BSSw Fellowship Program. 
 

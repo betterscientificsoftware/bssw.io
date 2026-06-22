@@ -12,7 +12,7 @@ domain scientists is to update their computational codes to take full advantage 
 architectures. This article provides a high-level introduction to the main considerations for
 GPU programming and is intended for readers unfamiliar with the subject matter.
 
-### The “end” of Moore’s law
+## The “end” of Moore’s law
 Until the mid-2000s, the computing capability of microprocessors enjoyed an impressive growth
 that was explained by the observation that the number of transistors on a processor chip
 doubled roughly every 18 months (Moore’s law<sup>[1]</sup>) while the power consumption remained
@@ -27,7 +27,7 @@ Thus, the performance gain, as measured by the number of instructions per clock 
 achieved by raising the processor core count to enable parallelism instead of enhancing the
 computing power of the individual core.
 
-### Why GPUs?
+## Why GPUs?
 In recent years, the need to deliver exascale computing capability and the emergence of
 data-intensive applications such as artificial intelligence (AI) in the form of machine learning prompted the adoption of
 hardware accelerators<sup>[4]</sup> to further increase computing performance beyond what multicore
@@ -48,7 +48,7 @@ going to be deployed in the near future based on accelerators from Intel, AMD, a
 
 <br>
 
-### Host vs device
+## Host vs device
 On GPU-enabled systems, a heterogeneous programming model leveraging both CPU and
 GPU is typically used. In this model, the CPU and its memory are referred to as the host, and
 the GPU and its memory as the device. Typically, the host can run only a limited number of
@@ -62,7 +62,7 @@ overhead compared to CPU function calls; therefore, their use is appropriate whe
 performing heavy computations. For this reason, it is often best for performance to combine two
 or more small computational kernels into a single GPU kernel (kernel fusion) when possible.
 
-### Data transfers between host and device
+## Data transfers between host and device
 Because host and device have their own separate memory, transfers of data between the two
 are often necessary. However, such transfers are relatively slow compared to the speed at
 which GPUs can perform calculations. To this end, it is beneficial to structure the algorithm in
@@ -82,7 +82,7 @@ less control over data motion, and that the page-fault detection mechanism used 
 these features introduces some overhead. However, these trade-offs may be worth the ease of
 development that comes with not having to explicitly manage data transfers.
 
-### Total memory footprint
+## Total memory footprint
 Data copied to the device should be kept there for as long as possible by allowing multiple
 kernels to perform successive calculations on the data before copying it back to the host. Even
 if some of these calculations do not parallelize well and could be run faster on the host, it may
@@ -102,7 +102,7 @@ aforementioned expense of host-device transfers - it is difficult to run as larg
 Summit as you could on Cori. This circumstance further highlights the importance of reducing the overall
 memory footprint of an application.
 
-### Memory allocation on the device
+## Memory allocation on the device
 Leveraging device memory to store temporary data structures is advantageous to reduce
 host/device data transfers. However, memory allocation is much slower on the device than on
 the host and should be used with care. In particular, frequent allocations of small chunks of
@@ -116,7 +116,7 @@ involved. The advantage is that device memory is reused, and calls to system all
 are minimized. In this way, dynamic data structures can be used without incurring prohibitive
 memory allocation costs.
 
-### Consider the roofline
+## Consider the roofline
 As with CPU functions, GPU kernel performance can be either compute bound, meaning limited
 by the number of floating point operations per second the accelerator hardware can perform, or
 memory bound, meaning limited by the rate at which can be streamed to the multiprocessors
@@ -135,19 +135,19 @@ GPUs use massive parallelism to maximize throughput. As a result, the roofline m
 be a better guide for GPU codes than CPU codes; however, it can still be a useful way to think
 about some GPU kernels.
 
-### Conclusion
+## Conclusion
 GPU computing offers remarkable potential for speeding up many scientific workloads. Even if
 code modifications are usually necessary to evade the performance bottlenecks outlined above,
 exceptional speed ups are possible.
 
-### For further reading:
+## For further reading:
 - [CUDA Toolkit Documentation](https://docs.nvidia.com/cuda/)<br>
 - [GPU offloading with OpenMP](https://developer.ibm.com/technologies/systems/articles/gpu-programming-with-openmp/)<br>
 - [ROCm documentation](https://rocmdocs.amd.com/en/latest/index.html)<br>
 - [DPC++ Reference documentation](https://docs.oneapi.com/versions/latest/dpcpp/index.html)<br>
 - [Performance Portability and the Exascale Computing Project](https://bssw.io/blog_posts/performance-portability-and-the-exascale-computing-project)<br>
 
-### Author bios
+## Author bios
 
 Michele Rosso is a Project Scientist in the Center for Computational Sciences and Engineering at Lawrence Berkeley National Laboratory. His research focuses on the development and implementation of adaptive mesh multi-physics algorithms for many-cores and GPU architectures. He contributes to several computational fluid dynamics software projects, including the MFIX-Exa multi-phase flow simulation tool and the adaptive mesh Navier-Stokes solver code IAMR.
 

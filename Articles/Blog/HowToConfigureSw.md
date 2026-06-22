@@ -12,13 +12,13 @@ Most CSE software needs to be installed from source on a wide variety of machine
 
 <!-- body text start -->
 
-### Overview
+## Overview
 Most CSE software needs to be installed from source on a wide variety of machines by end users. Developers of the software must decide how to enable this installation easily without overburdening the developers of software or the end users. This document introduces several approaches to use depending on the contents and scale of the software package.
 
-### Target Audience
+## Target Audience
 Scientific software project leaders and developers who need to ensure that their software can be installed on a wide variety of machines.
 
-### Prerequisites
+## Prerequisites
 Its a good idea to first read the article *[Understanding Software Configuration](UnderstandingSoftwareConfiguration.md)*.
 
 For simple packages that have almost no dependencies or machine dependent parameters, the use of (1)
@@ -35,7 +35,7 @@ whose business model is based on paid customer support (CMake is open-source sof
 community support is available on the open CMake mail lists). CMake comes with a testing environment
 CTest (which posts to a web dashboard CDash) and a packaging system CPack.
 
-### Creating a GNU Autoconf configure script
+## Creating a GNU Autoconf configure script
 The GNU open source package [Autotools](http://www.gnu.org/software/autoconf/) is distributed by GNU and is available for any modern system. In
 brief, the software developer creates a “configure.in” file, which contains all options that can be set and any
 tests that should be run, and writes makefile templates that will be populated with information from the given
@@ -48,7 +48,7 @@ machines that utilize a batch system – that is, require submitting all program
 machine – GNU Autotools can be problematic since it relies on being able to automatically build and run
 programs to determine machine properties.
 
-###  Creating a CMake build
+##  Creating a CMake build
 
 CMake has very different syntax from the GNU Autoconf configure scripts but performs essentially the same
 function. Thus, it has analogous options and variables that must be communicated to the build system. As
@@ -67,7 +67,7 @@ often out of date for many high-performance computing sites. GNU Autotools and C
 cross-compiling, which can be used on a batch-based system, but this disables the useful configure-time
 testing that the tools provide.
 
-### Rolling your own configure script
+## Rolling your own configure script
 
 A “configure” script can also be written without using the GNU Autotools programs and not requiring the use
 of M4 for those who want to avoid it <sup>[1]</sup>. This approach has the advantage of allowing additional features and behavior not provided by GNU. It is highly recommended that any other configure script follow the syntax  and expected behavior of a GNU Autoconf-generated script.
@@ -85,7 +85,7 @@ fortran interfaces, debugging symbols, or shared libraries.
 * Print out useful messages if there is a problem or inconsistency with the options.
 
 
-### Comparison of Software Configuration Features
+## Comparison of Software Configuration Features
 Feature | (1) Parameter file | (2) GNU Autotools | (3) CMake | (4) Roll your own configure|
 --- | --- | --- | --- |--- 
 Can automatically determine machine parameters |  | Yes | Yes | Yes, but you must provide all these tests as part of your system
@@ -122,7 +122,7 @@ dependencies should be listed, every configuration variable should be explained,
 examples should be given. This documentation can be on an installation instruction web page or
 text file included in the distribution, and it should also be available from command line help queries.
 
-### Common configuration options for scientific software
+## Common configuration options for scientific software
 
 Many scientific software libraries and applications require the same information when configuring, such as
 locations of BLAS and LAPACK. When a set of interacting software libraries is built, the same options must
@@ -130,7 +130,7 @@ be used for each of the libraries. In the past each software package selected it
 making installing multiple packages painful and error prone. The IDEAS team has developed a set of
 standard configuration options that we recommend you follow.
 
-### Notes
+## Notes
 
 <sup>[1]</sup> For example, PETSc’s configure, written completely in Python, provides all the functionality of GNU
 Autotools as well as the ability to install other packages and work on batch computer systems.

@@ -11,7 +11,7 @@
 Providing good, current developer-focused documentation pays off for the future -- for you
 and your fellow developers.  And it does not have to be that hard to do!
 
-### Documentation is the first thing to go
+## Documentation is the first thing to go
 
 Documentation that is incomplete or ill-conceived is probably the source of more
 frustration than any other challenge in scientific software development.
@@ -46,7 +46,7 @@ clarifying the exact same issue and wasting everyone’s time. A code under
 development is constantly morphing, and the associated documentation must go
 hand in hand with any and all changes.
 
-### Making it a little easier
+## Making it a little easier
 
 Doxygen was chosen for the documentation standard because of its comprehensive set
 of features, which eventually allowed integrating its web deployment within our
@@ -88,7 +88,7 @@ documentation issues; the latest release 7.1 was the first not to require a
 documentation crunch. The documentation debt was converted to an asset, and we
 began to reap the dividends.
 
-### Reaping the dividends
+## Reaping the dividends
 
 Documentation provides an introspection of the code that has benefits far beyond
 the obvious ease of understanding and maintenance. The introspection reveals
@@ -105,7 +105,7 @@ resources; and having a well-made professional-looking [web page](https://ornl.g
 much easier.
 
 
-### Author bio
+## Author bio
 Dr. Miroslav Stoyanov got his Ph.D. from Virginia Tech in 2009. After a postdoctoral position at Florida State University, he joined ORNL in 2012. His areas of research involve surrogate modeling, uncertainty quantification, high-dimensional approximation, and supercomputing. Dr. Stoyanov is also the lead developer of the ORNL Toolkit for Adaptive Stochastic Modeling and Non-Intrusive Approximation ([Tasmanian](https://tasmanian.ornl.gov)) and one of the main contributors to the library for Highly Efficient Fast Fourier Transform for Exascale (heFFTe).
 
 <!---

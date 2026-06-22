@@ -16,7 +16,7 @@ This article summarizes the initial efforts of the [Multi-Project DevOps
 organization](https://github.com/MultiprojectDevOps) to establish best practices
 for implementing and maintaining continuous integration (CI)/continuous deployment (CD) in a multi-project (MP) software ecosystem.
 
-### CI/CD vs MPCI/CD
+## CI/CD vs MPCI/CD
 
 Very briefly, CI is a software development practice where contributions to a
 software package are merged into a centralized repository as they are ready.
@@ -40,7 +40,7 @@ for developers to create many smaller software repositories instead of one large
 monolithic repository. **MPCI/CD is the practice of practicing CI/CD across many
 software repositories.**
 
-### MPCI/CD
+## MPCI/CD
 
 MPCI/CD generalizes the practice of CI/CD to multiple
 repositories. The key realization of MPCI/CD is that considering the CI/CD
@@ -65,7 +65,7 @@ The remainder of this article provides a high-level overview of these
 themes. More information on best practices can be found on the Multi-Project
 DevOps [website](https://multiprojectdevops.github.io/best_practices/).
 
-#### Treat infrastructure as code (IaC)
+### Treat infrastructure as code (IaC)
 
 IaC refers to the practice of preferring configuration scripts/files to set up
 a computing environment, as opposed to graphical user interfaces or other
@@ -80,7 +80,7 @@ Mechanisms for IaC differ depending on the CI/CD service. For GitHub actions, fo
 it is mainly controlled by which base image you use. For GitLab, this is
 controlled by the runner you pick.
 
-#### Dependencies
+### Dependencies
 
 In the context of MPCI/CD, *dependencies* include not just the software's
 dependencies, but also the dependencies of the CI/CD pipelines (e.g., the
@@ -115,7 +115,7 @@ Consequently, even pinning dependency versions will not be sufficient if downstr
 developers want to use the new features and nightly builds help developers
 plan for such upgrades.
 
-#### Avoiding code duplication
+### Avoiding code duplication
 
 *Don't Repeat Yourself*, or the DRY principle, is a cornerstone of software
 development. Our initial foray into MPCI/CD emerged from wanting our
@@ -154,7 +154,7 @@ scripts. GitHub additionally provides several additional
 actions, and reusable workflows. Similarly, GitLab provides
 [components](https://docs.gitlab.com/ee/ci/components/).
 
-#### Creation of reusable pipeline components
+### Creation of reusable pipeline components
 
 The last theme called for factoring out duplicate CI/CD code blocks into
 components. In practice, many of those components will be heavily tied to
@@ -190,7 +190,7 @@ This realization is particularly important when those utilities are reused
 across projects. In which case they should be developed following best
 practices.
 
-#### Security
+### Security
 
 We are not security experts, and the content of this subsection is meant to make
 the reader cognizant that all CI/CD has security concerns and that reuse of
@@ -214,7 +214,7 @@ If security is a concern for you, then note that these practices alone are not
 sufficient to protect you from harm. You should include actual cybersecurity
 experts in your CI/CD development and trust their wisdom and guidance.
 
-### Conclusion
+## Conclusion
 
 The Multi-Project DevOps organization is excited to share with the BSSw.io
 community the results of Dr. Ryan Richard's 2024 BSSw Fellowship project. 
@@ -226,7 +226,7 @@ MPCI/CD best practices described here should provide a foundation for others
 interested in improving how they manage CI/CD pipelines across multiple
 projects.
 
-### Acknowledgements
+## Acknowledgements
 
 This work was supported by the [Better Scientific Software Fellowship Program](https://bssw.io/fellowship), 
 a collaborative effort of the U.S. Department of Energy (DOE), Office of Advanced
@@ -239,7 +239,7 @@ Any opinions, findings, and conclusions or recommendations expressed in this
 material are those of the author(s) and do not necessarily reflect the views of
 the DOE or NSF.
 
-### Author bio
+## Author bio
 
 Ryan M. Richard is a research software engineer in the Chemistry and Biological
 Sciences Division at Ames National Laboratory. Ryan is also a 2024 Better

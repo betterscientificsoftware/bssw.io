@@ -24,7 +24,7 @@ The theme of this workshop is sustainable RSE ecosystems, encompassing both the 
 
 Prospective participants are encouraged to submit talk abstracts *(max 300 words)* on topics related to Sustainable RSE Ecosystems within eScience.
 
-#### Possible topics include (but are not limited to):
+## Possible topics include (but are not limited to):
 
 * Experiences as an RSE in eScience
 * Struggles between RSEs and domain scientists - how to find the common ground?

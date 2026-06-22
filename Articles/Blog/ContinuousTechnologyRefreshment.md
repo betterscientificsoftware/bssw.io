@@ -25,7 +25,7 @@ we describe experiences and lessons learned refreshing several technologies
   [Sphinx+ReadTheDocs](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/)
 * Other Refreshments Completed and Planned
 
-### Wrangling binary content
+## Wrangling binary content
 Because of the lack of alternatives, the VisIt team wound up having to use its Subversion repo for general *hosting*
 of content, much of it binary, not really requiring revision control. This included pre-built release
 binaries and tar files, PowerPoint presentations, and data ensembles used in tutorials.
@@ -38,7 +38,7 @@ LFS with 1 GB of storage and 1 GB/month bandwidth
 [limits per repo](https://help.github.com/en/articles/about-storage-and-bandwidth-usage). For $300 per year, 
 we purchased upgraded LFS service with 300 GB of storage and 3 TB of bandwidth.
 
-### Revision control
+## Revision control
 Migrating a few branches of a small project from [Subversion to GitHub](https://blog.axosoft.com/migrating-git-svn/)
 is trivial. A Google search of
 [*migrate from subversion to git*](https://www.google.com/search?q=migrate+from+subversion+to+git&oq=migrate+from+subversion+to+git&aqs=chrome..69i57j0l5.2131j0j8&sourceid=chrome&ie=UTF-8)
@@ -55,7 +55,7 @@ Furthermore, unwieldy binary content is properly LSF'd with only the revision hi
 content being captured. We reduced the size of the repository from several tens of gigabytes in Subversion to
 under half a gigabyte in Git.
 
-### Issue tracking
+## Issue tracking
 A key challenge in migrating issues was deciding upon a mapping from Redmine issue metadata
 (e.g., trackers, statuses, and custom fields) to reasonable GitHub equivalents and then
 automating the conversion with a script. To capture all issue history, we chose to migrate both open and resolved issues.
@@ -69,7 +69,7 @@ the resulting files with their new GitHub ids. The team then engaged in an *atta
 where each member was assigned about 10% of the attachments to manually attach to the appropriate
 GitHub issues.
 
-### Documentation
+## Documentation
 We migrated VisIt's GUI User Manual from OpenOffice to
 [Sphinx](http://www.sphinx-doc.org/en/master/) and
 [ReadTheDocs](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/).
@@ -83,7 +83,7 @@ a script to automate conversion of the C code Python docstrings to `.rst` files.
 in the near future, that is, craft the documentation in `.rst` and automate the creation of Python doc-strings
 from the `.rst`.
 
-### Other refreshments
+## Other refreshments
 
 When making big changes, it is a good idea to combine as many together as possible rather than
 dribble them out over numerous releases. As part of the 3.0 beta release, the VisIt team also refreshed
@@ -94,7 +94,7 @@ do CI testing (we currently test only proper compilation), and move our
 [web site](https://wci.llnl.gov/simulation/computer-codes/visit/) and
 [test dashboard](https://portal.nersc.gov/project/visit/) to GitHub as well.
 
-### Summary
+## Summary
 Most code teams find it necessary to engage in activities similar to those described here on a regular basis, often
 in response to changing development workflow needs. For example, in its 25+ year history, the
 [PETSc](https://www.mcs.anl.gov/petsc/) project has refreshed revision control systems on four separate occasions.
@@ -103,7 +103,7 @@ The HPC software community has yet to adopt the term *Continuous Technology Refr
 activities. However, we hope this article demonstrates that CTR is an essential aspect of sustaining software.
 Although technology refresh efforts can be costly, the benefits are improved development workflow and reduced long-term costs.
 
-### Author bios
+## Author bios
 
 Mark C. Miller is a computer scientist supporting the [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
 program at [LLNL](https://www.llnl.gov) since 1995.

@@ -166,3 +166,14 @@ wikize_refs_diff_test(wikize_refs_renumber
   OUTPUT_FILE test_renumber-wikized.md
   ARGS -r 5
   EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/utils/tests/test_renumber-wikized.md )
+
+wikize_refs_diff_test(wikize_refs_renumber_one
+  INPUT_FILE ${bsswioBaseDir}/utils/tests/test_renumber_one.md
+  OUTPUT_FILE test_renumber_one-generated.md
+  ARGS -r 1 -o test_renumber_one-generated.md
+  EXPECTED_OUTPUT_FILE ${bsswioBaseDir}/utils/tests/test_renumber_one-wikized.md )
+
+wikize_refs_diff_test(wikize_refs_renumber_one_up_to_date
+  INPUT_FILE ${bsswioBaseDir}/utils/tests/test_renumber_one_rerun.md
+  ARGS -r 1 -u
+  PASS_REGULAR_EXPRESSION "\"test_renumber_one_rerun.md\" is up to date. No changes will be made." )

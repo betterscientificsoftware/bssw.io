@@ -8,7 +8,7 @@
 
 #### Publication date: September 29, 2022
 
-### Introduction
+## Introduction
 
 Scientific software is often complex, providing many options to control features, supported hardware, and performance.
 In this blog post, we will take a closer look at configuration options and their influence on developer and user productivity.
@@ -20,7 +20,7 @@ These days, nearly all high-performance computing (HPC) software uses configurat
 It is extremely common that these switches are implemented exclusively, creating incompatible variants and binaries.
 Here we argue that this approach can have severe productivity implications for users and developers alike, including documentation and installation burdens, issues with usability, testing overhead, and limited composability; and we show potential solutions for a better binary variant design for HPC.
 
-### HPC examples
+## HPC examples
 
 The most common pattern of variations for HPC software is options for parallelism.
 In the simplest case, this is a flag that enables or disables MPI support in the software.
@@ -28,7 +28,7 @@ With the rise of GPU computing over the past decade, a similar option is often a
 
 Library and application developers in HPC might then add more domain-specific compilation options, such as additional numerical solvers supported by external math libraries (e.g., BLAS, LAPACK, or FFT) and choices of geometry of a model.
 
-### The catch
+## The catch
 
 Generally, such configuration options can be implemented at build time in two ways: binary switches and multivariant options.
 Binary switches are simply turning a functionality on or off, for example, MPI support.
@@ -87,7 +87,7 @@ It also hinders dependent developments from utilizing the CPU and GPU at the sam
 So-called fat binary artifacts can address this problem in part, by compiling multiple backends into the same executable and delegating the code path to choose at runtime.
 Unfortunately, few established conventions and tooling currently exist for such an approach, especially across different vendors, so this particular case can be hard to deal with.
 
-### Possible solutions and development policies
+## Possible solutions and development policies
 
 The solution to these challenges starts with everyone thinking of themselves as "upstream" developers and thinking about how downstream users might reuse their software.
 This even includes application developers: someone might come up with a clever way to integrate an application — like a library — into a larger context, for example, for optimizing ensemble use cases or AI/ML workflows.
@@ -109,7 +109,7 @@ We propose the following guidelines or development policies when introducing bin
 4. Add explicit configuration and runtime control to use such opt-in functionality and enhancements.
     - *Rationale*: avoids implicit assumptions that do not necessarily hold true when combined in a combined software ecosystem
 
-### Package managers and deployment
+## Package managers and deployment
 
 But hey, don't we have package managers to solve this problem for us by keeping track of the right variant?
 Well, in part.
@@ -127,7 +127,7 @@ With that capability, there are fewer modules to build, no environment switching
 
 <img src='../../images/Blog_2209_SoftwareVariants_Spack.png' />[Some of the WarpX compile-time options exposed in the Spack package manager.]
 
-### Hands-on examples
+## Hands-on examples
 
 **C/C++**
 
@@ -188,7 +188,7 @@ In AMReX, this is a compile-time option.
 We are addressing this by progressively compiling all geometries "as 3D" and adding additional 1D and 2D calls to parallel kernel primitives in AMReX 3D interfaces.
 Until then, we have increased usability by mirroring the compile time option as runtime user input, which allows us to throw clean error messages, and by compiling multiple runtime libraries per geometry for our Python bindings, which moves the task of a one-time dispatch to the Python level after reading the inputs file.
 
-### Summary
+## Summary
 
 Configuration variants are a common pattern in software design and in HPC software in particular.
 They are often expressed via `#ifdef`'s and seen as an efficient way to reuse and extend already written code.
@@ -199,7 +199,7 @@ Although modern package managers assist with the control of variants and modern 
 Designing binary variants as strict *functionality extensions*, without breaking API and runtime behavior once selected, is a way to address this problem.
 As a result, deployment is simpler, development against multiple variants is faster, testing time can be reduced, and documentations can be simplified.
 
-### Author Bio
+## Author Bio
 
 [Axel Huebl](https://orcid.org/0000-0003-1943-7141) is a computational physicist working at the Accelerator Technology & Applied Physics Division at Berkeley Lab.
 He works on exascale modeling of particle accelerators, especially plasma-based accelerator concepts, self-describing I/O via the [openPMD](https://www.openPMD.org) meta-data standard, data reduction and in situ algorithms, and developer productivity.

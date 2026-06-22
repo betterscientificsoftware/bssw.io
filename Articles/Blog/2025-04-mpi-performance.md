@@ -14,7 +14,7 @@ This blog post introduces [MPI Performance Guidelines](https://mpi-performance-g
 * **Portable**: The included [examples](https://github.com/mpi-performance-guidelines/examples) are MPI programs that can build and run using any MPI implementation (that supports the required standard APIs). Examples that rely on implementation-specific settings, such as environment variables, show results with at least two implementations to demonstrate portability.
 * **Open Source**: The MPI Performance Guidelines site is open for [contributions](https://mpi-performance-guidelines.github.io/contributing)! Suggestions for new guides are welcome, as well as improvements to existing content.
 
-### The focus is on performance
+## The focus is on performance
 
 The [MPI Standard](https://www.mpi-forum.org/docs/) is vast. It contains 1000+ pages of technical specification that is not intended for end-users. Existing online MPI tutorial materials typically focus on functionality and correctness of MPI programs, with performance optimization left as an exercise for the reader. MPI Performance Guidelines aims to fill this gap by focusing on performance using common scientific application use-cases, e.g., halo exchange. By demonstrating the way MPI experts structure their communication, our guides can enable users to push their scientific applications further.
 
@@ -29,11 +29,11 @@ MPI Performance Guidelines' initial set of guides cover:
 
 In addition to the written analysis and code examples, each guide contains a companion video explaining the topic in plain terms.
 
-### Acknowledgement
+## Acknowledgement
 
 This work was supported by the Better Scientific Software Fellowship Program, a collaborative effort of the U.S. Department of Energy (DOE), Office of Advanced Scientific Research via ANL under Contract DE-AC02-06CH11357 and the National Nuclear Security Administration Advanced Simulation and Computing Program via LLNL under Contract DE-AC52-07NA27344; and by the National Science Foundation (NSF) via SHI under Grant No. 2327079.
 
-### Author bio
+## Author bio
 
 Ken Raffenetti is a principal specialist, research software engineering, in the Mathematics and Computer Science Division at Argonne National Laboratory. He received his B.S. in computer science from the University of Illinois at Urbana-Champaign. He joined Argonne in 2006, where he worked for seven years as a systems administrator.
 

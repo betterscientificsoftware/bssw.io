@@ -32,13 +32,13 @@ We are looking for applications from people with the following characteristics:
 
 Applicants must be affiliated with a U.S.-based institution that is able to receive Federal funding.  Typically such institutions include U.S. government labs, U.S. universities, and U.S.-based corporations.
 
-### Q&A Webinar about the BSSw Fellowship Program
+## Q&A Webinar about the BSSw Fellowship Program
 
 Join us for a Q&A Webinar to hear more about the BSSw Fellowship Program and get your questions answered.
 - Tuesday, September 12, 2023, 2:00-3:00 PM EDT
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
 
-### More information, including on-line application and FAQ
+## More information, including on-line application and FAQ
 
 Better Scientific Software is an organization dedicated to improving developer productivity and software sustainability for computational science and engineering through BETTER Planning, Development, Performance, Reliability, Collaboration, and Skills.
 
@@ -46,7 +46,7 @@ Better Scientific Software is an organization dedicated to improving developer p
 - [APPLY NOW!](https://bssw.io/pages/apply-for-the-bssw-fellowship-program)
 - <mark>Application deadline: Friday, September 29, 2023</mark>; this is a firm deadline that will not be extended.
 
-### Current and past BSSw Fellows are:
+## Current and past BSSw Fellows are:
 
 - [Providing information on projects and perspectives (2022 BSSw Fellows)](https://bssw.io/blog_posts/2022-bssw-fellows-projects-and-perspectives)
 - [Advancing software productivity and sustainability via ongoing projects (2023 BSSw Fellows)](https://bssw.io/blog_posts/introducing-the-2023-bssw-fellows)
@@ -56,7 +56,7 @@ Better Scientific Software is an organization dedicated to improving developer p
 - [Tackling scientific productivity challenges (2018 BSSw Fellows)](https://bssw.io/blog_posts/2018-bssw-fellows-tackle-scientific-productivity-challenges)
 - And more!  [Check out how each of our BSSw Fellows are improving developer productivity and software sustainability.](https://bssw.io/pages/meet-our-fellows)
 
-### Author bio
+## Author bio
 Elsa Gonsiorowski is Coordinator of the BSSw Fellowship Program, a member of the [IDEAS-ECP](https://ideas-productivity.org/activities/ideas-ecp) team, and HPC I/O support specialist at [Livermore Computing, LLNL](https://hpc.llnl.gov/about-us).
 
 <br> 

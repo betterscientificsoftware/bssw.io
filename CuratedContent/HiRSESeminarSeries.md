@@ -6,7 +6,7 @@ Explore Research Software Engineering bi-monthly at the HiRSE Seminar Series, co
 
 #### Contributed by [Claire Wyatt](https://github.com/ClaireWyatt), [Robert Speck](https://github.com/pancetta), and [René Caspart](https://github.com/rcaspart)
 
-#### Publication date: 2024-01-23
+#### Publication date: 2026-04-10
 
 Resource information | Details
 :--- | :---
@@ -17,7 +17,7 @@ The HiRSE Seminar Series is a series of talks on the topic of Research Software 
 
 The upcoming seminars are announced in the US and UK slack channels as well as the German de-RSE mailing list and other RSE community platforms. Details on upcoming seminars can also be found on the [HiRSE calendar feed](https://b2drop.eudat.eu/apps/calendar/p/Z9NWzFdrS8fAXPd9).
 
-If you'd like to suggest a speaker, please contact the team directly at [hirse@fz-juelich.de](mailto:hirse@fz-juelich.de), or submit suggestions via the [feedback and suggestions form](forms.gle/XH2fMa3MEikjB9pt5).
+If you'd like to suggest a speaker, please contact the team directly at [hirse@fz-juelich.de](mailto:hirse@fz-juelich.de), or submit suggestions via the [feedback and suggestions form](https://forms.gle/XH2fMa3MEikjB9pt5).
 
 
 <!---

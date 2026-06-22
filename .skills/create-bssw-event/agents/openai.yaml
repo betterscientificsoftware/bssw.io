@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create BSSw Event"
+  short_description: "Draft BSSw.io event listings"
+  default_prompt: "Use $create-bssw-event to draft a BSSw.io Events entry from an official event URL."

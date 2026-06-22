@@ -18,7 +18,7 @@ Software documentation is essential for three reasons:
 Scientific software has an additional reason: to ensure that the software is used within its region
 of validity so that the possibility of producing spurious scientific results is minimized.
 
-### Categories
+## Categories
   In the wider software world a good place to start for a general description of documentation practices is located [here](https://en.wikipedia.org/wiki/Software_documentation). For scientific software, many categories for documentation are listed below.<br>
 * **Requirements:** The objectives of the software in terms of target applications and
 expectations from it in terms of features such as extensibility and composability.
@@ -47,7 +47,7 @@ appropriate) visualize the output of software. They may include source code (for
 library) and/or input files (for an application code). Often tutorials are the most useful
 documentation for users and can double as regression tests.<br>
 
-### Trade-Offs
+## Trade-Offs
 Documentation is the least immediately productive aspect of code development. In
 theory a code can be developed and perform perfectly without any documentation. In reality, for
 any nontrivial code, remembering all the details is impossible. Lack of documentation will
@@ -61,7 +61,7 @@ models and algorithms, whereas the developers of a community code may want to sp
 greater effort in producing a users guide. Many teams use code annotations to automatically
 generate a users guide by doing [literate programming](https://www-cs-faculty.stanford.edu/~knuth/lp.html).
 
-### Pitfalls
+## Pitfalls
 Code projects that have released code without adequate documentation have faced
 many challenges.
 * Users tried the software and then dropped it from frustration.

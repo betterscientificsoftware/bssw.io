@@ -1,7 +1,7 @@
 # Jupyter4Science: Better Practices for Using Jupyter Notebooks for Science
 
 <!--deck text start-->
-[Jupyter4Science](https://jupyter4.science) is a **knowledge base** of original content and curated resources about developing and sharing Jupyter notebooks as they are used in the context of scientific applications.
+[Jupyter4Science](https://github.com/Jupyter4Science) is a **knowledge base** of original content and curated resources about developing and sharing Jupyter notebooks as they are used in the context of scientific applications.
 <!--deck text end-->
 
 #### Contributed by [Nicole Brewer](https://www.nicole-brewer.com)
@@ -11,7 +11,7 @@
 Resource information | Details 
 :--- | :--- 
 Resource name | Jupyter4Science
-Website  | [https://jupyter4.science](https://jupyter4.science)
+Website  | [https://jupyter4.science](https://github.com/Jupyter4Science)
 Focus | Jupyter notebooks
 
 ### Jupyter notebooks and the Jupyter ecosystem

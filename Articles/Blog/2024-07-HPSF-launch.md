@@ -22,7 +22,7 @@ By providing a framework that included all DOE national laboratories, it became 
 
 HPSF intends to be the common ground for establishing these collaborations on a global scale. 
  
-### HPSF structure
+## HPSF structure
 
 HPSF is controlled by a Governing Board and a Technical Advisory Council.
 The Governing Board consists of representatives from HPSF member organizations and some representation from technical projects such as Kokkos and Spack.
@@ -35,7 +35,7 @@ The Technical Advisory Council is also the primary body to organize day-to-day c
 
 <img src='../../images/Blog_hpsf_structure.png' class='page'/>
 
-### Initial technical projects
+## Initial technical projects
 
 HPSF has currently nine associated projects:
 
@@ -49,14 +49,14 @@ HPSF has currently nine associated projects:
 * [AMReX](https://amrex-codes.github.io/amrex/): A software framework for massively parallel, block-structured adaptive mesh refinement (AMR) applications
 * [WarpX](https://ecp-warpx.github.io/): An advanced, time-based 1D/2D/3D/RZ electromagnetic & electrostatic particle-in-cell code
 
-### Open for global business
+## Open for global business
 
 Key benefits of belonging to the High-Performance Software Foundation include open governance models, resources for improving software quality and building community, as well as collaborations with the larger Linux computing ecosystem.
 Leveraging well-established open governance models from the Linux Foundation, HPSF provides a framework to organize multi-institutional collaborations.
 Taking the step of donating rights to some of its most high-profile projects in the realm of HPC to the Linux Foundation demonstrates that DOE is committed to evolving them into true community efforts.
 Our hope is that in the long run, HPSF will be able to serve as a central hub for these HPC community efforts, to enable collaborations across the entire worldwide HPC community.
 
-### Author bio
+## Author bio
 
 Christian Trott is a member of the technical staff at Sandia National Laboratories.
 He is a co-lead of the Kokkos Performance Portability project ([https://kokkos.org](https://kokkos.org)), a member of the ISO C++ standard committee, and serves on the governing board of HPSF.

@@ -8,7 +8,7 @@
 
 #### Publication date: June 16, 2020
 
-### Scientific software developers tend to extremes
+## Scientific software developers tend to extremes
 
 A common obstacle in the development of scientific software is that it
 is typically carried out by researchers doubling as software
@@ -42,7 +42,7 @@ pay off in the long term, such development cannot be justified on
 scientific grounds. Furthermore, efficient generalization requires a
 lot of experience and foresight that are usually hard to obtain.
 
-### Finding the middle path
+## Finding the middle path
 
 While organizations such as [The Carpentries](https://carpentries.org/)
 have emerged to help researchers gain the skills needed for proper
@@ -92,7 +92,7 @@ when, for example, a method is implemented within a general software
 package  but is quickly superseded by a superior
 method before being used enough to justify the implementation effort.
 
-### Applying lazy refactoring  to new software or new feature development
+## Applying lazy refactoring  to new software or new feature development
 
 Since we originally proposed this method, we have found it suitable as
 a general guideline for making decisions on how to prototype and
@@ -114,7 +114,7 @@ rapidly changing hardware and software environment is justified by the
 existing applications of the software, and maintainers should consider
 seeking dedicated funding.
 
-### Balancing immediate needs with a path forward
+## Balancing immediate needs with a path forward
 In summary, lazy refactoring helps developers of scientific software
 in academic contexts effectively prioritize software development
 efforts by focusing on immediate scientific needs balanced with a
@@ -122,7 +122,7 @@ clear path toward general-purpose utilization. This process helps
 justify development efforts to funding agencies while effectively
 improving overall code quality.
 
-### Acknowledgments
+## Acknowledgments
 
 This article is based on a paper in the IEEE Computing in Science and
 Engineering special issue on *Accelerating Scientific Discovery with
@@ -132,10 +132,10 @@ Reusable Scientific Software -- And When Not To,* Computing in Science
 and Engineering 21, 66-79 (2019). DOI:
 [10.1109/MCSE.2018.2882355](https://doi.org/10.1109/MCSE.2018.2882355)
 
-### Image Attribution
+## Image Attribution
 Image by Dave Taylor from Boulder, CO, is licensed under CC BY 2.0.
 
-### Author bios
+## Author bios
 
 Dr. Carl Simon Adorf is a postdoctoral researcher in the group of
 Prof. Nicola Marzari at École polytechnique fédérale de Lausanne
@@ -144,7 +144,7 @@ the supervision of Sharon C. Glotzer in 2019. Dr. Adorf is an expert in
 employing machine learning algorithms for identifying and
 analyzing crystallization pathways of colloidal crystals and has
 made a huge impact on the scientific computing community by inventing
-and leading the development of the signac framework ([signac.io](http://signac.io/)). He is
+and leading the development of the signac framework ([signac.readthedocs.io](https://signac.readthedocs.io/en/latest/index.html)). He is
 currently a developer for the AiiDA computing infrastructure
 ([aiida.net](http://aiida.net/)) and the Materials Cloud open science platform
 ([materialscloud.org](http://materialscloud.org/)) as part of his involvement with the Horizon 2020
@@ -153,7 +153,7 @@ MARKETPLACE project.
 Vyas Ramasubramani is a Ph.D. candidate in the group of Sharon Glotzer
 at the University of Michigan, Ann Arbor, where he studies particle
 self-assembly, especially of
-proteins, at the nanoscale and microscale. Vyas is a maintainer and lead developer for both the [signac](http://signac.io/)
+proteins, at the nanoscale and microscale. Vyas is a maintainer and lead developer for both the [signac](https://signac.readthedocs.io/en/latest/index.html)
 data management framework and the [freud](http://freud.readthedocs.io/) simulation analysis toolkit,
 and he created the [rowan](https://rowan.readthedocs.io/) package for quaternion mathematics. He is
 also a core developer for [HOOMD-blue](http://glotzerlab.engin.umich.edu/hoomd-blue/), a popular particle simulation

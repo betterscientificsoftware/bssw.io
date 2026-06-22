@@ -11,7 +11,7 @@ Learn the top-9 standards and practices that a modern science and engineering co
 <!--deck end-->
 
 
-### Abstract
+## Abstract
 
 Despite the critical importance of sustainable software development, there remains a significant lack of awareness among software developers and managers on the importance of practices and standards on the quality of software products.
 This article explores the role of coding standards, practices, and guidelines in mitigating technical debt and enhancing software sustainability.
@@ -21,7 +21,7 @@ Imagine if technical debt could be be reduced from 50% to 10%.
 At one organization, we estimate that this change could lead to $100M in annual savings.
 This article is based on a presentation delivered at the 2024 Sustainable Scientific Software Conference (S3C), which was part of the National Labs Information Technology (NLIT) Summit held in Seattle, Washington.
 
-### Introduction
+## Introduction
 
 In the realm of software engineering, the development of sustainable software is often overlooked or misunderstood.
 Many development teams face technical debt that exceeds 50% of their budget, and worse, they may not be aware of the magnitude of their technical debt.
@@ -32,7 +32,7 @@ Hopefully, this article can help by highlighting the importance of developing an
 We hope to demonstrate various ideas through a fictional story of an onboarding experience at Fake Science and Engineering Company (FSEC), where you have been hired to work on a scientific software project.
 
 
-### Fake Science and Engineering Company (FSEC)
+## Fake Science and Engineering Company (FSEC)
 
 Welcome to FSEC.
 You have been hired as a software engineer for our latest scientific software project.
@@ -52,7 +52,7 @@ As you work on the project, it is more important to make the software readable (
 Your number one job as a software developer is to make the code you write readable!
 
 
-### FSEC software development standards and practices
+## FSEC software development standards and practices
 
 We will touch upon some of the more important standards and practices.
 A summary is listed below:
@@ -198,7 +198,7 @@ Additionally, we will measure our testing line coverage, which will remain above
 We are always experimenting to improve or find new measures.
 We do not avoid this area because it is hard; we do it to ensure we are not flying blind and have a clear sense of how efficiently we are executing our software development projects.
 
-### Scientific software thoughts
+## Scientific software thoughts
 
 At FSEC, our software is primarily scientific.
 We hire aerospace, electrical, civil, and other engineering disciplines, as well as mathematicians, data scientists, and user experience (UX) specialists.
@@ -209,7 +209,7 @@ We prioritize team implementations over individual efforts.
 We are keenly aware of developers who drive recklessly to get somewhere fast versus those who drive well and get us there sustainably.
 Most developers recognize that our standards and practices are designed to get us there both fast and well.
 
-### Path forward ideas to consider
+## Path forward ideas to consider
 
 At this point in the article, we conclude our fictional FSEC onboarding story.
 How can we move forward in improving our ability to write sustainable software?
@@ -257,7 +257,7 @@ Bring change agents from different teams together, create an initial starting po
 Consider using the S3C conference as a venue for thinking about and discussing these ideas further.
 
 
-### Conclusion
+## Conclusion
 
 We believe that many organizations can improve their software development teams by focusing on improving knowledge and practices for creating sustainable software.
 While there is not excellent scientific research on this topic, we should not be flying blind.
@@ -266,12 +266,12 @@ At one facility, we estimate that if teams could move their practices toward sus
 Yes, that is correct.
 That is how much technical debt can impact an organization, and worse, some might not even know they are swimming in it.
 
-### Acknowledgments
+## Acknowledgments
 
 We thank Scott Warnock, Stuart Baxley, Chris Sullivan, Gary Lawson, Akhil Potla, Richard Drake, Henry Gabaldon, Erik Strack, Terri Galpin, Tricia Gharagazloo, Dena Vigil, Richard Michael Jack Kramer, Salomé Thorson, Raisa Koshkin, and the Sierra Toolkit Team (Alan Williams, Jesse Thomas, Todd Coffey, Nate Roehrig, C. Riley Wilson, Tolu Okusanya, David Glaze, and Johnathan Vo) for their invaluable contributions. We also acknowledge Roscoe Bartlett for his valuable suggestions for this article.
 
 
-### Author bio
+## Author bio
 
 [Manoj K. Bhardwaj, Ph.D.](https://www.linkedin.com/in/manoj-bhardwaj-22448932/), is a technical staff member at Sandia National Laboratories with a lengthy background in numerical software development and simulation.
 Manoj is passionate about Scrum, Extreme Programming (XP), and Development and Operations (DevOps).

@@ -3,18 +3,20 @@
 Software—the foundation of discovery in computational science & engineering—faces increasing complexity in computational models and computer architectures. BSSw provides a central hub for the community to address pressing challenges in software productivity, quality, and sustainability.
 
 <!---
-Slide1 L: ../images/Blog_2506_SC24.png
-Slide1 R: ../Articles/Blog/2025-06-sc24-rse-workshop.md
-Slide2 L: ../Articles/Blog/2025-06-approximate-computing.md 
-Slide2 R: ../CuratedContent/ResearchingRSE.md
-Slide3 L: ../CuratedContent/CuratedContent/DosAndDontsWhenSunsettingOpenSourceProjects.md 
-Slide3 R: ../CuratedContent/LadyBirdBrowser.md  
-Slide4 L: ../Events/2025-11-workshop-correctness-earth.md
-Slide4 R: ../Events/hpcbp-092-genai-coding.md
-Slide5 L: ../Events/2025-07-intersect-bootcamp.md
-Slide5 R: ../Events/2025-usrse-conf.md
-Slide6 L: ../Events/ATPESC2025.md
-Slide6 R: ../Events/2025-09-escience.md
+Slide1 L: ../Articles/Blog/2027-05-rse-genai.md 
+Slide1 R: ../Articles/Blog/2026-05-modern-memory-safe-cpp.md 
+Slide2 L: ../CuratedContent/TuringWay.md
+Slide2 R: ../CuratedContent/ResearchSoftwareSharingChecklists.md
+Slide3 L: ../CuratedContent/StorytellingShapesSystemsChange.md 
+Slide3 R: ../CuratedContent/hpcbp-webinars-cc.md
+Slide4 L: ../Events/2026-usrse-conf.md
+Slide4 R: ../Events/2026-03-nls3c-cop-webinar.md 
+Slide5 L: ../Events/2026-06-reproducibility-under-pressure.md
+Slide5 R: ../Events/2026-08-ai-interview-study.md
+Slide6 L: ../Events/2026-06-URSSI-school.md
+Slide6 R: ../Events/2026-07-intersect-bootcamp.md 
+Slide7 L: ../Events/Events/ATPESC2026.md 
+Slide7 R: ../Events/2026-09-irsc.md 
 --->
 
 <!---
@@ -22,14 +24,20 @@ Note: We have had up to 7 L and R panels in the carousel, even if the current ca
 
 Caution: Blank line after first comment mark (or before last comment mark) causes build failure.
 LCM: Saving for use again later
-Slide1 L: ../Articles/Blog/2025-05-conscious-review.md 
-Slide1 R: ../Articles/Blog/2025-05-tl4bssw.md 
-Slide2 L: ../CuratedContent/LadyBirdBrowser.md  
-Slide2 R: ../CuratedContent/hpcbp-webinars-cc.md 
-Slide3 L: ../Events/hpcbp-091-software-citation.md
-Slide3 R: ../Events/2025-07-intersect-bootcamp.md
-Slide4 L: ../Events/2025-usrse-conf.md
-Slide4 R: ../Events/ATPESC2025.md
+Slide1 L: ../Articles/Blog/2026-04-everse.md
+Slide1 R: ../images/2026-04-everse-hero.png
+Slide2 L: ../Articles/Blog/2026-04-mpi-debugging.md
+Slide2 R: ../CuratedContent/HiRSESeminarSeries.md
+Slide3 L: ../CuratedContent/AgileIsOutArchitectureIsBack.md
+Slide3 R: ../Events/hpcbp-098-checklists.md 
+Slide4 L: ../Events/2026-09-irsc.md 
+Slide4 R: ../Events/2026-06-URSSI-school.md
+Slide5 L: ../Events/2026-05-s3c-conference.md 
+Slide5 R: ../Events/2026-03-nls3c-cop-webinar.md 
+Slide6 L: ../Events/2026-usrse-conf.md
+Slide6 R: ../Events/2026-07-intersect-bootcamp.md 
+Slide7 L: ../Events/Events/ATPESC2026.md 
+Slide7 R: ../CuratedContent/ResearchSoftwareScience.md
 <!---
 [Site Overview](SiteOverview.md)
 

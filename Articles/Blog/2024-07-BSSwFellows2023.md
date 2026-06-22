@@ -15,12 +15,12 @@ Read about the 2023 BSSw Fellows and their contributions to the BSSw community!
 The 2023 BSSw Fellows have used their skills to create tutorials, webinars, and tools to guide developers through various stages of the scientific software lifecycle and impact the culture of scientific software development.
 Here's more about what they have been up to and their perspectives on the BSSw Fellowship Program.
 
-### Improving accessibility of research data and software with scientific web applications in Jupyter notebooks
+## Improving accessibility of research data and software with scientific web applications in Jupyter notebooks
 
-BSSw Fellow Nicole Brewer works to make scientific software accessible and reproducible with scientific web applications, which enable dissemination of research, teaching, engaging stakeholders, and even updating policymakers. Jupyter Notebooks can be used to easily adapt existing researcher code into web interfaces that hide underlying code from users. Jupyter makes an excellent platform for development because it can be easily understood, inherited, and maintained by researchers. Nicole's fellowship work included creating a tutorial for developing web applications in Jupyter Notebooks, which she presented at [SciPy 2023](https://github.com/Jupyter4Science/scipy23-jupyter-web-app-tutorial), and will be participating in again at [SciPy 2024](https://cfp.scipy.org/2024/talk/KAESWL/). She then compiled these and various other resources to a new website, [Jupyter4Science](https://jupyter4.science/), which is a knowledge base about developing and sharing Jupyter Notebooks as they are used in the context of scientific applications. The site contains both external resources and [original blog content](https://jupyter4.science/posts/) by Nicole and her students.
+BSSw Fellow Nicole Brewer works to make scientific software accessible and reproducible with scientific web applications, which enable dissemination of research, teaching, engaging stakeholders, and even updating policymakers. Jupyter Notebooks can be used to easily adapt existing researcher code into web interfaces that hide underlying code from users. Jupyter makes an excellent platform for development because it can be easily understood, inherited, and maintained by researchers. Nicole's fellowship work included creating a tutorial for developing web applications in Jupyter Notebooks, which she presented at [SciPy 2023](https://github.com/Jupyter4Science/scipy23-jupyter-web-app-tutorial), and will be participating in again at [SciPy 2024](https://cfp.scipy.org/2024/talk/KAESWL/). She then compiled these and various other resources to a new website, [Jupyter4Science](https://github.com/Jupyter4Science), which is a knowledge base about developing and sharing Jupyter Notebooks as they are used in the context of scientific applications. The site contains both external resources and [original blog content](https://jupyter.org/) by Nicole and her students.
 
 <a href="https://bssw.io/items/jupyter4science-better-practices-for-using-jupyter-notebooks-for-science" class="link-row">BSSw.io Resource - Jupyter4Science: Better Practices for Using Jupyter Notebooks for Science</a>
-<a href="https://jupyter4.science" class="link-row">Jupyter4Science knowledge base</a>
+<a href="https://github.com/Jupyter4Science" class="link-row">Jupyter4Science knowledge base</a>
 <a href="https://cfp.scipy.org/2023/talk/NFWZXD/" class="link-row">How the Little Jupyter Notebook Became a Web App, tutorial at SciPy 2023</a>
 <a href="https://cfp.scipy.org/2024/talk/KAESWL/" class="link-row">Building Complex Web Apps with Jupyter Widgets, tutorial at SciPy 2024</a>
 
@@ -37,13 +37,13 @@ BSSw Fellow Nicole Brewer works to make scientific software accessible and repro
 </div>
 </div>
 
-*Perspectives on the BSSw Fellowship Program:* Before returning to grad school, I worked as a research software engineer at Purdue, developing Jupyter-based web applications to enhance the accessibility and reproducibility of research code and data. The BSSw fellowship provided me with rare and valuable time to reflect on and disseminate lessons learned from my experiences. More unexpectedly, it gave me the space to reflect and pivot my dissertation topic to align closely with my passion for scientific notebooks. Jupyter notebooks are incredibly flexible tools, which makes them amenable to innovative uses but also challenging to characterize. For my dissertation, I aim to explore the boundaries and scope of Jupyter Notebooks in scientific contexts, with a particular focus on their findability and reproducibility. These research goals will in turn serve the Jupyter4Science site, which I envision as a hub for a well-scoped community of practice. To further the goal of community-building, I have published a page on the site about the various ways others can [contribute](https://jupyter4.science/contribute/) to the project.
+*Perspectives on the BSSw Fellowship Program:* Before returning to grad school, I worked as a research software engineer at Purdue, developing Jupyter-based web applications to enhance the accessibility and reproducibility of research code and data. The BSSw fellowship provided me with rare and valuable time to reflect on and disseminate lessons learned from my experiences. More unexpectedly, it gave me the space to reflect and pivot my dissertation topic to align closely with my passion for scientific notebooks. Jupyter notebooks are incredibly flexible tools, which makes them amenable to innovative uses but also challenging to characterize. For my dissertation, I aim to explore the boundaries and scope of Jupyter Notebooks in scientific contexts, with a particular focus on their findability and reproducibility. These research goals will in turn serve the Jupyter4Science site, which I envision as a hub for a well-scoped community of practice. To further the goal of community-building, I have published a page on the site about the various ways others can [contribute](https://github.com/Jupyter4Science) to the project.
 
 *Advice for new (prospective) BSSw Fellows:* For my proposal, I decided to use my funding in part to hire students to assist me with the production of my fellowship deliverables. I had mentored undergraduate students before, but only from within the confines of a structured program with predefined goals. This time, I was stepping outside the boundaries of traditional internships with two full-time undergraduates. Hiring and onboarding students during the summer required a massive upfront effort as I developed the internship program on the fly. It took a few weeks for us to hit our stride, but over the summer, I watched them grow in their capacity for project management and intellectual independence at an astounding rate. They stayed on with me well past the initial time frame and evolved into integral team members, making valuable contributions to the Jupyter4Science site and winning a Best Student Poster award for their submission to the inaugural US-RSE conference in October 2023. I would recommend involving students, and especially undergraduates, to anyone willing to prioritize their students' growth over immediate project outcomes. In my experience, involving students "saved me time," and their fresh perspectives drastically enriched the project.
 
 - - -
 
-### Improving the quality of scientific software through rigorous software testing
+## Improving the quality of scientific software through rigorous software testing
 
 BSSw Fellow Myra Cohen embeds cutting-edge software testing techniques into the scientific software development workflow. Rather than expecting the scientific community to become experts on volumes of software testing principles and techniques, she brings intuitive and non-intrusive approaches to them with short videos, code examples, and tools. Myra's work focuses on system testing techniques for scientific software: ensuring coverage of tests to represent a broad set of behaviors, sampling configurable systems to find faults that appear only under specific combinations of configuration options, and utilizing a representative range of input data. She also studies ways to test software that lacks a known oracle (or expected result) and techniques to test software that is stochastic or probabilistic. Myra aims to provide an end-user view of scientific software, creating methods for developers to provide explainability and interpretability of configuration choices and their impact on the scientific results.
 
@@ -72,7 +72,7 @@ Propose something that you are passionate about and create realistic deliverable
 
 - - -
 
-### Improving developer productivity by demystifying the compiler black box
+## Improving developer productivity by demystifying the compiler black box
 
 Compilers are an integral component in software development that ensure our software performs on modern systems. However, compilers may sometimes be seen as complex, black-box interpreters in the build system that fail to understand the programmer's intent. Through a series of short videos, BSSw Fellow Johannes Doerfert explains the compiler, its inner workings, and best practices for working with it. His work opens the compiler black box to foster an interactive development experience that reduces programmer effort and increases performance and software quality. Videos provide an introduction to basic compiler-based tools and functionality---information that should be understood by all (scientific) programmers. These videos also expose how to actively work on large production applications, and how working with the compiler, as opposed to against it, results in time savings and better code/performance.
 
@@ -98,7 +98,7 @@ Compilers are an integral component in software development that ensure our soft
 
 - - -
 
-### Sustainable strategies for managing supply chain security in research software
+## Sustainable strategies for managing supply chain security in research software
 
 BSSw Fellow William Hart explores how to effectively integrate security practices within open-source computational science projects to enhance the security of these projects and their artifacts without disrupting the collaborative interactions that are needed to support open-source development with contributors from multiple institutions. Organizations are increasingly challenged to address supply chain security issues in open-source software. There are ongoing discussions regarding potential government-wide policies, but it remains unclear how different policies will impact collaborative multi-institutional interactions. William's fellowship work supports the application of supply chain security practices to Department of Energy (DOE) computational science projects. Specifically, he explored the complexity of generating software bills of materials (SBOMs), which are a key element of software supply chain security.
 
@@ -127,7 +127,7 @@ I recommend that prospective BSSw fellows should focus on topics that they are i
 
 - - -
 
-### Increasing the confidence of first-time open-source contributors and humanizing the process of code review
+## Increasing the confidence of first-time open-source contributors and humanizing the process of code review
 
 Code review is a skill. Currently, there is literature available to read about code review, but not many hands-on tutorials, particularly for people outside of computer science. In contrast, there are a host of excellent "learn-by-doing" online resources for learning programming languages. Moreover, code review circumstances can be challenging due to the nature of scientific coding. Researchers are often working on a new scientific problem while trying to learn git, GitHub, and a programming language, and during a code review session, their code may be "criticized". Also challenging is the circumstance when scientific software developers start work in a new domain where they have little knowledge. During a code review session, it can be very difficult to separate criticism of the code from criticism of the person. This is a skill for both the reviewer and the reviewee always to be working on.
 
@@ -158,7 +158,7 @@ I think something that is concretely helpful to you and resonates with the commu
 
 - - -
 
-### Increasing developer impact through effective communication of software design
+## Increasing developer impact through effective communication of software design
 
 BSSw Fellow Rafael Mudafort's work empowers research software engineers to effectively communicate elements of software design to technical and non-technical audiences, including scientists and program managers. Many aspects of software design are typically considered but rarely communicated during the software development process, leading to the adverse consequence of implicit knowledge being lost over time or when developers move to other projects. Rafael aggregated resources and developed training materials to teach developers to communicate design principles, overarching themes (i.e., the concept of 'parti'), architecture, data structures, workflows, and scope of new work---using graphical formats in order to reach broad audiences. The long-term vision of these efforts is to provide research software engineers the tools to communicate how their software has been created and why particular design decisions are meaningful to ensure developer productivity and software sustainability.
 
@@ -193,11 +193,11 @@ Also, I suggest talking about your fellowship topic regularly to your colleagues
 
 - - -
 
-### Learn more about the BSSw Fellowship Program
+## Learn more about the BSSw Fellowship Program
 
 BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software. See more about the [BSSw Fellowship Program](https://bssw.io/fellowship), including ongoing work of the 2024 BSSw Fellows. We will begin accepting applications for 2025 BSSw Fellowships during mid-August 2024. Register for the [BSSw mailing list](https://bssw.io/pages/receive-our-email-digest) to receive information.
 
-### Author bio
+## Author bio
 
 Elsa Gonsiorowski is coordinator of the BSSw Fellowship Program, a member of the [PESO](https://pesoproject.org) team, and an HPC I/O support specialist at [Livermore Computing, LLNL](https://hpc.llnl.gov/about-us).
 

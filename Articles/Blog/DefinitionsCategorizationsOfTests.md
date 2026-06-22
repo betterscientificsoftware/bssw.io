@@ -19,11 +19,11 @@ In addition to defining these categories and tests, some of the consensus views 
 software engineering community are injected. These views help to motivate and contrast the different
 types of tests and help to guide how they can be applied in an effective software development process.
 
-### Definitions and Categories of Tests
+## Definitions and Categories of Tests
 Tests can be categorized by the granularity of the test and the type of test . In addition, different types
 of analysis tools/tests can be run using an existing test suite.
 
-#### Granularity of Tests
+### Granularity of Tests
 Tests can be defined at different levels of granularity. The levels of granularity vary from the smallest
 units of the software to the entire software system.
 
@@ -48,7 +48,7 @@ the full simulation code, and then checking the output and final solutions (by s
 System-level tests on their own are typically not considered a sufficient foundation to effectively and
 efficiently drive code development and code refactoring efforts.
 
-#### Types of Tests
+### Types of Tests
 There are different types of tests that focus on different aspects of the software.
 
  * **[Verification Tests:](https://en.wikipedia.org/wiki/Verification_and_validation)**
@@ -100,7 +100,7 @@ Therefore, one has to specifically design these tests as opposed to just running
 memory usage error detection or code coverage . Performance tests can be written at the unit ,
 integration , or system level.
 
-#### Test Analysis Tools
+### Test Analysis Tools
 In addition to specific types of tests that are created, different types of analysis can be performed on a
 given set of existing executable tests. Some examples of this are memory usage error detection and
 code coverage.
@@ -116,7 +116,7 @@ Code Coverage investigates which lines of code are executed, what logical branch
 coverage test tool is run on a given test suite for the software of interest and then the results are
 displayed for analysis.
 
-### Discussion
+## Discussion
 
 The granularity of a test and the type (or focus) of a test are typically independent of each other. For
 example, a verification test can be applied at the unit level or the system level. Also, while acceptance

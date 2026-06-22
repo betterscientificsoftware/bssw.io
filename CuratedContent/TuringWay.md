@@ -1,35 +1,34 @@
-# The Turing Way: Reproducible and Ethical Science 
+# The Turing Way: Reproducible and Ethical Science
+
 <!--deck text start-->
 Explore *The Turing Way*, an online handbook to reproducible, ethical, and collaborative computational and data science.
 <!--deck text end-->
 
-#### Contributed by [Jed Brown](https://github.com/jedbrown), [Mark C. Miller](https://github.com/markcmiller86 "Mark C. Miller GitHub Profile")
-#### Publication date: Jul 10, 2024
-<!-- This article was first published on Jul 6 2023 -->
+#### Contributed by [Suzan Anwar](https://github.com/szuananwar), [Jed Brown](https://github.com/jedbrown), and [Mark C. Miller](https://github.com/markcmiller86)
+
+#### Publication date: May 12, 2026
 
 Resource information | Details
 :--- | :--- 
 Resource name | The Turing Way
 Website | [The Turing Way](https://the-turing-way.netlify.app/index.html)
-Publication | Also available: [DOI](https://doi.org/10.5281/zenodo.3233853) for The Turing Way: A handbook for reproducible, ethical and collaborative research. 
-Focus | Reproducible, ethical and collaborative data science
+Publication | Latest Release: [DOI](https://doi.org/10.5281/zenodo.15213042) (v1.2.3, April 2025)
+Focus | Reproducible, ethical, and collaborative data science
 
-The Turing Way is a wonderful handbook focused on reproducible, ethical, and collaborative computational and data science. 
-As an online collaborative project, it brings together the expertise and experiences of various contributors in the field of data science and research.
-The handbook features impactful illustrations and maintains a consistent, approachable writing style. 
-While it may not be specifically centered on HPC, and certain details pertain to biomedical applications, the chapters on Reproducible Research, Project Design, Communication, Collaboration, and Ethical Research have significant relevance to HPC/CSE. You can access the handbook on The Turing Way website and find it also available through DOI.
+The Turing Way is a comprehensive handbook and global community focused on reproducible, ethical, and collaborative computational and data science. As of the **v1.2.3 release (April 2025)**, the project has matured into five distinct guides supported by an extensive community handbook.
 
+While applicable across all data-driven fields, the handbook has expanded its relevance to HPC and CSE through several key 2025 updates:
+* **AI and Machine Learning Governance:** New sub-chapters covering Data Governance for the ML Pipeline and specialized Machine Learning Model Licensing.
+* **Environmental Sustainability:** A critical new section regarding the "Environmental Impact of Digital Research."
+* **Ethics:** Updated chapters on Research Data Management, Data Hazards, and other topics, and a global localization effort to ensure accessibility across languages and regions.
 
-*The Turing Way* project is open source, open collaboration, and community-driven.
-It involves and supports a diverse community of contributors to make data science accessible, comprehensible and effective for everyone.
-Its goal is to provide all the information that researchers and data scientists in academia, industry and the public sector need to ensure that the projects they work on are easy to reproduce and reuse.
+The handbook remains an open-source, community-driven project that involves a diverse global network of contributors. Its primary goal is to provide researchers, software engineers, and project leaders in academia and industry with the tools necessary to ensure their projects are easy to reproduce, reuse, and scale responsibly.
 
-> All stakeholders, including researchers, software engineers, project leaders and funding teams, are encouraged to use *The Turing Way* to understand their roles and responsibilities in ensuring reproducibility in data science. 
-> The moonshot goal of *The Turing Way* is to make reproducibility *too easy not to do*.
+> All stakeholders are encouraged to use *The Turing Way* to understand their roles and responsibilities in ensuring reproducibility. The "moonshot goal" of the project remains making reproducibility *too easy not to do*.
 
 <!---
 Publish: yes
 Pinned: no
 Topics: Reproducibility, Strategies for More Effective Teams, Documentation, Revision Control, Big Data
-RSS update: 2023-07-06
---->
+RSS update: 2026-05-12
+---->

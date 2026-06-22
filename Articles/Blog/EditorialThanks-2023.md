@@ -35,7 +35,7 @@ Then, in 2007, I began reading a larger portion of the modern software engineeri
 After this realization, I began applying many of the software engineering best practices to my CSE projects and realized significant improvements in productivity and the overall quality of the software I was writing.
 However, I was also horrified to realize that, prior to gaining this knowledge, I had created tens of thousands of lines of CSE software of insufficient quality and that I was now in a position to have to maintain.
 
-I got involved in the [IDEAS project](https//ideas-productivity.org) when it first started in 2014 and worked with people from other Dept. of Energy (DOE) laboratories to write some of the precursor material for BSSw.io.
+I got involved in the [IDEAS project](https://ideas-productivity.org/) when it first started in 2014 and worked with people from other Dept. of Energy (DOE) laboratories to write some of the precursor material for BSSw.io.
 In 2017, the IDEAS project was reborn within the [Exascale Computing Project](https://exascaleproject.org) as IDEAS-ECP, the BSSw.io site was started, and it incorporated much of that material.
 Editing and contributing to BSSw.io was an opportunity for me to share some of what I had learned with the rest of the broader CSE/HPC community and to learn from the community, from the other IDEAS-ECP members, and especially from the other BSSw.io editorial staff.
 For me, the opportunity to work with a diverse group of individuals, and to hear and learn from such a variety of different perspectives, has deepened my understanding of software engineering best practices for CSE/HPC.
