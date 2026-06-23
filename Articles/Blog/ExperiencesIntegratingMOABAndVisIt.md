@@ -104,7 +104,7 @@ When the same mesh is expressed with different types of entities, this can lead 
 
 ### VisIt and MOAB with MPAS global ocean and ROMS regional models
 
-This visualization (click for ultra high resolution version) below demonstrates use of VisIt and MOAB in analyzing ocean data.
+This visualization above demonstrates use of VisIt and MOAB in analyzing ocean data.
 A coarse whole global ocean model, using polygonal elements (hexagons extruded in depth), is characterized by the MPAS modeling and simulation application.
 A handful of much higher resolution regional models (using structured ijk hexahedral meshes), outlined in red, are characterized by the ROMS modeling and simulation application.
 Some insets represent critical regions of open ocean while others represent inland water bodies such as the Chesapeake Bay.
