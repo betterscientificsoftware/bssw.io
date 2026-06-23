@@ -86,8 +86,8 @@ Typically, this tag is computed by an upstream partitioner such as [Zoltan](http
 These parts will serve as the all important mesh domains for VisIt.
 The MOAB plugin uses this tag to prime [HDF5 *point selection* dataspaces](https://support.hdfgroup.org/documentation/hdf5/latest/_h5_s__u_g.html) used in collective `H5Dread()` and where each MPI rank winds up reading one or more of the `K` parts.
 The plugin can distribute the available partition sets among the participating MPI ranks.
-When R>K, some ranks may receive no partition and will be left used.
-When R<K, multiple partition sets can be assigned to a rank.
+When `R>K`, some ranks may receive no partition and will be left used.
+When `R<K`, multiple partition sets can be assigned to a rank.
 
 ### Resolving Other Differences
 
@@ -109,6 +109,10 @@ A coarse whole global ocean model, using polygonal elements (hexagons extruded i
 A handful of much higher resolution regional models (using structured ijk hexahedral meshes), outlined in red, are characterized by the ROMS modeling and simulation application.
 Some insets represent critical regions of open ocean while others represent inland water bodies such as the Chesapeake Bay.
 Both MPAS and ROMS use MOAB to store and manage the data and, in particular, to also handle coupling between the global and regional models.
+
+The global ocean visualization, above, involves a number different MOAB data sources and plots thereof together with the **Threshold** operator set to display different features of interest.
+Then, these multiple plots were layered, somewhat tediously, as concentric, spherical shells using the **Transform** operator with various [cmocean](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/using_visit/MakingItPretty/Color_tables.html#the-cmocean-color-tables) color maps applied.
+This helps to provide context for individual inset regions depicted in insets at left.
 
 Of the 150+ database plugins in VisIt, MOAB is the only plugin employing SSF collective parallel I/O via HDF5.
 
