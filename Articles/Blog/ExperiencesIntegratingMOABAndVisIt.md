@@ -84,12 +84,11 @@ Fortunately, MOAB combined with the *collective* parallel I/O capabilities of HD
 In the MOAB plugin, the mesh in the `.h5m` file is decomposed into domains as part of an HDF5 *data-in-transit* operation during an *MPI-collective* `H5Dread()` call.
 
 In every MOAB database (`.h5m` file) there exists a conventional tag named `PARALLEL_PARTITION` which identifies a collection of `K` entity sets.
-Typically, this tag is computed by an upstream partitioner such as [Zoltan](https://sandialabs.github.io/Zoltan/) or [METIS](https://github.com/KarypisLab/METIS) and effectively decomposes the mesh into `K` parts.
-These parts will serve as the all important mesh domains for VisIt.
-The MOAB plugin uses this tag to prime [HDF5 *point selection* dataspaces](https://support.hdfgroup.org/documentation/hdf5/latest/_h5_s__u_g.html) used in collective `H5Dread()` and where each MPI rank winds up reading one or more of the `K` parts.
-The plugin can distribute the available partition sets among the participating MPI ranks.
-When `R>K`, some ranks may receive no partition and will be left used.
-When `R<K`, multiple partition sets can be assigned to a rank.
+These entity sets will serve as the all important mesh domains for VisIt.
+Typically, the `PARALLEL_PARTITION` tag is computed by an upstream partitioner such as [Zoltan](https://sandialabs.github.io/Zoltan/) or [METIS](https://github.com/KarypisLab/METIS).
+The MOAB plugin uses this tag to prime [HDF5 *point selection* dataspaces](https://support.hdfgroup.org/documentation/hdf5/latest/_h5_s__u_g.html) used in collective `H5Dread()` calls.
+When `R>K`, some ranks will not read any entity set of `PARALLEL_PARTITION`.
+When `R<K`, multiple entity sets will be read by the same rank.
 
 ### Resolving Other Differences
 
@@ -100,23 +99,23 @@ Length 1 tags define *scalar* variables whereas length 2 or 3 define *vector* va
 Entity sets for materials and boundary conditions get handled as *enumerated* subsets in VisIt.
 Sparse tags in MOAB are not yet supported in VisIt but will likely also involve creative uses of VisIt's enumerated subset functionality.
 
-One additional aspect of the integration of MOAB and VisIt is that MOAB users often wish to manipulate the mesh in terms of different primitive entity types (e.g. 0D nodes, 1D edges, 2D faces and/or 3D volumes).
+MOAB users often wish to manipulate the mesh in terms of different primitive entity types (e.g. 0D nodes, 1D edges, 2D faces and/or 3D volumes).
 To support this in VisIt, a database read option allows users to set which dimensionality entities they wish to have included when the mesh is read.
 When the same mesh is expressed with different types of entities, this can lead to additional challenges for users in selecting and combining plots in VisIt.
 
-### VisIt and MOAB with MPAS global ocean and ROMS regional models
+### VisIt and MOAB with MPAS and ROMS Ocean Models
 
-This visualization above demonstrates use of VisIt and MOAB in analyzing ocean data.
-A coarse whole global ocean model, using polygonal elements (hexagons extruded in depth), is characterized by the MPAS modeling and simulation application.
-A handful of much higher resolution regional models (using structured ijk hexahedral meshes), outlined in red, are characterized by the ROMS modeling and simulation application.
+The visualization above demonstrates the use of VisIt and MOAB in analyzing ocean data.
+A coarse whole global ocean model, using polygonal elements (hexagons extruded in depth), is characterized by the [MPAS](https://mpas-dev.github.io/MPAS-Analysis/1.2.7/index.html) modeling and simulation application.
+A handful of much higher resolution regional models (using structured ijk hexahedral meshes), outlined in red, are characterized by the [ROMS](https://www.pnnl.gov/projects/seahorce) modeling and simulation application.
 Some insets represent critical regions of open ocean while others represent inland water bodies such as the Chesapeake Bay.
 Both MPAS and ROMS use MOAB to store and manage the data and, in particular, to also handle coupling between the global and regional models.
 
-The global ocean visualization, above, involves a number different MOAB data sources and plots thereof together with the **Threshold** operator set to display different features of interest.
-Then, these multiple plots were layered, somewhat tediously, as concentric, spherical shells using the **Transform** operator with various [cmocean](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/using_visit/MakingItPretty/Color_tables.html#the-cmocean-color-tables) color maps applied.
+The global ocean visualization, above, involves a number different MOAB data sources and plots thereof together with VisIt's **Threshold** operator set to display different features of interest.
+Then, these multiple plots were layered, somewhat tediously, as concentric, spherical shells using VisIt's **Transform** operator with various [cmocean](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/using_visit/MakingItPretty/Color_tables.html#the-cmocean-color-tables) color maps applied.
 This helps to provide context for individual inset regions depicted in insets at left.
 
-Of the 150+ database plugins in VisIt, MOAB is the only plugin employing SSF collective parallel I/O via HDF5.
+Of the [150+ database plugins](https://github.com/visit-dav/visit/tree/develop/src/databases) in VisIt, [MOAB](https://github.com/visit-dav/visit/tree/develop/src/databases/MOAB) is the only plugin employing SSF collective parallel I/O via HDF5.
 
 ## Author Bios
 
