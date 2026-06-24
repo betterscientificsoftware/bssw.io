@@ -6,7 +6,7 @@ Read about the 2025 BSSw Fellows and their contributions to the BSSw community!
 
 #### Contributed by: [Elsa Gonsiorowski](https://github.com/gonsie "Elsa Gonsiorowski's GitHub Profile"), [Alper Altuntas](https://github.com/alperaltuntas "Alper Altuntas's GitHub Profile"), [Jasmine Buckley-Williams](https://github.com/jbuckleywilliams "Jasmine Buckley-Williams's GitHub Profile"), [Brigitta Sipőcz](https://github.com/bsipocz "Brigitta Sipőcz's GitHub Profile"), [Peter K. G. Williams](https://github.com/pkgw "Peter K. G. Williams's GitHub Profile"), [Junchao Zhang](https://github.com/jczhang07 "Junchao Zhang's GitHub Profile")
 
-#### Publication date: June 25, 2026
+#### Publication date: June 24, 2026
 
 [Better Scientific Software (BSSw) Fellowships](https://bssw.io/fellowship) provide resources and community support to those who foster and promote practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.
 
