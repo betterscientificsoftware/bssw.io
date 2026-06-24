@@ -20,6 +20,7 @@ BSSw Fellow Brigitta Sipőcz aims to establish and promote best practices for ma
 
 Brigitta is an astronomer turned developer at Caltech/IPAC, where she works in NASA/IPAC Infrared Science Archive. She is a lead developer and maintainer for several widely used open-source Python libraries and infrastructure projects, ranging from astroquery, astropy, astroML to Numpy-tutorials and various pytest and Jupyter components. She holds a pivotal role as one of the community leaders in the Scientific Python project and is committed to unifying the ecosystem by consolidating infrastructure efforts and providing vital support to maintainers and developers within the community.
 
-<!-- ### Selected Resources -->
+### Selected Resources
 
-<!-- <a href="url" class="link-row">Text</a> -->
+<a href="https://github.com/scientific-python/executable-tutorials" class="link-row">Executable Tutorials template repository</a>
+<a href="https://docs.google.com/presentation/d/1vAzx0o2_44uRgtdilUQsCXykaWgXwv7JAMtLbNFrIjQ/edit?usp=sharing" class="link-row">User facing tutorials as code</a>
