@@ -96,11 +96,11 @@ RSS update: 2021-10-???
 [11]: #sfer-ezikiw-11 "[coding_standards]"
 [12]: #sfer-ezikiw-12 "[coding_standards_enforced]"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-5"></a><sup>5</sup>[Coding Conventions (Wikipedia)](https://en.wikipedia.org/wiki/Coding_conventions)
-* <a name="sfer-ezikiw-6"></a><sup>6</sup>[Code Complete (Second Edition)<br>McConnell, Steve. Microsoft Press, 2004](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
-* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Clean Code: A Handbook of Agile Software Craftsmanship<br>Robert C. Martin. Prentice Hall PTR, 2008](https://dl.acm.org/doi/10.5555/1388398)
+* <a name="sfer-ezikiw-6"></a><sup>6</sup>[McConnell, Steve. Microsoft Press, 2004](https://bssw.io/items/code-complete-a-practical-handbook-of-software-construction)
+* <a name="sfer-ezikiw-7"></a><sup>7</sup>[Robert C. Martin. Prentice Hall PTR, 2008](https://dl.acm.org/doi/10.5555/1388398)
 * <a name="sfer-ezikiw-8"></a><sup>8</sup>[CII Best Practices Criteria](https://bestpractices.coreinfrastructure.org/en/criteria)
 * <a name="sfer-ezikiw-9"></a><sup>9</sup>[clang-format](https://clang.llvm.org/docs/ClangFormat.html)
 * <a name="sfer-ezikiw-10"></a><sup>10</sup>[clang-tidy](https://clang.llvm.org/extra/clang-tidy/)
