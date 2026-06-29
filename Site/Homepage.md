@@ -7,7 +7,7 @@ Slide1 L: ../images/Blog_2606_BSSwFellows2025.jpeg
 Slide1 R: ../Articles/Blog/2026-06-BSSwFellows2025.md
 Slide2 L: ../Articles/Blog/2026-06-documentation-is-the-interface.md 
 Slide2 R: ../CuratedContent/AIandHumansMakeingTheRelationship.md
-Slide3 L: ../CuratedContent/CrossPlatformScalingStudies.md 
+Slide3 L: ../CuratedContent/StorytellingShapesSystemsChange.md 
 Slide3 R: ../Events/hirse-055-2026-07.md
 Slide4 L: ../Events/2026-07-llnl-hpc-tutorials.md
 Slide4 R: ../Events/2026-07-intersect-bootcamp.md
