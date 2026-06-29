@@ -11,10 +11,10 @@ As scientific software ecosystems grow in complexity, storytelling becomes a cri
 Resource information | Details
 :--- | :---  
 Article title | [Narrative as Infrastructure: How Storytelling Shapes Systems Change](https://themacrolens.com/2026/03/26/storytelling-for-systems-change/)
-Authors | [Joseph Wernau](https://themacrolens.com/author/themacrolensteam/)
+Author | [Joseph Wernau](https://themacrolens.com/author/themacrolensteam/)
 Focus | Narrative strategy, systems thinking, scientific communication  
 
-In the article *Storytelling for Systems Change*, the authors argue that storytelling is not simply a communication technique.  It is a **core mechanism for shaping complex systems**. In environments where multiple stakeholders, technologies, and goals intersect, narrative provides coherence, direction, and shared understanding.
+In the article *Storytelling for Systems Change*, the author argues that storytelling is not simply a communication technique.  It is a **core mechanism for shaping complex systems**. In environments where multiple stakeholders, technologies, and goals intersect, narrative provides coherence, direction, and shared understanding.
 
 For scientists developing software as part of discovery workflows, this insight is particularly relevant. Scientific software is rarely just code. It is embedded in **research programs, collaborations, funding structures, and evolving user communities**. Without effective storytelling, even technically excellent software can struggle to gain adoption or sustain impact.
 
