@@ -17,7 +17,7 @@ Publication | Year 2026, The International Journal of High Performance Computing
 Scientific applications are now deployed across increasingly heterogeneous computing environments, ranging from CPU based clusters to GPU accelerated supercomputers. 
 As portable programming models and shared codebases become more common, understanding performance behavior across these diverse systems has become an important concern in modern HPC workflows.
 
-The paper, ``Comparing Cross-Platform Performance via Node-to-Node Scaling Studies``, argues that traditional HPC scaling methodologies are increasingly inadequate for modern HPC systems composed of CPUs, GPUs or other accelerators as well as diverse memory hierarchies and layouts.
+The paper, *Comparing Cross-Platform Performance via Node-to-Node Scaling Studies*, argues that traditional HPC scaling methodologies are increasingly inadequate for modern HPC systems composed of CPUs, GPUs or other accelerators as well as diverse memory hierarchies and layouts.
 The authors contend that the most meaningful unit for cross-platform performance comparison is the compute node rather than individual processors, cores, or MPI ranks.
 
 A methodology is proposed for *node-to-node* scaling studies, including node-to-node strong scaling, weak scaling, combined strong-weak scaling, and throughput scaling.
