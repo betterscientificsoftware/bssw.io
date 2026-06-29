@@ -2,7 +2,7 @@
 
 <!--deck text start-->
 
-Bruce Schneier and Nathan E. Sanders' essay, originally appearing in Rotman Management Magazine, and now on Schneier's blog addresses the topic of how organizations can best adopt agentic AI into their teams for maximum efficiency and how that adoption changes, or doesn't, the way teams are managed.
+Bruce Schneier and Nathan E. Sanders' essay, originally appearing in Rotman Management Magazine and now on Schneier's blog, addresses the topic of how organizations can best adopt agentic AI into their teams for maximum efficiency and how that adoption changes, or doesn't, the way teams are managed.
 
 <!--deck text end-->
 
@@ -21,15 +21,15 @@ While not science or research specific, the results reported in the blog apply e
 
 The blog breaks down its findings into four takeaways familiar to anyone who has been part of, or run, a project of any non-trivial size:
 
-1) **Delegate**: Divide the tasks in your project's workflow so that the division of labor plays to the strengths of your hybrid AI/Human teams.  For example, AI agents for tasks that parallelize and need to be done quickly and humans for tasks that require judgement within a larger context.
+1) **Delegate**: Divide the tasks in your project's workflow so that the division of labor plays to the strengths of your hybrid AI/human teams.  For example, AI agents for tasks that parallelize and need to be done quickly and humans for tasks that require judgement within a larger context.
 
-2) **Iterate**: While humans are better at accurately identifying solutions to novel problems in their field of expertise, AI agents will be faster at exploring multiple trial-and-error solutions in parallel.  This hybrid iterative approach, with humans at the top of the loop guiding AI agents away from falling into "rabbit holes" proves to be a very effective combination.
+2) **Iterate**: While humans are better at accurately identifying solutions to novel problems in their field of expertise, AI agents will be faster at exploring multiple trial-and-error solutions in parallel.  This hybrid iterative approach, with humans at the top of the loop guiding AI agents away from falling into "rabbit holes", proves to be a very effective combination.
 
 3) **Share**: Directing AI agents to specialize and explore different aspects of the problem at hand requires them to share data with each other.  The lead researcher then becomes a generalist looking at the big picture, while the sub-agents report on their results, recording hand-off details so that another agent or person can follow their work.
 
 4) **Measure and Improve**: Over time, in striving to improve these hybrid teams, their effectiveness should be measured, and changes from lessons learned should be applied to the next effort.
 
-The conclusion here is that knowing your team, understanding their strengths, weaknesses and guiding them appropriately, has long been understood as a key requirement for managing teams of people.  This study shows that having this empathy is still key when managing a team with AI agents.
+The conclusion here is that knowing your team, and understanding their strengths, weaknesses and guiding them appropriately, has long been understood as a key requirement for managing teams of people.  This study shows that having this empathy is still key when managing a team with AI agents.
 
 <!---
 Publish: yes
