@@ -2,7 +2,7 @@
 
 #### Contributed by [Jasmine Buckley-Williams](https://github.com/jbuckleywilliams)
 
-#### Publication date:
+#### Publication date: July 14, 2026
 
 Technology is evolving rapidly, and students entering computer science, data science, and
 engineering fields are expected to understand far more than just programming fundamentals.
@@ -17,7 +17,7 @@ hands-on examples. The goal was to create a structured environment where learner
 explore foundational programming workflows while gradually progressing into advanced topics
 such as MPI, OpenMP, optimization strategies, and performance analysis.
 
-## Why I Created the Toolkit
+## Why I created the toolkit
 
 One challenge many students face when learning technical concepts is the disconnect between
 theory and practical application. Topics like Git branching, parallel computing, profiling tools, or
@@ -26,6 +26,7 @@ or lectures.
 
 This toolkit was created to simplify those learning barriers by organizing content into
 beginner-friendly sections with:
+
 - Guided tutorials
 - Step-by-step coding examples
 - Interactive exercises
@@ -38,15 +39,16 @@ The website combines software engineering practices with computational science c
 learners can understand not only how systems work, but also how professional development
 workflows are structured in research and industry environments.
 
-## Website Structure and Learning Content
+## Website structure and learning content
 
 The toolkit website is divided into several learning modules that progressively build technical
 knowledge.
 
-### Git & GitHub Fundamentals
+### Git & GitHub fundamentals
 
 The Git and GitHub section introduces learners to version control and collaborative
 development workflows. Topics include:
+
 - Git vs. GitHub
 - Creating repositories
 - Cloning repositories
@@ -57,7 +59,8 @@ development workflows. Topics include:
 - GitHub Actions automation
 
 Students practice essential commands such as:
-```
+
+```bash
 git init
 git add .
 git commit -m "Initial commit"
@@ -67,12 +70,13 @@ git push origin main
 The tutorials also explain collaborative workflows commonly used in software engineering
 teams, including feature branching and pull request reviews.
 
-### High-Performance Computing (HPC)
+### High-performance computing (HPC)
 
 The HPC portion of the website introduces learners to computational science concepts used in
 research laboratories, data centers, and supercomputing environments.
 
 Topics include:
+
 - Parallel computing fundamentals
 - MPI programming
 - OpenMP threading
@@ -86,14 +90,16 @@ Students learn how distributed systems divide workloads across processors and ho
 performance bottlenecks impact scalability.
 
 Example OpenMP code used in the tutorials:
-```
+
+```c
 #pragma omp parallel for reduction(+:sum)
 for (int i = 0; i < N; i++) {
-sum += A[i];
+  sum += A[i];
 }
 ```
 
 The website also explains key HPC concepts such as:
+
 - Strong scaling
 - Weak scaling
 - Amdahl's Law
@@ -102,12 +108,13 @@ The website also explains key HPC concepts such as:
 - Vectorization
 - NUMA optimization
 
-## Hands-On Practice Material
+## Hands-on practice material
 
 One of the core goals of the toolkit is experiential learning. Instead of only reading concepts,
 learners complete structured exercises that simulate real-world workflows.
 
 Exercises include:
+
 - Git collaboration practice
 - MPI "Hello World" programs
 - OpenMP threading exercises
@@ -119,12 +126,13 @@ Exercises include:
 These activities reinforce problem-solving skills while exposing students to tools commonly used
 in scientific computing and enterprise software development.
 
-### Educational Goals and Future Expansion
+### Educational goals and future expansion
 
 The long-term goal of this toolkit is to provide students with an accessible introduction to both
 software engineering workflows and computational science techniques.
 
 Future additions may include:
+
 - Interactive coding sandboxes
 - Parallel debugging tutorials
 - GPU programming with CUDA
@@ -152,13 +160,12 @@ As technology continues advancing, understanding both collaborative development 
 computational performance will remain essential skills for future engineers, analysts, and
 researchers.
 
-## Author bios
+## Author bio
+
 [Jasmine Buckley-Williams](https://github.com/jbuckleywilliams) is a [2025 BSSw Fellow](https://bssw.io/blog_posts/introducing-the-2025-bssw-fellows) and a Public Utilities Regulatory Analyst with a Master's Big Data Analytics. She has a background in data manipulation and management in utilities enforcement. Her work bridges the gap between technical excellence and practical accessibility, ensuring that HPC best practices are not only understood but also effectively applied in real-world scientific computing environments.
 
-
 <!---
-Publish:
+Publish: yes
 Track: bssw fellowship
-Topics:
-OpenGraph image:
+Topics: online learning, high-performance computing (hpc)
 --->
