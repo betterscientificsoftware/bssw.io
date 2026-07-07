@@ -4,8 +4,8 @@
 Learn how to use a modern, open-source HPC software stack.
 <!-- deck text ends -->
 
-- Registration deadline: July 6 - September 21, 2026
-- Event Dates: July 7 - September 22, 2025
+- Registration deadline: July 6 - September 28, 2026
+- Event Dates: July 7 - September 29, 2026
 - Location: Online
 - Website: https://hpcic.llnl.gov/2026-hpc-tutorials
 - Organizers: LLNL's High Performance Computing Innovation Center
@@ -32,11 +32,12 @@ July 28 | 9:00am – 11:00am | **YGM**: manage irregular communication patterns 
 August 4 | 9:00am – 12:00pm | **Caliper**: integrate performance profiling capabilities into your applications<br>**Thicket**: optimize application performance on supercomputers
 August 11 | 9:00am – 11:00am | **Axom**: leverage robust, flexible software components for scientific applications
 August 18 | 9:00am – 12:00pm | **Jacamar CI**: use GitLab’s robust CI/CD testing on HPC resources
-August 25 | 9:00am – 11:00am | **Ascent**: visualize and analyze your simulations in situ
 September 1 | 9:00am – 12:00pm | **Benchpark**: reproduce system, benchmark, and experiment specifications
 *No tutorials during Labor Day week* | |
 September 15 | 9:00am – 12:00pm | **RAJA**: run and port codes across different GPUs<br>**Umpire**: discover, provision, and manage HPC memory
 September 22 | 9:00am – 11:00am | **MFEM**: use scalable finite element discretizations
+September 24 | 9:00am – 12:00pm | **WarpX**: simulate physical systems with the particle-in-cell method<br>Presented in collaboration with the High Performance Software Foundation
+September 29 | 9:00am – 11:00am | **Ascent**: visualize and analyze your simulations in situ
 
 All times are Pacific (PT) and all dates are 2026.
 The times posted above may change so be sure to check with the [event website](https://hpcic.llnl.gov/2026-hpc-tutorials) for any updates to days and times.
