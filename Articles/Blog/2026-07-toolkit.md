@@ -4,6 +4,10 @@
 
 #### Publication date: July 14, 2026
 
+<!-- begin deck -->
+A new beginner-friendly resource for high-performance computing and using git and GitHub.
+<!-- end deck -->
+
 Technology is evolving rapidly, and students entering computer science, data science, and
 engineering fields are expected to understand far more than just programming fundamentals.
 Today's learners must also understand version control, collaborative software development,
