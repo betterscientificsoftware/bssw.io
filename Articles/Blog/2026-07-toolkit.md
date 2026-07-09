@@ -13,7 +13,7 @@ engineering fields are expected to understand far more than just programming fun
 Today's learners must also understand version control, collaborative software development,
 parallel programming, and performance optimization. To help bridge that gap, I developed an
 interactive online learning toolkit focused on Git, GitHub, and high-performance computing
-(HPC).
+(HPC), which is available at <https://jbuckleywilliams.github.io/BSSw-onlinetoolkit.github.io/>.
 
 This project was designed as both a technical resource and an educational platform that
 introduces beginners to industry-relevant computing concepts through tutorials, exercises, and
