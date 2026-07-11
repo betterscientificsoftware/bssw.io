@@ -97,7 +97,7 @@ MOAB Dense tags on 0D entities (nodes) are used to define *node-centered* (piece
 Dense tags on >0D entities are used to define *zone-centered* (piecewise-constant interpolation) variables.
 Length 1 tags define *scalar* variables whereas length 2 or 3 define *vector* variables and length >3 tags define array variables.
 Entity sets for materials and boundary conditions get handled as *enumerated* subsets in VisIt.
-Sparse tags in MOAB are not yet supported in VisIt but will likely also involve creative uses of VisIt's enumerated subset functionality.
+With the exception of `PARALLEL_PARTITION`, sparse tags in MOAB are not yet supported in VisIt but will likely also involve creative uses of VisIt's enumerated subset functionality.
 
 MOAB users often wish to manipulate the mesh in terms of different primitive entity types (e.g. 0D nodes, 1D edges, 2D faces and/or 3D volumes).
 To support this in VisIt, a database read option allows users to set which dimensionality entities they wish to have included when the mesh is read.
