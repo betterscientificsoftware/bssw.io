@@ -356,7 +356,7 @@ Topics: software process improvement, software engineering, software sustainabil
 
 [2-sfer-ezikiw]: https://bssw.io/blog_posts/growing-resilient-scientific-software-ecosystems-introducing-the-software-gardening-almanack "Software Gardening Almanack {Bunten, D., Davidson, W. & Way, G. Growing Resilient Scientific Software Ecosystems: Introducing the Software Gardening Almanack. Better Scientific Software (BSSw) Blog (2025).}"
 
-[3-sfer-ezikiw]: https://us.sagepub.com/en-us/nam/rational-choice-in-an-uncertain-world/book234280 "Decision Science {Hastie, R. & Dawes, R. M. Rational Choice in an Uncertain World: The Psychology of Judgment and Decision Making (2nd ed.). SAGE Publications (2010). ISBN 978-1-4129-5903-2.}"
+[3-sfer-ezikiw]: https://collegepublishing.sagepub.com/products/rational-choice-in-an-uncertain-world-2-231783 "Decision Science {Hastie, R. & Dawes, R. M. Rational Choice in an Uncertain World: The Psychology of Judgment and Decision Making (2nd ed.). SAGE Publications (2010). ISBN 978-1-4129-5903-2.}"
 
 [4-sfer-ezikiw]: https://doi.org/10.1207/s15516709cog1202_4 "Cognitive load during problem solving {Sweller, J. Cognitive load during problem solving: Effects on learning. Cognitive Science 12, 257–285 (1988). doi:10.1207/s15516709cog1202_4.}"
 
@@ -412,7 +412,7 @@ Topics: software process improvement, software engineering, software sustainabil
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Bunten, D. & Way, G. P. Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems. Better Scientific Software (BSSw) Blog (2023).](https://bssw.io/blog_posts/long-term-software-gardening-strategies-for-cultivating-scientific-development-ecosystems)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Bunten, D., Davidson, W. & Way, G. Growing Resilient Scientific Software Ecosystems: Introducing the Software Gardening Almanack. Better Scientific Software (BSSw) Blog (2025).](https://bssw.io/blog_posts/growing-resilient-scientific-software-ecosystems-introducing-the-software-gardening-almanack)
-* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Hastie, R. & Dawes, R. M. Rational Choice in an Uncertain World: The Psychology of Judgment and Decision Making (2nd ed.). SAGE Publications (2010). ISBN 978-1-4129-5903-2.](https://us.sagepub.com/en-us/nam/rational-choice-in-an-uncertain-world/book234280)
+* <a name="sfer-ezikiw-3"></a><sup>3</sup>[Hastie, R. & Dawes, R. M. Rational Choice in an Uncertain World: The Psychology of Judgment and Decision Making (2nd ed.). SAGE Publications (2010). ISBN 978-1-4129-5903-2.](https://collegepublishing.sagepub.com/products/rational-choice-in-an-uncertain-world-2-231783)
 * <a name="sfer-ezikiw-4"></a><sup>4</sup>[Sweller, J. Cognitive load during problem solving: Effects on learning. Cognitive Science 12, 257–285 (1988). doi:10.1207/s15516709cog1202_4.](https://doi.org/10.1207/s15516709cog1202_4)
 * <a name="sfer-ezikiw-5"></a><sup>5</sup>[Miller, G. A. The magical number seven, plus or minus two: Some limits on our capacity for processing information. Psychological Review 63, 81–97 (1956). doi:10.1037/h0043158.](https://doi.org/10.1037/h0043158)
 * <a name="sfer-ezikiw-6"></a><sup>6</sup>[Danziger, S., Levav, J. & Avnaim-Pesso, L. Extraneous factors in judicial decisions. Proceedings of the National Academy of Sciences 108, 6889–6892 (2011). doi:10.1073/pnas.1018033108.](https://doi.org/10.1073/pnas.1018033108)
