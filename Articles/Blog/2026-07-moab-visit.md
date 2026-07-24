@@ -6,7 +6,7 @@
 
 #### Contributed by [Iulian Grindeanu](https://github.com/iulian787), [Vijay Mahadevan](https://github.com/vijaysm), [Mark C. Miller](https://github.com/markcmiller86)
 
-#### Publication date: July 15, 2026
+#### Publication date: July 28, 2026
 
 <!-- begin deck -->
 Close collaboration and creative problem solving can overcome significant challenges integrating packages employing disparate data models and parallel execution paradigms.
@@ -32,7 +32,7 @@ VisIt is more than a tool for *displaying* data.
 Both also support a variety of scalable, data processing and analysis *services* such as topological and spatial queries, ghost layer management and solution transfer.
 A key MOAB service exploited here for the VisIt plugin is scalable, parallel I/O from a [single shared file](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/) via [HDF5](https://support.hdfgroup.org/documentation/hdf5/latest/).
 
-### Early Success with the ITAPS/iMesh plugin
+### Early success with the ITAPS/iMesh plugin
 
 As part of the [ITAPS](https://markcmiller86.github.io/ITAPS/) project, a VisIt plugin supporting the [iMesh](https://markcmiller86.github.io/ITAPS/software/iMesh_html/i_mesh_8h.html) interface was initially developed.
 MOAB, [GRUMMP](https://www.researchgate.net/publication/254313656_GRUMMP_User's_Guide), and [FMDB](https://scorec.rpi.edu/FMDB/) developers participating in ITAPS each implemented the `iMesh` interface for their respective packages.
@@ -44,7 +44,7 @@ However, as funding for the ITAPS SciDAC project ended, so did further developme
 It was eventually removed from MOAB.
 A new VisIt database plugin integrating *directly* with MOAB's native interface was needed.
 
-### Key Differences Between MOAB and VisIt
+### Key differences between MOAB and VisIt
 
 MOAB’s data model consists of mesh *entities* of 0...3 topological dimensions, *entity sets*, *tags* (both *sparse* and *dense*) attached to mesh entities and/or entity sets and *relations* (topological, containment, and/or hierarchical) between these.
 VisIt’s data model consists of *meshes* (structured, unstructured, AMR, CSG, etc.) comprised of *nodes* (0 dimension) and, optionally, *zones* (1...3 dimensions), decompositions of meshes into different classes of *subsets* (domains, blocks, materials, enumerations), continuous *variables* (scalar, vector or tensor) and ordered ensembles of these as *time series*.
@@ -67,7 +67,7 @@ This can lead to tedious and repetitive GUI activity when using VisIt to simulta
 Finally, MOAB uses the [*single shared file (SSF)*](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/) parallel I/O paradigm which involves MPI *collective* calls whereas VisIt uses the [*multiple independent file (MIF)*](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/) parallel I/O paradigm which involves MPI *independent* calls.
 The next section dives more deeply into this particular issue.
 
-### Bridging SSF and MIF Parallel I/O Paradigms
+### Bridging SSF and MIF parallel I/O paradigms
 
 VisIt's database subsystem is designed around the MIF parallel I/O paradigm.
 In MIF, an upstream data producer once and for all pre-decomposes a massive mesh into `K` pieces.
@@ -78,9 +78,9 @@ When processing the mesh on `R` MPI ranks, VisIt uses various [*load balance*](h
 Typically, `K>>M` and `R≈K/n` where `n` is a small integer divisor of `K`, often 1.
 
 Consequently, in MIF domains represent an *atomic unit of storage* at which VisIt makes problem-sized (or bulk) data requests.
-All requests from VisIt to a plugin are parameterized in terms of a domain (and also a timestep) identifier.
+All requests from VisIt to a plugin are parameterized in terms of a domain (and a timestep) identifier.
 
-For the MOAB plugin, a somewhat unique design question is what will constitute the all-important mesh domains.
+For the MOAB plugin, a somewhat unusual design question is what will constitute the all-important mesh domains.
 In a MOAB (`.h5m`) file, mesh coordinates and connectivities are stored and expressed in a single, global address space of mesh entities.
 Except for a handful of simple, structured mesh cases, VisIt itself offers no help in decomposing a globally enumerated mesh into pieces for parallel processing.
 Fortunately, MOAB combined with the *collective* parallel I/O capabilities of HDF5 does.
@@ -92,7 +92,7 @@ The MOAB plugin uses this tag to define [HDF5 dataspace selections](https://supp
 When `R>K`, some ranks will not read any entity set of `PARALLEL_PARTITION`.
 When `R<K`, multiple entity sets will be read by the same rank.
 
-### Resolving Other Differences
+### Resolving other differences
 
 The remaining issues impacting the MOAB/VisIt user experience involve bridging the MOAB and VisIt data models.
 MOAB Dense tags on 0D entities (nodes) are used to define *node-centered* (piecewise-linear interpolation) variables for VisIt.
@@ -105,7 +105,7 @@ MOAB users often wish to manipulate the mesh in terms of different primitive ent
 To support this in VisIt, a database read option allows users to set which dimensionality entities they wish to have included when the mesh is read.
 When the same mesh is expressed with different types of entities, this can lead to additional challenges for users in selecting and combining plots in VisIt.
 
-### VisIt and MOAB with MPAS and ROMS Ocean Models
+### VisIt and MOAB with MPAS and ROMS ocean models
 
 The visualization above demonstrates the use of VisIt and MOAB in analyzing ocean data.
 A coarse whole global ocean model, using polygonal elements (hexagons extruded in depth), is characterized by the [MPAS](https://mpas-dev.github.io/MPAS-Analysis/1.2.7/index.html) modeling and simulation application.
@@ -119,7 +119,7 @@ This helps to provide context for individual inset regions.
 
 Of the [150+ database plugins](https://github.com/visit-dav/visit/tree/develop/src/databases) in VisIt, [MOAB](https://github.com/visit-dav/visit/tree/develop/src/databases/MOAB) is the only plugin employing SSF collective parallel I/O via HDF5.
 
-## Author Bios
+## Author bios
 
 Iulian Grindeanu is a computational scientist with more than two decades of experience in scientific computing, parallel algorithms, and mesh-based simulation technologies.
 He has made significant contributions to MOAB's parallel infrastructure, distributed mesh algorithms, mesh intersection methods, and climate-modeling applications that rely on scalable mesh data structures and parallel I/O.
