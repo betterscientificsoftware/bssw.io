@@ -23,7 +23,7 @@ Differences in the two products' scientific data models and parallel execution p
 
 MOAB (Mesh-Oriented datABase) is a scalable in-situ library for managing mesh-based scientific data.
 It excels at scalable processing of mesh data in bulk parcels or in fine-grained iterations over individual mesh elements.
-Some aspects of MOAB trace their origins to earlier [TSTT](https://www.researchgate.net/publication/259197545_The_TSTTM_Interface) and [ITAPS](https://www.osti.gov/biblio/971531/) SciDAC efforts.
+Some aspects of MOAB trace their origins to earlier [TSTT](https://www.researchgate.net/publication/259197545_The_TSTTM_Interface) and [ITAPS](https://doi.org/10.2172/971531) SciDAC efforts.
 VisIt is a scalable scientific visualization tool for analyzing mesh-based scientific data in files or in-situ.
 Database plugins in VisIt employ various I/O strategies to marshal data from files on disk into Visualization ToolKit ([VTK](https://vtk.org)) grid ([`vtkDataset`](https://vtk.org/doc/nightly/html/classvtkDataSet.html)) and array ([`vtkDataArray`](https://vtk.org/doc/nightly/html/classvtkDataArray.html)) objects used in VisIt's internal parallel storage and processing framework.
 
@@ -39,7 +39,7 @@ MOAB, [GRUMMP](https://www.researchgate.net/publication/254313656_GRUMMP_User's_
 The same [ITAPS plugin](https://github.com/visit-dav/visit/tree/2.10RC/src/databases/ITAPS_C) source code was then compiled and linked against the three `iMesh` implementations producing three shared library plugins; ITAPS-MOAB, ITAPS-GRUMMP, and ITAPS-FMDB.
 This work demonstrated a key ITAPS goal; that a single interface could support data exchange among a variety of disparate mesh management packages.
 
-The ITAPS-MOAB plugin was used successfully to examine a large MOAB [reactor model](https://publications.anl.gov/anlpubs/2013/10/76766.pdf#page=12) consisting of hundreds of thousands of subsets for various components of a novel nuclear fuel assembly.
+The ITAPS-MOAB plugin was used successfully to examine a large MOAB [reactor model](https://doi.org/10.2172/1095497) consisting of hundreds of thousands of subsets for various components of a novel nuclear fuel assembly.
 However, as funding for the ITAPS SciDAC project ended, so did further development and support of the `iMesh` interface.
 It was eventually removed from MOAB.
 A new VisIt database plugin integrating *directly* with MOAB's native interface was needed.
