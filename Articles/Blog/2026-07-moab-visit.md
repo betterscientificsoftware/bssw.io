@@ -64,7 +64,7 @@ Selecting an appropriate set of conventions for any given MOAB dataset may not a
 VisIt may require explicit user intervention.
 This can lead to tedious and repetitive GUI activity when using VisIt to simultaneously display multiple MOAB datasets involving different conventions.
 
-Finally, MOAB uses the [*single shared file (SSF)*](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/) parallel I/O paradigm, which involves MPI *collective* calls, whereas VisIt uses the [*multiple independent file (MIF)*](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/) parallel I/O paradigm, which involves MPI *independent* calls.
+Finally, MOAB uses the *single shared file (SSF)* parallel I/O paradigm, which involves MPI *collective* calls, whereas VisIt uses the [*multiple independent file (MIF)*](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/) parallel I/O paradigm, which involves MPI *independent* calls.
 The next section dives more deeply into this particular issue.
 
 ### Bridging SSF and MIF parallel I/O paradigms
