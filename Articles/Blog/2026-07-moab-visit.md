@@ -2,7 +2,7 @@
 
 **Hero Image:**
 
-- <img src='../../images/visit-moab-bssw-hero.jpg' alt="VisIt visualization of MOAB ocean model data" />
+- <img src='../../images/Blog_2606_MoabVisit.jpg' alt="VisIt visualization of the Earth" />
 
 #### Contributed by [Iulian Grindeanu](https://github.com/iulian787), [Vijay Mahadevan](https://github.com/vijaysm), and [Mark C. Miller](https://github.com/markcmiller86)
 
@@ -105,9 +105,13 @@ MOAB users often wish to manipulate the mesh in terms of different primitive ent
 To support this in VisIt, a database read option allows users to set which dimensionality entities they wish to have included when the mesh is read.
 When the same mesh is expressed with different types of entities, this can lead to additional challenges for users in selecting and combining plots in VisIt.
 
+<br>
+<img src='../../images/visit-moab-bssw-hero.jpg' class='page lightbox' alt="Figure 1: VisIt visualization of MOAB ocean model data."/>[Figure 1: VisIt visualization of MOAB ocean model data.]
+<br>
+
 ### VisIt and MOAB with MPAS and ROMS ocean models
 
-The visualization above demonstrates the use of VisIt and MOAB in analyzing ocean data.
+The visualization in Figure 1, above, demonstrates the use of VisIt and MOAB in analyzing ocean data.
 A coarse whole global ocean model, using polygonal elements (hexagons extruded in depth), is characterized by the [MPAS](https://mpas-dev.github.io/MPAS-Analysis/1.2.7/index.html) modeling and simulation application.
 A handful of much higher resolution regional models (using structured ijk hexahedral meshes), outlined in red, are characterized by the [ROMS](https://www.pnnl.gov/projects/seahorce) modeling and simulation application.
 Some insets represent critical regions of open ocean while others represent inland water bodies such as the Chesapeake Bay.
@@ -118,6 +122,10 @@ These multiple plots were then layered, somewhat tediously, as concentric, spher
 This helps to provide context for individual inset regions.
 
 Of the [150+ database plugins](https://github.com/visit-dav/visit/tree/develop/src/databases) in VisIt, [MOAB](https://github.com/visit-dav/visit/tree/develop/src/databases/MOAB) is the only plugin employing SSF collective parallel I/O via HDF5.
+
+## Image credits
+
+Images courtesy of Vijay Mahadevan and Iulian Grindeanu.
 
 ## Author bios
 
