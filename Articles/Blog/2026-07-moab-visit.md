@@ -14,7 +14,7 @@ Close collaboration and creative problem-solving can overcome significant challe
 
 ## Introduction
 
-Funding from OASIS (now part of [RAPIDS](https://rapids.lbl.gov)) and SciDAC ([FASTMath](https://sites.google.com/lbl.gov/scidacfastmathinstitute/home)) and [ECP](https://www.exascaleproject.org) has facilitated collaborations between developers of tools such as [VisIt](https://visit.llnl.gov) and [ParaView](https://www.paraview.org) and the broader scientific computing community.
+Funding from OASIS (now part of [RAPIDS](https://rapids.lbl.gov)), SciDAC ([FASTMath](https://sites.google.com/lbl.gov/scidacfastmathinstitute/home)), and [ECP](https://www.exascaleproject.org) has facilitated collaborations among developers of tools such as [VisIt](https://visit.llnl.gov) and [ParaView](https://www.paraview.org) and the broader scientific computing community.
 Examples include collaborations between developers of VisIt at LLNL and developers of I/O technologies such as [ADIOS/ADIOS2](https://adios2.readthedocs.io/en/latest/#) at ORNL, [BoxLib/AMReX](https://amrex-codes.github.io) at LBNL, and [MOAB](https://sigma.mcs.anl.gov/moab-library/) at ANL.
 This article describes our experiences developing a MOAB [database plugin](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/data_into_visit/CreatingDatabasePlugin.html#creating-a-database-reader-plugin) for VisIt.
 Differences in the two products' scientific data models and parallel execution paradigms have presented several interesting challenges requiring innovative solutions.
@@ -29,8 +29,8 @@ Database plugins in VisIt employ various I/O strategies to marshal data from fil
 
 MOAB is more than a database for *storing* data.
 VisIt is more than a tool for *displaying* data.
-Both also support a variety of scalable data-processing and analysis *services* such as topological and spatial queries, ghost layer management and solution transfer.
-A key MOAB service exploited here for the VisIt plugin is scalable, parallel I/O from a [single shared file](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/) via [HDF5](https://support.hdfgroup.org/documentation/hdf5/latest/).
+Both also support a variety of scalable data-processing and analysis *services* such as topological and spatial queries, ghost layer management, and solution transfer.
+A key MOAB service exploited for the VisIt plugin is scalable, parallel I/O from a [single shared file](https://www.hdfgroup.org/2017/03/21/mif-parallel-io-with-hdf5/) via [HDF5](https://support.hdfgroup.org/documentation/hdf5/latest/).
 
 ### Early success with the ITAPS/iMesh plugin
 
@@ -40,8 +40,8 @@ The same [ITAPS plugin](https://github.com/visit-dav/visit/tree/2.10RC/src/datab
 This work demonstrated a key ITAPS goal: that a single interface could support data exchange among a variety of disparate mesh management packages.
 
 The ITAPS-MOAB plugin was used successfully to examine a large MOAB [reactor model](https://doi.org/10.2172/1095497) consisting of hundreds of thousands of subsets for various components of a novel nuclear fuel assembly.
-However, as funding for the ITAPS SciDAC project ended, so did further development and support of the `iMesh` interface.
-It was eventually removed from MOAB.
+However, as funding for the ITAPS SciDAC project ended, so did further development and support of the `iMesh` interface, 
+which was eventually removed from MOAB.
 A new VisIt database plugin integrating *directly* with MOAB's native interface was needed.
 
 ### Key differences between MOAB and VisIt
@@ -85,7 +85,7 @@ In a MOAB (`.h5m`) file, mesh coordinates and connectivities are stored and expr
 Except for a handful of simple, structured mesh cases, VisIt itself offers no help in decomposing a globally enumerated mesh into pieces for parallel processing.
 Fortunately, MOAB combined with the *collective* parallel I/O capabilities of HDF5 does.
 
-In every MOAB database (`.h5m` file), there exists a conventional tag named `PARALLEL_PARTITION` which identifies a collection of `K` entity sets.
+In every MOAB database (`.h5m` file), there exists a conventional tag named `PARALLEL_PARTITION` that identifies a collection of `K` entity sets.
 These entity sets will serve as the all-important mesh domains for VisIt.
 Typically, the `PARALLEL_PARTITION` tag is computed by an upstream partitioner such as [Zoltan](https://sandialabs.github.io/Zoltan/) or [METIS](https://github.com/KarypisLab/METIS).
 The MOAB plugin uses this tag to define [HDF5 dataspace selections](https://support.hdfgroup.org/documentation/hdf5/latest/_h5_s__u_g.html) so that each MPI rank reads only the subset of the global mesh during collective `H5Dread()` operations.
@@ -97,12 +97,12 @@ When `R<K`, multiple entity sets will be read by the same rank.
 The remaining issues impacting the MOAB/VisIt user experience involve bridging the MOAB and VisIt data models.
 MOAB Dense tags on 0D entities (nodes) are used to define *node-centered* (piecewise-linear interpolation) variables for VisIt.
 Dense tags on >0D entities are used to define *zone-centered* (piecewise-constant interpolation) variables.
-Length 1 tags define *scalar* variables whereas length 2 or 3 define *vector* variables and length >3 tags define array variables.
+Length 1 tags define *scalar* variables, whereas length 2 or 3 define *vector* variables and length >3 tags define array variables.
 Entity sets for materials and boundary conditions are handled as *enumerated* subsets in VisIt.
 With the exception of `PARALLEL_PARTITION`, sparse tags in MOAB are not yet supported in VisIt, but will likely involve creative uses of VisIt's enumerated subset functionality.
 
 MOAB users often wish to manipulate the mesh in terms of different primitive entity types (e.g. 0D nodes, 1D edges, 2D faces, and 3D volumes).
-To support this in VisIt, a database read option allows users to set which dimensionality entities they wish to have included when the mesh is read.
+To support this capability in VisIt, a database read option allows users to set which dimensionality entities they wish to have included when the mesh is read.
 When the same mesh is expressed with different types of entities, this can lead to additional challenges for users in selecting and combining plots in VisIt.
 
 <br>
@@ -115,11 +115,11 @@ The visualization in Figure 1, above, demonstrates the use of VisIt and MOAB in 
 A coarse whole global ocean model, using polygonal elements (hexagons extruded in depth), is characterized by the [MPAS](https://mpas-dev.github.io/MPAS-Analysis/1.2.7/index.html) modeling and simulation application.
 A handful of much higher resolution regional models (using structured ijk hexahedral meshes), outlined in red, are characterized by the [ROMS](https://www.pnnl.gov/projects/seahorce) modeling and simulation application.
 Some insets represent critical regions of open ocean while others represent inland water bodies such as the Chesapeake Bay.
-Both MPAS and ROMS use MOAB to store and manage the data and, in particular, to also handle coupling between the global and regional models.
+Both MPAS and ROMS use MOAB to store and manage the data and, in particular, also to handle coupling between the global and regional models.
 
-The global ocean visualization, above, involves a number of different MOAB data sources and plots of those sources together with VisIt's **Threshold** operator set to display different features of interest.
+The global ocean visualization involves a number of different MOAB data sources and plots of those sources together with VisIt's **Threshold** operator set to display different features of interest.
 These multiple plots were then layered, somewhat tediously, as concentric, spherical shells using VisIt's **Transform** operator with various [cmocean](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/using_visit/MakingItPretty/Color_tables.html#the-cmocean-color-tables) color maps applied.
-This helps to provide context for individual inset regions.
+This approach helps to provide context for individual inset regions.
 
 Of the [150+ database plugins](https://github.com/visit-dav/visit/tree/develop/src/databases) in VisIt, [MOAB](https://github.com/visit-dav/visit/tree/develop/src/databases/MOAB) is the only plugin employing SSF collective parallel I/O via HDF5.
 
