@@ -1,4 +1,4 @@
-# Webinar: Rapid Development of a High-Performance Applications using Python
+# Webinar: Rapid Development of High-Performance Applications using Python
 
 - Event Date: 2026-09-02
 - Location: Online
@@ -16,7 +16,7 @@ high-performance computers (HPC) and occur approximately monthly.
 
 Resource Information | Details
 :--- | :---			   
-Webinar Title | Rapid Development of a High-Performance Applications using Python
+Webinar Title | Rapid Development of High-Performance Applications using Python
 Date and Time | 2026-09-02 1:00pm - 2:00pm EDT
 Presenter | Joanna Piper Morgan (Nuclear Criticality Safety Division, Lawrence Livermore National Lab)
 Registration, Information, and Archives | 	<https://ideas-productivity.org/events/hpcbp-100-python>
