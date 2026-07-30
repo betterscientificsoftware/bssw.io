@@ -1,4 +1,4 @@
-# Comparing Scaling Behavior Across Diverse Parallel Architectures
+# Comparing Scaling Behavior across Diverse Parallel Architectures
 <!--- deck text start --->
 Explore how characterizing performance portability in the presence of extreme architectural diversity is enabled through node-to-node scaling as a cross-platform framework.
 
