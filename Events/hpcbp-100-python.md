@@ -1,4 +1,4 @@
-# Webinar: Rapid Development of High-Performance Applications using Python
+# Webinar: Rapid Development of High-Performance Applications Using Python
 
 - Event Date: 2026-09-02
 - Location: Online
