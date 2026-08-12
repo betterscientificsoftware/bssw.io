@@ -2,7 +2,7 @@
 
 #### Contributed by: [Dave Bunten](https://github.com/d33bs)
 
-#### Publication date: August 2026
+#### Publication date: August 14, 2026
 
 <!-- start of deck text -->
 Generative AI tools are expanding what scientific software developers can accomplish - but realizing that potential depends on how intentionally we direct it. This article introduces the concept of the _research decision engineer_ to describe this evolving and opportunity-rich role, and offers practical strategies for channeling cognitive effort toward the decisions that most advance software quality and scientific impact.
@@ -12,7 +12,7 @@ Software Gardening<sup>[1],[2]</sup> encourages us to think of scientific softwa
 
 That focus has always been part of gardening practice. What the **generative era** - the period in which capable code-producing tools have become widely accessible to working developers - makes visible is how much of the gardener's most consequential work has never been about writing code at all, but about deciding what to grow, where, and why. These tools do not eliminate technical decisions so much as redistribute them, creating space to operate at a higher level of abstraction. That redistribution carries a risk: when a developer stops directing and starts only accepting, the result is **slop**, generative output produced without critical evaluation or deliberate intent.<sup>[12]</sup> Slop is the output of cognitive surrender, moments when speed substitutes for judgment and volume displaces meaning. The deliberate counter-practice is **research decision engineering**: tending the garden's direction with the same care that earlier seasons devoted to tending its code.
 
-### What is decision engineering?
+## What is decision engineering?
 
 **Decision engineering** is the practice of framing problems precisely enough for tools or colleagues to act on them, evaluating the outputs that come back, verifying correctness against real-world requirements, steering system architecture toward designs that stay healthy as they grow, and keeping sight of which problem is actually worth solving. It is a dimension of software development that has always been present in the craft, now growing in visibility and influence as the generative era widens the scope of what a single developer can cultivate. **Research decision engineering** is that same practice evolving to meet the particular growing conditions of scientific software: correctness is nonnegotiable; reproducibility is a community expectation rather than a best practice; software often serves a specific hypothesis rather than a general user population; and the developer is frequently also the product owner. These conditions make its judgment calls both harder and more consequential than in many commercial settings, and they make a dedicated vocabulary for the practice worth cultivating.
 
@@ -28,11 +28,11 @@ Prompt without specifics:
 
 Prompt with specifics:
 
-> "write a per-sample normalization function for a plate-based assay where well position effects are known to confound column means - the function should accept a pandas DataFrame with sample rows and feature columns and return a corrected DataFrame of the same shape."
+> "Write a per-sample normalization function for a plate-based assay where well position effects are known to confound column means - the function should accept a pandas DataFrame with sample rows and feature columns and return a corrected DataFrame of the same shape."
 
 The second prompt encodes domain knowledge, guards against a plausible but wrong implementation, and would serve equally well as a unit test description. The value of that exercise does not live only in the output it produces - the act of framing a problem rigorously enough to be acted on is itself a form of scientific thinking. Research decision engineers who treat prompting as a specification discipline develop habits of problem clarity that improve all their work, generative or otherwise.
 
-### Neighbors in the decision space: Data science, decision science, and a growing community
+## Neighbors in the decision space: Data science, decision science, and a growing community
 
 Two neighboring disciplines have been practicing versions of decision engineering for decades, and research software engineers (RSEs) can learn considerably from both.
 
@@ -42,11 +42,11 @@ The connection runs the other direction as well. RSEs who think explicitly about
 
 Research software engineering sits at the intersection of these fields, and the rise of generative tools makes that intersection more visible and more consequential. The capacity to generate analytical code at speed means that the bottlenecks in research data pipelines are increasingly not the writing of code but the judgment about whether that code correctly expresses a scientific question - and whether that question was the right one to ask. That judgment is the shared work of the data scientist, the decision scientist, and the research decision engineer - and it is, in the language of Software Gardening<sup>[1],[2]</sup>, the ongoing work of tending: choosing what grows, pruning what misleads, and keeping the ecosystem oriented toward what the science actually needs.
 
-Beyond these two established fields, the generative era is also expanding the community of practitioners who need decision engineering skills. Domain scientists who are not professional developers - biologists, physicists, social scientists - can now initiate and shape more software than ever before, using generative tools to close the gap between their scientific intuition and a working implementation. For these practitioners, decision engineering is not a professional specialization to aspire to but an immediate practical need: the ability to frame a problem precisely, evaluate whether generated output captures domain intent, and know when to bring in deeper engineering expertise. In doing so, the generative era widens the craft itself, drawing domain scientists and software practitioners into closer collaboration across a boundary that once kept scientific expertise and software practice apart. Research decision engineers who understand this can position themselves as the enabling partners that broader community most needs.
+Beyond these two established fields, the generative era is also expanding the community of practitioners who need decision engineering skills. Domain scientists who are not professional developers - biologists, physicists, social scientists - can now initiate and shape more software than ever before, using generative tools to close the gap between their scientific intuition and a working implementation. For these practitioners, decision engineering is not a professional specialization to aspire to but an immediate practical need: the ability to frame a problem precisely, evaluate whether generated output captures domain intent, and know when to bring in deeper engineering expertise. In doing so, the generative era widens the craft itself, drawing domain scientists and software practitioners into closer collaboration across a boundary that once kept scientific expertise and software practice apart. Research decision engineers who understand this can position themselves as the enabling partners that the broader community most needs.
 
 <img id="fig-2" src='../../images/Blog_2608_decision_neighbors.png' class='page lightbox' />[Figure 2. Research decision engineering sits at the convergence of research software engineering, data science, and decision science. Each field contributes complementary tools for evaluating choices, managing uncertainty, and aligning work with scientific goals.]
 
-### Cognitive load: A biological reality
+## Cognitive load: A biological reality
 
 To understand why this shift matters, we must first take seriously the biological constraints of human cognition. Cognitive load theory,<sup>[4]</sup> originating from educational psychology, describes the demands placed on working memory - the limited mental workspace where active thinking happens. Working memory can hold only a small number of distinct chunks of information at once,<sup>[5]</sup> and when that capacity is exceeded, performance degrades: errors increase, decisions become shallower, and the ability to detect subtle problems diminishes.
 
@@ -60,7 +60,7 @@ This points to an important corollary worth naming explicitly: **germane load is
 
 When cognitive load is well-managed, with intrinsic load matched to skill and extraneous load minimized, the conditions for **flow** become available: the state of absorbed, effortful engagement that produces both the best work and the deepest satisfaction.<sup>[7]</sup> Research decision engineers who structure their generative workflows thoughtfully, protecting focused time for the decisions that require it and delegating the rest, create more frequent opportunities for flow than the unassisted developer context has historically allowed. Higher productivity is the obvious gain; used well, the generative era can also make the work itself more absorbing and rewarding to do.
 
-### The self as a team
+## The self as a team
 
 Managing cognitive load well requires knowing not just *how* to think, but *what role* you are in when you think. The same decision looks different depending on whether you are operating as the person delivering scientific output, the person building shared infrastructure, or the person holding specialized domain knowledge. The Team Topologies framework<sup>[8]</sup> offers a precise vocabulary for these distinctions, even for individual contributors. Skelton and Pais describe four fundamental team types: **stream-aligned teams** that deliver continuous value along a product or capability, **enabling teams** that help others improve their practices, **complicated subsystem teams** that manage domains requiring deep expertise, and **platform teams** that provide reliable internal services. These team types interact through defined modes: collaboration, X-as-a-Service, and facilitation.
 
@@ -72,7 +72,7 @@ This framing surfaces a generative insight: **with clear role awareness, a singl
 
 This coherence matters for more than throughput. Brooks identified **conceptual integrity** - the consistency of a system's design as expressed through one unifying set of ideas - as "the most important consideration in system design," and argued that it is best preserved when the design proceeds from a single mind or a small, closely aligned group rather than a fragmented committee.<sup>[14]</sup> Historically this created a tension between integrity and scale: one mind could only build so much. The generative era relaxes that tension. A research decision engineer can now hold the conceptual integrity of a system whose implementation scope would once have demanded a full team, provided they remain deliberately in the seat where that integrity is decided rather than ceding it, decision by decision, to whatever the tools happen to produce.
 
-### Value streams and the art of triage
+## Value streams and the art of triage
 
 Knowing which role you are in tells you *who* is responsible for a decision. The next question is *which* decisions actually deserve attention at all. Not everything that presents itself as a decision is one worth making carefully - and in the generative era, the volume of things that could be decided grows with every tool invocation. Decision engineering requires clarity about which decisions belong in the critical path. The concept of a **value stream** - the sequence of steps that delivers something meaningful to an end user or scientific goal - provides a useful guide.<sup>[9]</sup> Not every decision is equally load-bearing. Some choices, if made poorly, directly impede the delivery of correct, reproducible science. Others are secondary optimizations that can be deferred or delegated entirely.
 
@@ -82,7 +82,7 @@ The Eisenhower matrix, formalized as a time-management tool in Covey's quadrant 
 
 Generative tools can play a useful role in this triage, not by making judgments, but by helping to surface and structure them. A well-framed conversation with a generative assistant - describing the current state of a project, the open decisions on the table, and the scientific goal at hand - can help externalize the decision landscape, reducing the working memory cost of holding everything simultaneously. The Eisenhower framing gives that conversation structure and prevents the most common failure mode: treating every open question as equally urgent.
 
-### The generative stack: Matching tools to tasks
+## The generative stack: Matching tools to tasks
 
 Every step in a scientific software value stream has different cognitive requirements - and in the generative era, those requirements map onto meaningfully different tool profiles. Not all generative capability is equivalent. A model well-suited to reasoning through a novel architecture is not necessarily well-suited to implementing a narrowly scoped function, and using it for both wastes its strengths while adding unnecessary evaluation burden. Matching the right generative tool to the right task is itself a decision engineering act - one that shapes the cognitive load of the entire workflow.
 
@@ -102,7 +102,7 @@ This tiered approach is a practical expression of the value stream and triage pr
 
 The specific tools available at each tier will evolve - models that are frontier today become commoditized, and new capability profiles will emerge. The workflow above is not a permanent prescription but an illustration of the underlying principle: **match generative capability to task requirement**. Before generating, ask whether this step calls for broad scientific reasoning across context or focused, constrained code production within a well-defined scope. Building that habit - pausing to ask which tool this moment actually calls for, rather than reaching for the same one by default - is itself a durable decision engineering skill, and like all such skills, it sharpens with deliberate practice.
 
-### The gardener's finite day: Resource awareness as decision advantage
+## The gardener's finite day: Resource awareness as decision advantage
 
 Generative tools have no inherent sense of cost. Left without constraint, they will explore a solution space indefinitely - producing elaborate architecture for a problem that needed a simple function, generating comprehensive test coverage for code that will be replaced next week, or refining an implementation long past the point where the refinement serves the science. This is not a flaw; it is simply what these tools are. They optimize for plausibility and completeness within the scope they are given. They do not know that the grant ends in three months, that the compute budget is nearly exhausted, or that the collaborator waiting on this result is presenting at a conference on Friday.
 
@@ -116,7 +116,7 @@ The practical implication is that the research decision engineer carries the res
 
 The tools are powerful precisely because they are unconstrained. The research decision engineer is valuable precisely because they are not.
 
-### Product leadership: Solving real problems
+## Product leadership: Solving real problems
 
 Resource awareness tells us what we can afford. Product leadership tells us what is worth affording. The generative era makes that distinction both more important and more rewarding to get right. When implementation time compresses, the constraint shifts: the bottleneck is no longer writing code but knowing what code is worth writing. This is not a new observation. Writing decades before generative tools existed, Frederick Brooks argued in *The Mythical Man-Month* that "the hardest single part of building a software system is deciding precisely what to build ... No other part of the work so cripples the resulting system if done wrong."<sup>[14]</sup> Generative tools sharpen that point rather than soften it: when implementation is fast and cheap, the cost of building the wrong thing, precisely and at speed, falls almost entirely on the quality of the decision about what to build. A research decision engineer who invests in asking the right question, and holds it steady as generative tools rapidly explore the implementation space, can iterate toward a correct solution faster than was previously possible. Conversely, a poorly framed question executed quickly arrives at a wrong answer at speed. The leverage that generative tools provide amplifies both the value of good framing and the cost of poor framing.
 
@@ -124,7 +124,7 @@ Product leadership in scientific software means keeping the scientific question 
 
 There is a temporal discipline here that connects to *nowness rooting* as described in Software Gardening<sup>[1]</sup> - the practice of orienting work toward what the science actually requires today, rather than what seemed important last month or what might be needed in a speculative future. Product leadership in the generative era means regularly pausing the generation cycle to ask: is this still the right problem? The speed of the tools makes it easier to drift - to keep refining a solution that has quietly become disconnected from the actual scientific need. The decision engineer holds that thread.
 
-### The invisible decision trail
+## The invisible decision trail
 
 Generative tools introduce a challenge that is new in kind, not just degree: the decisions that shape a piece of code may leave no trace in the code itself. This problem has two related but distinct faces.
 
@@ -134,7 +134,7 @@ The second is **architectural intent**: even when code is written by hand, the *
 
 For scientific software, where reproducibility is a core value, both gaps are meaningful.<sup>[11]</sup> Software may be reproducible in output but opaque in process - and process transparency is often where scientific peer review begins. The research decision engineer responds by treating the decision trail as a first-class artifact alongside the code itself. This does not require elaborate documentation of every generated line. It means preserving the key framing - what problem was being solved, what scientific constraints were applied, what alternatives were considered - in forms that travel with the repository: architectural decision records,<sup>[16]</sup> annotated commit messages, and prompt templates stored alongside the code they produce.
 
-### Quality with real people
+## Quality with real people
 
 Preserving the decision trail addresses what future readers and reviewers need. But there is a complementary challenge that runs in the opposite direction: making sure the decisions being made in the first place reflect what the actual users of the software need, not just what a developer assumed they needed. One of the most energizing aspects of the generative era is that it creates new opportunities for richer human connection around the work. When implementation cycles shorten, the time previously absorbed by writing code can shift toward the conversations that matter most: sitting with a domain scientist to watch how they actually use a tool, testing a prototype live with the people it is meant to serve, or exploring the real shape of a problem before any assumptions have hardened into architecture. These conversations have always been valuable; now they are more accessible, because the cost of turning an idea into something testable has dropped dramatically.
 
@@ -144,7 +144,7 @@ The research decision engineer treats human collaboration not as a final gate bu
 
 <img id="fig-6" src='../../images/Blog_2608_decision_engineering_lifecycle.png' class='page lightbox' />[Figure 6. The decision engineering lifecycle integrates human collaboration at multiple points, treating domain experts and end users as active contributors to the scientific intent of the software - not just validators at the end.]
 
-### A decision engineering toolshed
+## A decision engineering toolshed
 
 The sections above draw on established bodies of knowledge - cognitive science, organizational design, product thinking, decision theory - and reframe them around the specific conditions of scientific software development in the generative era. The toolshed below (<a href="#table-1">Table 1</a>) consolidates these into concrete practices and tools, organized to help research decision engineers identify where to invest attention at each stage of their work.
 
@@ -307,7 +307,7 @@ The sections above draw on established bodies of knowledge - cognitive science, 
   <tr>
    <td>Early collaboration: Building with users, not for them
    </td>
-   <td>Engage domain experts and end users throughout development - not as validators at the end but as co-authors of scientific intent, using shortened implementation cycles to create more time for live testing and conversation.
+   <td>Engage domain experts and end users throughout development - not as validators at the end but as coauthors of scientific intent, using shortened implementation cycles to create more time for live testing and conversation.
    </td>
    <td>
 <ul>
@@ -332,7 +332,7 @@ The sections above draw on established bodies of knowledge - cognitive science, 
   </tr>
 </table>
 
-### A flourishing new season
+## A flourishing new season
 
 Software Gardening<sup>[1],[2]</sup> has always asked the gardener to understand not just the immediate plant in front of them, but the ecosystem: the soil, the season, the neighboring growth, and the long arc of time. Research decision engineering is that same understanding brought to the question of how we think and choose - at a moment when the tools available to us can help a single gardener tend a garden of previously unimaginable scale.
 
@@ -342,7 +342,7 @@ The generative era does not diminish what it means to be a research software dev
 
 Tend boldly.
 
-### Author bios
+## Author bios
 
 Dave Bunten is a Research Software Engineer with the [Department of Biomedical Informatics at the University of Colorado Anschutz](https://medschool.cuanschutz.edu/dbmi). He has over a decade of experience in the field of software development through various roles in his career. His keen interest in software design, collaboration, and innovation has driven him to explore various areas of the field. He is particularly passionate about research data engineering, in-memory data flow, and scientific software.
 
@@ -408,7 +408,7 @@ Topics: software process improvement, software engineering, software sustainabil
 [17]: #sfer-ezikiw-17 "Cognitive load types"
 [18]: #sfer-ezikiw-18 "Agentic code review"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-1"></a><sup>1</sup>[Bunten, D. & Way, G. P. Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems. Better Scientific Software (BSSw) Blog (2023).](https://bssw.io/blog_posts/long-term-software-gardening-strategies-for-cultivating-scientific-development-ecosystems)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Bunten, D., Davidson, W. & Way, G. Growing Resilient Scientific Software Ecosystems: Introducing the Software Gardening Almanack. Better Scientific Software (BSSw) Blog (2025).](https://bssw.io/blog_posts/growing-resilient-scientific-software-ecosystems-introducing-the-software-gardening-almanack)
