@@ -342,6 +342,10 @@ The generative era does not diminish what it means to be a research software dev
 
 Tend boldly.
 
+## Acknowledgements
+
+Thanks go to Faisal Alquaddoomi, Lead Software Engineer of the Software Engineering team at the [Department of Biomedical Informatics at the University of Colorado Anschutz](https://medschool.cuanschutz.edu/dbmi), for reviewing this article and offering valuable feedback.
+
 ## Author bios
 
 Dave Bunten is a Research Software Engineer with the [Department of Biomedical Informatics at the University of Colorado Anschutz](https://medschool.cuanschutz.edu/dbmi). He has over a decade of experience in the field of software development through various roles in his career. His keen interest in software design, collaboration, and innovation has driven him to explore various areas of the field. He is particularly passionate about research data engineering, in-memory data flow, and scientific software.
