@@ -1,25 +1,25 @@
 # Apply for the BSSw Fellowship Program
 
-<!-- BSSw is currently accepting applications for the 2026 BSSw Fellowship Program. -->
-While applications are now closed for the BSSw Fellowship Program, we encourage you learn about the application process.
-<!-- Applications for the 2026 BSSw Fellowship Program will open August 14, 2025. We encourage you learn about the application process now ... And join the BSSw community by contributing to the BSSw site. -->
+ BSSw is currently accepting applications for the 2027 BSSw Fellowship Program.
+<!-- While applications are now closed for the BSSw Fellowship Program, we encourage you learn about the application process. -->
+<!-- Applications for the 2027 BSSw Fellowship Program will open XYZ, 2026. We encourage you learn about the application process now ... And join the BSSw community by contributing to the BSSw site. -->
 
 BSSw Fellows receive recognition and funding to be advocates of high-quality scientific software and leaders in the field.
 
-<!-- Submissions for the 2026 BSSw Fellowship Program are accepted through the [online application form](https://ssl.linklings.net/applications/BSSw/). -->
+Submissions for the 2027 BSSw Fellowship Program are accepted through the [online application form](https://ssl.linklings.net/applications/BSSw/).
 
-## Timeline for 2026 BSSw Fellowship Program
+## Timeline for 2027 BSSw Fellowship Program
 
-<!-- Applications for the 2026 BSSw Fellowship Program will open August 14, 2025. Please check back for additional information and dates. -->
+Applications for the 2027 BSSw Fellowship Program will open XYZ, 2026. Please check back for additional information and dates.
 
-*Applications are now closed for the 2026 BSSw Fellowship Program. Check back in summer 2026 for info about the 2027 application process.*
+<!-- *Applications are now closed for the 2026 BSSw Fellowship Program. Check back in summer 2026 for info about the 2027 application process.* -->
 
-- **Thursday, August 14, 2025**: Fellowship application process opens.
-- **Tuesday, September 16, 2025 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
-- **Friday, October 31, 2025**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
-- **January 2026**: Announcement of selection of 2026 BSSw Fellows.
-- **April 1, 2026 – April 30, 2027**: Period of performance for 2026 BSSw Fellows.
-- **October 2026**: Fellowship class honored at the [US-RSE Annual Conference](https://us-rse.org/events/conference/)
+- **XYZ, XYZ, 2026**: Fellowship application process opens.
+- **Tuesday, September 22, 2026 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
+- **Friday, October 30, 2026**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
+- **January 2027**: Announcement of selection of 2027 BSSw Fellows.
+- **April 1, 2027 – April 30, 2028**: Period of performance for 2027 BSSw Fellows.
+- **October 2027**: Fellowship class honored at the [US-RSE Annual Conference](https://us-rse.org/events/conference/)
 
 The BSSw Fellowship program fosters and promotes practices, processes, and tools to improve developer productivity and software sustainability of scientific codes.
 BSSw Fellows are selected annually based on an application process that includes the proposal of a funded activity that promotes better scientific software through a publicly available artifact.
@@ -49,9 +49,9 @@ Activities can include organizing a workshop, preparing a tutorial, or creating 
 
 <!-- Applications for the 2026 BSSw Fellowship Program will open on August 14, 2025; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
 
-Applications are closed for the 2026 BSSw Fellowship Program.  Please check back for information about the 2027 BSSw Fellowship application process; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details.
+<!-- Applications are closed for the 2026 BSSw Fellowship Program.  Please check back for information about the 2027 BSSw Fellowship application process; [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive details. -->
 
-<!-- Applications are now being accepted for the 2026 BSSw Fellowship Program.  Submissions for the 2026 BSSw Fellowship Program are accepted through the [**online application form**](https://ssl.linklings.net/applications/BSSw/). -->
+Applications are now being accepted for the 2027 BSSw Fellowship Program.  Submissions for the 2027 BSSw Fellowship Program are accepted through the [**online application form**](https://ssl.linklings.net/applications/BSSw/). 
 
 
 ## Q&A Webinar about the BSSw Fellowship Program
