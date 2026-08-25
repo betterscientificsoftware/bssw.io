@@ -23,4 +23,7 @@ Brigitta is an astronomer turned developer at Caltech/IPAC, where she works in N
 ### Selected Resources
 
 <a href="https://github.com/scientific-python/executable-tutorials" class="link-row">Executable Tutorials template repository</a>
+
 <a href="https://docs.google.com/presentation/d/1vAzx0o2_44uRgtdilUQsCXykaWgXwv7JAMtLbNFrIjQ/edit?usp=sharing" class="link-row">User facing tutorials as code</a>
+
+<a href="https://ideas-productivity.org/events/hpcbp-099-tutorials" class="link-row">"User-Facing Tutorials as Code: Reproducible and Reliable Tutorials with CI/CD" for Scientific Software</a>
