@@ -27,5 +27,5 @@ For RSEs and software teams trying to understand whether AI coding tools are wor
 <!---
 Publish: yes
 Pinned: no
-Topics: artificial intelligence, software engineering
+Topics: ai for better development, development tools, peer code review
 --->
