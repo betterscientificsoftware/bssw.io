@@ -6,7 +6,7 @@ Explore Research Software Engineering bi-monthly at the HiRSE Seminar Series, co
 
 #### Contributed by [Claire Wyatt](https://github.com/ClaireWyatt), [Robert Speck](https://github.com/pancetta), and [René Caspart](https://github.com/rcaspart)
 
-#### Publication date: 2026-04-10
+#### Publication date: 2026-08-10
 
 Resource information | Details
 :--- | :---
