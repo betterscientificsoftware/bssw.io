@@ -88,7 +88,7 @@ Publish: No
 [26]: #sfer-ezikiw-26 "The SAF Data Model"
 [25]: #sfer-ezikiw-25 "Info about Mariner 1"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-25"></a><sup>25</sup>[Info about Mariner 1](https://en.wikipedia[.org/wiki/Mariner_1)
 * <a name="sfer-ezikiw-26"></a><sup>26</sup>[The SAF Data Model](https://github.com/markcmiller86/SAF/blob/master/src/safapi/docs/miller002.pdf)
