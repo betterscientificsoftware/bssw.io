@@ -7,12 +7,12 @@ Slide1 L: ../Articles/Blog/2026-08-ai-human-agency.md
 Slide1 R: ../Articles/Blog/2026-08-research-decision-engineering.md
 Slide2 L: ../CuratedContent/AI-assisted-coding.md 
 Slide2 R: ../CuratedContent/HiRSESeminarSeries.md 
-Slide3 L: ../Events/2026-07-llnl-hpc-tutorials.md 
-Slide3 R: ../Events/hpcbp-100-python.md 
-Slide4 L: ../Events/2026-09-irsc.md 
-Slide4 R: ../Events/2026-usrse-conf.md 
-Slide5 L: ../Events/2026-08-ai-interview-study.md 
-Slide5 R: ../CuratedContent/hpcbp-webinars-cc.md
+Slide3 L: ../Events/2026-09-nls3c-cop-webinar.md
+Slide3 R: ../Events/hirse-056-2026-09.md
+Slide4 L: ../Events/2026-07-llnl-hpc-tutorials.md 
+Slide4 R: ../Events/hpcbp-100-python.md 
+Slide5 L: ../Events/2026-09-irsc.md 
+Slide5 R: ../Events/2026-usrse-conf.md 
 --->
 
 <!---
