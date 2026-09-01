@@ -63,9 +63,9 @@ Applications are reviewed by a panel of diverse members of the CSE community usi
 * The proposer has a passion for scientific software and the relevant background to accomplish the proposed work.
 * The proposer will be a long-term advocate for better scientific software beyond the fellowship period of performance.
 
-### Can I submit a letter of recommendation with my application?
+### Must I submit a letter of recommendation with my application?
 
-We do not accept letters of recommendation with the application.  Please use your own words to describe your relevant background and advocacy for better scientific software.
+Yes, applicants for the 2027 BSSw Fellowship Program must submit a letter from their supervisor supporting their involvement in the BSSw Fellowship Program (PDF only, 1-page or less).
 
 ### Can I submit multiple applications with different proposals?
 
