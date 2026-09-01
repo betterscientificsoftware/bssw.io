@@ -16,7 +16,7 @@ Submissions for the 2027 BSSw Fellowship Program are accepted through the [onlin
 <!-- *Applications are now closed for the 2026 BSSw Fellowship Program. Check back in summer 2026 for info about the 2027 application process.* -->
 
 <!-- - **Thursday, August 14, 2025**: Fellowship application process opens. -->
-- **Tuesday, September 22, 2026 1:00-2:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
+- **Thursday, September 24, 2026 2:00-3:00 pm EDT**: Fellowship webinar, Q&A. [Subscribe](https://bssw.io/pages/receive-our-email-digest) to our mail list to be notified about details. Please see the [FAQ page](https://bssw.io/pages/bssw-fellowship-faq), where we will post Q&A slides, as well as the questions that have been raised (with answers, of course!)
 - **Friday, October 30, 2026**: Application deadline, before midnight, PDT. This is a firm deadline that will not be extended.
 - **January 2027**: Announcement of selection of 2027 BSSw Fellows.
 - **April 1, 2027 – April 30, 2028**: Period of performance for 2027 BSSw Fellows.
