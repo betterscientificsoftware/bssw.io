@@ -74,7 +74,7 @@ Suzan Anwar is department chair and assistant professor of computer science at P
 
 <!---
 Publish: yes
-Track: experience
+Track: deep dive, bssw fellowship
 Pinned: no
 Topics: reproducibility, software sustainability, ai for better development
 --->
