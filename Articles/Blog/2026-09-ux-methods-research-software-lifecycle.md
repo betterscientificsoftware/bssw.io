@@ -12,19 +12,19 @@ But UX isn't a "one-and-done" step – it's a toolkit that applies at every turn
 
 *The full-size infographic and detailed guide on above methods are available in the open-access [Zenodo resource](https://doi.org/10.5281/zenodo.22287846).*
 
-## Planning: What should we build, and for whom?
+### Planning: What should we build, and for whom?
 
 Early on in the planning phase, the question is what to build and for whom. Here, methods like stakeholder interviews, semi-structured interviews and contextual inquiry are invaluable. These techniques help uncover the scientific goals and, more importantly, the hidden frustrations and workarounds that formal requirements documents often miss.
 
-## Design and Development: Is it functional & feasible?
+### Design and Development: Is it functional & feasible?
 
 As the design takes shape and you move into development, the focus shifts to feasibility and if the approach will actually work for users. Sketching, prototyping and cognitive walkthroughs allow teams to test designs and interactions early, spotting confusing elements or unclear guidance before significant engineering resources are spent.
 
-## Release & Validation: Can people actually use it?
+### Release & Validation: Can people actually use it?
 
 Once something is built and you are in the release and validation phase, the question becomes if people can use it effectively. Methods like heuristic evaluation and targeted usability tests (even a single think-aloud session) help uncover friction points in the actual product. This real-world feedback is far more powerful than internal team assumptions.
 
-## Maintenance & Sustainability: Does it need to change?
+### Maintenance & Sustainability: Does it need to change?
 
 Finally during maintenance, the question is whether the software still works as users and their workflows evolve. At this stage, teams can combine broad signals with deeper evidence: behavioral analytics, support ticket analysis, and user surveys help us understand what people are actually doing in the software over time.
 
@@ -36,7 +36,7 @@ AI-assisted development can shorten the time needed to implement software, but f
 
 
 <details markdown="1">
-<summary><strong>Details on UX Methods in the chart</strong></summary>
+<summary><h2 style="display:inline;">Details on UX Methods in the chart</h2></summary>
 
 ### Journey Mapping
 - Visualize steps of how users accomplish goals to identify pain points & gaps.
