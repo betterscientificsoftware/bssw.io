@@ -172,11 +172,11 @@ Three of the methods above already have free, community-built resources:
 
 **Md Hasan Shahriar Simanto**
 
-Senior UX Researcher at MathWorks, where he conducts user research for MATLAB, a scientific computing platform used by engineers and scientists. Since 2018, his work has focused on human-centered research and usability across scientific software, cloud infrastructure, cybersecurity, and enterprise systems, with current work centered on the usability of AI-assisted technical workflows. He is an active member of the US-RSE UX Working Group. Reach him at hsimanto@mathworks.com.
+Senior UX Researcher at MathWorks, where he conducts user research for MATLAB, a scientific computing platform used by engineers and scientists. Since 2018, his work has focused on human-centered research and usability across scientific software, cloud infrastructure, cybersecurity, and enterprise systems, with current work centered on the usability of AI-assisted technical workflows. He is an active member of the US-RSE UX Working Group. Reach him at hsimanto@mathworks.com
 
 **Rajshree Deshmukh**
 
-User Experience Designer at Lawrence Berkeley National Laboratory's Scientific Data Division, where she designs intuitive software products and contributes to projects including NERSC, STRUDEL, and the Orphaned Wells project. She has over nine years of industry experience at Reuters, IBM, and Nutanix, and holds a Master's in Information Design from the National Institute of Design, India. Reach her at rajshreed@lbl.gov.
+User Experience Designer at Lawrence Berkeley National Laboratory's Scientific Data Division, where she designs intuitive software products and contributes to projects including NERSC, ESnet, PrOMMiS and the Orphaned Wells project. She has over ten years of industry experience at Reuters, IBM, and Nutanix, and holds a Master's in Information Design from the National Institute of Design, India. Reach her at rajshreed@lbl.gov
 <!---
 Publish: No
 Track: Deep Dive
