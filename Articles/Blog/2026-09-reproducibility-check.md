@@ -1,5 +1,9 @@
 # Using Local AI to Support Reproducibility and Sustainability in Scientific Software
 
+**Hero Image:**
+
+- <img src='../../images/hero_topic_ai_091426.png' alt="AI sparkles" />
+
 #### Contributed by [Suzan Anwar](https://github.com/szuananwar)
 
 #### Publication date: September 25, 2026
