@@ -165,6 +165,18 @@ Three of the methods above already have free, community-built resources:
 - **Heuristic evaluation:** A template for assessing your software against design heuristics, suitable for both CLI and GUI tools, developed by contributions from the STRUDEL, PESO, and CASS projects: https://github.com/cass-community/heuristics-for-scisoft
 - For a broader starting point, the STRUDEL project's "Ten Principles for Creating Usable Software for Science" explains what makes scientific software different and how to approach its usability: [https://escholarship.org/content/qt0w5547jv/qt0w5547jv_noSplash_fb5d052988314657a264f28acb6ffc95.pdf](https://escholarship.org/content/qt0w5547jv/qt0w5547jv_noSplash_fb5d052988314657a264f28acb6ffc95.pdf)
 
+
+
+
+## About the Authors
+
+**Md Hasan Shahriar Simanto**
+
+Senior UX Researcher at MathWorks, where he conducts user research for MATLAB, a scientific computing platform used by engineers and scientists. Since 2018, his work has focused on human-centered research and usability across scientific software, cloud infrastructure, cybersecurity, and enterprise systems, with current work centered on the usability of AI-assisted technical workflows. He is an active member of the US-RSE UX Working Group. Reach him at hsimanto@mathworks.com.
+
+**Rajshree Deshmukh**
+
+User Experience Designer at Lawrence Berkeley National Laboratory's Scientific Data Division, where she designs intuitive software products and contributes to projects including NERSC, STRUDEL, and the Orphaned Wells project. She has over nine years of industry experience at Reuters, IBM, and Nutanix, and holds a Master's in Information Design from the National Institute of Design, India. Reach her at rajshreed@lbl.gov.
 <!---
 Publish: No
 Track: Deep Dive
