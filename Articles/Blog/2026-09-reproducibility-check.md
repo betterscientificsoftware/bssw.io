@@ -10,15 +10,15 @@ Local large language models can help identify common reproducibility and sustain
 
 In computational science, artificial intelligence is often discussed in terms of new capabilities and accelerated discovery. At the same time, the growing use of AI introduces new challenges for software reliability, sustainability, and reproducibility. Complex dependency stacks, evolving frameworks, specialized hardware, and increasingly automated workflows can make scientific software difficult to reproduce across users, systems, and computing environments.
 
-Rather than creating entirely new evaluation approaches, we can build on existing frameworks. Frameworks such as the [Open Source Security Foundation (OpenSSF) Best Practices Badge](https://openssf.org/projects/best-practices-badge/) and [Scorecard](https://openssf.org/projects/scorecard/) provide useful guidance for assessing software quality. Many practices promoted by OpenSSF, including dependency management, testing, documentation, and build verification, also contribute directly to software reliability and reproducibility. In scientific computing and HPC environments, failures in these areas can prevent researchers from reproducing results or deploying software successfully.
+Rather than creating entirely new evaluation approaches, we can build on existing frameworks such as the [Open Source Security Foundation (OpenSSF) Best Practices Badge](https://openssf.org/projects/best-practices-badge/) and [Scorecard](https://openssf.org/projects/scorecard/). These frameworks provide useful guidance for assessing software quality. Many practices promoted by OpenSSF, including dependency management, testing, documentation, and build verification, also contribute directly to software reliability and reproducibility. In scientific computing and HPC environments, failures in these areas can prevent researchers from reproducing results or deploying software successfully.
 
-To explore how AI might complement established assessment practices, I developed **ReproPilot**, a research prototype that combines transparent deterministic repository assessment, artifact-quality analysis, and optional grounded local AI through [Ollama](https://ollama.com/). The goal is not to replace human evaluation or use AI to determine a repository's reproducibility score. Instead, deterministic evidence remains authoritative, while AI is used only to help prioritize or explain verified reproducibility gaps.
+To explore how AI might complement established assessment practices, I developed **ReproPilot**, a research prototype that combines transparent deterministic repository assessment, artifact-quality analysis, and optional grounded local AI using [Ollama](https://ollama.com/). The goal is not to replace human evaluation or use AI to determine a repository's reproducibility score. Instead, deterministic evidence remains authoritative, while AI is used only to help prioritize or explain verified reproducibility gaps.
 
 ## Designing for the machine: The weighted rubric and OpenSSF
 
 While developing the evaluation rubric, I compared it with existing approaches such as the OpenSSF Best Practices Badge and Scorecard. Several core criteria overlap, including documentation, testing, dependency management, and licensing.
 
-The current prototype uses the following indicator-based rubric to guide repository assessment:
+The current prototype uses the following indicator-based rubric to guide repository assessments:
 
 | Category | Example evidence | Points |
 | :--- | :--- | ---: |
@@ -28,13 +28,13 @@ The current prototype uses the following indicator-based rubric to guide reposit
 | HPC Software Stack | `spack.yaml`, BuildTest configuration | 10 |
 | Testing | `tests/`, `pytest.ini`, `tox.ini` | 15 |
 | Containers | `Dockerfile`, `Containerfile`, `apptainer.def` | 15 |
-| Experiment / Provenance Tracking | `MLproject`, `dvc.yaml`, `params.yaml`, provenance metadata | 10 |
+| Experiment and Provenance Tracking | `MLproject`, `dvc.yaml`, `params.yaml`, provenance metadata | 10 |
 | Licensing | `LICENSE`, `LICENSE.md`, `COPYING` | 10 |
 | **Total** | | **100** |
 
 The weights are explicit methodological choices rather than universal measures of reproducibility. Different scientific communities may reasonably prioritize different evidence.
 
-While there is significant overlap between this rubric and the OpenSSF Best Practices Badge and Scorecard, the goals are somewhat different. OpenSSF primarily focuses on software engineering and security practices that improve software quality, maintainability, and trustworthiness. ReproPilot instead focuses on repository evidence associated with **reproducibility readiness** in scientific software, including concerns specific to AI and HPC workflows.
+While there is significant overlap between this rubric and the OpenSSF Best Practices Badge and Scorecard, the goals differ. OpenSSF primarily focuses on software engineering and security practices that improve software quality, maintainability, and trustworthiness. ReproPilot instead focuses on repository evidence associated with **reproducibility readiness** in scientific software, including concerns specific to AI and HPC workflows.
 
 For example, environment specifications, container recipes, experiment provenance, and HPC software-stack information can be especially important when attempting to reconstruct a scientific workflow. Rather than competing with OpenSSF, these approaches are complementary: general software-engineering practices provide an important foundation, while scientific reproducibility requires additional evidence about environments, experiments, data, models, and computing infrastructure.
 
@@ -42,7 +42,7 @@ For example, environment specifications, container recipes, experiment provenanc
 
 ReproPilot combines deterministic artifact discovery with quality-aware analysis and optional grounded local AI.
 
-The deterministic component identifies reproducibility-related repository evidence, while the quality assessor examines whether detected artifacts contain useful information; for example, whether a README includes meaningful installation and execution instructions, whether dependency information is sufficiently explicit, whether tests contain meaningful assertions, and whether provenance or HPC portability information is documented.
+The deterministic component identifies reproducibility-related repository evidence. The quality assessor then examines whether detected artifacts contain useful information; for example, whether a README includes meaningful installation and execution instructions, whether dependency information is sufficiently explicit, whether tests contain meaningful assertions, and whether provenance or HPC portability information is documented.
 
 The optional AI component is deliberately constrained. It receives verified findings from the deterministic assessment and may prioritize or explain those findings, but it does not independently calculate or modify repository scores.
 
@@ -70,9 +70,9 @@ A few practices can significantly improve reproducibility and sustainability:
 
 Future work will focus on refining the assessment methodology, expanding validation across scientific domains, and gathering community feedback.
 
-Important directions include improving applicability-aware assessment so that repositories are not penalized for artifacts that are irrelevant to their workflows, expanding evaluation of continuous integration (CI) and scientific-validation practices, and continuing to study artifact quality in addition to artifact presence.
+Important directions include improving applicability-aware assessment, which accounts for whether a given artifact is relevant to a repository, so that repositories are not penalized for artifacts that are irrelevant to their workflows, expanding evaluation of continuous integration (CI) and scientific-validation practices, and continuing to study artifact quality in addition to artifact presence.
 
-The local-AI component will also be evaluated across alternative model configurations. The current fellowship prototype and benchmark use `gemma3:1b` through Ollama as a **reference model**, not as a universal requirement. Other Ollama-hosted models may be explored, but model substitutions should be treated as separate experimental configurations because generated priorities and explanations may vary.
+The local-AI component will also be evaluated with alternative model configurations. The current fellowship prototype and benchmark use `gemma3:1b` through Ollama as a **reference model**, not as a universal requirement. Other Ollama-hosted models may be explored, but model substitutions should be treated as separate experimental configurations because generated priorities and explanations may vary.
 
 The long-term goal is to explore how local AI tools can support, not replace, human efforts to improve the reliability, sustainability, and reproducibility of scientific software.
 
@@ -86,7 +86,7 @@ ReproPilot is a research prototype developed within the broader 2026 Better Scie
 
 The deterministic assessment can be used independently of the local AI component. For users who wish to explore grounded AI prioritization, the project documents optional Ollama setup and uses `gemma3:1b` as the current reference model.
 
-I welcome feedback, discussion, and collaboration from the scientific computing community to help refine the assessment categories, weighting choices, artifact-quality criteria, and broader methodology. If you would like to test the prototype, suggest modifications, report a limitation, or share insights from your own workflows, please reach out by opening an issue or starting a thread on the project's [GitHub Discussions page](https://github.com/szuananwar/ai-assisted-reproducibility-bssw/discussions).
+I welcome feedback, discussion, and collaboration from the scientific computing community to help refine the assessment categories, weighting choices, artifact-quality criteria, and broader methodology. If you would like to test the prototype, suggest modifications, report a limitation, or share insights from your own workflows, please reach out by opening an issue. You can also start a thread on the project's [GitHub Discussions page](https://github.com/szuananwar/ai-assisted-reproducibility-bssw/discussions).
 
 ## Author bio
 
