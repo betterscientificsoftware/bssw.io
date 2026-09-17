@@ -1,0 +1,72 @@
+name: Wikize Refs Check
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**.md'
+      - '!docs/**'
+      - '!.github/**'
+
+jobs:
+  wikize-refs-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run wikize-refs on each file
+        run: |
+          set +e -x
+          exstat=0
+          files=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }})
+          for file in $files; do
+            utils/wikize_refs.py -s -w -u "$file"
+            if [[ $? -ne 0 ]]; then
+                echo "$file needs wiki refs updated"
+                exstat=1
+            fi
+          done
+          exit $exstat
+
+#
+# Operates only on pull requests to main branch and only on `*.md` files
+# that are not in either docs or .github folders
+#
+# This workflow is using a newer version of the checkout action than other
+# workflows here. This newer version works hard to pull only the ref(s)
+# for the current commit that triggered the workflow. Setting
+# fetch-depth: 0 of checkout action means to pull all remote refs which is
+# potentially onerous for a large repo. But, I don't think its a problem
+# at all for our repo. Be default, the checkout action pulls only the ref
+# for the current commit. But, we aim for a check that confirms the whole
+# PR is good or not. So, checks should not be applied just to the files
+# involved in the current commit. To get enough information from the repo
+# to list all files involved in the PR, we are lazy and just do a
+# fetch-depth: 0 getting all refs in the repo. This then allows us to do
+# the --name-only diff between the base.sha and github.sha generating the
+# list of files changed in this PR
+#
+# By default, any shell command executed in a workflow that returns non-zero
+# exit status will exit the workflow. To prevent that, we use set +e. Another
+# option is to use `continue-on-error: true` in the step's yaml configuration.
+# We also use set -x to have the shell's work traced to the workkflow log. That
+# makes it somewhat noisey and maybe hard to see *real* failures when they
+# happen. But, it also makes debugging problems when/if they happen easier.
+#
+# We loop over all files using `wikize_refs.py` in --up-to-date mode (-u),
+# skipping creation of a backup (-s) and setting most errors to warning (-w)
+# so it does nothing other than to confirm (or not) that the file would not
+# be changed by `wikize_refs.py.`. If it will be changed, we echo a message
+# about it and set the final exstat status to non-zero.
+#
+
+
