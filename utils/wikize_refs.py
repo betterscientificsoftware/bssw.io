@@ -685,9 +685,9 @@ def build_reference_list_lines(remapped_ref_map, renumber, has_basic_footnotes):
         if remapped_ref_map:
             outlines.append("<!-- (%s begin) -->\n"%magic())
             if phase == 'bfns':
-                outlines.append("### Footnotes\n")
+                outlines.append("## Footnotes\n")
             else:
-                outlines.append("### References\n")
+                outlines.append("## References\n")
             outlines.append("<!-- (%s end) -->\n"%magic())
             try: # First, try to sort treating footnote identifiers as integers.
                 if renumber:
@@ -703,15 +703,13 @@ def build_reference_list_lines(remapped_ref_map, renumber, has_basic_footnotes):
                 if phase == 'refs' and v[0] == '#':
                     continue
                 v3 = k+renumber-1 if renumber else v[3]
-                if v[1] and v[2]: # both title and bibinfo exist
-                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s<br>%s](%s)\n"%(magic(), v3, v3, v[1], v[2], v[0]))
+                if v[2]: # bibinfo exists
+                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[2], v[0]))
                 elif v[1]: # only title exists
                     if v[0] == '#':
                         outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>%s\n"%(magic(), v3, v3, v[1]))
                     else:
                         outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[1], v[0]))
-                elif v[2]: # only bibinfo exists
-                    outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[2], v[0]))
                 else: # only url exists
                     outlines.append("* <a name=\"%s-%s\"></a><sup>%s</sup>[%s](%s)\n"%(magic(), v3, v3, v[0], v[0]))
                 i += 1
