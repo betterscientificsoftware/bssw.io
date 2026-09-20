@@ -2,7 +2,7 @@
 
 #### Contributed by Md Hasan Shahriar Simanto and Rajshree Deshmukh
 
-#### Publication date: TBD
+#### Publication date: November 6, 2026
 
 Research software teams often hesitate to invest in user experience work. Some think it is too early to talk to users; others think the project is too far along for design changes to matter. Both instincts get in the way of the same thing: understanding whether the software actually works for the people using it.
 
@@ -178,7 +178,7 @@ Senior UX Researcher at MathWorks, where he conducts user research for MATLAB, a
 
 User Experience Designer at Lawrence Berkeley National Laboratory's Scientific Data Division, where she designs intuitive software products and contributes to projects including NERSC, ESnet, PrOMMiS and the Orphaned Wells project. She has over ten years of industry experience at Reuters, IBM, and Nutanix, and holds a Master's in Information Design from the National Institute of Design, India. Reach her at rajshreed@lbl.gov
 <!---
-Publish: No
+Publish: Yes
 Track: Deep Dive
 Topics: user experience design, software process improvement
 --->
