@@ -94,7 +94,7 @@ I welcome feedback, discussion, and collaboration from the scientific computing 
 
 ## Author bio
 
-Suzan Anwar is department chair and assistant professor of computer science at Philander Smith University. She holds a Ph.D. in Computer and Information Science from the University of Arkansas at Little Rock. Her research focuses on machine learning, cybersecurity, computer vision, and scientific software reproducibility. Dr. Anwar has served as a visiting faculty researcher at Lawrence Berkeley National Laboratory, Argonne National Laboratory, and Oak Ridge National Laboratory through the Sustainable Research Pathways. She is a 2026 Better Scientific Software (BSSw) Fellowship awardee, where her project explores local, AI-assisted tools to improve the sustainability, reliability, and reproducibility of scientific computational workflows.
+Suzan Anwar is department chair and assistant professor of computer science at Philander Smith University. She holds a Ph.D. in Computer and Information Science from the University of Arkansas at Little Rock. Her research focuses on machine learning, cybersecurity, computer vision, and scientific software reproducibility. Dr. Anwar has served as a visiting faculty researcher at Lawrence Berkeley National Laboratory, Argonne National Laboratory, and Oak Ridge National Laboratory through Sustainable Research Pathways. She is a 2026 Better Scientific Software (BSSw) Fellowship awardee, where her project explores local, AI-assisted tools to improve the sustainability, reliability, and reproducibility of scientific computational workflows.
 
 <!---
 Publish: yes
