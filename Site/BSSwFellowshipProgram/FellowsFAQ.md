@@ -10,6 +10,9 @@ More questions and answers will be added to this page over time; check back for 
 - **Thursday, September 24, 2026, 2:00-3:00 pm EDT**
 - Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details, including telecon information for the Q&A session.
 
+Slides and Q&A for the 2027 BSSw Fellowship Q&A Webinar:
+- [Slides (pdf) and Q&A (text file)](https://doi.org/10.6084/m9.figshare.33977554)
+
 <!-- Slides and Q&A for the 2026 BSSw Fellowship Q&A Webinar: -->
 <!-- - [Slides (pdf) and Q&A (text file)](https://doi.org/10.6084/m9.figshare.30131935.v2) -->
 
