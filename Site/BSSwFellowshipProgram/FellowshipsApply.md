@@ -67,7 +67,9 @@ Applications are now being accepted for the 2027 BSSw Fellowship Program.  Submi
 <!-- The webinar provided an overview of the BSSw Fellowship Program, information about the application process, and an opportunity for questions (and answers).  Check out the Q&A below. -->
 
 Slides and Q&A for the 2027 BSSw Fellowship Q&A Webinar:
-- [Slides (pdf) and Q&A (text file)](https://doi.org/10.6084/m9.figshare.33977554)
+- [Slides (pdf)](https://doi.org/10.6084/m9.figshare.33977554)
+- [Session recording with transcript](https://zoom.us/clips/share/OSSIypaJSFSjtxTV8ifeTQ)
+
 
 Please [subscribe to our mailing list](https://bssw.io/pages/receive-our-email-digest) to receive further details about the BSSw Fellowship Program, including telecon information for a Q&A session to take place in September.
 
