@@ -21,6 +21,20 @@ Run `./wikize_refs.py --help` or see
 [here](https:../Articles/Blog/ReferencesInMarkdownHybridApproach.md) for more
 details.
 
+## check_image_sizes.sh
+
+The script `check_image_sizes.sh` reports image files that are too large for
+the image service behind the bssw.io site (files over 10 MB do not show up on
+the site).  It is run on PRs by the `check-image-sizes.yml` workflow, and can
+be run locally as:
+
+```
+$ ./utils/check_image_sizes.sh images/<file>...
+```
+
+It only warns by default; add `--fail` to exit non-zero when a file is over
+the limit, or `-m <bytes>` to use a different limit.
+
 ## Testing the bssw.io utilities
 
 The tests for these utilities is managed and run as a simple CMake/CTest

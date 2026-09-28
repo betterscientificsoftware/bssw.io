@@ -1,0 +1,43 @@
+# Warn when a PR adds or changes a file under images/ that is too large for the
+# image service behind the bssw.io site (the free Cloudinary account ignores
+# files over 10 MB, and the image silently does not show up).  See issue #2316.
+#
+# Only files added or modified by the PR are checked, so oversized files that
+# are already in the repo but not used do not trip every PR.  For now this only
+# warns (annotation on the file plus a table in the job summary); pass --fail
+# to utils/check_image_sizes.sh below to make oversized images fail the check.
+
+name: BSSw.io Image Size Check
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths: [ 'images/**' ]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  check-image-sizes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            images
+            utils
+
+      - name: Check sizes of images added or changed in this PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          mapfile -t changed_images < <(gh api --paginate \
+            "repos/${GITHUB_REPOSITORY}/pulls/${PR_NUMBER}/files" \
+            --jq '.[] | select(.status != "removed") | .filename | select(startswith("images/"))')
+          echo "Images added or changed in this PR: ${#changed_images[@]}"
+          if (( ${#changed_images[@]} > 0 )) ; then
+            ./utils/check_image_sizes.sh -- "${changed_images[@]}"
+          fi

@@ -30,6 +30,10 @@ Format:
     - https://github.com/betterscientificsoftware/bssw.io/blob/0e1ba1664239ab6097e903f8bb94fef08576f103/.github/workflows/notify-external-contrib.yml#L6-L12
     - job: notify-external-contributions
         - Label and send email to bssw-editorial-list for externally opened issues, prs and discussions
+* check-image-sizes.yml (BSSw.io Image Size Check)
+    - trigger: pull request on main that touches `images/`
+    - job: check-image-sizes
+        - Warns (annotation and job summary) about any image added or changed by the PR that is over the 10 MB limit of the site's image service, using `utils/check_image_sizes.sh`.
 
 # Gaps
 * PR is closed without merge.  We should back out the whole PR from preview?  Or kill and recreate preview?

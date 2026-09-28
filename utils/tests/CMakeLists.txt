@@ -177,3 +177,113 @@ wikize_refs_diff_test(wikize_refs_renumber_one_up_to_date
   INPUT_FILE ${bsswioBaseDir}/utils/tests/test_renumber_one_rerun.md
   ARGS -r 1 -u
   PASS_REGULAR_EXPRESSION "\"test_renumber_one_rerun.md\" is up to date. No changes will be made." )
+
+
+#
+# Tests of check_image_sizes.sh
+#
+
+set(checkImageSizes ${bsswioBaseDir}/utils/check_image_sizes.sh)
+
+# Small stand-in "images" of known sizes, so the tests can use a tiny limit
+file(WRITE ${CMAKE_CURRENT_BINARY_DIR}/image_size_small.png "0123456789")
+file(WRITE ${CMAKE_CURRENT_BINARY_DIR}/image_size_large.png "01234567890123456789")
+file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/image size with spaces.png"
+  "01234567890123456789")
+
+function(check_image_sizes_test TEST_NAME)
+  cmake_parse_arguments(PARSE
+    "WILL_FAIL" # options
+    "PASS_REGULAR_EXPRESSION" # one_value_arguments
+    "ARGS;ENVIRONMENT" # multi_value_keywords
+    ${ARGN} # args
+    )
+  add_test(NAME ${TEST_NAME} COMMAND ${checkImageSizes} ${PARSE_ARGS}
+    WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR})
+  # Keep the tests independent of whether they themselves run in GitHub Actions
+  set(testEnv "GITHUB_ACTIONS=" "GITHUB_STEP_SUMMARY=")
+  if (PARSE_ENVIRONMENT)
+    set(testEnv ${PARSE_ENVIRONMENT})
+  endif()
+  set_tests_properties(${TEST_NAME} PROPERTIES ENVIRONMENT "${testEnv}")
+  if (PARSE_PASS_REGULAR_EXPRESSION)
+    set_tests_properties(${TEST_NAME} PROPERTIES
+      PASS_REGULAR_EXPRESSION "${PARSE_PASS_REGULAR_EXPRESSION}")
+  endif()
+  if (PARSE_WILL_FAIL)
+    set_tests_properties(${TEST_NAME} PROPERTIES WILL_FAIL ON)
+  endif()
+endfunction()
+
+check_image_sizes_test(check_image_sizes_help
+  ARGS --help
+  PASS_REGULAR_EXPRESSION "Usage: check_image_sizes.sh" )
+
+check_image_sizes_test(check_image_sizes_under_limit
+  ARGS -m 15 image_size_small.png
+  PASS_REGULAR_EXPRESSION "CHECK_IMAGE_SIZES: ALL PASSED \\(1 file\\(s\\) checked\\)" )
+
+check_image_sizes_test(check_image_sizes_at_limit
+  ARGS -m 20 image_size_large.png
+  PASS_REGULAR_EXPRESSION "CHECK_IMAGE_SIZES: ALL PASSED" )
+
+check_image_sizes_test(check_image_sizes_default_limit
+  ARGS image_size_small.png image_size_large.png
+  PASS_REGULAR_EXPRESSION "CHECK_IMAGE_SIZES: ALL PASSED \\(2 file\\(s\\) checked\\)" )
+
+check_image_sizes_test(check_image_sizes_over_limit_warns
+  ARGS -m 15 image_size_small.png image_size_large.png
+  PASS_REGULAR_EXPRESSION "Too large: image_size_large.png is 20 bytes, over the 15 byte limit" )
+
+check_image_sizes_test(check_image_sizes_over_limit_counts
+  ARGS -m 15 image_size_small.png image_size_large.png
+  PASS_REGULAR_EXPRESSION "CHECK_IMAGE_SIZES: 1 of 2 file\\(s\\) over the 15 byte limit" )
+
+# Warn-only by default: an oversized image must not fail the check
+check_image_sizes_test(check_image_sizes_over_limit_exit_zero
+  ARGS -m 15 image_size_large.png )
+
+check_image_sizes_test(check_image_sizes_over_limit_fail
+  ARGS -m 15 --fail image_size_large.png
+  WILL_FAIL )
+
+check_image_sizes_test(check_image_sizes_fail_under_limit_passes
+  ARGS -m 15 --fail image_size_small.png )
+
+check_image_sizes_test(check_image_sizes_spaces_in_name
+  ARGS -m 15 "image size with spaces.png"
+  PASS_REGULAR_EXPRESSION "Too large: image size with spaces.png is 20 bytes" )
+
+check_image_sizes_test(check_image_sizes_missing_file_skipped
+  ARGS -m 15 --fail image_size_small.png image_size_deleted.png
+  PASS_REGULAR_EXPRESSION "Skipping missing file: image_size_deleted.png" )
+
+check_image_sizes_test(check_image_sizes_no_files
+  ARGS --fail
+  PASS_REGULAR_EXPRESSION "CHECK_IMAGE_SIZES: ALL PASSED \\(0 file\\(s\\) checked\\)" )
+
+check_image_sizes_test(check_image_sizes_bad_max_bytes
+  ARGS -m 10MB image_size_small.png
+  PASS_REGULAR_EXPRESSION "Error: -m requires a whole number of bytes" )
+
+check_image_sizes_test(check_image_sizes_bad_max_bytes_exit
+  ARGS -m 10MB image_size_small.png
+  WILL_FAIL )
+
+check_image_sizes_test(check_image_sizes_gha_warning
+  ARGS -m 15 image_size_large.png
+  ENVIRONMENT "GITHUB_ACTIONS=true" "GITHUB_STEP_SUMMARY="
+  PASS_REGULAR_EXPRESSION "::warning file=image_size_large.png,title=Image too large::" )
+
+check_image_sizes_test(check_image_sizes_gha_error_with_fail
+  ARGS -m 15 --fail image_size_large.png
+  ENVIRONMENT "GITHUB_ACTIONS=true" "GITHUB_STEP_SUMMARY="
+  PASS_REGULAR_EXPRESSION "::error file=image_size_large.png,title=Image too large::" )
+
+# The default limit is 10 MB: exactly 10000000 bytes passes, one more is flagged
+add_test(NAME check_image_sizes_default_limit_boundary
+  COMMAND bash -c "head -c 10000000 /dev/zero > image_size_10mb.png && head -c 10000001 /dev/zero > image_size_10mb_plus_1.png && ${checkImageSizes} image_size_10mb.png image_size_10mb_plus_1.png"
+  WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR})
+set_tests_properties(check_image_sizes_default_limit_boundary PROPERTIES
+  ENVIRONMENT "GITHUB_ACTIONS=;GITHUB_STEP_SUMMARY="
+  PASS_REGULAR_EXPRESSION "Too large: image_size_10mb_plus_1.png is 10000001 bytes, over the 10000000 byte limit.*CHECK_IMAGE_SIZES: 1 of 2 file\\(s\\) over the 10000000 byte limit")
