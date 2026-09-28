@@ -91,7 +91,7 @@ The Fellowship award will be in the form of a subcontract to the recipient's ins
 
 ### Are there any restrictions or guidance on how the fellowship funds can be used?
 
-Most institutions have well-established rules for what constitute "allowable" expenses on research grants or contracts.  Generally, these must be followed.  (There are a few cases where ORNL and Dept. of Energy rules trump local rules.)
+Most institutions have well-established rules for what constitute "allowable" expenses on research grants or contracts.  Generally, these must be followed.  
 * The Fellowship is limited to individual applicants, not a team.  The inclusion of other personnel or contracts to others are generally discouraged.  Modest amounts budgeted for support services, such as technical editing or graphical design, may make sense in some cases.
 * Budget justification should include items that are essential to the completion of the proposed project. This may include awardee labor, labor of students or other individuals, supplies, travel, etc.
 * Travel must be well justified in relation to the proposed work.
