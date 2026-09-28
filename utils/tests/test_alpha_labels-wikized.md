@@ -190,7 +190,7 @@ for large and/or automated refactorings.
 [f]: #sfer-ezikiw-f "Google's Billion Lines of Code Repository"
 [h]: #sfer-ezikiw-h "Hacker News commentary on Google's Billion Lines of Code Repository"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
 * <a name="sfer-ezikiw-15"></a><sup>15</sup>[The Functional Breakdown Structure (FBS) and Its Relationship to Life Cycle Cost](https://www.syngenics.com/papers/2009JPC5344F_AIAA_DeHoff.pdf)
 * <a name="sfer-ezikiw-16"></a><sup>16</sup>[Work Breakdown Structure](https://en.wikipedia.org/wiki/Work_breakdown_structure)

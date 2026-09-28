@@ -10,7 +10,7 @@ This is a second claim that cites two sources.<sup>[2],[1]</sup>
 [1]: #sfer-ezikiw-1 "Alpha Title"
 [2]: #sfer-ezikiw-2 "Beta Title"
 <!-- (sfer-ezikiw begin) -->
-### References
+## References
 <!-- (sfer-ezikiw end) -->
-* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Alpha Title<br>Alpha bibliographic info](https://example.com/alpha)
+* <a name="sfer-ezikiw-1"></a><sup>1</sup>[Alpha bibliographic info](https://example.com/alpha)
 * <a name="sfer-ezikiw-2"></a><sup>2</sup>[Beta Title](https://example.com/beta)
