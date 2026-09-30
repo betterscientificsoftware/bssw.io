@@ -36,7 +36,7 @@ Adoption requires no new tools, only the habit of preferring open formats and se
 This post should be useful to research software engineers and group leads weighing whether AI agents can help them take back control of infrastructure they currently outsource.  I have had similar positive experience in significantly revising two project websites I manage, [E4S](https://e4s.io) and the [PESO Project website](https://pesoproject.org).  In both cases, the Claude app and Claude Code were instrumental to producing a high-quality replacement with modest effort and quickly.
 
 <!---
-Publish: yes
+Publish: no
 Pinned: no
 RSS update: 2026-09-30
 Topics: AI for Better Development, Software Sustainability, Research Software Engineers
