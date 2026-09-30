@@ -13,7 +13,7 @@ Paper title | [Artificial Intelligence's Effects on Open Source TechBrief](https
 Authors | Shrinivass AB, Josiah Dykstra, Simson Garfinkel, Andrew Oram, Nina Shamsi and Jonathan M. Smith
 Publication | Year 2026, ACM TechBriefs (Issue 19), DOI: [https://doi.org/10.1145/3838809](https://doi.org/10.1145/3838809)
 
-The *Artificial Intelligence's Effects on Open Source TechBrief* is  discusses how highly capable AI models are increasingly being used to write software and identify cybersecurity vulnerabilities; but while these models offer various benefits to open source projects, they are also increasing decades-long challenges around cybersecurity, maintenance, long-term sustainability, governance, and financial support. 
+The *Artificial Intelligence's Effects on Open Source TechBrief* discusses how highly capable AI models are increasingly being used to write software and identify cybersecurity vulnerabilities; but while these models offer various benefits to open source projects, they are also increasing decades-long challenges around cybersecurity, maintenance, long-term sustainability, governance, and financial support. 
 The authors examine some complex realities of today’s decentralized, socio-technical network of users, developers, distributors, etc. that general software discussions may frequently overlook.
 
 Some of the key takeaways from the report regarding the challenges that AI will exacerbate are:
