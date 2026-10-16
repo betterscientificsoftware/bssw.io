@@ -17,7 +17,7 @@ The Supercomputing conference series is one of the premier venues for high-perfo
 
 Day/Time<br>(CST time zone) | Event Type | Event Title (see linked program page for full details)
 :---     |    :------ |--------------------------------------------------------
-Sun. Nov. 15<br>9:00am-5:30pm | Workshop | [21st Workshop on Workflows in Support of Large-Scale Science (WORKS26)](https://sc26.conference-program.com/presentation/?id=ws_worksp118&sess=sess113)
+Sun. Nov. 15<br>9:45am-10:00am | Paper | [CURATE: Leveraging LLM Agents to Compose, Catalog, and Deploy Reproducible Workflows](https://sc26.conference-program.com/presentation/?id=ws_worksp118&sess=sess113)
 Mon. Nov. 16<br>8:30am-5:00pm | Tutorial | [Managing HPC Software Complexity with Spack](https://sc26.conference-program.com/presentation/?id=tut184&sess=sess170)
 Mon. Nov. 16<br>9:00am-12:30pm | Workshop | [10th International Workshop on Software Correctness for HPC Applications (Correctness '26)](https://sc26.conference-program.com/session/?sess=sess134)
 Mon. Nov. 16<br>9:00am-12:30pm | Workshop | [Research Software Engineers in HPC (RSE-HPC-2026)](https://sc26.conference-program.com/session/?sess=sess140)
@@ -26,8 +26,8 @@ Mon. Nov. 16<br>1:30pm-5:00pm | Tutorial | [Navigating Mixed-Precision: Tools an
 Tue. Nov. 17<br>12:15pm-1:15pm | BoF | [Reproducibility of Computational Research: Building a Community of Practice for the AI Era](https://sc26.conference-program.com/presentation/?id=bof196&sess=sess364)
 Tue. Nov. 17<br>12:15pm-1:15pm | BoF | [The Impact of GenAI on HPC Programming and Programming Models](https://sc26.conference-program.com/presentation/?id=bof166&sess=sess368)
 Tue. Nov. 17<br>12:15pm-1:15pm | BoF | [Americas HPC Collaboration: Building Workforce Pathways for HPC](https://sc26.conference-program.com/presentation/?id=bof213&sess=sess375)
-Tue. Nov. 17<br>12:15pm-1:15pm | BoF | [Spack Community BOF](https://sc26.conference-program.com/presentation/?id=bof147&sess=sess379)
 Tue. Nov. 17<br>12:15pm-1:15pm | BoF | [Ethics in HPC: With Great Power Comes Great Responsibility](https://sc26.conference-program.com/presentation/?id=bof191&sess=sess372)
+Tue. Nov. 17<br>5:15pm-6:45pm | BoF | [Ecosystems for Scientific Computing in the Age of AI](https://sc26.conference-program.com/presentation/?id=bof147&sess=sess379)
 Tue. Nov. 17<br>5:15pm-6:45pm | BoF | [HPC Carpentry: A New Carpentries Lesson Program](https://sc26.conference-program.com/presentation/?id=bof205&sess=sess383)
 Wed. Nov. 18<br>12:15pm-1:15pm | BoF | [Autonomous Science Network: A Grassroots Community for Trustworthy Science](https://sc26.conference-program.com/presentation/?id=bof186&sess=sess394)
 Wed. Nov. 18<br>12:15pm-1:15pm | BoF | [Correctness Testing of HPC Scientific Software in the Age of AI-Generated Code](https://sc26.conference-program.com/presentation/?id=bof160&sess=sess389)
