@@ -8,47 +8,7 @@ Research software teams often hesitate to invest in user experience work. Some t
 
 But UX isn't a "one-and-done" step – it's a toolkit that applies at every turn. In practice, every stage of a project has a few usability questions worth answering. The infographic below outlines key UX techniques and their relevance across the project lifecycle:
 
-<img src='../../images/UX-methods-research-software-lifecycle.png' class='page'/>
-
-*The full-size infographic and detailed guide on above methods are available in the open-access [Zenodo resource](https://doi.org/10.5281/zenodo.22287846).*
-
-### Planning: What should we build, and for whom?
-
-Early on in the planning phase, the question is what to build and for whom. Here, methods like stakeholder interviews, semi-structured interviews and contextual inquiry are invaluable. These techniques help uncover the scientific goals and, more importantly, the hidden frustrations and workarounds that formal requirements documents often miss.
-
-### Design and Development: Is it functional & feasible?
-
-As the design takes shape and you move into development, the focus shifts to feasibility and if the approach will actually work for users. Sketching, prototyping and cognitive walkthroughs allow teams to test designs and interactions early, spotting confusing elements or unclear guidance before significant engineering resources are spent.
-
-### Release & Validation: Can people actually use it?
-
-Once something is built and you are in the release and validation phase, the question becomes if people can use it effectively. Methods like heuristic evaluation and targeted usability tests (even a single think-aloud session) help uncover friction points in the actual product. This real-world feedback is far more powerful than internal team assumptions.
-
-### Maintenance & Sustainability: Does it need to change?
-
-Finally during maintenance, the question is whether the software still works as users and their workflows evolve. At this stage, teams can combine broad signals with deeper evidence: behavioral analytics, support ticket analysis, and user surveys help us understand what people are actually doing in the software over time.
-
-In reality, Software development is rarely linear. Unforeseen constraints like funding changes, new scientific questions, or shifting requirements mean usability hurdles surface constantly. UX processes should therefore not be treated as activities that belong only at one stage.
-
-Enhancing user experience also requires more than formal methods. Building trust and engagement relies heavily on user outreach, strong onboarding, and relationship building. Embedding continuous feedback checkpoints at every stage is essential for creating intuitive and frictionless software.
-
-AI-assisted development can shorten the time needed to implement software, but faster implementation does not reduce the need to understand users. If anything, the ability to build more quickly makes it even more important to know what is worth building in the first place.
-
-
-<details markdown="1">
-<summary><h2 style="display:inline;">Details on UX Methods in the chart</h2></summary>
-
-# UX Methods Across the Research Software Lifecycle
-
-#### Contributed by Md Hasan Shahriar Simanto and Rajshree Deshmukh
-
-#### Publication date: November 6, 2026
-
-Research software teams often hesitate to invest in user experience work. Some think it is too early to talk to users; others think the project is too far along for design changes to matter. Both instincts get in the way of the same thing: understanding whether the software actually works for the people using it.
-
-But UX isn't a "one-and-done" step – it's a toolkit that applies at every turn. In practice, every stage of a project has a few usability questions worth answering. The infographic below outlines key UX techniques and their relevance across the project lifecycle:
-
-<img src='../../images/UX-methods-research-software-lifecycle.png' class='page'/>
+<img src="../../images/UX-methods-research-software-lifecycle.png" alt="Matrix of UX techniques and their relevance across the project lifecycle:" style="width: 100%; height: auto;”>
 
 *The full-size infographic and detailed guide on above methods are available in the open-access [Zenodo resource](https://doi.org/10.5281/zenodo.22287846).*
 
