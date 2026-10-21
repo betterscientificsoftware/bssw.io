@@ -8,7 +8,7 @@ Research software teams often hesitate to invest in user experience work. Some t
 
 But UX isn't a "one-and-done" step – it's a toolkit that applies at every turn. In practice, every stage of a project has a few usability questions worth answering. The infographic below outlines key UX techniques and their relevance across the project lifecycle:
 
-<img src="../../images/UX-methods-research-software-lifecycle.png" alt="Matrix of UX techniques and their relevance across the project lifecycle:" style="width: 100%; height: auto;”>
+<img src='../../images/UX-methods-research-software-lifecycle.png' class='page lightbox'/>
 
 *The full-size infographic and detailed guide on above methods are available in the open-access [Zenodo resource](https://doi.org/10.5281/zenodo.22287846).*
 
@@ -34,6 +34,7 @@ Enhancing user experience also requires more than formal methods. Building trust
 
 AI-assisted development can shorten the time needed to implement software, but faster implementation does not reduce the need to understand users. If anything, the ability to build more quickly makes it even more important to know what is worth building in the first place.
 
+<br>
 
 <details markdown="1">
 <summary><h2 style="display:inline;">Details on UX Methods in the chart</h2></summary>
@@ -213,8 +214,6 @@ Three of the methods above already have free, community-built resources:
 - For a broader starting point, the STRUDEL project's "Ten Principles for Creating Usable Software for Science" explains what makes scientific software different and how to approach its usability: [https://escholarship.org/content/qt0w5547jv/qt0w5547jv_noSplash_fb5d052988314657a264f28acb6ffc95.pdf](https://escholarship.org/content/qt0w5547jv/qt0w5547jv_noSplash_fb5d052988314657a264f28acb6ffc95.pdf)
 
 
-
-
 ## About the Authors
 
 **Md Hasan Shahriar Simanto**
@@ -230,32 +229,3 @@ Track: Deep Dive
 Topics: user experience design, software process improvement
 --->
 
-
-</details>
-
-## Additional Public Resources
-
-Three of the methods above already have free, community-built resources:
-
-- **Usability testing:** a Carpentries Incubator lesson on rapid usability testing, covering everything from participant recruitment through data analysis: [https://carpentries-incubator.github.io/rapid-usability-tutorial/index.html](https://carpentries-incubator.github.io/rapid-usability-tutorial/index.html)
-- **Semi-structured interviews:** a presentation on practical techniques for gathering rich data from users, hosted on Zenodo: [https://zenodo.org/records/17362664](https://zenodo.org/records/17362664)
-- **Heuristic evaluation:** A template for assessing your software against design heuristics, suitable for both CLI and GUI tools, developed by contributions from the STRUDEL, PESO, and CASS projects: https://github.com/cass-community/heuristics-for-scisoft
-- For a broader starting point, the STRUDEL project's "Ten Principles for Creating Usable Software for Science" explains what makes scientific software different and how to approach its usability: [https://escholarship.org/content/qt0w5547jv/qt0w5547jv_noSplash_fb5d052988314657a264f28acb6ffc95.pdf](https://escholarship.org/content/qt0w5547jv/qt0w5547jv_noSplash_fb5d052988314657a264f28acb6ffc95.pdf)
-
-
-
-
-## About the Authors
-
-**Md Hasan Shahriar Simanto**
-
-Senior UX Researcher at MathWorks, where he conducts user research for MATLAB, a scientific computing platform used by engineers and scientists. Since 2018, his work has focused on human-centered research and usability across scientific software, cloud infrastructure, cybersecurity, and enterprise systems, with current work centered on the usability of AI-assisted technical workflows. He is an active member of the US-RSE UX Working Group. Reach him at hsimanto@mathworks.com
-
-**Rajshree Deshmukh**
-
-User Experience Designer at Lawrence Berkeley National Laboratory's Scientific Data Division, where she designs intuitive software products and contributes to projects including NERSC, ESnet, PrOMMiS and the Orphaned Wells project. She has over ten years of industry experience at Reuters, IBM, and Nutanix, and holds a Master's in Information Design from the National Institute of Design, India. Reach her at rajshreed@lbl.gov
-<!---
-Publish: Yes
-Track: Deep Dive
-Topics: user experience design, software process improvement
---->
