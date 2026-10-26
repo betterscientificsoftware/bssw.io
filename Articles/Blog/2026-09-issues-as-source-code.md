@@ -2,7 +2,7 @@
 
 #### Contributed by: [Michael A. Heroux](https://github.com/maherou)
 
-#### Publication date: September 30, 2026
+#### Publication date: October 28, 2026
 
 I have spent much of my career working on the practices that make scientific software trustworthy, and lately a good deal of that attention has gone to how AI is reshaping one of the oldest of those practices: the pull request.
 
@@ -77,7 +77,7 @@ To be clear about scope, this is not an argument that the age of human-written p
 Michael (Mike) A. Heroux is a Senior Research Scientist at ParaTools, Inc., Visiting Scholar at Hewlett Packard Enterprise, Consulting Analyst at Hyperion Research, and Professor Alumnus at Saint John’s University, MN. His research interests include all aspects of scalable scientific and engineering software for new and emerging parallel computing architectures, and emerging research and learning methodologies enabled by generative AI tools and workflows.
 
 <!---
-Publish: no
+Publish: yes
 Track: deep dive
 Topics: peer code review, issue tracking, ai for better development, software process improvement, strategies for more effective teams
 --->
