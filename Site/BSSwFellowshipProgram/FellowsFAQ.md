@@ -69,7 +69,11 @@ Applications are reviewed by a panel of diverse members of the CSE community usi
 
 ### Must I submit a letter of recommendation with my application?
 
-Yes, applicants for the 2027 BSSw Fellowship Program must submit a letter from their supervisor supporting their involvement in the BSSw Fellowship Program (PDF only, 1-page or less).
+Yes, applicants for the 2027 BSSw Fellowship Program must submit a letter from their supervisor supporting their involvement in the BSSw Fellowship Program. The letter should also confirm that the institution is able to receive US Federal funding.
+
+The letter should PDF only, 1-page or less.
+
+Individuals who are the head or sole member of a small company may write a letter for themselves in their institutional capacity.
 
 ### Can I submit multiple applications with different proposals?
 
@@ -89,9 +93,11 @@ Each 2027 BSSw Fellow will receive up to $25,000 for an activity that promotes b
 
 The Fellowship award will be in the form of a subcontract to the recipient's institution.  The value of the subcontract will not exceed $25,000 in direct costs, plus usual and customary overheads the institution would charge on such a contract. It is not necessary to provide a budget with your application; a detailed budget will be part of the contracting process.  You should familiarize yourself with your organization's budget process.
 
+The fellowship program funds are administered by [Sustainable Horizons Institute](https://shinstitute.org/). These funds originate from a federal agency, either the Department of Energy or the National Science Foundation.
+
 ### Are there any restrictions or guidance on how the fellowship funds can be used?
 
-Most institutions have well-established rules for what constitute "allowable" expenses on research grants or contracts.  Generally, these must be followed.  
+Most institutions have well-established rules for what constitute "allowable" expenses on research grants or contracts.  Generally, these must be followed.
 * The Fellowship is limited to individual applicants, not a team.  The inclusion of other personnel or contracts to others are generally discouraged.  Modest amounts budgeted for support services, such as technical editing or graphical design, may make sense in some cases.
 * Budget justification should include items that are essential to the completion of the proposed project. This may include awardee labor, labor of students or other individuals, supplies, travel, etc.
 * Travel must be well justified in relation to the proposed work.
