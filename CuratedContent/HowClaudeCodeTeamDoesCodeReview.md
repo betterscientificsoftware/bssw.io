@@ -6,7 +6,7 @@ Anthropic's Claude Code team describes how it combines AI review, automated chec
 
 #### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe "Roscoe A. Bartlett")
 
-#### Publication date: October 29, 2026
+#### Publication date: October 28, 2026
 
 Resource information | Details
 :--- | :---
