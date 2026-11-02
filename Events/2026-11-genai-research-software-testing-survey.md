@@ -16,7 +16,7 @@ Researchers at the University of Tennessee, Knoxville, are studying how the rese
 Event Information | Details
 :--- | :---
 Event Name | Survey on Generative AI in Research Software Testing
-Closing Date | tbd
+Closing Date | November 30, 2026
 Website | [Participate in the survey](https://utk.co1.qualtrics.com/jfe/form/SV_6WmBXKTNlx3J9tk)
 Duration | Approximately 20-30 minutes
 
