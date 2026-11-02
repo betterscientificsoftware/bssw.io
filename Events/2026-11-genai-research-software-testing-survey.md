@@ -4,7 +4,7 @@
 Researchers at the University of Tennessee, Knoxville, are studying how the research software community uses generative AI in software testing and what factors shape adoption.
 <!-- deck text end -->
 
-- Closing Date:
+- Closing Date: November 30, 2026
 - Location: Online
 - Event Website: <https://utk.co1.qualtrics.com/jfe/form/SV_6WmBXKTNlx3J9tk>
 - Organizers: Software Engineering and Analytics Lab (SAIL), University of Tennessee, Knoxville
