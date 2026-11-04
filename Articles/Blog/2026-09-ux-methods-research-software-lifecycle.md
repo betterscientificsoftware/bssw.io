@@ -214,15 +214,11 @@ Three of the methods above already have free, community-built resources:
 - For a broader starting point, the STRUDEL project's "Ten Principles for Creating Usable Software for Science" explains what makes scientific software different and how to approach its usability: [https://escholarship.org/content/qt0w5547jv/qt0w5547jv_noSplash_fb5d052988314657a264f28acb6ffc95.pdf](https://escholarship.org/content/qt0w5547jv/qt0w5547jv_noSplash_fb5d052988314657a264f28acb6ffc95.pdf)
 
 
-## About the Authors
+## Author bios
 
-**Md Hasan Shahriar Simanto**
+[Md Hasan Shahriar Simanto](mailto:hsimanto@mathworks.com) is Senior UX Researcher at [MathWorks](https://www.mathworks.com/), where he conducts user research for MATLAB, a scientific computing platform used by engineers and scientists. Since 2018, his work has focused on human-centered research and usability across scientific software, cloud infrastructure, cybersecurity, and enterprise systems, with current work centered on the usability of AI-assisted technical workflows. He is an active member of the US-RSE UX Working Group. 
 
-Senior UX Researcher at MathWorks, where he conducts user research for MATLAB, a scientific computing platform used by engineers and scientists. Since 2018, his work has focused on human-centered research and usability across scientific software, cloud infrastructure, cybersecurity, and enterprise systems, with current work centered on the usability of AI-assisted technical workflows. He is an active member of the US-RSE UX Working Group. Reach him at hsimanto@mathworks.com
-
-**Rajshree Deshmukh**
-
-User Experience Designer at Lawrence Berkeley National Laboratory's Scientific Data Division, where she designs intuitive software products and contributes to projects including NERSC, ESnet, PrOMMiS and the Orphaned Wells project. She has over ten years of industry experience at Reuters, IBM, and Nutanix, and holds a Master's in Information Design from the National Institute of Design, India. Reach her at rajshreed@lbl.gov
+[Rajshree Deshmukh](mailto:rajshreed@lbl.gov) is User Experience Designer at Lawrence Berkeley National Laboratory's Scientific Data Division, where she designs intuitive software products and contributes to projects including NERSC, ESnet, PrOMMiS and the Orphaned Wells project. She has over ten years of industry experience at Reuters, IBM, and Nutanix, and holds a Master's in Information Design from the National Institute of Design, India. Reach her at 
 <!---
 Publish: Yes
 Track: Deep Dive
