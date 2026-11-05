@@ -12,7 +12,7 @@ The [Better Scientific Software (BSSw) Fellowship](https://bssw.io/fellowship) c
 
 <img src='../../images/Blog_BSSwF_2026_USRSE26.jpg' class='page lightbox'/>[BSSw Fellows and Honorable Mentions from various cohorts enjoyed attending US-RSE'26.]
 
-The 2026 Fellow cohort made an immediate splash across the technical program. Victor Weeks and Parmanand Sinha contribured to a high-impact session on AI code modernization presenting their frameworks for reliable scientific agentic engineering and HPC translation patterns. Drew Paine explored practical applications of GenAI tools in scientific workflows alongside serving as the conference Technical Program Co-Chair. Adding to the cohort’s broad reach, Mary Goldman co-led an interactive workshop guiding attendees through user experience journey mapping, while Jakob Bludau presented design patterns for portable, high-performance software.
+The 2026 Fellow cohort made an immediate splash across the technical program. Victor Weeks and Parmanand Sinha contributed to a high-impact session on AI code modernization presenting their frameworks for reliable scientific agentic engineering and HPC translation patterns. Drew Paine explored practical applications of GenAI tools in scientific workflows alongside serving as the conference Technical Program Co-Chair. Adding to the cohort’s broad reach, Mary Goldman co-led an interactive workshop guiding attendees through user experience journey mapping, while Jakob Bludau presented design patterns for portable, high-performance software.
 
 Beyond the newest class, the broader BSSw community, spanning past fellows, honorable mentions, and program leaders, helped steer critical discussions on the evolving RSE landscape. Alejandra Castillo delivered a talk on preparing students for AI-assisted research, addressing the vital human element of future workforce development. Senior leaders and alumni from the inaugural 2018 class continued to shape foundational software practices: Jeff Carver co-led a hands-on workshop on threat modeling alongside sessions on RSE training bootcamps, and Dan Katz contributed to panels navigating generative AI risks and institutional collaborations. Together with program leadership who hosted a dedicated Birds of a Feather session connecting current and prospective applicants, the fellowship network demonstrated its central role in advancing scientific software engineering practices across national labs, academia, and industry. 
 
@@ -22,7 +22,7 @@ The US-RSE'26 conference was wonderful, and I wish to thank both Keith Beattie (
 
 ## Further information
 
-* Check out the US-RSE website: [https://us-rse.org](https://us-rse.org).  
+* Check out the US-RSE [website](https://us-rse.org) and the US-RSE'26 [conference proceedings](https://zenodo.org/communities/usrse26/).  
 
 
 ## Author bio
