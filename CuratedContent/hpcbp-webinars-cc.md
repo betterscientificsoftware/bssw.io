@@ -27,7 +27,9 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 ## Past Webinars
 
-*Listed in reverse chronological order. Last updated: 2026-09-10*
+*Listed in reverse chronological order. Last updated: 2026-11-05*
+
+- 2026-10-28: [The HPSF: Building the Future of High-Performance Software, Together](https://ideas-productivity.org/events/hpcbp-101-hpsf), presented by Julien Bigot (CEA), Xavier Delaruelle (CEA), and Axel Huebl (Lawrence Berkeley National Laboratory)
 
 - 2026-09-02: [Rapid Development of a High-Performance Applications Using Python](https://ideas-productivity.org/events/hpcbp-100-python), presented by Joanna Piper Morgan (Nuclear Criticality Safety Division, Lawrence Livermore National Lab)
 
@@ -231,7 +233,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 
 #### Contributed by [Osni Marques](https://github.com/oamarques), and [David E. Bernholdt](https://github.com/bernhold)
 
-#### Publication date: 2026-09-10
+#### Publication date: 2026-11-05
 
 <!---
 Publish: yes
