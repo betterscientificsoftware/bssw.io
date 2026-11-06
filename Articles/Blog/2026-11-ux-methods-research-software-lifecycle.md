@@ -2,7 +2,9 @@
 
 #### Contributed by Md Hasan Shahriar Simanto and Rajshree Deshmukh
 
-#### Publication date: November 6, 2026
+#### Publication date: November 7, 2026
+
+A practical resource on UX methods across the research software lifecycle, covering when methods like interviews, usability testing, heuristic evaluation, and journey mapping can be most useful at different stages of development. Developed through the US-RSE UX Working Group, in connection with PESO and CASS
 
 Research software teams often hesitate to invest in user experience work. Some think it is too early to talk to users; others think the project is too far along for design changes to matter. Both instincts get in the way of the same thing: understanding whether the software actually works for the people using it.
 
@@ -28,7 +30,7 @@ Once something is built and you are in the release and validation phase, the que
 
 Finally during maintenance, the question is whether the software still works as users and their workflows evolve. At this stage, teams can combine broad signals with deeper evidence: behavioral analytics, support ticket analysis, and user surveys help us understand what people are actually doing in the software over time.
 
-In reality, Software development is rarely linear. Unforeseen constraints like funding changes, new scientific questions, or shifting requirements mean usability hurdles surface constantly. UX processes should therefore not be treated as activities that belong only at one stage.
+In reality, software development is rarely linear. Unforeseen constraints like funding changes, new scientific questions, or shifting requirements mean usability hurdles surface constantly. UX processes should therefore not be treated as activities that belong only at one stage.
 
 Enhancing user experience also requires more than formal methods. Building trust and engagement relies heavily on user outreach, strong onboarding, and relationship building. Embedding continuous feedback checkpoints at every stage is essential for creating intuitive and frictionless software.
 
@@ -213,15 +215,14 @@ Three of the methods above already have free, community-built resources:
 - **Heuristic evaluation:** A template for assessing your software against design heuristics, suitable for both CLI and GUI tools, developed by contributions from the STRUDEL, PESO, and CASS projects: https://github.com/cass-community/heuristics-for-scisoft
 - For a broader starting point, the STRUDEL project's "Ten Principles for Creating Usable Software for Science" explains what makes scientific software different and how to approach its usability: [https://escholarship.org/content/qt0w5547jv/qt0w5547jv_noSplash_fb5d052988314657a264f28acb6ffc95.pdf](https://escholarship.org/content/qt0w5547jv/qt0w5547jv_noSplash_fb5d052988314657a264f28acb6ffc95.pdf)
 
-
 ## Author bios
 
-[Md Hasan Shahriar Simanto](mailto:hsimanto@mathworks.com) is Senior UX Researcher at [MathWorks](https://www.mathworks.com/), where he conducts user research for MATLAB, a scientific computing platform used by engineers and scientists. Since 2018, his work has focused on human-centered research and usability across scientific software, cloud infrastructure, cybersecurity, and enterprise systems, with current work centered on the usability of AI-assisted technical workflows. He is an active member of the US-RSE UX Working Group. 
+[Md Hasan Shahriar Simanto](mailto:hsimanto@mathworks.com) is a Senior UX Researcher at [MathWorks](https://www.mathworks.com/), where he conducts user research for MATLAB, a scientific computing platform used by engineers and scientists. Since 2018, his work has focused on human-centered research and usability across scientific software, cloud infrastructure, cybersecurity, and enterprise systems, with current work centered on the usability of AI-assisted technical workflows. He is an active member of the US-RSE UX Working Group. 
 
-[Rajshree Deshmukh](mailto:rajshreed@lbl.gov) is User Experience Designer at Lawrence Berkeley National Laboratory's Scientific Data Division, where she designs intuitive software products and contributes to projects including NERSC, ESnet, PrOMMiS and the Orphaned Wells project. She has over ten years of industry experience at Reuters, IBM, and Nutanix, and holds a Master's in Information Design from the National Institute of Design, India. Reach her at 
+[Rajshree Deshmukh](mailto:rajshreed@lbl.gov) is a User Experience Designer at Lawrence Berkeley National Laboratory's Scientific Data Division, where she designs intuitive software products and contributes to projects including NERSC, ESnet, PrOMMiS and the Orphaned Wells project. She has over ten years of industry experience at Reuters, IBM, and Nutanix, and holds a Master's in Information Design from the National Institute of Design, India. 
+
 <!---
 Publish: Yes
 Track: Deep Dive
 Topics: user experience design, software process improvement
 --->
-
