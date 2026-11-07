@@ -32,7 +32,8 @@ Once something is built and you are in the release and validation phase, the que
 
 Finally during maintenance, the question is whether the software still works as users and their workflows evolve. At this stage, teams can combine broad signals with deeper evidence: behavioral analytics, support ticket analysis, and user surveys help us understand what people are actually doing in the software over time.
 
-<br><!-- Authors want a break here without a heading -->
+<!-- Authors want a section break here without a heading -->
+<br>
 
 In reality, software development is rarely linear. Unforeseen constraints like funding changes, new scientific questions, or shifting requirements mean usability hurdles surface constantly. UX processes should therefore not be treated as activities that belong only at one stage.
 
