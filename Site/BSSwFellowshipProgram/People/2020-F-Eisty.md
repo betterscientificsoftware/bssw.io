@@ -26,3 +26,9 @@ Nasir is a graduate student in the Software Engineering research lab in the Depa
 <a href="https://bssw.io/blog_posts/testing-non-deterministic-research-software" class="link-row">Testing Non-Deterministic Research Software</a>
 <a href="https://bssw.io/blog_posts/use-of-software-metrics-in-research-software" class="link-row">Use of Software Metrics in Research Software</a>
 <a href="https://figshare.com/collections/SIAM_CSE21_Minisymposium_Better_Scientific_Software_Fellowship/5321426" class="link-row">Automatic Testing for Scientific Software Development, SIAM CSE21 Minisymposium: Better Scientific Software Fellowship</a>
+
+### Current affiliation
+Nasir is currently an Assistant Professor in the Min H. Kao Department of Electrical Engineering and Computer Science Department at the University of Tennessee, Knoxville. His research focuses on Empirical Software Engineering, Software Quality Assurance, including areas such as Software Testing, Peer Code Review, and Software Metrics, Scientific/Research Software Engineering, and the application of AI in Software Engineering.
+
+
+<a href="https://eecs.utk.edu/people/nasir-eisty/" class="link-row">Nasir's Website</a>
