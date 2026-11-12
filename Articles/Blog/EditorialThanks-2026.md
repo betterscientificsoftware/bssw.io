@@ -50,12 +50,6 @@ Finishing a BA in Math and then a MS in Computer Science as a research assistant
 
 Through making connections with the BSSw.io team (I was an early honorable mention of their Fellowship program) joining the [US-RSE](https://us-rse.org), getting elected to its [Steering Committee](https://us-rse.org/about/steering-committee/) and then being a co-chair for the [USRSE'26 conference](https://us-rse.org/usrse26/), I am deeply grateful for the community of RSEs that now exists thanks to efforts of the BSSw and the US-RSE.  This community highlights the importance of our work and the role of RSEs in the scientific mission of all of our research organizations and I'm proud to be a part of it.
 
-**[Caetano Melone](https://bssw.io/items?author=caetano-melone):**
-I started programming by creating websites and tweaking my mobile devices for fun. Once I got to college, I had the dream of becoming a big tech software engineer and working in Silicon Valley. My first on-campus job was in the High Performance Computing center, where I learned to rack and stack servers, provision clusters, and work with computational scientists running simulations on our systems. My mentor always pushed the students in our group to take on new projects and responsibilities, and worked tirelessly to help us expand our professional networks.
-
-I started working more closely with our users to introduce modern software development practices (version control, CI/CD, package management, etc.) into their codes and I became involved in projects like Spack through an internship at Lawrence Livermore National Laboratory. Throughout my undergrad journey in HPC, I realized that my longtime joy for programming was being realized in a way I never expected, and I got to help scientists!
-
-After graduating, I joined a group at LLNL that builds software tools for users running jobs on our clusters, so they can spend less time debugging failed jobs and more time doing science. I'm relatively new to the BSSw community, but am looking forward to contributing content to the site and engaging with everyone who works to improve the state of scientific software.
 
 **[David Bernholdt](https://bssw.io/items?author=david-e-bernholdt):** 
 I've been working with scientific software for nearly 40 years now (geez!).  My interest in better software engineering arose out of working with some large teams on some pretty large code bases -- initially thinking that there must be a better way to do software development, and then having the opportunity to work in a team that *did* do a better and more thoughtful job with the software.  Since then, I've been trying to pick up better ways of doing things, and when I have a chance, implement them in my own work.  Over the years, I've tapped whatever I could find to help me -- people who seemed to know useful things, papers, books, etc.  So when the idea of BSSw.io came up, it seemed quite natural for me to get involved.  To me, BSSw.io is both a source to help me keep learning about software engineering and also a way to thank all the people whom I learned from by helping to make similar resources available to the larger community.
@@ -63,11 +57,6 @@ I've been working with scientific software for nearly 40 years now (geez!).  My 
 I learn something from pretty much every new article that we publish on BSSw.io because there are so many different experiences and perspectives out there.  As an editor for the site, much of my time lately has been focused on shepherding our blog series.  I particularly enjoy the contributions that bring a topic or a viewpoint that I hadn't thought about before, or in some cases, hadn't even been aware of.  A recent example, and I think appropriate for this harvest season, was the article [Long-Term Software Gardening Strategies for Cultivating Scientific Development Ecosystems](https://bssw.io/blog_posts/long-term-software-gardening-strategies-for-cultivating-scientific-development-ecosystems) by Dave Bunten and Gregory Way.  With a little sleuthing on the internet, I learned that this gardening metaphor for software stewardship was not new, but it was one that I'd never run across before.  And it really resonated with me because it addressed aspects of the software lifecycle and software ecosystems that colleagues and I have been struggling with in other projects.  The same kind of thing often happens with new curated content articles too, of course, though my experience as an editor is not as intense -- probably because I'm not immersed in someone else's writing on the topic.  As an editor, I also shepherd many of the contributions to our [event listings](https://bssw.io/events), which I really appreciate because they illustrate how vibrant and diverse the scientific software community is.
 
 Overall, I guess I would say I'm thankful for our many contributors to BSSw.io for sharing their knowledge, experience, and energy with me and with the broader community.
-
-**[Lois Curfman McInnes](https://bssw.io/items?author=lois-curfman-mcinnes):** 
-I am truly grateful to collaborate with such a talented and committed community on advancing *scientific software* (practices, people, products, applications, and more) as the central means of discovery computational science and engineering (CSE).  A sincere thank you to all BSSw.io readers and contributors --- and to complementary groups around the world who are working to advance the cause of high-quality scientific software as a primary means of encapsulating expertise and sustaining collaboration across disciplines. 
-
-After my experience as a graduate student in writing my own software for algorithmic investigations in iterative numerical methods, I had the good fortune to partner with Bill Gropp and Barry Smith to develop PETSc-2.0, building on the (then newly defined) MPI standard.  Since that time, I have thoroughly enjoyed the expansion of collaboration on advanced scientific computing throughout the international community, and especially across DOE labs.  I am grateful for continual learning from one another and progress together to advance the culture of scientific software.
 
 **[Pat Grubel](https://bssw.io/items?author=patricia-grubel):** 
 I started on the IDEAS-ECP team as a post-doctoral researcher at Los Alamos National Laboratory and was asked to join the team when my predecessor (also my mentor) had taken on new roles at the lab so needed a replacement.
@@ -94,55 +83,25 @@ Discovering that many scientific projects, including my own, didn't really dig d
 
 Navigating the role of Editor-in-Chief for the Better Scientific Software website has been more than a professional milestone—it's a journey that echoes my own path from being a student in India to finding my way to the USA. Arriving in the USA as a student, several decades ago, marked the beginning of a transformative journey, filled with diverse experiences and working alongside people from various backgrounds. It's a journey that unfolded into a role where I now stand, amidst discussions that shape the future of scientific computing. The chance to bridge gaps in understanding within our vibrant scientific computing community, spanning continents and cultures, is something I cherish. This journey, from my roots in India to my current role in the USA, has not only added professional richness but has also strengthened my commitment to work on things that I am passionate about. I am thankful for the opportunities presented by BSSw.io and this diverse scientific computing community, and it's my hope that together we can pave the way for a more sustainable and collaborative future in the field.
 
+**[Lois Curfman McInnes](https://bssw.io/items?author=lois-curfman-mcinnes):** 
+I am truly grateful to collaborate with such a talented and committed community on advancing *scientific software* (practices, people, products, applications, and more) as the central means of discovery computational science and engineering (CSE).  A sincere thank you to all BSSw.io readers and contributors --- and to complementary groups around the world who are working to advance the cause of high-quality scientific software as a primary means of encapsulating expertise and sustaining collaboration across disciplines. 
+
+After my experience as a graduate student in writing my own software for algorithmic investigations in iterative numerical methods, I had the good fortune to partner with Bill Gropp and Barry Smith to develop PETSc-2.0, building on the (then newly defined) MPI standard.  Since that time, I have thoroughly enjoyed the expansion of collaboration on advanced scientific computing throughout the international community, and especially across DOE labs.  I am grateful for continual learning from one another and progress together to advance the culture of scientific software.
+
+**[Caetano Melone](https://bssw.io/items?author=caetano-melone):**
+I started programming by creating websites and tweaking my mobile devices for fun. Once I got to college, I had the dream of becoming a big tech software engineer and working in Silicon Valley. My first on-campus job was in the High Performance Computing center, where I learned to rack and stack servers, provision clusters, and work with computational scientists running simulations on our systems. My mentor always pushed the students in our group to take on new projects and responsibilities, and worked tirelessly to help us expand our professional networks.
+
+I started working more closely with our users to introduce modern software development practices (version control, CI/CD, package management, etc.) into their codes and I became involved in projects like Spack through an internship at Lawrence Livermore National Laboratory. Throughout my undergrad journey in HPC, I realized that my longtime joy for programming was being realized in a way I never expected, and I got to help scientists!
+
+After graduating, I joined a group at LLNL that builds software tools for users running jobs on our clusters, so they can spend less time debugging failed jobs and more time doing science. I'm relatively new to the BSSw community, but am looking forward to contributing content to the site and engaging with everyone who works to improve the state of scientific software.
+
 **[Michael A. Heroux](https://bssw.io/items?author=michael-a-heroux):** 
 My first experience with software quality assessment was with my supervisor in 1984 when I asked him to try out my menu-driven IBM BASIC program I had carefully designed for one of the original IBM PCs.  I had it up and running at my desk.  He sat in my chair and started randomly tapping letters on my keyboard.  Of course, I had never planned for anyone to select any key except those I was expecting, and the program crashed in seconds.  Oh, well.
 
 Since then, I have worked on many software projects, working on LIBSCI for Cray, vendor codes from ANSYS, and many open-source libraries for the scientific community.  I stepped into reproducibility, productivity, and sustainability initiatives about 15 years ago when observing that if we wanted to encourage software quality improvement on projects, we needed to build knowledge and change expectations around the quality of our software work.  No one wants to do a bad job on their software, but producing papers, completing milestones, and moving on to the next urgent task compete for our time and attention. I am grateful to be part of the BSSw community that is so committed to better scientific software.
 
-**[Mark C. Miller](https://bssw.io/items?author=mark-c-miller):** 
-I am pretty sure I was the only kid in my neighborhood with a home computer.
-Back in 1975, my father borrowed a colleague's [IMSAI-8080](https://en.wikipedia.org/wiki/IMSAI_8080).
-I learned to program it mainly by transcribing [published](https://en.wikipedia.org/wiki/BASIC_Computer_Games) Basic games like [Hamurabi](https://github.com/philspil66/Hamurabi) or [Lunar Lander](https://retro365.blog/2021/12/02/bits-from-my-personal-collection-lunar-lander-50-years-of-crashing-into-the-moon-from-mainframes-and-minicomputers-to-arcades-and-personal-computers/).
-I recall that powering it on involved a peculiar process of flipping a number of paddle switches.
-It wasn't until years later that I realized I had been entering three 8-bit words for a `JSR` instruction to initiate the boot sequence.
-Soon, we replaced that borrowed machine with our own [Commodore PET](https://en.wikipedia.org/wiki/Commodore_PET).
-On a bet with my Chemistry teacher, I wrote a Basic program for it to compute molecular weights from formulae (e.g. 8Fe(H<sub>2</sub>O)<sub>4</sub>(OH)<sub>2</sub>).
 
-With that early start in programming, it may be ironic that I was never formally educated in computer science.
-I never took courses in compilers, networks, or operating systems.
-My formal education is in Electrical Engineering.
-I was once able to analyze the heck out of a transistor circuit or calculate the far-field of a perfectly conducting cylinder.
-I finally fully understood how computers worked only after taking a [PDB-11](https://en.wikipedia.org/wiki/PDP-11_architecture) assembly language course.
-
-All my interest and experience in programming grew out of the *application* of software in other projects.
-As a child, I wanted to create a digital Dungeons and Dragons game (and promptly exhausted the 8 kilobytes of PET memory).
-My graduate work first grew out of the need to recover under sampled periodic signals from streak camera rotors and later to compress a disk-resident terrain database for a real-time rendering application.
-
-I am thankful for all those experiences because they paved the way for me to eventually find work as a computer scientist at LLNL.
-Although my formal job title for the last ~30 years has been *Computer Scientist*, I identify more as a *Software Engineer*.
-I have rarely developed a C++ class from scratch.
-I am still inclined to write procedural rather than object-oriented code.
-I debug with print statements more often than I'd like to admit.
-
-That being said, I am thankful LLNL has nonetheless continued to invest in developing my software engineering skills through a mix of on-the-job training and formal course offerings in various [scientific computing technologies](https://bssw.io/items/fundamental-resources-for-scientific-computing).
-Through the pandemic, I was extremely grateful LLNL fully embraced and pivoted to remote work and required masks and vaccinations for on-site workers.
-
-More than anything else, I am thankful for the great fortune of working around and with many, highly skilled and talented scientific software professionals who have generously shared their tricks, tips, and software engineering know-how with me either directly in conversation or by osmosis through trusting me to work on code they develop and maintain.
-Honestly, there have been many days where I have felt pretty sheepish to be seated at the same table with these amazingly talented people.
-
-Being a contributor to the IDEAS-ECP project has only broadened and deepened that experience to include many friends and colleagues across the DOE complex at other national labs.
-I am thankful to the many dedicated members of the scientific computing community for their willingness to work with me, their confidence in my work, their patience and help in diagnosing and fixing bugs, their ability to roll up their sleeves and dig into my code when I've needed help, their suggestions for improvement, their sharing of data and results and their advocacy and citations of the software I support.
-
-**[Deborah S. Stevens](https://bssw.io/items?author=deborah-stevens):** 
-My introduction to programming began with being told not to build card houses out of my father’s active card decks or else the Key Punch girls would be upset. From this start at age 6 of filling the entire living room with a forbidden card house, my interest in computer programming was trying to read the cards to find an ordering system. In 5th and 6th grade I would go with my brother to our father’s office on the weekends at the Air Force base and we played Adventure with the twisty curvy passages. In middle school, I saw the early at-home computing machine access where the handset of the wired phone (that I wanted to use to talk to my friends) was socketed into two round rubber cradles of an early modem.
-
-I did take the mandatory programming class in high school in 1984 and the teacher would give us assignments and then leave the classroom. I usually would finish these as she walked out the door and then use the time to get other homework done.
-
-After earning my doctorate in applied mathematics at Northwestern University in 1999 and having two children (’98 and ’01) the household focus was such that my career took a backseat to caregiving for some time. About 6 years ago, on a bet with my spouse (I’ll exercise with you, if you learn Python) I took the Coursera series of Python classes at the University of Michigan and much enjoyed it. 
-
-My work with the IDEAS-ECP project and the BSSw.io Editorial Board for the last 2 years has been enlightening. I have found the community welcoming and understanding. I appreciate the tolerance of my fumbling attempts at using github.com. I am thankful for being able to work in this environment and for the creative group of people who support BSSw.io. 
-
-Note: This article was originally published in November 2023 and has been republished with updates for November 2024.
+Note: This article was originally published in November 2023 and has been republished with updates for November 2026.
 <!---
 Publish: yes
 Track: experience
