@@ -59,22 +59,21 @@ I learn something from pretty much every new article that we publish on BSSw.io 
 Overall, I guess I would say I'm thankful for our many contributors to BSSw.io for sharing their knowledge, experience, and energy with me and with the broader community.
 
 **[Pat Grubel](https://bssw.io/items?author=patricia-grubel):** 
-I started on the IDEAS-ECP team as a post-doctoral researcher at Los Alamos National Laboratory and was asked to join the team when my predecessor (also my mentor) had taken on new roles at the lab so needed a replacement.
-It was an opportunity to meet experts across the DOE complex who advocated for quality software to advance science, so it sounded like a good opportunity.
-My first meeting with the team was an in-person meeting and I was just getting to know team members and a little bit about their roles when they wanted to split the meeting in two.
-The topic I picked was to work on the BSSw.io site that aimed to be a community hub for those who faced the many challenges of producing and maintaining scientific software in the increasingly complex and changing landscape of HPC.
+I joined the IDEAS-ECP team as a postdoctoral researcher at Los Alamos National Laboratory, and I am thankful to my colleagues for the chance to meet experts across the DOE complex who advocate for quality software to advance science.
+Together we work on BSSw.io, a community hub for people facing the challenges of producing and maintaining scientific software in the changing landscape of HPC.
 I spent most of my career as an engineer and picked up software development on my own.
 I had recently returned to graduate school for computer engineering, studying and improving the performance of programming models on the underlying architecture.
-Although developing software was a necessary tool, and I was able to collaborate with several scientific software teams, I had not given much thought to the best practices of developing and maintaining software or the challenges that scientific software teams faced in collaborating on the many large software projects that exist.
+Software development was a necessary tool, and I had collaborated with several scientific software teams, but I had given little thought to the best practices of developing and maintaining software or the challenges scientific software teams face when collaborating on large projects.
 
-Looking for and reviewing articles and resources for the BSSw.io site first helped me with personal organization and productivity.
-Then, trying to keep up with some of the best practices that experts like other editorial board members and the community found helpful aided me with projects.
-I attempted to practice some of these new (to me) ideas on my projects and was eventually asked to be the technical lead on a software project.
-At that point, helping the team members with productivity and best software practices became very important.
-The project team has been incrementally applying some of the practices and tools found in resources and articles on the site and has been improving software development processes.
-I am grateful for the many articles and helpful resources on the site and glad to be a small part of it.
-The best part of being on the editorial team has come from meeting the team members and working with them.
-Knowing them and gleaning insights from their knowledge has been extremely helpful and enjoyable.
+Reviewing articles and resources for BSSw.io first helped me with personal organization and productivity.
+I then began trying the practices that experts, including my fellow editorial board members and the wider community, found helpful.
+I applied these ideas, many of them new to me, in my own projects and was eventually asked to be the technical lead on a software project. I am now the project lead on multiple projects.
+In each of these roles, helping my project teammates with productivity and good software practices became very important.
+Our project teams have been incrementally adopting practices and tools from the site's articles and resources, and our development processes have improved.
+
+I am especially thankful for the members of the editorial team.
+Meeting them and working with them has been the best part of being on the team. Knowing them and learning from their knowledge has been extremely helpful and enjoyable.
+I am also grateful to the contributors and readers of BSSw.io, and I am glad to be a small part of it.
 
 **[Rinku Gupta](https://bssw.io/items?author=rinku-gupta):** 
 As I reflect on my journey in the scientific computing field over the past 25 years, I can't help but feel an overwhelming sense of gratitude for the evolution of my understanding and engagement with software sustainability. When I started as a research software engineer, delving into the intricacies of programming models, fault tolerance, resilience, networks, and operating systems consumed my professional landscape. However, it wasn't until I joined the IDEAS-ECP project that the concept of software sustainability truly entered my awareness. Initially viewing it as a redundant addition to our existing practices, my perspective underwent a profound shift. The IDEAS-ECP project revealed the depth and breadth of sustainability issues within scientific computing, a revelation that has significantly shaped the latter part of my career in the last several years.
