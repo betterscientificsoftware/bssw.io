@@ -1,0 +1,108 @@
+# Thank You from the BSSw.io Editorial Team!
+
+**Hero Image:**
+
+ - <img src='../../images/Blog_1119_seasonal.png' />
+
+#### Contributed by [Roscoe A. Bartlett](https://github.com/bartlettroscoe), [Keith Beattie](https://github.com/ksbeattie), [David E. Bernholdt](https://github.com/bernhold), [Patricia Grubel](https://github.com/pagrubel), [Rinku Gupta](https://github.com/rinkug), [Mike Heroux](https://github.com/maherou), [Lois Curfman McInnes](https://github.com/curfman), and [Caetano Melone](https://github.com/cmelone)
+
+#### Publication date: November 23, 2026
+
+As the Thanksgiving holiday draws near, we can benefit from a bit of reflection. As members of the editorial team for BSSw.io, we have many reasons to be thankful for the privilege of acting as the stewards of this community hub. We are most thankful to our contributors for their thoughtful and useful insights and experiences and are also thankful for the community that appreciates and promotes the site. We are thankful for the opportunity to serve the computational science and engineering (CSE) community and help improve scientific software by highlighting some of our experiences in the field and on the editorial board.
+
+**[Roscoe A. Bartlett](https://bssw.io/items?author=roscoe-a-bartlett):**
+I was a late arrival to writing code.
+I did not start programming until my freshman year in college in 1993.
+My first computer was a Gateway that my father purchased for me for $3,000 (a *lot* of money in 1993).
+The first programming language I learned was Quick Basic.
+During my time at UMBC, I wrote some more software in a few different programming languages including graphical programming with LabView to do real-time data-collection and control of a laboratory distillation column (I was a Chemical Engineering student).
+After earning my B.S. in chemical engineering, I took a year off before graduate school and wrote quite a bit of software for a congressional campaign and as a research assistant at University of Maryland, Baltimore County (UMBC).
+
+When I started my Ph.D. in Chemical Engineering at Carnegie Mellon University (CMU) in 1996, I knew I liked writing code.
+In my first year at CMU, I enjoyed the challenge of learning and mastering the C++ programming language (pre-1998 standardization).
+My first C++ book was "C++ Nuts & Bolts for Experienced Programmers", 1995, by Herbert Schildt, and I read that book cover-to-cover in approximately two days.
+A few months later, I read Bjarne Stroustrup’s book "The C++ Programming Language, 2nd Edition".
+While that book mostly just covered the C++ language, Stroustrup made some references to writing tests and some other basic software engineering best practices, but it was pretty minimal (after all, this was a book about a programming language, not software engineering).
+Later in my first year of graduate school, a computer science Ph.D. student at CMU introduced me to the book *Design Patterns*.
+Armed with the knowledge of C++ and Design Patterns, I set about writing a sizable amount of software implementing advanced numerical algorithms for constrained optimization as part of my Ph.D. work (the optimization package, at that point, for reduced successive quadratic programming was called rSQP++).
+
+When I started working at Sandia National Labs in 2001 after my Ph.D., I continued writing object-oriented parallel numerical software in C++, extending my Ph.D. software package rSQP++ to support parallel computations with MPI (changing the name of rSQP++ to MOOCHO).
+Around 2003, I added the source code (and history) for MOOCHO to the Trilinos project version control repository.
+Once in the Trilinos community, I created or significantly contributed to many Trilinos packages.
+By 2007, I had written a considerable amount of software and was a prolific contributor to Trilinos (the largest contributor to Trilinos in the number of commits).
+Throughout that period, from 1996 to 2007, I believed that I was writing quality object-oriented C++ software.
+Then, in 2007, I began reading a larger portion of the modern software engineering literature (see my [reading list](https://bartlettroscoe.github.io/reading-list/)) and came to realize my knowledge gap in best practices for creating and maintaining quality software.
+After this realization, I began applying many of the software engineering best practices to my CSE projects and realized significant improvements in productivity and the overall quality of my software.
+However, I was also horrified to realize that, prior to gaining this knowledge, I had created tens of thousands of lines of CSE software of insufficient quality and that I was now in a position to have to maintain.
+
+I got involved in the [IDEAS project](https://ideas-productivity.org/) when it first started in 2014 and worked with people from other Dept. of Energy (DOE) laboratories to write some of the precursor material for BSSw.io.
+In 2017, the IDEAS project was reborn within the [Exascale Computing Project](https://exascaleproject.org) as IDEAS-ECP, the BSSw.io site was started, and it incorporated much of that material.
+Editing and contributing to BSSw.io was an opportunity for me to share some of what I had learned with the rest of the broader CSE/HPC community and to learn from the community, from the other IDEAS-ECP members, and especially from the other BSSw.io editorial staff.
+For me, the opportunity to work with a diverse group of individuals, and to hear and learn from such a variety of different perspectives, has deepened my understanding of software engineering best practices for CSE/HPC.
+I have truly valued the opportunity to contribute to and be an editor for the BSSw.io site.
+I am thankful there is a home for ideas and information about how to practice software engineering for CSE/HPC where content can be quickly created and published and yet has higher editorial standards than material you might publish on your own.
+BSSw.io provides an attractive compromise between speed-to-publish, formality, and peer review that sets it apart from other publication venues.
+
+**[Keith Beattie](https://bssw.io/items?author=keith-beattie):** 
+I'm now counting my time writing software in decades, not years and I can honestly say that I get as much excitement over writing code that does a job correctly as I did when I first learned to program. It started in high school with learning BASIC on a TRS-80 (4K of RAM!), where we were going to have our projects on display for an open house at the school. I had heard about college students who got in trouble for writing a joke database and making it available to other students. It collected some "colorful" jokes that eventually got the attention of the Provost. I, of course, thought "Hey, that sounds like fun", so I wrote a simple riddle database to collect riddles during the high school open house. I think I got one riddle, and it was entirely forgettable, but I had already caught the bug for writing software.
+
+After earning a BA in math and an MS in computer science while working as a research assistant at LBL, I worked at a few "dot-coms" for several years before deciding to return to LBL. (Okay, the "dot bomb" of the early 2000s may have had something to do with the decision, but I digress). Working on science projects really became much more interesting to me than the problems industry seemed to be working on at the time. Still, software development at the lab was dramatically different and much less mature than what I experienced in industry. “There are entire teams for QA, Release Management, Customer Support, Documentation and Requirement Specifications, whereas here, this is all trying to be done by 2 part-time people!” was the kind of thing I annoyed my science coworkers with, saying it over and over. It took a while, but I was able to convince people writing scientific software to use some strange new tools, like version control, issue trackers and regression tests. We were even able to start having regular developer meetings and named releases! Things have gotten much better since then, but there is still much to be done to improve the state of scientific software development.
+
+Through my connections with the BSSw.io team (I was an early honorable mention of their Fellowship program), my involvement with [US-RSE](https://us-rse.org), my election to its [Steering Committee](https://us-rse.org/about/steering-committee/), and my role as co-chair for the [USRSE'26 conference](https://us-rse.org/usrse26/), I am deeply grateful for the community of RSEs that now exists thanks to the efforts of BSSw and US-RSE.  This community highlights the importance of our work and the role of RSEs in the scientific mission of all of our research organizations, and I'm proud to be a part of it.
+
+
+**[David Bernholdt](https://bssw.io/items?author=david-e-bernholdt):** 
+I've been working with scientific software for nearly 40 years now (geez!).  My interest in better software engineering grew from working with large teams on large codebases – initially thinking that there must be a better way to do software development, and then having the opportunity to work in a team that *did* do a better and more thoughtful job with the software.  Since then, I've been trying to pick up better ways of doing things, and when I have a chance, implement them in my own work.  Over the years, I've tapped whatever I could find to help me – people who seemed to know useful things, papers, books, etc.  So when the idea of BSSw.io came up, it seemed quite natural for me to get involved.  To me, BSSw.io is both a source to help me keep learning about software engineering and also a way to thank all the people whom I learned from by helping to make similar resources available to the larger community.
+
+A lot has happened in the scientific software world since the Editorial Board members first wrote a Thanksgiving article, in 2023.  Most obviously, artificial intelligence (AI) has become an enormous focus of attention, whether you're talking about using it to further your science or using it to further the software that you're using for the science.  For a time, I was worried that generative AI, in particular, would up-end the way we develop and maintain software.  And, of course, it has.  But as we, as a community, experiment with how to use AI and as the tools evolve and mature with surprising speed, I'm beginning to become more comfortable that we will be able to harness it in a sensible way.  One sign of this is that we're starting to receive more submissions to the BSSw.io site which seem like they'll still be relevant for longer than a few months.
+
+Please continue to share your knowledge, experience, and energy with our community by contributing to BSSw.io!
+
+**[Pat Grubel](https://bssw.io/items?author=patricia-grubel):** 
+I joined the IDEAS-ECP team as a postdoctoral researcher at Los Alamos National Laboratory, and I am thankful to my colleagues for the chance to meet experts across the DOE complex who advocate for quality software to advance science.
+Together we work on BSSw.io, a community hub for people facing the challenges of producing and maintaining scientific software in the changing landscape of HPC.
+I spent most of my career as an engineer and picked up software development on my own.
+I had returned to graduate school for computer engineering, studying and improving the performance of programming models on the underlying architecture.
+Software development was a necessary tool, and I had collaborated with several scientific software teams, but I had given little thought to the best practices of developing and maintaining software or the challenges scientific software teams face when collaborating on large projects.
+
+Reviewing articles and resources for BSSw.io first helped me improve my personal organization and productivity.
+I then began trying the practices that experts, including my fellow editorial board members and the wider community, found helpful.
+I applied these ideas, many of them new to me, in my own projects and was eventually asked to be the technical lead on a software project. I am now the project lead on multiple projects.
+In each of these roles, helping my project teammates with productivity and good software practices became very important.
+Our project teams have been incrementally adopting practices and tools from the site's articles and resources, and our development processes have improved.
+
+I am especially thankful for the members of the editorial team.
+Meeting and working with them has been the best part of being on the team. Learning from their expertise has been extremely helpful and enjoyable.
+I am also grateful to the contributors and readers of BSSw.io, and I am glad to be a small part of it.
+
+**[Rinku Gupta](https://bssw.io/items?author=rinku-gupta):** 
+As I reflect on my journey in the scientific computing field over the past 25 years, I feel grateful for how my understanding of and engagement with software sustainability have evolved. When I started as a research software engineer, delving into the intricacies of programming models, fault tolerance, resilience, networks, and operating systems consumed my professional landscape. However, it wasn't until I joined the IDEAS-ECP project that the concept of software sustainability truly entered my awareness. Initially viewing it as a redundant addition to our existing practices, my perspective underwent a profound shift. The IDEAS-ECP project revealed the depth and breadth of sustainability issues within scientific computing, a revelation that has significantly shaped the latter part of my career in the last several years.
+
+It was sobering to discover that many scientific projects, including my own, had not examined sustainability in depth. Jumping into the IDEAS-ECP project helped me see the real challenges and opportunities in keeping our software strong. This newfound awareness, coupled with my subsequent role as the Editor-in-Chief for the Better Scientific Software website, has provided me with a unique vantage point. It allowed me to gain insights into how our community perceives and prioritizes software sustainability, productivity, and quality. This experience changed how I see sustainability in scientific computing.  For this expanded awareness and the opportunity to advance this work through the Better Scientific Software platform, I am profoundly thankful.
+
+Navigating the role of Editor-in-Chief for the Better Scientific Software website has been more than a professional milestone—it's a journey that echoes my own path from being a student in India to finding my way to the USA. Arriving in the USA as a student, several decades ago, marked the beginning of a transformative journey, filled with diverse experiences and working alongside people from various backgrounds. That journey led me to my current role, amid discussions that shape the future of scientific computing. The chance to bridge gaps in understanding within our vibrant scientific computing community, spanning continents and cultures, is something I cherish. This journey, from my roots in India to my current role in the USA, has not only added professional richness but has also strengthened my commitment to work on things that I am passionate about. I am thankful for the opportunities presented by BSSw.io and this diverse scientific computing community, and it's my hope that together we can pave the way for a more sustainable and collaborative future in the field.
+
+**[Michael A. Heroux](https://bssw.io/items?author=michael-a-heroux):** 
+My first experience with software quality assessment was with my supervisor in 1984 when I asked him to try out my menu-driven IBM BASIC program I had carefully designed for one of the original IBM PCs.  I had it up and running at my desk.  He sat in my chair and started randomly tapping letters on my keyboard.  Of course, I had never planned for anyone to select any key except those I was expecting, and the program crashed in seconds.  Oh, well.
+
+Since then, I have contributed to many software projects, including LIBSCI for Cray, vendor codes from ANSYS, and many open-source libraries for the scientific community.  About 15 years ago, I began working on reproducibility, productivity, and sustainability initiatives. I saw that improving software quality required building knowledge and changing expectations around the quality of our software work.  No one wants to do a bad job on their software, but producing papers, completing milestones, and moving on to the next urgent task compete for our time and attention. I am grateful to be part of the BSSw community that is so committed to better scientific software.
+
+**[Lois Curfman McInnes](https://bssw.io/items?author=lois-curfman-mcinnes):** 
+I am truly grateful to collaborate with such a talented and committed community on advancing *scientific software* (practices, people, products, applications, and more) as the central means of discovery in computational science and engineering (CSE).  A sincere thank-you to all BSSw.io readers and contributors—and to complementary groups around the world who are working to advance the cause of high-quality scientific software as a primary means of encapsulating expertise and sustaining collaboration across disciplines. 
+
+After my experience as a graduate student in writing my own software for algorithmic investigations in iterative numerical methods, I had the good fortune to partner with Bill Gropp and Barry Smith to develop PETSc-2.0, building on the (then newly defined) MPI standard.  Since that time, I have thoroughly enjoyed the expansion of collaboration on advanced scientific computing throughout the international community, and especially across DOE labs.  I am grateful for continual learning from one another and progress together to advance the culture of scientific software.
+
+**[Caetano Melone](https://bssw.io/items?author=caetano-melone):**
+I started programming by creating websites and tweaking my mobile devices for fun. Once I got to college, I had the dream of becoming a big tech software engineer and working in Silicon Valley. My first on-campus job was in the High Performance Computing center, where I learned to rack and stack servers, provision clusters, and work with computational scientists running simulations on our systems. My mentor always encouraged students in our group to take on new projects and responsibilities and worked tirelessly to help us expand our professional networks.
+
+I started working more closely with our users to introduce modern software development practices (version control, CI/CD, package management, etc.) into their codes and I became involved in projects like Spack through an internship at Lawrence Livermore National Laboratory. Throughout my undergraduate journey in HPC, I realized that my longtime joy for programming was being realized in a way I never expected, and I got to help scientists!
+
+After graduating, I joined a group at LLNL that builds software tools for users running jobs on our clusters, so they can spend less time debugging failed jobs and more time doing science. I'm relatively new to the BSSw community, but am looking forward to contributing content to the site and engaging with everyone who works to improve the state of scientific software.
+
+Note: This article was originally published in November 2023 and was updated and republished in November 2026.
+<!---
+Publish: yes
+Track: experience
+Topics: strategies for more effective teams, personal productivity and sustainability
+Pinned: no
+--->
